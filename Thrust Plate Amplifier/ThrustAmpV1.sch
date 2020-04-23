@@ -13817,7 +13817,7 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <text x="-261.62" y="43.18" size="2.54" layer="97">Thrust Plate Power Supply: 5V</text>
 <text x="-139.7" y="40.64" size="2.54" layer="97">Amplifier Power Supply: 3.3 V</text>
 <text x="-193.04" y="-101.6" size="2.54" layer="97">Thrust Plate Connector and Bridge Biasing Resistors</text>
-<text x="200.66" y="-20.32" size="2.54" layer="97">Marionette Connector</text>
+<text x="200.66" y="-20.32" size="2.54" layer="97">Data Out</text>
 <text x="-284.48" y="182.88" size="6.4516" layer="97">Thrust Plate Amplifier and Power Supply Board</text>
 <text x="-284.48" y="175.26" size="2.54" layer="97">Designed by Mike Hall for 2019-2020 TSAR ECE Capstone</text>
 <text x="-276.86" y="-180.34" size="5.08" layer="97">To Do:
