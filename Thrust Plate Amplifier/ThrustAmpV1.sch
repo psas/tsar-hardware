@@ -8330,10 +8330,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-3.81" y="3.81" size="1.27" layer="21">&gt;NAME</text>
 <text x="-3.81" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="SOD-882(SOT2)">
-<smd name="P$1" x="0" y="0.325" dx="0.5" dy="0.25" layer="1" rot="R180"/>
-<smd name="P$2" x="0" y="-0.325" dx="0.5" dy="0.25" layer="1" rot="R180"/>
-</package>
 </packages>
 <symbols>
 <symbol name="MP2456GJ-P">
@@ -8377,20 +8373,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="3.81" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="2" x="0" y="-7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 <pin name="1" x="0" y="7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
-</symbol>
-<symbol name="TVSDIODE">
-<wire x1="0" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="0" y2="0" width="0.254" layer="94"/>
-<pin name="P$1" x="0" y="5.08" visible="off" length="middle" rot="R270"/>
-<pin name="P$2" x="0" y="-5.08" visible="off" length="middle" rot="R90"/>
-<text x="2.54" y="2.54" size="1.27" layer="95">&gt;Name</text>
-<text x="2.54" y="-2.54" size="1.27" layer="96">&gt;Value</text>
-<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -8472,22 +8454,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connects>
 <connect gate="A" pin="1" pad="1"/>
 <connect gate="A" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="DF2B5M4CT,L3F">
-<gates>
-<gate name="G$1" symbol="TVSDIODE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOD-882(SOT2)">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13196,10 +13162,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device="" value="6v"/>
 <part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="124k"/>
 <part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="19.1 k"/>
-<part name="D6" library="TSAR_Controller" deviceset="DF2B5M4CT,L3F" device=""/>
-<part name="D5" library="TSAR_Controller" deviceset="DF2B5M4CT,L3F" device=""/>
-<part name="D3" library="TSAR_Controller" deviceset="DF2B5M4CT,L3F" device=""/>
-<part name="D4" library="TSAR_Controller" deviceset="DF2B5M4CT,L3F" device=""/>
 <part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="120 pF"/>
 <part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="120 pF"/>
 <part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="120 pF"/>
@@ -13273,6 +13235,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="SUPPLY45" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY46" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY47" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="D3" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device=""/>
+<part name="D4" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device=""/>
+<part name="D5" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device=""/>
+<part name="D6" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13518,22 +13484,6 @@ All capacitors are 0805 10% X5R with working voltage
 <instance part="R14" gate="G$1" x="231.14" y="304.8" smashed="yes" rot="R90">
 <attribute name="NAME" x="229.6414" y="300.99" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="234.442" y="300.99" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="D6" gate="G$1" x="477.52" y="165.1" smashed="yes">
-<attribute name="NAME" x="480.06" y="167.64" size="1.27" layer="95"/>
-<attribute name="VALUE" x="480.06" y="162.56" size="1.27" layer="96"/>
-</instance>
-<instance part="D5" gate="G$1" x="439.42" y="165.1" smashed="yes">
-<attribute name="NAME" x="431.8" y="167.64" size="1.27" layer="95"/>
-<attribute name="VALUE" x="424.18" y="160.02" size="1.27" layer="96"/>
-</instance>
-<instance part="D3" gate="G$1" x="477.52" y="195.58" smashed="yes" rot="R180">
-<attribute name="NAME" x="474.98" y="193.04" size="1.27" layer="95" rot="R180"/>
-<attribute name="VALUE" x="474.98" y="198.12" size="1.27" layer="96" rot="R180"/>
-</instance>
-<instance part="D4" gate="G$1" x="439.42" y="195.58" smashed="yes" rot="R180">
-<attribute name="NAME" x="436.88" y="193.04" size="1.27" layer="95" rot="R180"/>
-<attribute name="VALUE" x="436.88" y="198.12" size="1.27" layer="96" rot="R180"/>
 </instance>
 <instance part="C14" gate="G$1" x="495.3" y="165.1" smashed="yes">
 <attribute name="NAME" x="496.316" y="165.735" size="1.778" layer="95"/>
@@ -13783,6 +13733,18 @@ All capacitors are 0805 10% X5R with working voltage
 <instance part="SUPPLY47" gate="GND" x="520.7" y="167.64" smashed="yes">
 <attribute name="VALUE" x="518.795" y="164.465" size="1.778" layer="96"/>
 </instance>
+<instance part="D3" gate="G$1" x="477.52" y="165.1" smashed="yes" rot="R180">
+<attribute name="NAME" x="474.98" y="162.56" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="D4" gate="G$1" x="439.42" y="165.1" smashed="yes" rot="R180">
+<attribute name="NAME" x="436.88" y="162.56" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="D5" gate="G$1" x="439.42" y="195.58" smashed="yes">
+<attribute name="NAME" x="441.96" y="198.12" size="1.778" layer="95"/>
+</instance>
+<instance part="D6" gate="G$1" x="477.52" y="195.58" smashed="yes">
+<attribute name="NAME" x="480.06" y="198.12" size="1.778" layer="95"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -13966,8 +13928,7 @@ All capacitors are 0805 10% X5R with working voltage
 <junction x="78.74" y="210.82"/>
 </segment>
 <segment>
-<pinref part="D4" gate="G$1" pin="P$2"/>
-<wire x1="439.42" y1="200.66" x2="439.42" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="439.42" y1="199.39" x2="439.42" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="439.42" y1="203.2" x2="447.04" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="447.04" y1="203.2" x2="447.04" y2="200.66" width="0.1524" layer="91"/>
 <pinref part="C16" gate="G$1" pin="1"/>
@@ -13975,10 +13936,10 @@ All capacitors are 0805 10% X5R with working voltage
 <wire x1="452.12" y1="203.2" x2="452.12" y2="195.58" width="0.1524" layer="91"/>
 <junction x="447.04" y="203.2"/>
 <pinref part="SUPPLY42" gate="GND" pin="GND"/>
+<pinref part="D5" gate="G$1" pin="P$1"/>
 </segment>
 <segment>
-<pinref part="D3" gate="G$1" pin="P$2"/>
-<wire x1="477.52" y1="200.66" x2="477.52" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="477.52" y1="199.39" x2="477.52" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="477.52" y1="203.2" x2="485.14" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="485.14" y1="203.2" x2="485.14" y2="200.66" width="0.1524" layer="91"/>
 <pinref part="C15" gate="G$1" pin="1"/>
@@ -13986,22 +13947,25 @@ All capacitors are 0805 10% X5R with working voltage
 <wire x1="495.3" y1="203.2" x2="495.3" y2="193.04" width="0.1524" layer="91"/>
 <junction x="485.14" y="203.2"/>
 <pinref part="SUPPLY41" gate="GND" pin="GND"/>
+<pinref part="D6" gate="G$1" pin="P$1"/>
 </segment>
 <segment>
 <pinref part="C17" gate="G$1" pin="2"/>
 <wire x1="452.12" y1="160.02" x2="439.42" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="439.42" y1="160.02" x2="439.42" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="D5" gate="G$1" pin="P$2"/>
-<junction x="439.42" y="160.02"/>
 <pinref part="SUPPLY39" gate="GND" pin="GND"/>
+<pinref part="D4" gate="G$1" pin="P$1"/>
+<wire x1="439.42" y1="161.29" x2="439.42" y2="160.02" width="0.1524" layer="91"/>
+<junction x="439.42" y="160.02"/>
 </segment>
 <segment>
-<pinref part="D6" gate="G$1" pin="P$2"/>
 <pinref part="C14" gate="G$1" pin="2"/>
 <wire x1="477.52" y1="160.02" x2="495.3" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="477.52" y1="160.02" x2="477.52" y2="154.94" width="0.1524" layer="91"/>
-<junction x="477.52" y="160.02"/>
 <pinref part="SUPPLY40" gate="GND" pin="GND"/>
+<pinref part="D3" gate="G$1" pin="P$1"/>
+<wire x1="477.52" y1="160.02" x2="477.52" y2="161.29" width="0.1524" layer="91"/>
+<junction x="477.52" y="160.02"/>
 </segment>
 <segment>
 <pinref part="J7" gate="G$1" pin="4"/>
@@ -14149,7 +14113,6 @@ All capacitors are 0805 10% X5R with working voltage
 <segment>
 <wire x1="520.7" y1="182.88" x2="452.12" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="1"/>
-<pinref part="D4" gate="G$1" pin="P$1"/>
 <wire x1="452.12" y1="182.88" x2="439.42" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="439.42" y1="182.88" x2="419.1" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="439.42" y1="182.88" x2="439.42" y2="190.5" width="0.1524" layer="91"/>
@@ -14159,13 +14122,13 @@ All capacitors are 0805 10% X5R with working voltage
 <junction x="452.12" y="182.88"/>
 <wire x1="419.1" y1="182.88" x2="419.1" y2="238.76" width="0.1524" layer="91"/>
 <pinref part="R13" gate="G$1" pin="1"/>
+<pinref part="D5" gate="G$1" pin="P$2"/>
 </segment>
 </net>
 <net name="N$20" class="0">
 <segment>
 <wire x1="520.7" y1="180.34" x2="495.3" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="2"/>
-<pinref part="D3" gate="G$1" pin="P$1"/>
 <wire x1="495.3" y1="180.34" x2="477.52" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="477.52" y1="180.34" x2="416.56" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="477.52" y1="180.34" x2="477.52" y2="190.5" width="0.1524" layer="91"/>
@@ -14175,6 +14138,7 @@ All capacitors are 0805 10% X5R with working voltage
 <junction x="495.3" y="180.34"/>
 <pinref part="R18" gate="G$1" pin="1"/>
 <wire x1="416.56" y1="193.04" x2="416.56" y2="180.34" width="0.1524" layer="91"/>
+<pinref part="D6" gate="G$1" pin="P$2"/>
 </segment>
 </net>
 <net name="N$23" class="0">
@@ -14183,7 +14147,6 @@ All capacitors are 0805 10% X5R with working voltage
 <wire x1="495.3" y1="177.8" x2="477.52" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="477.52" y1="177.8" x2="416.56" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="3"/>
-<pinref part="D6" gate="G$1" pin="P$1"/>
 <wire x1="477.52" y1="177.8" x2="477.52" y2="170.18" width="0.1524" layer="91"/>
 <junction x="477.52" y="177.8"/>
 <pinref part="C14" gate="G$1" pin="1"/>
@@ -14191,6 +14154,7 @@ All capacitors are 0805 10% X5R with working voltage
 <junction x="495.3" y="177.8"/>
 <pinref part="R19" gate="G$1" pin="2"/>
 <wire x1="416.56" y1="177.8" x2="416.56" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="D3" gate="G$1" pin="P$2"/>
 </segment>
 </net>
 <net name="N$24" class="0">
@@ -14199,7 +14163,6 @@ All capacitors are 0805 10% X5R with working voltage
 <wire x1="452.12" y1="175.26" x2="439.42" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="439.42" y1="175.26" x2="419.1" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="4"/>
-<pinref part="D5" gate="G$1" pin="P$1"/>
 <wire x1="439.42" y1="175.26" x2="439.42" y2="170.18" width="0.1524" layer="91"/>
 <junction x="439.42" y="175.26"/>
 <pinref part="C17" gate="G$1" pin="1"/>
@@ -14207,6 +14170,7 @@ All capacitors are 0805 10% X5R with working voltage
 <junction x="452.12" y="175.26"/>
 <pinref part="R20" gate="G$1" pin="2"/>
 <wire x1="419.1" y1="175.26" x2="419.1" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="D4" gate="G$1" pin="P$2"/>
 </segment>
 </net>
 <net name="12V" class="0">
