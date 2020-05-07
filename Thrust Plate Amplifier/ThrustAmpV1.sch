@@ -12996,6 +12996,7 @@ CONN_04
 <smd name="P$1" x="-0.635" y="-0.1016" dx="1.27" dy="0.635" layer="1" rot="R90"/>
 <smd name="P$2" x="0.635" y="-0.1016" dx="1.27" dy="0.635" layer="1" rot="R90"/>
 <wire x1="1.25" y1="0.75" x2="1.25" y2="-1" width="0.1524" layer="21"/>
+<text x="-2.54" y="1.27" size="1.016" layer="25">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
