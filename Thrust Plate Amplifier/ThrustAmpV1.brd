@@ -1790,6 +1790,7 @@ CONN_04
 <smd name="P$1" x="-0.635" y="-0.1016" dx="1.27" dy="0.635" layer="1" rot="R90"/>
 <smd name="P$2" x="0.635" y="-0.1016" dx="1.27" dy="0.635" layer="1" rot="R90"/>
 <wire x1="1.25" y1="0.75" x2="1.25" y2="-1" width="0.1524" layer="21"/>
+<text x="-2.54" y="1.27" size="1.016" layer="25">&gt;NAME</text>
 </package>
 </packages>
 </library>
@@ -2332,7 +2333,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="D14" library="D5V0H1U2LP1610-7" package="0603DIODE" value="" x="52.7558" y="55.1942" smashed="yes" rot="R90"/>
 <element name="D3" library="D5V0H1U2LP1610-7" package="0603DIODE" value="" x="88.9" y="42.418" smashed="yes" rot="R90"/>
 <element name="D4" library="D5V0H1U2LP1610-7" package="0603DIODE" value="" x="88.9" y="56.134" smashed="yes" rot="R270"/>
-<element name="D5" library="D5V0H1U2LP1610-7" package="0603DIODE" value="" x="89.916" y="25.4" smashed="yes" rot="R90"/>
+<element name="D5" library="D5V0H1U2LP1610-7" package="0603DIODE" value="" x="89.916" y="25.4" smashed="yes" rot="R90">
+<attribute name="D5" value="" x="92.964" y="23.876" size="1.778" layer="27" rot="R90" display="name"/>
+</element>
 <element name="D6" library="D5V0H1U2LP1610-7" package="0603DIODE" value="" x="89.154" y="36.83" smashed="yes" rot="R90"/>
 </elements>
 <signals>
@@ -2560,7 +2563,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="C22" pad="2"/>
 <contactref element="D9" pad="P$1"/>
 <contactref element="R15" pad="2"/>
-<polygon width="0" layer="1">
+<polygon width="0" layer="1" rank="2">
 <vertex x="0" y="0"/>
 <vertex x="0" y="77.47"/>
 <vertex x="104.902" y="77.47"/>
@@ -2714,12 +2717,22 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="U$1" pad="P$6"/>
 <contactref element="D1" pad="C"/>
 <contactref element="U$2" pad="1"/>
-<wire x1="72.6567" y1="8.468359375" x2="72.578" y2="8.547059375" width="0.635" layer="1"/>
-<wire x1="72.578" y1="10.6934" x2="72.578" y2="8.547059375" width="0.635" layer="1"/>
-<wire x1="72.578" y1="10.6934" x2="72.578" y2="14.2059" width="0.635" layer="1"/>
 <wire x1="72.578" y1="14.2059" x2="72.5805" y2="14.2084" width="0.635" layer="1"/>
 <wire x1="72.5805" y1="14.2084" x2="72.2405" y2="13.8684" width="0.635" layer="1"/>
-<wire x1="72.2405" y1="13.8684" x2="67.5955" y2="13.8684" width="0.635" layer="1"/>
+<polygon width="0.1524" layer="1" thermals="no">
+<vertex x="73.406" y="8.128"/>
+<vertex x="71.882" y="8.128"/>
+<vertex x="71.882" y="11.684"/>
+<vertex x="71.374" y="12.192"/>
+<vertex x="66.04" y="12.192"/>
+<vertex x="66.04" y="15.24"/>
+<vertex x="67.056" y="16.256"/>
+<vertex x="73.406" y="16.256"/>
+<vertex x="74.93" y="14.732"/>
+<vertex x="74.93" y="12.954"/>
+<vertex x="73.66" y="11.684"/>
+<vertex x="73.66" y="8.382"/>
+</polygon>
 </signal>
 <signal name="N$28">
 <contactref element="U$1" pad="P$4"/>
