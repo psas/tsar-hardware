@@ -218,6 +218,7 @@ INVERTING</text>
 <text x="7.112" y="12.954" size="0.508" layer="21" rot="R180">TP 5V</text>
 <text x="45.72" y="12.954" size="0.508" layer="21" rot="R180">TP 6V</text>
 <text x="92.964" y="16.51" size="0.508" layer="21" rot="R180">TP 12V</text>
+<text x="70.612" y="1.016" size="1.27" layer="21" font="vector">NP</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
