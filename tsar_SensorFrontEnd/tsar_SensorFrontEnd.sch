@@ -13358,6 +13358,150 @@ naming: grid - package width</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="mount">
+<description>APDM library of mounting points
+Mostly holes, includes keep-out for screw heads.</description>
+<packages>
+<package name="#4/.225-BARE+HEAD_OR_SMALL_NUT">
+<description>1/8" hole without plating for #4 screw&lt;br&gt;
+Includes 0.225" outline for screw head.
+The 0.225" outline will also accomodate a 3/16" (small) #4 nut.
+For standard #4 nuts + tool clearance use the 0.4" outline.&lt;br&gt;
+Note, this outline does not include nut-tool clearance, for that use at least the 0.3" outline. However, this outline is acceptable for screw heads, which require no additional tool clearance, or for nuts accessible from the side, etc.</description>
+<circle x="0" y="0" radius="2.8575" width="0.254" layer="21"/>
+<circle x="0" y="0" radius="2.8575" width="0" layer="39"/>
+<circle x="0" y="0" radius="2.8575" width="0" layer="41"/>
+<text x="2.8575" y="2.8575" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="2.8575" y="-2.8575" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<hole x="0" y="0" drill="3.175"/>
+<circle x="0" y="0" radius="2.8575" width="0" layer="42"/>
+</package>
+<package name="#4/.250-BARE+STD_WASHER">
+<description>1/8" hole without plating for #4 screw&lt;br&gt;
+Includes 0.250" outline for standard #4 washer.
+For #4 star lock washers or standard size #4 nuts use use the 0.3" outline. 1/4" is a good choice for a screw head + standard washer, but will not provide enough room for a standard nut to turn.</description>
+<circle x="0" y="0" radius="2.8575" width="0.254" layer="51"/>
+<circle x="0" y="0" radius="3.175" width="0.254" layer="21"/>
+<circle x="0" y="0" radius="3.175" width="0" layer="39"/>
+<circle x="0" y="0" radius="3.175" width="0" layer="41"/>
+<text x="2.8575" y="2.8575" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="2.8575" y="-2.8575" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<hole x="0" y="0" drill="3.175"/>
+<circle x="0" y="0" radius="3.175" width="0" layer="42"/>
+</package>
+<package name="#4/.300-BARE+STD_NUT_OR_STAR_WASHER">
+<description>1/8" hole without plating for #4 screw&lt;br&gt;
+Includes 0.300" outline for standard #4 nut or star lock washer.
+For standard tool clearance, use the 0.400" outline.&lt;br&gt;
+Note 0.300" is acceptable clearance for a ground-down 3/16" nut driver.</description>
+<wire x1="-1.8331" y1="3.175" x2="1.8331" y2="3.175" width="0.127" layer="51"/>
+<wire x1="1.8331" y1="3.175" x2="3.6662" y2="0" width="0.127" layer="51"/>
+<wire x1="3.6662" y1="0" x2="1.8331" y2="-3.175" width="0.127" layer="51"/>
+<wire x1="1.8331" y1="-3.175" x2="-1.8331" y2="-3.175" width="0.127" layer="51"/>
+<wire x1="-1.8331" y1="-3.175" x2="-3.6661" y2="0" width="0.127" layer="51"/>
+<wire x1="-3.6661" y1="0" x2="-1.8331" y2="3.175" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="2.8575" width="0.254" layer="51"/>
+<circle x="0" y="0" radius="3.81" width="0.254" layer="21"/>
+<circle x="0" y="0" radius="3.81" width="0" layer="41"/>
+<text x="2.8575" y="2.8575" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="3.175" y="-3.175" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<hole x="0" y="0" drill="3.175"/>
+<circle x="0" y="0" radius="3.81" width="0" layer="42"/>
+<wire x1="-1.8331" y1="3.175" x2="1.8331" y2="3.175" width="0.127" layer="33"/>
+<wire x1="1.8331" y1="3.175" x2="3.6662" y2="0" width="0.127" layer="33"/>
+<wire x1="3.6662" y1="0" x2="1.8331" y2="-3.175" width="0.127" layer="33"/>
+<wire x1="1.8331" y1="-3.175" x2="-1.8331" y2="-3.175" width="0.127" layer="33"/>
+<wire x1="-1.8331" y1="-3.175" x2="-3.6661" y2="0" width="0.127" layer="33"/>
+<wire x1="-3.6661" y1="0" x2="-1.8331" y2="3.175" width="0.127" layer="33"/>
+<circle x="0" y="0" radius="2.8575" width="0.254" layer="33"/>
+<text x="-1" y="3.5" size="0.5" layer="33" font="vector" ratio="15">&gt;NAME</text>
+</package>
+<package name="#4/.325-BARE+SMALL_TOOL_CLEARANCE">
+<description>1/8" hole without plating for #4 screw&lt;br&gt;
+Includes 0.325" outline for 3/16" (small) #4 nut-tool. If nut driving is not required, the 0.250" outline may be used.</description>
+<wire x1="-1.8331" y1="3.175" x2="1.8331" y2="3.175" width="0.127" layer="51"/>
+<wire x1="1.8331" y1="3.175" x2="3.6662" y2="0" width="0.127" layer="51"/>
+<wire x1="3.6662" y1="0" x2="1.8331" y2="-3.175" width="0.127" layer="51"/>
+<wire x1="1.8331" y1="-3.175" x2="-1.8331" y2="-3.175" width="0.127" layer="51"/>
+<wire x1="-1.8331" y1="-3.175" x2="-3.6661" y2="0" width="0.127" layer="51"/>
+<wire x1="-3.6661" y1="0" x2="-1.8331" y2="3.175" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="2.8575" width="0.254" layer="51"/>
+<circle x="0" y="0" radius="4.1275" width="0.254" layer="21"/>
+<circle x="0" y="0" radius="4.1275" width="0" layer="39"/>
+<circle x="0" y="0" radius="3.81" width="0" layer="41"/>
+<text x="2.8575" y="2.8575" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="3.175" y="-3.81" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<hole x="0" y="0" drill="3.175"/>
+<circle x="0" y="0" radius="3.81" width="0" layer="42"/>
+<circle x="0" y="0" radius="4.1275" width="0" layer="40"/>
+</package>
+<package name="#4/.400-BARE+STD_TOOL_CLEARANCE">
+<description>1/8" hole without plating for #4 screw&lt;br&gt;
+Includes 0.400" outline for 1/4" (standard) #4 nut-tool. If nut driving is not required, the 0.300" outline may be used.</description>
+<wire x1="-1.8331" y1="3.175" x2="1.8331" y2="3.175" width="0.127" layer="51"/>
+<wire x1="1.8331" y1="3.175" x2="3.6662" y2="0" width="0.127" layer="51"/>
+<wire x1="3.6662" y1="0" x2="1.8331" y2="-3.175" width="0.127" layer="51"/>
+<wire x1="1.8331" y1="-3.175" x2="-1.8331" y2="-3.175" width="0.127" layer="51"/>
+<wire x1="-1.8331" y1="-3.175" x2="-3.6661" y2="0" width="0.127" layer="51"/>
+<wire x1="-3.6661" y1="0" x2="-1.8331" y2="3.175" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="2.8575" width="0.254" layer="51"/>
+<circle x="0" y="0" radius="5.08" width="0.254" layer="21"/>
+<circle x="0" y="0" radius="5.08" width="0" layer="39"/>
+<circle x="0" y="0" radius="3.81" width="0" layer="41"/>
+<text x="4.1275" y="3.4925" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="4.445" y="-3.81" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<hole x="0" y="0" drill="3.175"/>
+<circle x="0" y="0" radius="3.81" width="0" layer="42"/>
+<circle x="0" y="0" radius="5.08" width="0" layer="40"/>
+</package>
+</packages>
+<symbols>
+<symbol name="HOLE+SCREWHEAD">
+<wire x1="-1.6256" y1="1.8542" x2="1.8796" y2="-1.6002" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="1.6256" x2="1.6256" y2="-1.8796" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="0" y2="1.27" width="0.254" layer="94" curve="90"/>
+<wire x1="-1.27" y1="0" x2="0" y2="-1.27" width="0.254" layer="94" curve="90"/>
+<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
+<text x="1.27" y="2.54" size="1.27" layer="95">&gt;Name</text>
+<text x="2.54" y="-2.54" size="1.27" layer="96">&gt;Value</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="#4-BARE_MOUNTING_HOLE">
+<description>1/8" drill hole for #4 screw mount</description>
+<gates>
+<gate name="MT" symbol="HOLE+SCREWHEAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="/.225" package="#4/.225-BARE+HEAD_OR_SMALL_NUT">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="/.250" package="#4/.250-BARE+STD_WASHER">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="/.300" package="#4/.300-BARE+STD_NUT_OR_STAR_WASHER">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="/.325" package="#4/.325-BARE+SMALL_TOOL_CLEARANCE">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="/.400" package="#4/.400-BARE+STD_TOOL_CLEARANCE">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -13593,6 +13737,12 @@ naming: grid - package width</description>
 <part name="THRUSTPOWER" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device="" package3d_urn="urn:adsk.eagle:package:8078633/1"/>
 <part name="X_54" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="P+14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
+<part name="H1" library="mount" deviceset="#4-BARE_MOUNTING_HOLE" device="/.300"/>
+<part name="H2" library="mount" deviceset="#4-BARE_MOUNTING_HOLE" device="/.300"/>
+<part name="H3" library="mount" deviceset="#4-BARE_MOUNTING_HOLE" device="/.300"/>
+<part name="H4" library="mount" deviceset="#4-BARE_MOUNTING_HOLE" device="/.300"/>
+<part name="X_71" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
+<part name="X_72" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13618,8 +13768,9 @@ naming: grid - package width</description>
 <text x="132.08" y="157.48" size="1.778" layer="97">-220 C</text>
 <text x="114.3" y="137.16" size="1.778" layer="97">-220 C</text>
 <text x="93.98" y="116.84" size="1.778" layer="97">-40-25 C</text>
-<text x="347.98" y="60.96" size="2.54" layer="97">ALL RESISTORS ARE 0805 1% UNLESS OTHERWISE MARKED</text>
-<text x="347.98" y="55.88" size="2.54" layer="97">ALL CAPACITORS ARE 0805 10% X5R  WITH WORKING VOLTAGE &gt; ??? v UNLESS OTHERWISE MARKED</text>
+<text x="337.82" y="60.96" size="3.81" layer="97">ALL RESISTORS ARE 0805 1% UNLESS OTHERWISE MARKED</text>
+<text x="337.82" y="48.26" size="3.81" layer="97">ALL CAPACITORS ARE 0805 10% X5R  WITH WORKING VOLTAGE &gt; ??? v 
+UNLESS OTHERWISE MARKED</text>
 <text x="287.02" y="370.84" size="5.08" layer="97">+12V input from POE
 12V @ &lt; 1000mA </text>
 <text x="327.66" y="353.06" size="1.778" layer="97">Electrolytic Cap</text>
@@ -14119,7 +14270,7 @@ naming: grid - package width</description>
 <instance part="SERIAL_TO_DAQ" gate="G1" x="307.34" y="60.96" smashed="yes" rot="R270">
 <attribute name="NAME" x="302.26" y="87.63" size="2.54" layer="95" ratio="15"/>
 </instance>
-<instance part="X_63" gate="G$1" x="340.36" y="299.72" smashed="yes"/>
+<instance part="X_63" gate="G$1" x="330.2" y="299.72" smashed="yes"/>
 <instance part="POE" gate="-1" x="312.42" y="350.52" smashed="yes" rot="R180">
 <attribute name="NAME" x="309.88" y="351.282" size="1.524" layer="95" rot="R180"/>
 <attribute name="VALUE" x="300.482" y="354.203" size="1.778" layer="96" display="off"/>
@@ -14198,21 +14349,21 @@ naming: grid - package width</description>
 <instance part="X_68" gate="G$1" x="58.42" y="81.28" smashed="yes" rot="MR0"/>
 <instance part="X_69" gate="G$1" x="43.18" y="53.34" smashed="yes" rot="MR0"/>
 <instance part="X_70" gate="G$1" x="76.2" y="109.22" smashed="yes" rot="MR0"/>
-<instance part="THRUST" gate="-1" x="307.34" y="312.42" smashed="yes" rot="R90">
-<attribute name="NAME" x="308.102" y="314.96" size="1.524" layer="95" rot="R90"/>
-<attribute name="VALUE" x="303.022" y="313.563" size="2.54" layer="96" rot="R180"/>
+<instance part="THRUST" gate="-1" x="297.18" y="312.42" smashed="yes" rot="R90">
+<attribute name="NAME" x="297.942" y="314.96" size="1.524" layer="95" rot="R90"/>
+<attribute name="VALUE" x="292.862" y="313.563" size="2.54" layer="96" rot="R180"/>
 </instance>
-<instance part="THRUST" gate="-2" x="314.96" y="312.42" smashed="yes" rot="R90">
-<attribute name="NAME" x="315.722" y="314.96" size="1.524" layer="95" rot="R90"/>
+<instance part="THRUST" gate="-2" x="304.8" y="312.42" smashed="yes" rot="R90">
+<attribute name="NAME" x="305.562" y="314.96" size="1.524" layer="95" rot="R90"/>
 </instance>
-<instance part="THRUST" gate="-3" x="322.58" y="312.42" smashed="yes" rot="R90">
-<attribute name="NAME" x="323.342" y="314.96" size="1.524" layer="95" rot="R90"/>
+<instance part="THRUST" gate="-3" x="312.42" y="312.42" smashed="yes" rot="R90">
+<attribute name="NAME" x="313.182" y="314.96" size="1.524" layer="95" rot="R90"/>
 </instance>
-<instance part="THRUST" gate="-4" x="330.2" y="312.42" smashed="yes" rot="R90">
+<instance part="THRUST" gate="-4" x="320.04" y="312.42" smashed="yes" rot="R90">
+<attribute name="NAME" x="320.802" y="314.96" size="1.524" layer="95" rot="R90"/>
+</instance>
+<instance part="THRUST" gate="-5" x="330.2" y="312.42" smashed="yes" rot="R90">
 <attribute name="NAME" x="330.962" y="314.96" size="1.524" layer="95" rot="R90"/>
-</instance>
-<instance part="THRUST" gate="-5" x="340.36" y="312.42" smashed="yes" rot="R90">
-<attribute name="NAME" x="341.122" y="314.96" size="1.524" layer="95" rot="R90"/>
 </instance>
 <instance part="R51" gate="R" x="76.2" y="228.6" smashed="yes" rot="R90">
 <attribute name="NAME" x="74.7014" y="224.79" size="1.778" layer="95" rot="R180"/>
@@ -14333,6 +14484,24 @@ naming: grid - package width</description>
 <instance part="P+14" gate="1" x="274.32" y="358.14" smashed="yes">
 <attribute name="VALUE" x="271.78" y="353.06" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="H1" gate="MT" x="351.79" y="26.67" smashed="yes">
+<attribute name="NAME" x="353.06" y="29.21" size="1.27" layer="95"/>
+<attribute name="VALUE" x="354.33" y="24.13" size="1.27" layer="96"/>
+</instance>
+<instance part="H2" gate="MT" x="351.79" y="16.51" smashed="yes">
+<attribute name="NAME" x="353.06" y="19.05" size="1.27" layer="95"/>
+<attribute name="VALUE" x="354.33" y="13.97" size="1.27" layer="96"/>
+</instance>
+<instance part="H3" gate="MT" x="392.43" y="26.67" smashed="yes">
+<attribute name="NAME" x="393.7" y="29.21" size="1.27" layer="95"/>
+<attribute name="VALUE" x="394.97" y="24.13" size="1.27" layer="96"/>
+</instance>
+<instance part="H4" gate="MT" x="392.43" y="16.51" smashed="yes">
+<attribute name="NAME" x="393.7" y="19.05" size="1.27" layer="95"/>
+<attribute name="VALUE" x="394.97" y="13.97" size="1.27" layer="96"/>
+</instance>
+<instance part="X_71" gate="G$1" x="330.2" y="190.754" smashed="yes" rot="MR0"/>
+<instance part="X_72" gate="G$1" x="297.18" y="26.924" smashed="yes" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -14706,44 +14875,38 @@ naming: grid - package width</description>
 </segment>
 <segment>
 <pinref part="X_63" gate="G$1" pin="0"/>
-<wire x1="340.36" y1="309.88" x2="340.36" y2="299.72" width="0.1524" layer="91"/>
+<wire x1="330.2" y1="309.88" x2="330.2" y2="299.72" width="0.1524" layer="91"/>
 <pinref part="THRUST" gate="-5" pin="S"/>
-</segment>
-<segment>
-<pinref part="C28" gate="G$1" pin="2"/>
-<wire x1="76.2" y1="60.96" x2="76.2" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="76.2" x2="76.2" y2="60.96" width="0.1524" layer="91"/>
-<junction x="76.2" y="60.96"/>
-<pinref part="D2" gate="G$1" pin="P$1"/>
-<wire x1="77.47" y1="76.2" x2="76.2" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="X_65" gate="G$1" pin="0"/>
 <junction x="76.2" y="50.8"/>
-</segment>
-<segment>
-<pinref part="C29" gate="G$1" pin="2"/>
-<wire x1="58.42" y1="43.18" x2="58.42" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="58.42" x2="58.42" y2="43.18" width="0.1524" layer="91"/>
-<junction x="58.42" y="43.18"/>
-<pinref part="D18" gate="G$1" pin="P$1"/>
-<wire x1="58.42" y1="58.42" x2="59.69" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="C28" gate="G$1" pin="2"/>
+<wire x1="76.2" y1="76.2" x2="76.2" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="D2" gate="G$1" pin="P$1"/>
+<wire x1="77.47" y1="76.2" x2="76.2" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="50.8" x2="76.2" y2="60.96" width="0.1524" layer="91"/>
+<junction x="76.2" y="60.96"/>
 </segment>
 <segment>
 <pinref part="X_66" gate="G$1" pin="0"/>
 <junction x="58.42" y="33.02"/>
-</segment>
-<segment>
-<pinref part="C30" gate="G$1" pin="2"/>
-<wire x1="43.18" y1="27.94" x2="43.18" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="43.18" x2="43.18" y2="27.94" width="0.1524" layer="91"/>
-<junction x="43.18" y="27.94"/>
-<pinref part="D1" gate="G$1" pin="P$1"/>
-<wire x1="44.45" y1="43.18" x2="43.18" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="C29" gate="G$1" pin="2"/>
+<wire x1="58.42" y1="58.42" x2="58.42" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="D18" gate="G$1" pin="P$1"/>
+<wire x1="58.42" y1="58.42" x2="59.69" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="43.18" x2="58.42" y2="33.02" width="0.1524" layer="91"/>
+<junction x="58.42" y="43.18"/>
 </segment>
 <segment>
 <pinref part="X_67" gate="G$1" pin="0"/>
 <junction x="43.18" y="17.78"/>
+<pinref part="C30" gate="G$1" pin="2"/>
+<wire x1="43.18" y1="43.18" x2="43.18" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="D1" gate="G$1" pin="P$1"/>
+<wire x1="44.45" y1="43.18" x2="43.18" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="27.94" x2="43.18" y2="17.78" width="0.1524" layer="91"/>
+<junction x="43.18" y="27.94"/>
 </segment>
 <segment>
 <pinref part="X_68" gate="G$1" pin="0"/>
@@ -14765,6 +14928,68 @@ naming: grid - package width</description>
 <wire x1="269.24" y1="342.9" x2="274.32" y2="342.9" width="0.1524" layer="91"/>
 <pinref part="X_54" gate="G$1" pin="0"/>
 <wire x1="274.32" y1="342.9" x2="274.32" y2="337.82" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="ANALOG_TO_DAQ" gate="G1" pin="1"/>
+<wire x1="332.74" y1="246.38" x2="330.2" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="330.2" y1="246.38" x2="330.2" y2="231.14" width="0.1524" layer="91"/>
+<pinref part="ANALOG_TO_DAQ" gate="G1" pin="13"/>
+<wire x1="330.2" y1="231.14" x2="332.74" y2="231.14" width="0.1524" layer="91"/>
+<pinref part="ANALOG_TO_DAQ" gate="G1" pin="29"/>
+<wire x1="330.2" y1="231.14" x2="330.2" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="330.2" y1="210.82" x2="332.74" y2="210.82" width="0.1524" layer="91"/>
+<junction x="330.2" y="231.14"/>
+<pinref part="ANALOG_TO_DAQ" gate="G1" pin="39"/>
+<wire x1="330.2" y1="210.82" x2="330.2" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="330.2" y1="198.12" x2="332.74" y2="198.12" width="0.1524" layer="91"/>
+<junction x="330.2" y="210.82"/>
+<wire x1="330.2" y1="198.12" x2="330.2" y2="193.04" width="0.1524" layer="91"/>
+<junction x="330.2" y="198.12"/>
+<wire x1="330.2" y1="193.04" x2="350.52" y2="193.04" width="0.1524" layer="91"/>
+<pinref part="ANALOG_TO_DAQ" gate="G1" pin="40"/>
+<wire x1="350.52" y1="193.04" x2="350.52" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="350.52" y1="198.12" x2="347.98" y2="198.12" width="0.1524" layer="91"/>
+<pinref part="ANALOG_TO_DAQ" gate="G1" pin="30"/>
+<wire x1="347.98" y1="210.82" x2="350.52" y2="210.82" width="0.1524" layer="91"/>
+<junction x="350.52" y="198.12"/>
+<pinref part="ANALOG_TO_DAQ" gate="G1" pin="12"/>
+<wire x1="350.52" y1="210.82" x2="350.52" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="347.98" y1="233.68" x2="350.52" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="350.52" y1="233.68" x2="350.52" y2="231.14" width="0.1524" layer="91"/>
+<pinref part="ANALOG_TO_DAQ" gate="G1" pin="14"/>
+<wire x1="350.52" y1="231.14" x2="347.98" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="350.52" y1="231.14" x2="350.52" y2="210.82" width="0.1524" layer="91"/>
+<junction x="350.52" y="231.14"/>
+<wire x1="350.52" y1="233.68" x2="350.52" y2="246.38" width="0.1524" layer="91"/>
+<junction x="350.52" y="233.68"/>
+<pinref part="ANALOG_TO_DAQ" gate="G1" pin="2"/>
+<wire x1="350.52" y1="246.38" x2="347.98" y2="246.38" width="0.1524" layer="91"/>
+<junction x="350.52" y="210.82"/>
+<wire x1="330.2" y1="190.5" x2="330.2" y2="190.754" width="0.1524" layer="91"/>
+<junction x="330.2" y="193.04"/>
+<pinref part="X_71" gate="G$1" pin="0"/>
+<wire x1="330.2" y1="190.754" x2="330.2" y2="193.04" width="0.1524" layer="91"/>
+<junction x="330.2" y="190.754"/>
+</segment>
+<segment>
+<pinref part="SERIAL_TO_DAQ" gate="G1" pin="1"/>
+<wire x1="299.72" y1="83.82" x2="297.18" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="SERIAL_TO_DAQ" gate="G1" pin="39"/>
+<wire x1="297.18" y1="83.82" x2="297.18" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="35.56" x2="299.72" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="35.56" x2="297.18" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="30.48" x2="317.5" y2="30.48" width="0.1524" layer="91"/>
+<junction x="297.18" y="35.56"/>
+<pinref part="SERIAL_TO_DAQ" gate="G1" pin="2"/>
+<wire x1="314.96" y1="83.82" x2="317.5" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="SERIAL_TO_DAQ" gate="G1" pin="40"/>
+<wire x1="317.5" y1="83.82" x2="317.5" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="35.56" x2="314.96" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="30.48" x2="317.5" y2="35.56" width="0.1524" layer="91"/>
+<junction x="317.5" y="35.56"/>
+<pinref part="X_72" gate="G$1" pin="0"/>
+<wire x1="297.18" y1="30.48" x2="297.18" y2="26.924" width="0.1524" layer="91"/>
+<junction x="297.18" y="30.48"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -14965,20 +15190,20 @@ naming: grid - package width</description>
 </net>
 <net name="8" class="0">
 <segment>
-<wire x1="314.96" y1="210.82" x2="330.2" y2="210.82" width="0.1524" layer="91"/>
-<wire x1="330.2" y1="210.82" x2="330.2" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="210.82" x2="322.58" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="322.58" y1="210.82" x2="322.58" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="ANALOG_TO_DAQ" gate="G1" pin="27"/>
-<wire x1="330.2" y1="213.36" x2="332.74" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="322.58" y1="213.36" x2="332.74" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="R18" gate="R" pin="1"/>
 <wire x1="469.9" y1="134.62" x2="462.28" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="C8" gate="G$1" pin="1"/>
 <wire x1="462.28" y1="134.62" x2="454.66" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="454.66" y1="132.08" x2="454.66" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="454.66" y1="134.62" x2="355.6" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="355.6" y1="134.62" x2="355.6" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="134.62" x2="355.6" y2="185.42" width="0.1524" layer="91"/>
 <junction x="454.66" y="134.62"/>
-<wire x1="355.6" y1="193.04" x2="314.96" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="314.96" y1="193.04" x2="314.96" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="185.42" x2="314.96" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="185.42" x2="314.96" y2="210.82" width="0.1524" layer="91"/>
 <pinref part="D15" gate="G$1" pin="P$2"/>
 <junction x="462.28" y="134.62"/>
 </segment>
@@ -14986,19 +15211,19 @@ naming: grid - package width</description>
 <net name="9" class="0">
 <segment>
 <pinref part="ANALOG_TO_DAQ" gate="G1" pin="25"/>
-<wire x1="332.74" y1="215.9" x2="327.66" y2="215.9" width="0.1524" layer="91"/>
-<wire x1="327.66" y1="215.9" x2="327.66" y2="213.36" width="0.1524" layer="91"/>
-<wire x1="327.66" y1="213.36" x2="309.88" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="332.74" y1="215.9" x2="320.04" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="320.04" y1="215.9" x2="320.04" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="320.04" y1="213.36" x2="309.88" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="R19" gate="R" pin="1"/>
 <wire x1="480.06" y1="114.3" x2="472.44" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="C9" gate="G$1" pin="1"/>
 <wire x1="472.44" y1="114.3" x2="464.82" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="464.82" y1="111.76" x2="464.82" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="464.82" y1="114.3" x2="347.98" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="347.98" y1="114.3" x2="347.98" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="347.98" y1="114.3" x2="347.98" y2="180.34" width="0.1524" layer="91"/>
 <junction x="464.82" y="114.3"/>
-<wire x1="347.98" y1="187.96" x2="309.88" y2="187.96" width="0.1524" layer="91"/>
-<wire x1="309.88" y1="187.96" x2="309.88" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="347.98" y1="180.34" x2="309.88" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="180.34" x2="309.88" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="D16" gate="G$1" pin="P$2"/>
 <junction x="472.44" y="114.3"/>
 </segment>
@@ -15012,13 +15237,13 @@ naming: grid - package width</description>
 <wire x1="485.14" y1="91.44" x2="477.52" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="477.52" y1="91.44" x2="340.36" y2="91.44" width="0.1524" layer="91"/>
 <junction x="477.52" y="91.44"/>
-<wire x1="340.36" y1="91.44" x2="340.36" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="340.36" y1="180.34" x2="304.8" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="304.8" y1="180.34" x2="304.8" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="91.44" x2="340.36" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="175.26" x2="304.8" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="304.8" y1="175.26" x2="304.8" y2="215.9" width="0.1524" layer="91"/>
 <pinref part="ANALOG_TO_DAQ" gate="G1" pin="23"/>
-<wire x1="325.12" y1="218.44" x2="332.74" y2="218.44" width="0.1524" layer="91"/>
-<wire x1="325.12" y1="215.9" x2="325.12" y2="218.44" width="0.1524" layer="91"/>
-<wire x1="304.8" y1="215.9" x2="325.12" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="218.44" x2="332.74" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="215.9" x2="317.5" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="304.8" y1="215.9" x2="317.5" y2="215.9" width="0.1524" layer="91"/>
 <pinref part="D17" gate="G$1" pin="P$2"/>
 <junction x="485.14" y="91.44"/>
 </segment>
@@ -15107,7 +15332,6 @@ naming: grid - package width</description>
 <segment>
 <pinref part="R32" gate="R" pin="1"/>
 <pinref part="C21" gate="G$1" pin="1"/>
-<wire x1="111.76" y1="73.66" x2="114.3" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="73.66" x2="114.3" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="CH4"/>
 <wire x1="114.3" y1="88.9" x2="114.3" y2="99.06" width="0.1524" layer="91"/>
@@ -15115,6 +15339,8 @@ naming: grid - package width</description>
 <wire x1="114.3" y1="60.96" x2="114.3" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="D3" gate="G$1" pin="P$2"/>
 <junction x="114.3" y="88.9"/>
+<wire x1="111.76" y1="73.66" x2="114.3" y2="73.66" width="0.1524" layer="91"/>
+<junction x="114.3" y="73.66"/>
 </segment>
 </net>
 <net name="GND1" class="0">
@@ -15444,33 +15670,33 @@ naming: grid - package width</description>
 </net>
 <net name="N$12" class="0">
 <segment>
-<wire x1="330.2" y1="309.88" x2="330.2" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="320.04" y1="309.88" x2="320.04" y2="228.6" width="0.1524" layer="91"/>
 <pinref part="ANALOG_TO_DAQ" gate="G1" pin="15"/>
-<wire x1="330.2" y1="228.6" x2="332.74" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="320.04" y1="228.6" x2="332.74" y2="228.6" width="0.1524" layer="91"/>
 <pinref part="THRUST" gate="-4" pin="S"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
-<wire x1="314.96" y1="309.88" x2="314.96" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="304.8" y1="309.88" x2="304.8" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="ANALOG_TO_DAQ" gate="G1" pin="19"/>
-<wire x1="332.74" y1="223.52" x2="314.96" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="332.74" y1="223.52" x2="304.8" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="THRUST" gate="-2" pin="S"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
-<wire x1="307.34" y1="309.88" x2="307.34" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="309.88" x2="297.18" y2="220.98" width="0.1524" layer="91"/>
 <pinref part="ANALOG_TO_DAQ" gate="G1" pin="21"/>
-<wire x1="332.74" y1="220.98" x2="307.34" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="332.74" y1="220.98" x2="297.18" y2="220.98" width="0.1524" layer="91"/>
 <pinref part="THRUST" gate="-1" pin="S"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
-<wire x1="322.58" y1="309.88" x2="322.58" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="309.88" x2="312.42" y2="226.06" width="0.1524" layer="91"/>
 <pinref part="ANALOG_TO_DAQ" gate="G1" pin="17"/>
-<wire x1="332.74" y1="226.06" x2="322.58" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="332.74" y1="226.06" x2="312.42" y2="226.06" width="0.1524" layer="91"/>
 <pinref part="THRUST" gate="-3" pin="S"/>
 </segment>
 </net>
@@ -15587,7 +15813,6 @@ naming: grid - package width</description>
 <segment>
 <pinref part="R39" gate="R" pin="1"/>
 <pinref part="C28" gate="G$1" pin="1"/>
-<wire x1="83.82" y1="60.96" x2="86.36" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="60.96" x2="86.36" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="CH5"/>
 <wire x1="86.36" y1="76.2" x2="86.36" y2="86.36" width="0.1524" layer="91"/>
@@ -15595,6 +15820,8 @@ naming: grid - package width</description>
 <wire x1="213.36" y1="55.88" x2="86.36" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="D2" gate="G$1" pin="P$2"/>
 <junction x="86.36" y="76.2"/>
+<wire x1="83.82" y1="60.96" x2="86.36" y2="60.96" width="0.1524" layer="91"/>
+<junction x="86.36" y="60.96"/>
 </segment>
 </net>
 <net name="12" class="0">
@@ -15695,12 +15922,12 @@ naming: grid - package width</description>
 <segment>
 <pinref part="OPEN1" gate="-1" pin="S"/>
 <pinref part="R51" gate="R" pin="1"/>
-<wire x1="76.2" y1="134.62" x2="76.2" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="134.62" x2="76.2" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="JP4" gate="A" pin="1"/>
 <wire x1="76.2" y1="142.24" x2="76.2" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="134.62" x2="83.82" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="142.24" x2="76.2" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="142.24" x2="76.2" y2="139.7" width="0.1524" layer="91"/>
+<junction x="76.2" y="142.24"/>
 </segment>
 </net>
 <net name="N$37" class="0">
@@ -15757,6 +15984,33 @@ naming: grid - package width</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="113,1,154.358,274.32,DFLS160,,,,,"/>
+<approved hash="113,1,74.7039,244.077,JP1,,,,,"/>
+<approved hash="113,1,56.9239,244.077,JP2,,,,,"/>
+<approved hash="113,1,41.6839,244.077,JP3,,,,,"/>
+<approved hash="113,1,48.895,43.1038,D1,,,,,"/>
+<approved hash="113,1,81.915,76.1238,D2,,,,,"/>
+<approved hash="113,1,109.855,88.8238,D3,,,,,"/>
+<approved hash="113,1,130.175,109.144,D4,,,,,"/>
+<approved hash="113,1,153.035,132.004,D5,,,,,"/>
+<approved hash="113,1,173.355,154.864,D6,,,,,"/>
+<approved hash="113,1,201.295,185.344,D7,,,,,"/>
+<approved hash="113,1,370.916,290.195,D8,,,,,"/>
+<approved hash="113,1,383.616,267.335,D9,,,,,"/>
+<approved hash="113,1,395.607,244.475,D10,,,,,"/>
+<approved hash="113,1,408.4,221.615,D11,,,,,"/>
+<approved hash="113,1,421.007,196.215,D12,,,,,"/>
+<approved hash="113,1,433.707,175.895,D13,,,,,"/>
+<approved hash="113,1,446.407,150.495,D14,,,,,"/>
+<approved hash="113,1,461.647,130.175,D15,,,,,"/>
+<approved hash="113,1,471.807,109.855,D16,,,,,"/>
+<approved hash="113,1,484.507,86.995,D17,,,,,"/>
+<approved hash="113,1,64.135,59.0534,D18,,,,,"/>
+<approved hash="113,1,84.0571,133.576,JP4,,,,,"/>
+<approved hash="113,1,66.2771,105.636,JP5,,,,,"/>
+<approved hash="113,1,51.0371,75.1561,JP6,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
