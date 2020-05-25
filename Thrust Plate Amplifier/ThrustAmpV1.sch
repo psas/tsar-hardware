@@ -12864,6 +12864,19 @@ TEST_POINT
 <text x="2.54" y="2.54" size="1.778" layer="95">&gt;Name</text>
 <text x="-5.08" y="-7.62" size="1.016" layer="96" rot="R90">D5V0H1U2LP1610-7</text>
 </symbol>
+<symbol name="12VTVSDIODE">
+<wire x1="2.54" y1="1.27" x2="-2.54" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="1.27" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="3.81" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-3.81" y2="-3.81" width="0.1524" layer="94"/>
+<pin name="P$1" x="0" y="3.81" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="P$2" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<text x="-5.08" y="-7.62" size="1.016" layer="96" rot="R90">D12V0H1U2LP1610-7</text>
+<text x="2.54" y="2.54" size="1.778" layer="95">&gt;Name</text>
+<text x="2.54" y="-2.54" size="1.778" layer="96">&gt;Value</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="D5V0H1U2LP1610-7" prefix="D" uservalue="yes">
@@ -12872,6 +12885,27 @@ TEST_POINT
 </gates>
 <devices>
 <device name="" package="0603DIODE">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="D12V0H1U2LP1610-7" prefix="D" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="12VTVSDIODE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603DIODE">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0603DIODE12V" package="0603DIODE">
 <connects>
 <connect gate="G$1" pin="P$1" pad="P$1"/>
 <connect gate="G$1" pin="P$2" pad="P$2"/>
@@ -13064,7 +13098,7 @@ STAND-OFF</description>
 <part name="U$2" library="TSAR_Controller" deviceset="CLF5030NIT-100M-D" device=""/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="22 uF"/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_C_L" device=""/>
-<part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="500 k"/>
+<part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="499 k"/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
@@ -13174,7 +13208,7 @@ STAND-OFF</description>
 <part name="D11" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device=""/>
 <part name="D15" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device=""/>
 <part name="D16" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device=""/>
-<part name="D9" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device=""/>
+<part name="D9" library="D5V0H1U2LP1610-7" deviceset="D12V0H1U2LP1610-7" device="0603DIODE12V"/>
 </parts>
 <sheets>
 <sheet>
@@ -13688,6 +13722,7 @@ All capacitors are 0805 10% X5R with working voltage
 </instance>
 <instance part="D9" gate="G$1" x="81.28" y="340.36" smashed="yes" rot="R270">
 <attribute name="NAME" x="83.82" y="337.82" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="78.74" y="337.82" size="1.778" layer="96" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -14598,6 +14633,44 @@ All capacitors are 0805 10% X5R with working voltage
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="102,1,241.3,340.36,VCC,6V,,,,"/>
+<approved hash="102,1,53.34,254,VCC,6V,,,,"/>
+<approved hash="104,1,386.08,187.96,U2,V-,GND,,,"/>
+<approved hash="104,1,388.62,236.22,U2,V+,3.3V,,,"/>
+<approved hash="104,1,386.08,114.3,U3,V-,GND,,,"/>
+<approved hash="104,1,388.62,162.56,U3,V+,3.3V,,,"/>
+<approved hash="104,1,386.08,35.56,U4,V-,GND,,,"/>
+<approved hash="104,1,388.62,83.82,U4,V+,3.3V,,,"/>
+<approved hash="104,1,386.08,264.16,U1,V-,GND,,,"/>
+<approved hash="104,1,388.62,312.42,U1,V+,3.3V,,,"/>
+<approved hash="104,1,185.42,350.52,U$1,IN,12V,,,"/>
+<approved hash="104,1,187.96,243.84,U5,VIN,5V,,,"/>
+<approved hash="104,1,213.36,241.3,U5,VOUT,3.3V,,,"/>
+<approved hash="104,1,93.98,241.3,U6,VOUT,5V,,,"/>
+<approved hash="113,1,279.296,215.796,FRAME1,,,,,"/>
+<approved hash="113,1,523.917,176.367,J2,,,,,"/>
+<approved hash="113,1,62.8227,335.443,J1,,,,,"/>
+<approved hash="113,1,214.037,139.537,J4,,,,,"/>
+<approved hash="113,1,214.037,114.137,J5,,,,,"/>
+<approved hash="113,1,214.037,86.1974,J6,,,,,"/>
+<approved hash="113,1,214.037,55.7174,J7,,,,,"/>
+<approved hash="113,1,439.501,165.735,D4,,,,,"/>
+<approved hash="113,1,477.601,165.735,D3,,,,,"/>
+<approved hash="113,1,477.439,194.945,D6,,,,,"/>
+<approved hash="113,1,439.339,194.945,D5,,,,,"/>
+<approved hash="113,1,268.611,135.255,D10,,,,,"/>
+<approved hash="113,1,269.321,109.855,D8,,,,,"/>
+<approved hash="113,1,269.321,81.915,D7,,,,,"/>
+<approved hash="113,1,269.321,51.435,D2,,,,,"/>
+<approved hash="113,1,252.089,62.865,D14,,,,,"/>
+<approved hash="113,1,252.089,93.345,D13,,,,,"/>
+<approved hash="113,1,252.089,121.285,D12,,,,,"/>
+<approved hash="113,1,251.995,146.685,D11,,,,,"/>
+<approved hash="113,1,170.815,165.729,D15,,,,,"/>
+<approved hash="113,1,170.815,51.4289,D16,,,,,"/>
+<approved hash="113,1,80.645,340.441,D9,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
