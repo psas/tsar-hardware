@@ -13689,6 +13689,7 @@ part number 2062-2P from STA</description>
 </parts>
 <sheets>
 <sheet>
+<description>5V Power Regulator</description>
 <plain>
 <text x="77.47" y="173.99" size="1.778" layer="97">12V to 5V Regulator</text>
 <text x="120.65" y="166.37" size="1.778" layer="96">1N4148W-7-F</text>
@@ -13960,6 +13961,7 @@ The voltage divider on EN may need to be adjusted.</text>
 </nets>
 </sheet>
 <sheet>
+<description>STM Morpho Connector</description>
 <plain>
 <text x="62.23" y="205.74" size="3.81" layer="97">STM Nucleo G071RB Morpho Connectorsfor the MCU Eval Board.</text>
 <text x="7.62" y="3.81" size="1.778" layer="97">All Resistors and Capacitors are 0805, unless otherwise noted.</text>
@@ -14276,11 +14278,6 @@ The voltage divider on EN may need to be adjusted.</text>
 <wire x1="166.37" y1="128.27" x2="157.48" y2="128.27" width="0.1524" layer="91"/>
 <label x="157.48" y="128.27" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
-<segment>
-<pinref part="CN10" gate="G$1" pin="32"/>
-<wire x1="173.99" y1="100.33" x2="181.61" y2="100.33" width="0.1524" layer="91"/>
-<label x="181.61" y="100.33" size="1.27" layer="95" xref="yes"/>
-</segment>
 </net>
 <net name="TBD_SENSOR_5" class="0">
 <segment>
@@ -14579,6 +14576,7 @@ The voltage divider on EN may need to be adjusted.</text>
 </nets>
 </sheet>
 <sheet>
+<description>Solenoid Switches</description>
 <plain>
 <text x="7.62" y="5.08" size="1.778" layer="97">All Resistors and Capacitors are 0805, unless otherwise noted.</text>
 </plain>
@@ -15680,8 +15678,9 @@ The voltage divider on EN may need to be adjusted.</text>
 </nets>
 </sheet>
 <sheet>
+<description>TBD Sensor Inputs</description>
 <plain>
-<text x="35.56" y="199.39" size="5.08" layer="97">Valve Position Sensor Inputs.</text>
+<text x="35.56" y="199.39" size="5.08" layer="97">TBD Sensor Inputs.</text>
 <text x="35.56" y="191.77" size="2.54" layer="97">Screw Terminal are 0.1" Pitch.</text>
 <text x="7.62" y="3.81" size="1.778" layer="97">All Resistors and Capacitors are 0805, unless otherwise noted.</text>
 <text x="101.6" y="191.77" size="2.54" layer="97">NP Resistors are provided to allow for input signlas that exceed 3.3V.</text>
@@ -16446,6 +16445,7 @@ The voltage divider on EN may need to be adjusted.</text>
 <approved hash="102,3,219.71,153.67,V+,VBATT,,,,"/>
 <approved hash="104,1,74.93,163.83,5V_REG,IN,+12V,,,"/>
 <approved hash="106,2,173.99,130.81,5V_USB_CHG,,,,,"/>
+<approved hash="106,2,166.37,128.27,AGND,,,,,"/>
 <approved hash="106,2,166.37,130.81,AVDD,,,,,"/>
 <approved hash="106,2,72.39,128.27,E5V,,,,,"/>
 <approved hash="106,2,72.39,105.41,EVAL-VIN,,,,,"/>
