@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.2" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -168,6 +168,29 @@
 <text x="54.776" y="109.056" size="1.778" layer="51" font="vector">                Top
 This Side Towards Space</text>
 <dimension x1="41.91" y1="111.76" x2="97.79" y2="111.76" x3="69.85" y3="118.11" textsize="1.778" layer="25"/>
+<text x="44.196" y="4.064" size="1.778" layer="25">+</text>
+<text x="150.114" y="10.922" size="1.016" layer="25" rot="R90">+BATT</text>
+<text x="5.08" y="11.43" size="1.016" layer="25">GND</text>
+<text x="5.08" y="25.4" size="1.016" layer="25">GND</text>
+<text x="5.08" y="39.37" size="1.016" layer="25">GND</text>
+<text x="5.08" y="53.34" size="1.016" layer="25">GND</text>
+<text x="5.08" y="67.31" size="1.016" layer="25">GND</text>
+<text x="5.08" y="81.28" size="1.016" layer="25">GND</text>
+<text x="5.08" y="95.25" size="1.016" layer="25">GND</text>
+<text x="5.08" y="109.22" size="1.016" layer="25">GND</text>
+<text x="5.08" y="123.19" size="1.016" layer="25">GND</text>
+<text x="5.08" y="137.16" size="1.016" layer="25">GND</text>
+<text x="143.51" y="135.89" size="1.016" layer="25">GND</text>
+<text x="143.51" y="123.19" size="1.016" layer="25">GND</text>
+<text x="143.51" y="110.49" size="1.016" layer="25">GND</text>
+<text x="143.51" y="97.79" size="1.016" layer="25">GND</text>
+<text x="143.51" y="83.82" size="1.016" layer="25">GND</text>
+<text x="143.51" y="71.12" size="1.016" layer="25">GND</text>
+<text x="143.51" y="58.42" size="1.016" layer="25">GND</text>
+<text x="143.51" y="45.72" size="1.016" layer="25">GND</text>
+<text x="143.51" y="33.02" size="1.016" layer="25">GND</text>
+<text x="143.51" y="20.32" size="1.016" layer="25">GND</text>
+<text x="135.89" y="15.24" size="1.016" layer="25" rot="R270">-BATT</text>
 </plain>
 <libraries>
 <library name="TSAR_Controller">
@@ -2181,14 +2204,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="BUILT_BY" value="EMA_UL_Team" x="48.105" y="1456.23" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="COPYRIGHT" value="Copyright (C) 2016 Accelerated Designs. All rights reserved" x="48.105" y="1456.23" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="282834-2" x="48.105" y="1456.23" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="52.6516" y="1.445" size="1.27" layer="25" font="vector" ratio="6" rot="SR180"/>
+<attribute name="NAME" x="50.8736" y="2.207" size="1.27" layer="25" font="vector" ratio="6" rot="SR180"/>
 <attribute name="VENDOR" value="TE Connectivity" x="48.105" y="1456.23" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="SOLENOID_0" library="TSAR_Controller" package="CONN_282834-2" value="282834-2" x="144.67" y="139.74" smashed="yes" rot="R270">
 <attribute name="BUILT_BY" value="EMA_UL_Team" x="144.67" y="139.74" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="COPYRIGHT" value="Copyright (C) 2016 Accelerated Designs. All rights reserved" x="144.67" y="139.74" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="282834-2" x="144.67" y="139.74" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="150.385" y="136.4634" size="1.016" layer="25" font="vector" ratio="6" rot="SR90"/>
+<attribute name="NAME" x="150.385" y="137.0984" size="1.016" layer="25" font="vector" ratio="6" rot="SR90"/>
 <attribute name="VENDOR" value="TE Connectivity" x="144.67" y="139.74" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="Q2" library="transistor-power" library_urn="urn:adsk.eagle:library:400" package="TO220BV" package3d_urn="urn:adsk.eagle:package:29484/3" value="IRF9530" x="129.43" y="142.28" smashed="yes" rot="R270">
@@ -2242,7 +2265,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="BUILT_BY" value="EMA_UL_Team" x="147.485" y="134.528" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="COPYRIGHT" value="Copyright (C) 2016 Accelerated Designs. All rights reserved" x="147.485" y="134.528" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="282834-2" x="147.485" y="134.528" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="150.393" y="123.8509" size="1.016" layer="25" font="vector" ratio="6" rot="SR90"/>
+<attribute name="NAME" x="150.393" y="124.4859" size="1.016" layer="25" font="vector" ratio="6" rot="SR90"/>
 <attribute name="VENDOR" value="TE Connectivity" x="147.485" y="134.528" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="Q3" library="transistor-power" library_urn="urn:adsk.eagle:library:400" package="TO220BV" package3d_urn="urn:adsk.eagle:package:29484/3" value="IRF9530" x="129.43" y="129.58" smashed="yes" rot="R270">
@@ -2276,7 +2299,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="BUILT_BY" value="EMA_UL_Team" x="147.318" y="122.232" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="COPYRIGHT" value="Copyright (C) 2016 Accelerated Designs. All rights reserved" x="147.318" y="122.232" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="282834-2" x="147.318" y="122.232" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="150.493" y="109.8224" size="1.016" layer="25" font="vector" ratio="6" rot="SR90"/>
+<attribute name="NAME" x="150.493" y="111.7274" size="1.016" layer="25" font="vector" ratio="6" rot="SR90"/>
 <attribute name="VENDOR" value="TE Connectivity" x="147.318" y="122.232" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="Q5" library="transistor-power" library_urn="urn:adsk.eagle:library:400" package="TO220BV" package3d_urn="urn:adsk.eagle:package:29484/3" value="IRF9530" x="129.43" y="116.88" smashed="yes" rot="R270">
@@ -2310,7 +2333,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="BUILT_BY" value="EMA_UL_Team" x="147.21" y="109.125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="COPYRIGHT" value="Copyright (C) 2016 Accelerated Designs. All rights reserved" x="147.21" y="109.125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="282834-2" x="147.21" y="109.125" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="150.385" y="98.2284" size="1.016" layer="25" font="vector" ratio="6" rot="SR90"/>
+<attribute name="NAME" x="150.385" y="98.8634" size="1.016" layer="25" font="vector" ratio="6" rot="SR90"/>
 <attribute name="VENDOR" value="TE Connectivity" x="147.21" y="109.125" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="Q7" library="transistor-power" library_urn="urn:adsk.eagle:library:400" package="TO220BV" package3d_urn="urn:adsk.eagle:package:29484/3" value="IRF9530" x="129.43" y="104.18" smashed="yes" rot="R270">
@@ -2344,7 +2367,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="BUILT_BY" value="EMA_UL_Team" x="157.37" y="111.115" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="COPYRIGHT" value="Copyright (C) 2016 Accelerated Designs. All rights reserved" x="157.37" y="111.115" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="282834-2" x="157.37" y="111.115" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="150.385" y="84.9784" size="1.016" layer="25" font="vector" ratio="6" rot="SR90"/>
+<attribute name="NAME" x="150.385" y="85.6134" size="1.016" layer="25" font="vector" ratio="6" rot="SR90"/>
 <attribute name="VENDOR" value="TE Connectivity" x="157.37" y="111.115" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="Q9" library="transistor-power" library_urn="urn:adsk.eagle:library:400" package="TO220BV" package3d_urn="urn:adsk.eagle:package:29484/3" value="IRF9530" x="129.43" y="90.845" smashed="yes" rot="R270">
@@ -2378,7 +2401,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="BUILT_BY" value="EMA_UL_Team" x="115.46" y="75.52" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="COPYRIGHT" value="Copyright (C) 2016 Accelerated Designs. All rights reserved" x="115.46" y="75.52" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="282834-2" x="115.46" y="75.52" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="150.385" y="72.2434" size="1.016" layer="25" font="vector" ratio="6" rot="SR90"/>
+<attribute name="NAME" x="150.385" y="72.8784" size="1.016" layer="25" font="vector" ratio="6" rot="SR90"/>
 <attribute name="VENDOR" value="TE Connectivity" x="115.46" y="75.52" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="Q11" library="transistor-power" library_urn="urn:adsk.eagle:library:400" package="TO220BV" package3d_urn="urn:adsk.eagle:package:29484/3" value="IRF9530" x="129.17" y="78.01" smashed="yes" rot="R270">
@@ -2412,7 +2435,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="BUILT_BY" value="EMA_UL_Team" x="65.93" y="74.25" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="COPYRIGHT" value="Copyright (C) 2016 Accelerated Designs. All rights reserved" x="65.93" y="74.25" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="282834-2" x="65.93" y="74.25" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="150.385" y="59.5434" size="1.016" layer="25" font="vector" ratio="6" rot="SR90"/>
+<attribute name="NAME" x="150.385" y="60.1784" size="1.016" layer="25" font="vector" ratio="6" rot="SR90"/>
 <attribute name="VENDOR" value="TE Connectivity" x="65.93" y="74.25" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="Q13" library="transistor-power" library_urn="urn:adsk.eagle:library:400" package="TO220BV" package3d_urn="urn:adsk.eagle:package:29484/3" value="IRF9530" x="129.17" y="65.38" smashed="yes" rot="R270">
@@ -2446,7 +2469,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="BUILT_BY" value="EMA_UL_Team" x="16.4" y="72.705" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="COPYRIGHT" value="Copyright (C) 2016 Accelerated Designs. All rights reserved" x="16.4" y="72.705" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="282834-2" x="16.4" y="72.705" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="150.385" y="46.5684" size="1.016" layer="25" font="vector" ratio="6" rot="SR90"/>
+<attribute name="NAME" x="150.385" y="47.2034" size="1.016" layer="25" font="vector" ratio="6" rot="SR90"/>
 <attribute name="VENDOR" value="TE Connectivity" x="16.4" y="72.705" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="Q15" library="transistor-power" library_urn="urn:adsk.eagle:library:400" package="TO220BV" package3d_urn="urn:adsk.eagle:package:29484/3" value="IRF9530" x="129.142" y="52.428" smashed="yes" rot="R270">
@@ -2480,7 +2503,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="BUILT_BY" value="EMA_UL_Team" x="154.83" y="36.87" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="COPYRIGHT" value="Copyright (C) 2016 Accelerated Designs. All rights reserved" x="154.83" y="36.87" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="282834-2" x="154.83" y="36.87" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="150.385" y="33.5934" size="1.016" layer="25" font="vector" ratio="6" rot="SR90"/>
+<attribute name="NAME" x="150.385" y="34.2284" size="1.016" layer="25" font="vector" ratio="6" rot="SR90"/>
 <attribute name="VENDOR" value="TE Connectivity" x="154.83" y="36.87" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="Q17" library="transistor-power" library_urn="urn:adsk.eagle:library:400" package="TO220BV" package3d_urn="urn:adsk.eagle:package:29484/3" value="IRF9530" x="129.36" y="39.41" smashed="yes" rot="R270">
@@ -2514,7 +2537,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="BUILT_BY" value="EMA_UL_Team" x="105.3" y="35.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="COPYRIGHT" value="Copyright (C) 2016 Accelerated Designs. All rights reserved" x="105.3" y="35.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="282834-2" x="105.3" y="35.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="150.385" y="20.8934" size="1.016" layer="25" font="vector" ratio="6" rot="SR90"/>
+<attribute name="NAME" x="150.385" y="21.5284" size="1.016" layer="25" font="vector" ratio="6" rot="SR90"/>
 <attribute name="VENDOR" value="TE Connectivity" x="105.3" y="35.6" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="Q19" library="transistor-power" library_urn="urn:adsk.eagle:library:400" package="TO220BV" package3d_urn="urn:adsk.eagle:package:29484/3" value="IRF9530" x="129.36" y="26.71" smashed="yes" rot="R270">
@@ -3413,10 +3436,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="126.82" y1="24.17" x2="121.065" y2="24.17" width="0.254" layer="1"/>
 <wire x1="120.985" y1="24.25" x2="121.065" y2="24.17" width="0.254" layer="1"/>
 <polygon width="0.254" layer="1" isolate="0.254" thermals="no">
-<vertex x="151.02" y="8.93"/>
+<vertex x="151.655" y="8.93"/>
 <vertex x="143.4" y="8.93"/>
 <vertex x="143.4" y="144.185"/>
-<vertex x="151.02" y="144.185"/>
+<vertex x="151.655" y="144.185"/>
 </polygon>
 <wire x1="126.82" y1="36.87" x2="121.42" y2="36.87" width="0.254" layer="1"/>
 <wire x1="121.42" y1="36.87" x2="121.225" y2="36.675" width="0.254" layer="1"/>
