@@ -13617,14 +13617,14 @@ Includes 0.400" outline for 1/4" (standard) #4 nut-tool. If nut driving is not r
 <part name="R24" library="marionette" deviceset="R-US_" device="0805-B" value="150"/>
 <part name="R25" library="marionette" deviceset="R-US_" device="0805-B" value="22k"/>
 <part name="U$1" library="TSAR_Controller (2)" deviceset="MP2456GJ-P" device=""/>
-<part name="U$2" library="TSAR_Controller (2)" deviceset="CLF5030NIT-100M-D" device="" value="10uH"/>
+<part name="L2" library="TSAR_Controller (2)" deviceset="CLF5030NIT-100M-D" device="" value="10uH"/>
 <part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
 <part name="C19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF"/>
 <part name="R26" library="marionette" deviceset="R-US_" device="0805-B" value="124k"/>
 <part name="R30" library="marionette" deviceset="R-US_" device="0805-B" value="23.7k"/>
 <part name="X_11" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_12" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
-<part name="DFLS160" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="DO214AA" package3d_urn="urn:adsk.eagle:package:43433/2"/>
+<part name="D28" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="DO214AA" package3d_urn="urn:adsk.eagle:package:43433/2" value="DFLS160"/>
 <part name="X_13" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_14" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_15" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
@@ -13642,14 +13642,14 @@ Includes 0.400" outline for 1/4" (standard) #4 nut-tool. If nut driving is not r
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="U$4" library="TSAR_Controller (2)" deviceset="MP2456GJ-P" device=""/>
-<part name="U$5" library="TSAR_Controller (2)" deviceset="CLF5030NIT-100M-D" device="" value="10uH"/>
+<part name="L1" library="TSAR_Controller (2)" deviceset="CLF5030NIT-100M-D" device="" value="10uH"/>
 <part name="C24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
 <part name="C25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF"/>
 <part name="R35" library="marionette" deviceset="R-US_" device="0805-B" value="73.2k"/>
 <part name="R36" library="marionette" deviceset="R-US_" device="0805-B" value="23.7k"/>
 <part name="X_18" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_19" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
-<part name="DFLS160_" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="DO214AA" package3d_urn="urn:adsk.eagle:package:43433/2" value="DFLS160"/>
+<part name="D27" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="DO214AA" package3d_urn="urn:adsk.eagle:package:43433/2" value="DFLS160"/>
 <part name="X_20" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_26" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_27" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
@@ -13693,24 +13693,24 @@ Includes 0.400" outline for 1/4" (standard) #4 nut-tool. If nut driving is not r
 <part name="JP1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:6240710/1"/>
 <part name="JP2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:6240710/1"/>
 <part name="JP3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:6240710/1"/>
-<part name="D1" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device=""/>
-<part name="D2" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device=""/>
-<part name="D3" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device=""/>
-<part name="D4" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device=""/>
-<part name="D5" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device=""/>
-<part name="D6" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device=""/>
-<part name="D7" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device=""/>
-<part name="D8" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device="" value="1"/>
-<part name="D9" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device=""/>
-<part name="D10" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device=""/>
-<part name="D11" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device=""/>
-<part name="D12" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device=""/>
-<part name="D13" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device=""/>
-<part name="D14" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device=""/>
-<part name="D15" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device=""/>
-<part name="D16" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device=""/>
-<part name="D17" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device=""/>
-<part name="D18" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device=""/>
+<part name="D1" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device="" value="D5V0H1U2LP1610-7"/>
+<part name="D2" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device="" value="D5V0H1U2LP1610-7"/>
+<part name="D3" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device="" value="D5V0H1U2LP1610-7"/>
+<part name="D4" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device="" value="D5V0H1U2LP1610-7"/>
+<part name="D5" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device="" value="D5V0H1U2LP1610-7"/>
+<part name="D6" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device="" value="D5V0H1U2LP1610-7"/>
+<part name="D7" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device="" value="D5V0H1U2LP1610-7"/>
+<part name="D8" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device="" value="D5V0H1U2LP1610-7"/>
+<part name="D9" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device="" value="D5V0H1U2LP1610-7"/>
+<part name="D10" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device="" value="D5V0H1U2LP1610-7"/>
+<part name="D11" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device="" value="D5V0H1U2LP1610-7"/>
+<part name="D12" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device="" value="D5V0H1U2LP1610-7"/>
+<part name="D13" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device="" value="D5V0H1U2LP1610-7"/>
+<part name="D14" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device="" value="D5V0H1U2LP1610-7"/>
+<part name="D15" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device="" value="D5V0H1U2LP1610-7"/>
+<part name="D16" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device="" value="D5V0H1U2LP1610-7"/>
+<part name="D17" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device="" value="D5V0H1U2LP1610-7"/>
+<part name="D18" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device="" value="D5V0H1U2LP1610-7"/>
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -13777,9 +13777,9 @@ Includes 0.400" outline for 1/4" (standard) #4 nut-tool. If nut driving is not r
 <part name="JP11" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:6240710/1"/>
 <part name="JP12" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:6240710/1"/>
 <part name="JP13" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:6240710/1"/>
-<part name="D19" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device=""/>
-<part name="D20" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device=""/>
-<part name="D26" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device=""/>
+<part name="D19" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device="" value="D5V0H1U2LP1610-7"/>
+<part name="D20" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device="" value="D5V0H1U2LP1610-7"/>
+<part name="D26" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device="" value="D5V0H1U2LP1610-7"/>
 <part name="P+22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="JP14" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:6240710/1"/>
 <part name="JP15" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:6240710/1"/>
@@ -13789,35 +13789,35 @@ Includes 0.400" outline for 1/4" (standard) #4 nut-tool. If nut driving is not r
 <part name="OPEN7" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device="" package3d_urn="urn:adsk.eagle:package:8078633/1"/>
 <part name="R48" library="marionette" deviceset="R-US_" device="0805-B" value="NP"/>
 <part name="X_73" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
-<part name="D21" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device=""/>
+<part name="D21" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device="" value="D5V0H1U2LP1610-7"/>
 <part name="JP17" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:6240710/1"/>
 <part name="C36" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="120pF"/>
 <part name="R49" library="marionette" deviceset="R-US_" device="0805-B" value="1k"/>
 <part name="OPEN8" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device="" package3d_urn="urn:adsk.eagle:package:8078633/1"/>
 <part name="R50" library="marionette" deviceset="R-US_" device="0805-B" value="NP"/>
 <part name="X_74" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
-<part name="D22" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device=""/>
+<part name="D22" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device="" value="D5V0H1U2LP1610-7"/>
 <part name="JP18" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:6240710/1"/>
 <part name="C37" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="120pF"/>
 <part name="R54" library="marionette" deviceset="R-US_" device="0805-B" value="1k"/>
 <part name="OPEN9" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device="" package3d_urn="urn:adsk.eagle:package:8078633/1"/>
 <part name="R55" library="marionette" deviceset="R-US_" device="0805-B" value="NP"/>
 <part name="X_75" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
-<part name="D23" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device=""/>
+<part name="D23" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device="" value="D5V0H1U2LP1610-7"/>
 <part name="JP19" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:6240710/1"/>
 <part name="C38" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="120pF"/>
 <part name="R56" library="marionette" deviceset="R-US_" device="0805-B" value="1k"/>
 <part name="OPEN10" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device="" package3d_urn="urn:adsk.eagle:package:8078633/1"/>
 <part name="R57" library="marionette" deviceset="R-US_" device="0805-B" value="NP"/>
 <part name="X_76" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
-<part name="D24" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device=""/>
+<part name="D24" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device="" value="D5V0H1U2LP1610-7"/>
 <part name="JP20" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:6240710/1"/>
 <part name="C39" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="120pF"/>
 <part name="R58" library="marionette" deviceset="R-US_" device="0805-B" value="1k"/>
 <part name="OPEN11" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device="" package3d_urn="urn:adsk.eagle:package:8078633/1"/>
 <part name="R59" library="marionette" deviceset="R-US_" device="0805-B" value="NP"/>
 <part name="X_77" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
-<part name="D25" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device=""/>
+<part name="D25" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device="" value="D5V0H1U2LP1610-7"/>
 <part name="JP21" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:6240710/1"/>
 <part name="X_85" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_86" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
@@ -13835,8 +13835,8 @@ Includes 0.400" outline for 1/4" (standard) #4 nut-tool. If nut driving is not r
 <part name="JP26" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:6240710/1"/>
 <part name="JP27" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:6240710/1"/>
 <part name="P+17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="CR1" library="TSAR_Controller" deviceset="1N4148W-7-F" device=""/>
-<part name="CR2" library="TSAR_Controller" deviceset="1N4148W-7-F" device=""/>
+<part name="D30" library="TSAR_Controller" deviceset="1N4148W-7-F" device=""/>
+<part name="D29" library="TSAR_Controller" deviceset="1N4148W-7-F" device=""/>
 <part name="FRAME1" library="frames" deviceset="FRAME_C_L" device="" value="1"/>
 <part name="FRAME2" library="frames" deviceset="FRAME_C_L" device="" value="1"/>
 </parts>
@@ -13849,7 +13849,7 @@ Includes 0.400" outline for 1/4" (standard) #4 nut-tool. If nut driving is not r
 <text x="75.438" y="191.262" size="2.54" layer="97">12V input, 3V3 output voltage regulator
 (for ADS8344 output logic level)</text>
 <text x="12.7" y="33.02" size="3.81" layer="97">ALL RESISTORS ARE 0805 1% UNLESS OTHERWISE MARKED</text>
-<text x="12.7" y="20.066" size="3.81" layer="97">ALL CAPACITORS ARE 0805 10% X5R  WITH WORKING VOLTAGE &gt; ??? v 
+<text x="12.7" y="20.066" size="3.81" layer="97">ALL CAPACITORS ARE 0805 10% X5R  WITH WORKING VOLTAGE &gt;  25V 
 UNLESS OTHERWISE MARKED</text>
 <text x="267.208" y="158.496" size="5.08" layer="97">+12V input from POE
 12V @ &lt; 1000mA </text>
@@ -13861,7 +13861,7 @@ UNLESS OTHERWISE MARKED</text>
 <attribute name="NAME" x="91.948" y="112.522" size="1.27" layer="95"/>
 <attribute name="VALUE" x="91.948" y="87.122" size="1.27" layer="96"/>
 </instance>
-<instance part="U$2" gate="A" x="161.798" y="94.742" smashed="yes" rot="R90">
+<instance part="L2" gate="A" x="161.798" y="94.742" smashed="yes" rot="R90">
 <attribute name="NAME" x="166.878" y="93.472" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="166.878" y="98.552" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -13883,9 +13883,9 @@ UNLESS OTHERWISE MARKED</text>
 </instance>
 <instance part="X_11" gate="G$1" x="128.778" y="82.042" smashed="yes" rot="MR0"/>
 <instance part="X_12" gate="G$1" x="174.498" y="82.042" smashed="yes" rot="MR0"/>
-<instance part="DFLS160" gate="G$1" x="128.778" y="87.122" smashed="yes" rot="R90">
-<attribute name="NAME" x="133.3754" y="87.122" size="1.778" layer="95"/>
-<attribute name="VALUE" x="131.0894" y="89.662" size="1.778" layer="96" rot="R90"/>
+<instance part="D28" gate="G$1" x="128.778" y="87.122" smashed="yes" rot="R90">
+<attribute name="NAME" x="124.46" y="89.1794" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="141.478" y="89.9414" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="X_13" gate="G$1" x="192.278" y="61.468" smashed="yes" rot="MR0"/>
 <instance part="X_14" gate="G$1" x="77.978" y="87.122" smashed="yes" rot="MR0"/>
@@ -13923,7 +13923,7 @@ UNLESS OTHERWISE MARKED</text>
 <attribute name="NAME" x="91.948" y="181.102" size="1.27" layer="95"/>
 <attribute name="VALUE" x="91.948" y="155.702" size="1.27" layer="96"/>
 </instance>
-<instance part="U$5" gate="A" x="161.798" y="163.322" smashed="yes" rot="R90">
+<instance part="L1" gate="A" x="161.798" y="163.322" smashed="yes" rot="R90">
 <attribute name="NAME" x="166.878" y="162.052" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="166.878" y="167.132" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -13945,8 +13945,9 @@ UNLESS OTHERWISE MARKED</text>
 </instance>
 <instance part="X_18" gate="G$1" x="128.778" y="150.622" smashed="yes" rot="MR0"/>
 <instance part="X_19" gate="G$1" x="174.498" y="150.622" smashed="yes" rot="MR0"/>
-<instance part="DFLS160_" gate="G$1" x="128.778" y="155.702" smashed="yes" rot="R90">
-<attribute name="VALUE" x="131.0894" y="158.242" size="1.778" layer="96"/>
+<instance part="D27" gate="G$1" x="128.778" y="155.702" smashed="yes" rot="R90">
+<attribute name="NAME" x="125.476" y="158.2674" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="142.748" y="160.2994" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="X_20" gate="G$1" x="192.278" y="130.302" smashed="yes" rot="MR0"/>
 <instance part="X_26" gate="G$1" x="77.978" y="155.702" smashed="yes" rot="MR0"/>
@@ -14025,11 +14026,11 @@ UNLESS OTHERWISE MARKED</text>
 <attribute name="NAME" x="328.168" y="83.566" size="1.27" layer="95"/>
 <attribute name="VALUE" x="329.438" y="78.486" size="1.27" layer="96" display="off"/>
 </instance>
-<instance part="CR1" gate="A" x="149.098" y="176.022" smashed="yes" rot="R180">
+<instance part="D30" gate="A" x="149.098" y="176.022" smashed="yes" rot="R180">
 <attribute name="VALUE" x="152.9842" y="181.5592" size="3.4798" layer="96" ratio="10" rot="SR180"/>
 <attribute name="NAME" x="151.9174" y="173.3296" size="3.4798" layer="95" ratio="10" rot="SR180"/>
 </instance>
-<instance part="CR2" gate="A" x="149.098" y="107.442" smashed="yes" rot="R180">
+<instance part="D29" gate="A" x="149.098" y="107.442" smashed="yes" rot="R180">
 <attribute name="VALUE" x="152.9842" y="112.9792" size="3.4798" layer="96" ratio="10" rot="SR180"/>
 <attribute name="NAME" x="151.9174" y="104.7496" size="3.4798" layer="95" ratio="10" rot="SR180"/>
 </instance>
@@ -14044,7 +14045,7 @@ UNLESS OTHERWISE MARKED</text>
 <wire x1="174.498" y1="84.582" x2="174.498" y2="82.042" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="DFLS160" gate="G$1" pin="A"/>
+<pinref part="D28" gate="G$1" pin="A"/>
 <pinref part="X_11" gate="G$1" pin="0"/>
 <wire x1="128.778" y1="84.582" x2="128.778" y2="82.042" width="0.1524" layer="91"/>
 </segment>
@@ -14081,7 +14082,7 @@ UNLESS OTHERWISE MARKED</text>
 <wire x1="174.498" y1="153.162" x2="174.498" y2="150.622" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="DFLS160_" gate="G$1" pin="A"/>
+<pinref part="D27" gate="G$1" pin="A"/>
 <pinref part="X_18" gate="G$1" pin="0"/>
 <wire x1="128.778" y1="153.162" x2="128.778" y2="150.622" width="0.1524" layer="91"/>
 </segment>
@@ -14133,13 +14134,13 @@ UNLESS OTHERWISE MARKED</text>
 <pinref part="C15" gate="G$1" pin="2"/>
 <wire x1="128.778" y1="94.742" x2="128.778" y2="97.282" width="0.1524" layer="91"/>
 <wire x1="128.778" y1="94.742" x2="154.178" y2="94.742" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="A" pin="1"/>
+<pinref part="L2" gate="A" pin="1"/>
 <wire x1="128.778" y1="94.742" x2="121.158" y2="94.742" width="0.1524" layer="91"/>
 <junction x="128.778" y="94.742"/>
 <wire x1="121.158" y1="94.742" x2="121.158" y2="99.822" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="SW"/>
 <wire x1="121.158" y1="99.822" x2="109.728" y2="99.822" width="0.1524" layer="91"/>
-<pinref part="DFLS160" gate="G$1" pin="C"/>
+<pinref part="D28" gate="G$1" pin="C"/>
 <wire x1="128.778" y1="89.662" x2="128.778" y2="94.742" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -14151,7 +14152,7 @@ UNLESS OTHERWISE MARKED</text>
 <wire x1="128.778" y1="104.902" x2="128.778" y2="107.442" width="0.1524" layer="91"/>
 <wire x1="128.778" y1="107.442" x2="138.938" y2="107.442" width="0.1524" layer="91"/>
 <junction x="128.778" y="107.442"/>
-<pinref part="CR2" gate="A" pin="1"/>
+<pinref part="D29" gate="A" pin="1"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -14238,7 +14239,7 @@ UNLESS OTHERWISE MARKED</text>
 <wire x1="192.278" y1="94.742" x2="192.278" y2="89.662" width="0.1524" layer="91"/>
 <pinref part="C19" gate="G$1" pin="1"/>
 <wire x1="174.498" y1="94.742" x2="174.498" y2="92.202" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="A" pin="2"/>
+<pinref part="L2" gate="A" pin="2"/>
 <wire x1="169.418" y1="94.742" x2="174.498" y2="94.742" width="0.1524" layer="91"/>
 <junction x="174.498" y="94.742"/>
 <wire x1="174.498" y1="94.742" x2="192.278" y2="94.742" width="0.1524" layer="91"/>
@@ -14248,7 +14249,7 @@ UNLESS OTHERWISE MARKED</text>
 <wire x1="192.278" y1="107.442" x2="192.278" y2="94.742" width="0.1524" layer="91"/>
 <wire x1="149.098" y1="107.442" x2="192.278" y2="107.442" width="0.1524" layer="91"/>
 <junction x="192.278" y="107.442"/>
-<pinref part="CR2" gate="A" pin="2"/>
+<pinref part="D29" gate="A" pin="2"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -14257,7 +14258,7 @@ UNLESS OTHERWISE MARKED</text>
 <wire x1="192.278" y1="163.322" x2="192.278" y2="158.242" width="0.1524" layer="91"/>
 <pinref part="C25" gate="G$1" pin="1"/>
 <wire x1="174.498" y1="163.322" x2="174.498" y2="160.782" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="A" pin="2"/>
+<pinref part="L1" gate="A" pin="2"/>
 <wire x1="169.418" y1="163.322" x2="174.498" y2="163.322" width="0.1524" layer="91"/>
 <junction x="174.498" y="163.322"/>
 <wire x1="174.498" y1="163.322" x2="192.278" y2="163.322" width="0.1524" layer="91"/>
@@ -14267,7 +14268,7 @@ UNLESS OTHERWISE MARKED</text>
 <wire x1="192.278" y1="176.022" x2="192.278" y2="163.322" width="0.1524" layer="91"/>
 <wire x1="149.098" y1="176.022" x2="192.278" y2="176.022" width="0.1524" layer="91"/>
 <junction x="192.278" y="176.022"/>
-<pinref part="CR1" gate="A" pin="2"/>
+<pinref part="D30" gate="A" pin="2"/>
 </segment>
 </net>
 <net name="FLY1" class="0">
@@ -14275,13 +14276,13 @@ UNLESS OTHERWISE MARKED</text>
 <pinref part="C24" gate="G$1" pin="2"/>
 <wire x1="128.778" y1="163.322" x2="128.778" y2="165.862" width="0.1524" layer="91"/>
 <wire x1="128.778" y1="163.322" x2="154.178" y2="163.322" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="A" pin="1"/>
+<pinref part="L1" gate="A" pin="1"/>
 <wire x1="128.778" y1="163.322" x2="121.158" y2="163.322" width="0.1524" layer="91"/>
 <junction x="128.778" y="163.322"/>
 <wire x1="121.158" y1="163.322" x2="121.158" y2="168.402" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="G$1" pin="SW"/>
 <wire x1="121.158" y1="168.402" x2="109.728" y2="168.402" width="0.1524" layer="91"/>
-<pinref part="DFLS160_" gate="G$1" pin="C"/>
+<pinref part="D27" gate="G$1" pin="C"/>
 <wire x1="128.778" y1="158.242" x2="128.778" y2="163.322" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -14293,7 +14294,7 @@ UNLESS OTHERWISE MARKED</text>
 <wire x1="128.778" y1="173.482" x2="128.778" y2="176.022" width="0.1524" layer="91"/>
 <wire x1="138.938" y1="176.022" x2="128.778" y2="176.022" width="0.1524" layer="91"/>
 <junction x="128.778" y="176.022"/>
-<pinref part="CR1" gate="A" pin="1"/>
+<pinref part="D30" gate="A" pin="1"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -17469,27 +17470,9 @@ Bridge Center Pin to Pin 3 for Variable Current Sensor</text>
 <approved hash="102,3,535.432,155.194,0,GND,,,,"/>
 <approved hash="104,1,81.788,107.442,U$1,IN,+12V,,,"/>
 <approved hash="104,1,81.788,176.022,U$4,IN,+12V,,,"/>
-<approved hash="113,1,135.816,87.122,DFLS160,,,,,"/>
 <approved hash="113,3,53.8759,282.431,JP1,,,,,"/>
 <approved hash="113,3,36.0959,282.431,JP2,,,,,"/>
 <approved hash="113,3,20.8559,282.431,JP3,,,,,"/>
-<approved hash="113,3,28.067,81.4578,D1,,,,,"/>
-<approved hash="113,3,61.087,114.478,D2,,,,,"/>
-<approved hash="113,3,89.027,127.178,D3,,,,,"/>
-<approved hash="113,3,109.347,147.498,D4,,,,,"/>
-<approved hash="113,3,132.207,170.358,D5,,,,,"/>
-<approved hash="113,3,152.527,193.218,D6,,,,,"/>
-<approved hash="113,3,180.467,223.698,D7,,,,,"/>
-<approved hash="113,2,135.712,200.279,D9,,,,,"/>
-<approved hash="113,2,147.703,177.419,D10,,,,,"/>
-<approved hash="113,2,178.276,154.559,D11,,,,,"/>
-<approved hash="113,2,190.883,129.159,D12,,,,,"/>
-<approved hash="113,2,203.583,108.839,D13,,,,,"/>
-<approved hash="113,2,216.283,83.439,D14,,,,,"/>
-<approved hash="113,2,231.523,63.119,D15,,,,,"/>
-<approved hash="113,2,241.683,42.799,D16,,,,,"/>
-<approved hash="113,2,254.383,19.939,D17,,,,,"/>
-<approved hash="113,3,43.307,97.4074,D18,,,,,"/>
 <approved hash="113,3,63.2291,171.93,JP4,,,,,"/>
 <approved hash="113,3,45.4491,143.99,JP5,,,,,"/>
 <approved hash="113,3,30.2091,113.51,JP6,,,,,"/>
@@ -17500,21 +17483,13 @@ Bridge Center Pin to Pin 3 for Variable Current Sensor</text>
 <approved hash="113,3,581.389,308.638,JP11,,,,,"/>
 <approved hash="113,3,599.169,308.638,JP12,,,,,"/>
 <approved hash="113,3,614.409,308.638,JP13,,,,,"/>
-<approved hash="113,3,603.377,77.0874,D19,,,,,"/>
-<approved hash="113,3,570.357,110.107,D20,,,,,"/>
-<approved hash="113,3,588.137,92.3274,D26,,,,,"/>
 <approved hash="113,3,568.215,166.85,JP14,,,,,"/>
 <approved hash="113,3,585.995,138.91,JP15,,,,,"/>
 <approved hash="113,3,601.235,108.43,JP16,,,,,"/>
-<approved hash="113,3,529.717,181.227,D21,,,,,"/>
 <approved hash="113,3,527.575,212.57,JP17,,,,,"/>
-<approved hash="113,3,509.397,201.547,D22,,,,,"/>
 <approved hash="113,3,507.255,232.89,JP18,,,,,"/>
-<approved hash="113,3,489.077,219.327,D23,,,,,"/>
 <approved hash="113,3,486.935,250.67,JP19,,,,,"/>
-<approved hash="113,3,468.757,237.107,D24,,,,,"/>
 <approved hash="113,3,466.615,268.45,JP20,,,,,"/>
-<approved hash="113,3,550.037,160.907,D25,,,,,"/>
 <approved hash="113,3,547.895,192.25,JP21,,,,,"/>
 <approved hash="113,3,482.329,308.638,JP23,,,,,"/>
 <approved hash="113,3,502.649,308.638,JP24,,,,,"/>
