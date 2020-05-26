@@ -190,7 +190,7 @@
 <text x="92.964" y="34.5059" size="1.778" layer="22" font="vector" rot="MR0">4</text>
 <text x="17.4625" y="66.3575" size="0.762" layer="21" font="vector">TO 
 INVERTING</text>
-<text x="6.6675" y="66.3575" size="0.762" layer="21" font="vector">TO NON 
+<text x="7.1755" y="66.3575" size="0.762" layer="21" font="vector">TO NON 
 INVERTING</text>
 <text x="94.1705" y="12.5984" size="1.27" layer="22" font="vector" rot="MR180">+12 V</text>
 <text x="94.1705" y="20.8534" size="1.27" layer="22" font="vector" rot="MR180">GND</text>
@@ -207,7 +207,8 @@ INVERTING</text>
 <wire x1="78.2955" y1="33.2359" x2="75.7555" y2="33.2359" width="0.1524" layer="21" curve="-180"/>
 <wire x1="43.815" y1="15.875" x2="43.815" y2="27.6225" width="0.1524" layer="21"/>
 <text x="12.3825" y="6.985" size="1.27" layer="21" font="vector">THRUST PLATE AMPLIFIER v 1.0</text>
-<text x="12.7" y="3.4925" size="1.016" layer="21" font="vector">Designed by Mike Hall
+<text x="12.7" y="2.2225" size="1.016" layer="21" font="vector">Designed by Mike Hall
+mjhall85@gmail.com
 2019-2020 ECE Capstone</text>
 <wire x1="0" y1="76.2" x2="101.6" y2="76.2" width="0" layer="20"/>
 <wire x1="101.6" y1="76.2" x2="101.6" y2="0" width="0" layer="20"/>
@@ -219,6 +220,7 @@ INVERTING</text>
 <text x="70.612" y="1.016" size="1.27" layer="21" font="vector">NP</text>
 <dimension x1="-6.35" y1="0" x2="-6.35" y2="76.2" x3="-19.05" y3="38.1" textsize="1.778" layer="47" unit="inch" visible="yes"/>
 <dimension x1="0" y1="-6.35" x2="101.6" y2="-6.35" x3="50.8" y3="-19.05" textsize="1.778" layer="47" unit="inch" visible="yes"/>
+<text x="2.54" y="48.514" size="1.778" layer="22" font="vector" rot="MR270">KILROY WAS HERE</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -2859,11 +2861,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="80.8576" y1="29.3784" x2="80.8355" y2="29.4005" width="1.016" layer="1"/>
 <wire x1="83.693" y1="63.7159" x2="78.9813" y2="59.0042" width="0.635" layer="16"/>
 <wire x1="78.9813" y1="59.0042" x2="67.2592" y2="59.0042" width="0.635" layer="16"/>
-<wire x1="78.9813" y1="59.0042" x2="76.6064" y2="56.6293" width="0.635" layer="16"/>
-<wire x1="76.6064" y1="50.4317" x2="80.7847" y2="46.2534" width="0.635" layer="16"/>
-<wire x1="76.6064" y1="56.6293" x2="76.6064" y2="50.4317" width="0.635" layer="16"/>
-<wire x1="76.6064" y1="50.4317" x2="76.6064" y2="33.6296" width="0.635" layer="16"/>
-<wire x1="76.6064" y1="33.6296" x2="80.8355" y2="29.4005" width="0.635" layer="16"/>
+<wire x1="78.9813" y1="59.0042" x2="77.1144" y2="57.1373" width="0.635" layer="16"/>
+<wire x1="77.1144" y1="49.9237" x2="80.7847" y2="46.2534" width="0.635" layer="16"/>
+<wire x1="77.1144" y1="57.1373" x2="77.1144" y2="49.9237" width="0.635" layer="16"/>
+<wire x1="77.1144" y1="49.9237" x2="77.1144" y2="33.1216" width="0.635" layer="16"/>
+<wire x1="77.1144" y1="33.1216" x2="80.8355" y2="29.4005" width="0.635" layer="16"/>
 <wire x1="67.2592" y1="59.0042" x2="65.405" y2="59.0042" width="0.635" layer="16"/>
 <wire x1="65.405" y1="59.0042" x2="63.5762" y2="57.1754" width="0.635" layer="16"/>
 <wire x1="63.5762" y1="57.1754" x2="63.5762" y2="44.7548" width="0.635" layer="16"/>
