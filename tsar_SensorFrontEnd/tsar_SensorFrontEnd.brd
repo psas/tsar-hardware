@@ -9362,6 +9362,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="82.55" y="50.8" extent="1-16" drill="0.35"/>
 <via x="60.325" y="41.275" extent="1-16" drill="0.35"/>
 <via x="117.475" y="22.225" extent="1-16" drill="0.35"/>
+<via x="152.4" y="19.05" extent="1-16" drill="0.35"/>
+<via x="184.15" y="69.85" extent="1-16" drill="0.35"/>
+<via x="187.325" y="44.45" extent="1-16" drill="0.35"/>
+<via x="9.525" y="73.025" extent="1-16" drill="0.35"/>
+<via x="34.925" y="79.375" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="ADC1.0">
 <contactref element="R11" pad="1"/>
@@ -9794,8 +9799,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <vertex x="71.12" y="55.372"/>
 <vertex x="66.294" y="55.372"/>
 <vertex x="64.516" y="57.15"/>
-<vertex x="64.516" y="58.166"/>
-<vertex x="65.024" y="58.674"/>
+<vertex x="66.04" y="58.674"/>
 <vertex x="67.818" y="58.674"/>
 <vertex x="67.818" y="56.896"/>
 <vertex x="68.326" y="56.388"/>
@@ -9805,8 +9809,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="CR2" pad="1"/>
 </signal>
 <signal name="N$9">
-<contactref element="R26" pad="1"/>
-<contactref element="R30" pad="2"/>
 <contactref element="U$1" pad="P$3"/>
 <polygon width="0.1524" layer="1" thermals="no">
 <vertex x="71.12" y="54.102"/>
@@ -9823,6 +9825,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <vertex x="70.612" y="52.832"/>
 <vertex x="71.12" y="53.34"/>
 </polygon>
+<contactref element="R26" pad="1"/>
+<contactref element="R30" pad="2"/>
 </signal>
 <signal name="N$10">
 <contactref element="R34" pad="2"/>
