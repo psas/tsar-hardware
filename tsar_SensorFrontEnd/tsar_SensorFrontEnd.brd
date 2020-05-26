@@ -182,7 +182,7 @@
 <wire x1="0" y1="85.09" x2="0" y2="0" width="0" layer="20"/>
 <text x="2.286" y="30.48" size="1.6764" layer="136" font="vector" ratio="20">TSAR capstone 2019-2020
 Sensor Front End Board
-REV 0 18-05-20</text>
+REV 1.0 25-05-20</text>
 <text x="29.4868625" y="79.69758125" size="0.635" layer="21" font="vector" ratio="20">12V</text>
 <text x="29.59608125" y="74.264521875" size="0.635" layer="21" font="vector" ratio="20">5V</text>
 <text x="92.964" y="79.502" size="0.635" layer="21" font="vector" ratio="20">5V</text>
