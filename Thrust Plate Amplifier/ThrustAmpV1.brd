@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2037,66 +2037,118 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </autorouter>
 <elements>
 <element name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="4.7 uF" x="75.1205" y="8.4709" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="75.1205" y="8.4709" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="1276-1244-1-ND" x="75.1205" y="8.4709" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics" x="75.1205" y="8.4709" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CL21A475KAQNNNE" x="75.1205" y="8.4709" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="73.8505" y="7.2009" size="1.27" layer="25" font="vector" rot="R90"/>
 <attribute name="POPULARITY" value="88" x="91.6305" y="52.9209" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="91.6305" y="52.9209" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="100 nF" x="83.3755" y="30.3784" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="83.3755" y="30.3784" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="478-12790-1-ND" x="83.3755" y="30.3784" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="AVX Corporation" x="83.3755" y="30.3784" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="08055D104KAT2A" x="83.3755" y="30.3784" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="85.358" y="29.0609" size="1.016" layer="25" font="vector" rot="R90"/>
 <attribute name="POPULARITY" value="52" x="130.3655" y="72.2884" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="130.3655" y="72.2884" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10 nF" x="81.4705" y="59.5884" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="81.4705" y="59.5884" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="445-14445-1-ND" x="81.4705" y="59.5884" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="TDK Corporation" x="81.4705" y="59.5884" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="C2012X5R2E103K125AA" x="81.4705" y="59.5884" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="80.2005" y="60.8584" size="1.27" layer="25" font="vector"/>
 <attribute name="POPULARITY" value="88" x="118.3005" y="31.6484" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="118.3005" y="31.6484" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1 uF" x="75.1205" y="64.6684" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="75.1205" y="64.6684" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="1276-2395-1-ND" x="75.1205" y="64.6684" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics" x="75.1205" y="64.6684" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CL21A105KACLNNC" x="75.1205" y="64.6684" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="73.533" y="63.0809" size="1.27" layer="25" font="vector" rot="R90"/>
 <attribute name="POPULARITY" value="88" x="103.0605" y="118.0084" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="103.0605" y="118.0084" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="2.2 uF" x="82.042" y="64.6684" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="82.042" y="64.6684" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="1276-6458-1-ND" x="82.042" y="64.6684" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics" x="82.042" y="64.6684" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CL21A225KAFNNNG" x="82.042" y="64.6684" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="84.2645" y="63.3984" size="1.27" layer="25" font="vector" rot="R90"/>
 <attribute name="POPULARITY" value="88" x="98.552" y="121.8184" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="98.552" y="121.8184" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100 nF" x="71.628" y="10.6934" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="71.628" y="10.6934" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="478-12790-1-ND" x="71.628" y="10.6934" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="AVX Corporation" x="71.628" y="10.6934" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="08055D104KAT2A" x="71.628" y="10.6934" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="70.358" y="11.9634" size="1.27" layer="25" font="vector"/>
 <attribute name="POPULARITY" value="88" x="109.728" y="-5.8166" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="109.728" y="-5.8166" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="22 uF" x="57.023" y="12.9159" smashed="yes" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="57.023" y="12.9159" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="1276-6786-1-ND" x="57.023" y="12.9159" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics" x="57.023" y="12.9159" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="CL21A226KPCLRNC" x="57.023" y="12.9159" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="54.483" y="13.5509" size="1.27" layer="25" font="vector" rot="R270"/>
 <attribute name="POPULARITY" value="88" x="29.083" y="-11.2141" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="29.083" y="-11.2141" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10 nF" x="34.925" y="18.0975" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="34.925" y="18.0975" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="445-14445-1-ND" x="34.925" y="18.0975" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="TDK Corporation" x="34.925" y="18.0975" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="C2012X5R2E103K125AA" x="34.925" y="18.0975" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="33.655" y="19.3675" size="1.27" layer="25" font="vector"/>
 <attribute name="POPULARITY" value="88" x="65.405" y="-9.8425" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="65.405" y="-9.8425" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1 uF" x="38.354" y="13.0175" smashed="yes" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="38.354" y="13.0175" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="1276-2395-1-ND" x="38.354" y="13.0175" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics" x="38.354" y="13.0175" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="CL21A105KACLNNC" x="38.354" y="13.0175" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="39.624" y="13.081" size="1.27" layer="25" font="vector" rot="R270"/>
 <attribute name="POPULARITY" value="88" x="10.414" y="-35.2425" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="10.414" y="-35.2425" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="2.2 uF" x="32.131" y="13.0175" smashed="yes" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="32.131" y="13.0175" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="1276-6458-1-ND" x="32.131" y="13.0175" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics" x="32.131" y="13.0175" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="CL21A225KAFNNNG" x="32.131" y="13.0175" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="29.464" y="13.335" size="1.27" layer="25" font="vector" rot="R270"/>
 <attribute name="POPULARITY" value="88" x="15.621" y="-37.7825" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="15.621" y="-37.7825" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="100 nF" x="69.723" y="59.9059" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="69.723" y="59.9059" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="478-12790-1-ND" x="69.723" y="59.9059" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="AVX Corporation" x="69.723" y="59.9059" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="08055D104KAT2A" x="69.723" y="59.9059" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="71.7055" y="59.2234" size="1.016" layer="25" font="vector" rot="R90"/>
 <attribute name="POPULARITY" value="52" x="116.713" y="82.7659" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="116.713" y="82.7659" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="100 nF" x="83.3755" y="47.2059" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="83.3755" y="47.2059" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="478-12790-1-ND" x="83.3755" y="47.2059" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="AVX Corporation" x="83.3755" y="47.2059" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="08055D104KAT2A" x="83.3755" y="47.2059" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="85.2945" y="46.2059" size="1.016" layer="25" font="vector" rot="R90"/>
 <attribute name="POPULARITY" value="52" x="130.3655" y="76.4159" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="130.3655" y="76.4159" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="100 nF" x="70.6755" y="41.8084" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="70.6755" y="41.8084" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="478-12790-1-ND" x="70.6755" y="41.8084" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="AVX Corporation" x="70.6755" y="41.8084" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="08055D104KAT2A" x="70.6755" y="41.8084" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="69.8005" y="40.8084" size="1.016" layer="25" font="vector" rot="R90"/>
 <attribute name="POPULARITY" value="52" x="117.6655" y="77.3684" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="117.6655" y="77.3684" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2104,19 +2156,35 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="CR1" library="TSAR_Controller" package="SOD123" value="1N4148W-7-F" x="65.278" y="8.1534" smashed="yes" rot="R180">
 <attribute name="BUILT_BY" value="EMA_Anthony" x="5.588" y="65.3034" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="COPYRIGHT" value="Copyright (C) 2016 Accelerated Designs. All rights reserved" x="5.588" y="65.3034" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIS" value="Digi-Key" x="65.278" y="8.1534" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="1N4148W-FDICT-ND" x="65.278" y="8.1534" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="1N4148W-7-F" x="5.588" y="65.3034" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Diodes Incorporated" x="65.278" y="8.1534" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="1N4148W-7-F" x="65.278" y="8.1534" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="63.9064" y="5.5626" size="1.27" layer="25" font="vector" ratio="6" rot="SR0"/>
 <attribute name="VENDOR" value="Diodes Inc" x="5.588" y="65.3034" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" package="SMB" package3d_urn="urn:adsk.eagle:package:43404/2" value="10BQ060TR" x="72.5805" y="16.4084" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="72.5805" y="16.4084" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="1655-1342-1-ND" x="72.5805" y="16.4084" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="SMC Diode Solutions" x="72.5805" y="16.4084" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="10BQ060TR" x="72.5805" y="16.4084" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="70.4215" y="14.2494" size="1.27" layer="25" font="vector" rot="R90"/>
 <attribute name="POPULARITY" value="2" x="99.2505" y="76.0984" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X02_LONGPADS" package3d_urn="urn:adsk.eagle:package:38048/1" value="" x="96.393" y="17.6784" smashed="yes" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="96.393" y="17.6784" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="900-0022232021-ND" x="96.393" y="17.6784" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Molex" x="96.393" y="17.6784" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="22232021" x="96.393" y="17.6784" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="98.425" y="18.9484" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="93.726" y="19.0754" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X05_LONGPADS" package3d_urn="urn:adsk.eagle:package:38109/1" value="" x="97.028" y="35.7759" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="97.028" y="35.7759" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="WM4203-ND" x="97.028" y="35.7759" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Molex" x="97.028" y="35.7759" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="0022232051" x="97.028" y="35.7759" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="94.996" y="34.5059" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="99.695" y="34.5059" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
@@ -2150,6 +2218,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="72.517" y="1.8034" size="1.27" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="499 k" x="75.1205" y="4.0259" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="75.1205" y="4.0259" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="2019-RK73H2ATTD4993FCT-ND" x="75.1205" y="4.0259" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="KOA Speer Electronics, Inc." x="75.1205" y="4.0259" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RK73H2ATTD4993F" x="75.1205" y="4.0259" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="77.6605" y="2.1209" size="1.27" layer="25" font="vector" rot="R90"/>
 <attribute name="POPULARITY" value="85" x="103.0605" y="21.8059" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="103.0605" y="21.8059" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2200,171 +2272,303 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="9.652" y="42.291" size="1.27" layer="27" font="vector" ratio="10"/>
 </element>
 <element name="U$1" library="TSAR_Controller" package="SOT6" value="MP2456GJ-P" x="71.3105" y="7.5184" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="71.3105" y="7.5184" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="1589-1120-1-ND" x="71.3105" y="7.5184" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Monolithic Power Systems Inc." x="71.3105" y="7.5184" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MP2456GJ-P" x="71.3105" y="7.5184" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="68.5165" y="5.2324" size="0.6096" layer="21" font="vector"/>
 </element>
 <element name="U$2" library="TSAR_Controller" package="0.209&quot;LX0.197&quot;W(5.30MMX5.00MM)" value="CLF5030NIT-100M-D" x="65.5955" y="13.8684" smashed="yes" rot="R180">
+<attribute name="DIS" value="Digi-Key" x="65.5955" y="13.8684" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="445-174699-1-ND" x="65.5955" y="13.8684" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="TDK Corporation" x="65.5955" y="13.8684" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="CLF5030NIT-100M-D" x="65.5955" y="13.8684" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="66.3575" y="18.4404" size="1.27" layer="21" font="vector" rot="R180"/>
 </element>
 <element name="U1" library="INA126PA_Instrumentation_amp" package="P8" value="INA126PA" x="77.0255" y="28.1305" smashed="yes">
 <attribute name="BUILT_BY" value="EMA_UL_Team" x="93.5355" y="25.5905" size="1.778" layer="27" display="off"/>
+<attribute name="DIS" value="Digi-Key" x="77.0255" y="28.1305" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="INA126PA-ND" x="77.0255" y="28.1305" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="INA126PA" x="93.5355" y="25.5905" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Texas Instruments" x="77.0255" y="28.1305" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="INA126PA" x="77.0255" y="28.1305" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="73.6219" y="21.336" size="1.27" layer="25" font="vector" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="72.5805" y="35.5727" size="1.27" layer="21" font="vector" ratio="6" rot="SR270"/>
 <attribute name="VENDOR" value="Texas Instruments" x="93.5355" y="25.5905" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U2" library="INA126PA_Instrumentation_amp" package="P8" value="INA126PA" x="63.6905" y="39.5605" smashed="yes">
 <attribute name="BUILT_BY" value="EMA_UL_Team" x="92.9005" y="37.0205" size="1.778" layer="27" display="off"/>
+<attribute name="DIS" value="Digi-Key" x="63.6905" y="39.5605" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="INA126PA-ND" x="63.6905" y="39.5605" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="INA126PA" x="92.9005" y="37.0205" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Texas Instruments" x="63.6905" y="39.5605" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="INA126PA" x="63.6905" y="39.5605" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="59.2709" y="32.5755" size="1.27" layer="25" font="vector" ratio="6" rot="SR0"/>
 <attribute name="VENDOR" value="Texas Instruments" x="92.9005" y="37.0205" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U3" library="INA126PA_Instrumentation_amp" package="P8" value="INA126PA" x="76.9747" y="44.9834" smashed="yes">
 <attribute name="BUILT_BY" value="EMA_UL_Team" x="118.8847" y="42.4434" size="1.778" layer="27" display="off"/>
+<attribute name="DIS" value="Digi-Key" x="76.9747" y="44.9834" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="INA126PA-ND" x="76.9747" y="44.9834" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="INA126PA" x="118.8847" y="42.4434" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Texas Instruments" x="76.9747" y="44.9834" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="INA126PA" x="76.9747" y="44.9834" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="73.6981" y="37.9984" size="1.27" layer="25" font="vector" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="72.5297" y="52.4256" size="1.27" layer="21" font="vector" ratio="6" rot="SR270"/>
 <attribute name="VENDOR" value="Texas Instruments" x="118.8847" y="42.4434" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U4" library="INA126PA_Instrumentation_amp" package="P8" value="INA126PA" x="63.4492" y="57.7342" smashed="yes">
 <attribute name="BUILT_BY" value="EMA_UL_Team" x="118.0592" y="55.1942" size="1.778" layer="27" display="off"/>
+<attribute name="DIS" value="Digi-Key" x="63.4492" y="57.7342" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="INA126PA-ND" x="63.4492" y="57.7342" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="INA126PA" x="118.0592" y="55.1942" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Texas Instruments" x="63.4492" y="57.7342" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="INA126PA" x="63.4492" y="57.7342" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="59.6646" y="51.0032" size="1.27" layer="25" font="vector" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="59.0042" y="65.1764" size="1.27" layer="21" font="vector" ratio="6" rot="SR270"/>
 <attribute name="VENDOR" value="Texas Instruments" x="118.0592" y="55.1942" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="124k" x="60.833" y="12.9159" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="60.833" y="12.9159" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="2019-RK73H2ATTD1243FCT-ND" x="60.833" y="12.9159" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="KOA Speer Electronics, Inc." x="60.833" y="12.9159" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RK73H2ATTD1243F" x="60.833" y="12.9159" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="59.563" y="12.2809" size="1.27" layer="25" font="vector" rot="R90"/>
 <attribute name="POPULARITY" value="85" x="60.833" y="12.9159" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="60.833" y="12.9159" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="19.1 k" x="60.833" y="5.6134" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="60.833" y="5.6134" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="RNCP0805FTD19K1CT-ND" x="60.833" y="5.6134" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Stackpole Electronics Inc" x="60.833" y="5.6134" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RNCP0805FTD19K1" x="60.833" y="5.6134" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="59.563" y="3.3909" size="1.27" layer="25" font="vector" rot="R90"/>
 <attribute name="POPULARITY" value="85" x="60.833" y="5.6134" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="60.833" y="5.6134" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="120 pF" x="86.868" y="42.7609" smashed="yes" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="86.868" y="42.7609" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="399-7139-1-ND" x="86.868" y="42.7609" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="KEMET" x="86.868" y="42.7609" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="C0805C121KDRACTU" x="86.868" y="42.7609" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="86.233" y="47.3964" size="1.27" layer="25" font="vector" rot="R270"/>
 <attribute name="POPULARITY" value="88" x="86.868" y="42.7609" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="86.868" y="42.7609" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="120 pF" x="86.9315" y="37.3634" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="86.9315" y="37.3634" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="399-7139-1-ND" x="86.9315" y="37.3634" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="KEMET" x="86.9315" y="37.3634" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="C0805C121KDRACTU" x="86.9315" y="37.3634" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="86.0425" y="34.0614" size="1.27" layer="25" font="vector" rot="R90"/>
 <attribute name="POPULARITY" value="88" x="86.9315" y="37.3634" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="86.9315" y="37.3634" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="120 pF" x="87.8205" y="25.9334" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="87.8205" y="25.9334" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="399-7139-1-ND" x="87.8205" y="25.9334" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="KEMET" x="87.8205" y="25.9334" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="C0805C121KDRACTU" x="87.8205" y="25.9334" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="88.138" y="27.7114" size="1.27" layer="25" font="vector" rot="R90"/>
 <attribute name="POPULARITY" value="88" x="87.8205" y="25.9334" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="87.8205" y="25.9334" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="120 pF" x="86.36" y="55.4609" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="86.36" y="55.4609" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="399-7139-1-ND" x="86.36" y="55.4609" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="KEMET" x="86.36" y="55.4609" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="C0805C121KDRACTU" x="86.36" y="55.4609" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="85.852" y="52.9971" size="1.27" layer="25" font="vector" rot="R270"/>
 <attribute name="POPULARITY" value="88" x="86.36" y="55.4609" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="86.36" y="55.4609" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1 K" x="84.6455" y="26.8859" smashed="yes" rot="R180">
+<attribute name="DIS" value="Digi-Key" x="84.6455" y="26.8859" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="311-1.00KCRCT-ND" x="84.6455" y="26.8859" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Yageo" x="84.6455" y="26.8859" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="RC0805FR-071KL" x="84.6455" y="26.8859" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="85.9155" y="25.6159" size="1.27" layer="25" font="vector" rot="R180"/>
 <attribute name="POPULARITY" value="85" x="84.6455" y="26.8859" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="84.6455" y="26.8859" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1 K" x="83.7565" y="38.3159" smashed="yes" rot="R180">
+<attribute name="DIS" value="Digi-Key" x="83.7565" y="38.3159" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="311-1.00KCRCT-ND" x="83.7565" y="38.3159" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Yageo" x="83.7565" y="38.3159" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="RC0805FR-071KL" x="83.7565" y="38.3159" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="84.3915" y="37.0459" size="1.27" layer="25" font="vector" rot="R180"/>
 <attribute name="POPULARITY" value="85" x="83.7565" y="38.3159" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="83.7565" y="38.3159" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1 K" x="83.693" y="43.7134" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="83.693" y="43.7134" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="311-1.00KCRCT-ND" x="83.693" y="43.7134" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Yageo" x="83.693" y="43.7134" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="RC0805FR-071KL" x="83.693" y="43.7134" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="81.788" y="41.1734" size="1.27" layer="25" font="vector"/>
 <attribute name="POPULARITY" value="85" x="83.693" y="43.7134" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="83.693" y="43.7134" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1 K" x="82.931" y="54.5084" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="82.931" y="54.5084" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="311-1.00KCRCT-ND" x="82.931" y="54.5084" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Yageo" x="82.931" y="54.5084" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="RC0805FR-071KL" x="82.931" y="54.5084" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="81.28" y="55.7784" size="1.27" layer="25" font="vector"/>
 <attribute name="POPULARITY" value="85" x="82.931" y="54.5084" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="82.931" y="54.5084" size="1.778" layer="27" display="off"/>
 </element>
 <element name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X04" package3d_urn="urn:adsk.eagle:package:38085/1" value="" x="32.7025" y="25.7175" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="32.7025" y="25.7175" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="WM4202-ND" x="32.7025" y="25.7175" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Molex" x="32.7025" y="25.7175" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="0022232041" x="32.7025" y="25.7175" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="31.4325" y="27.1145" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-09696" x="32.7025" y="25.7175" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="31.4325" y="23.6855" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="J5" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X04" package3d_urn="urn:adsk.eagle:package:38085/1" value="" x="32.7025" y="38.4175" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="32.7025" y="38.4175" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="WM4202-ND" x="32.7025" y="38.4175" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Molex" x="32.7025" y="38.4175" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="0022232041" x="32.7025" y="38.4175" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="31.4325" y="39.8145" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-09696" x="32.7025" y="38.4175" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="31.4325" y="36.3855" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="J6" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X04" package3d_urn="urn:adsk.eagle:package:38085/1" value="" x="32.7025" y="51.435" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="32.7025" y="51.435" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="WM4202-ND" x="32.7025" y="51.435" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Molex" x="32.7025" y="51.435" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="0022232041" x="32.7025" y="51.435" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="31.4325" y="52.832" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-09696" x="32.7025" y="51.435" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="31.4325" y="49.403" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="J7" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X04" package3d_urn="urn:adsk.eagle:package:38085/1" value="" x="32.7025" y="64.135" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="32.7025" y="64.135" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="WM4202-ND" x="32.7025" y="64.135" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Molex" x="32.7025" y="64.135" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="0022232041" x="32.7025" y="64.135" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="31.4325" y="65.532" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-09696" x="32.7025" y="64.135" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="31.4325" y="62.103" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="100 pF" x="55.1688" y="24.1554" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="55.1688" y="24.1554" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="732-8046-1-ND" x="55.1688" y="24.1554" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Würth Elektronik" x="55.1688" y="24.1554" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="885012207054" x="55.1688" y="24.1554" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="57.0878" y="23.1554" size="1.016" layer="25" font="vector" rot="R90"/>
 <attribute name="POPULARITY" value="52" x="55.1688" y="24.1554" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="55.1688" y="24.1554" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U5" library="LP2985AIM5-3point3" package="MF05A" value="LP2985AIM5-3.3" x="78.8924" y="62.7634" smashed="yes">
 <attribute name="BUILT_BY" value="EMA_UL_Team" x="78.8924" y="62.7634" size="1.778" layer="27" display="off"/>
+<attribute name="DIS" value="Digi-Key" x="78.8924" y="62.7634" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="LP2985AIM5-3.3/NOPBCT-ND" x="78.8924" y="62.7634" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="LP2985AIM5-3.3" x="78.8924" y="62.7634" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Texas Instruments" x="78.8924" y="62.7634" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="LP2985AIM5-3.3/NOPB" x="78.8924" y="62.7634" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="76.8858" y="59.5884" size="1.27" layer="25" ratio="6" rot="SR0"/>
 <attribute name="VENDOR" value="Texas Instruments" x="78.8924" y="62.7634" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U6" library="LP2985AIM5-5point0" package="MF05A" value="LP2985AIM5-5.0/NOPB" x="35.2298" y="14.8844" smashed="yes" rot="R180">
 <attribute name="BUILT_BY" value="EMA_UL_Team" x="35.2298" y="14.8844" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIS" value="Digi-Key" x="35.2298" y="14.8844" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="LP2985AIM5-5.0/NOPBCT-ND" x="35.2298" y="14.8844" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="LP2985AIM5-5.0/NOPB" x="35.2298" y="14.8844" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Texas Instruments" x="35.2298" y="14.8844" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="LP2985AIM5-5.0/NOPB" x="35.2298" y="14.8844" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="35.0774" y="10.7696" size="1.27" layer="25" ratio="6" rot="SR90"/>
 <attribute name="VENDOR" value="Texas Instruments" x="35.2298" y="14.8844" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C22" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="100 nF" x="88.9254" y="14.097" smashed="yes" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="88.9254" y="14.097" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="478-12790-1-ND" x="88.9254" y="14.097" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="AVX Corporation" x="88.9254" y="14.097" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="08055D104KAT2A" x="88.9254" y="14.097" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="89.8004" y="15.097" size="1.016" layer="25" font="vector" rot="R270"/>
 <attribute name="POPULARITY" value="52" x="88.9254" y="14.097" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="88.9254" y="14.097" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C23" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="100 pF" x="55.3974" y="37.2364" smashed="yes" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="55.3974" y="37.2364" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="732-8046-1-ND" x="55.3974" y="37.2364" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Würth Elektronik" x="55.3974" y="37.2364" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="885012207054" x="55.3974" y="37.2364" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="56.2724" y="38.2364" size="1.016" layer="25" font="vector" rot="R270"/>
 <attribute name="POPULARITY" value="52" x="55.3974" y="37.2364" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="55.3974" y="37.2364" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C24" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="100 pF" x="55.2704" y="46.9392" smashed="yes" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="55.2704" y="46.9392" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="732-8046-1-ND" x="55.2704" y="46.9392" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Würth Elektronik" x="55.2704" y="46.9392" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="885012207054" x="55.2704" y="46.9392" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="56.1454" y="47.9392" size="1.016" layer="25" font="vector" rot="R270"/>
 <attribute name="POPULARITY" value="52" x="55.2704" y="46.9392" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="55.2704" y="46.9392" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C25" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="100 pF" x="55.2196" y="55.9054" smashed="yes" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="55.2196" y="55.9054" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="732-8046-1-ND" x="55.2196" y="55.9054" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Würth Elektronik" x="55.2196" y="55.9054" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="885012207054" x="55.2196" y="55.9054" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="56.0946" y="56.9054" size="1.016" layer="25" font="vector" rot="R270"/>
 <attribute name="POPULARITY" value="52" x="55.2196" y="55.9054" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="55.2196" y="55.9054" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C26" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="100 pF" x="55.4482" y="28.2956" smashed="yes" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="55.4482" y="28.2956" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="732-8046-1-ND" x="55.4482" y="28.2956" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Würth Elektronik" x="55.4482" y="28.2956" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="885012207054" x="55.4482" y="28.2956" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="56.3232" y="29.2956" size="1.016" layer="25" font="vector" rot="R270"/>
 <attribute name="POPULARITY" value="52" x="55.4482" y="28.2956" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="55.4482" y="28.2956" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C27" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="100 pF" x="55.3974" y="41.91" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="55.3974" y="41.91" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="732-8046-1-ND" x="55.3974" y="41.91" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Würth Elektronik" x="55.3974" y="41.91" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="885012207054" x="55.3974" y="41.91" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="57.3164" y="41.418" size="1.016" layer="25" font="vector" rot="R90"/>
 <attribute name="POPULARITY" value="52" x="55.3974" y="41.91" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="55.3974" y="41.91" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C28" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="100 pF" x="55.1688" y="52.0954" smashed="yes" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="55.1688" y="52.0954" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="732-8046-1-ND" x="55.1688" y="52.0954" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Würth Elektronik" x="55.1688" y="52.0954" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="885012207054" x="55.1688" y="52.0954" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="56.2216" y="51.5206" size="1.016" layer="25" font="vector" rot="R270"/>
 <attribute name="POPULARITY" value="52" x="55.1688" y="52.0954" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="55.1688" y="52.0954" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C29" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="100 pF" x="55.1942" y="60.198" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="55.1942" y="60.198" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="732-8046-1-ND" x="55.1942" y="60.198" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Würth Elektronik" x="55.1942" y="60.198" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="885012207054" x="55.1942" y="60.198" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="57.037" y="59.5282" size="1.016" layer="25" font="vector" rot="R90"/>
 <attribute name="POPULARITY" value="52" x="55.1942" y="60.198" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="55.1942" y="60.198" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C19" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="100 nF" x="11.2776" y="12.954" smashed="yes" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="11.2776" y="12.954" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="478-12790-1-ND" x="11.2776" y="12.954" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="AVX Corporation" x="11.2776" y="12.954" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="08055D104KAT2A" x="11.2776" y="12.954" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="8.8506" y="13.7" size="1.016" layer="25" font="vector" rot="R270"/>
 <attribute name="POPULARITY" value="52" x="11.2776" y="12.954" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="11.2776" y="12.954" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C20" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="100 nF" x="4.572" y="61.722" smashed="yes" rot="R180">
+<attribute name="DIS" value="Digi-Key" x="4.572" y="61.722" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="478-12790-1-ND" x="4.572" y="61.722" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="AVX Corporation" x="4.572" y="61.722" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="08055D104KAT2A" x="4.572" y="61.722" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="5.318" y="63.895" size="1.016" layer="25" font="vector" rot="R180"/>
 <attribute name="POPULARITY" value="52" x="4.572" y="61.722" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="4.572" y="61.722" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2375,48 +2579,108 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="TP3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="TP_15TH" package3d_urn="urn:adsk.eagle:package:38288/1" value="TEST-POINTTP_15TH_THRU" x="6.096" y="13.97" smashed="yes"/>
 <element name="TP4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="TP_15TH" package3d_urn="urn:adsk.eagle:package:38288/1" value="TEST-POINTTP_15TH_THRU" x="85.852" y="63.754" smashed="yes"/>
 <element name="D4" library="D5V0H1U2LP1610-7" package="0603DIODE" value="" x="88.646" y="55.372" smashed="yes" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="88.646" y="55.372" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="D5V0H1U2LP1610-7DICT-ND" x="88.646" y="55.372" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Diodes Incorporated" x="88.646" y="55.372" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="D5V0H1U2LP1610-7" x="88.646" y="55.372" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="89.916" y="55.626" size="1.016" layer="25" font="vector" rot="R270"/>
 </element>
 <element name="D3" library="D5V0H1U2LP1610-7" package="0603DIODE" value="" x="89.154" y="42.926" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="89.154" y="42.926" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="D5V0H1U2LP1610-7DICT-ND" x="89.154" y="42.926" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Diodes Incorporated" x="89.154" y="42.926" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="D5V0H1U2LP1610-7" x="89.154" y="42.926" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="91.44" y="42.164" size="1.016" layer="25" font="vector" rot="R90"/>
 </element>
 <element name="D6" library="D5V0H1U2LP1610-7" package="0603DIODE" value="" x="88.9" y="37.592" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="88.9" y="37.592" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="D5V0H1U2LP1610-7DICT-ND" x="88.9" y="37.592" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Diodes Incorporated" x="88.9" y="37.592" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="D5V0H1U2LP1610-7" x="88.9" y="37.592" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="91.186" y="36.83" size="1.016" layer="25" font="vector" rot="R90"/>
 </element>
 <element name="D5" library="D5V0H1U2LP1610-7" package="0603DIODE" value="" x="89.916" y="26.162" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="89.916" y="26.162" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="D5V0H1U2LP1610-7DICT-ND" x="89.916" y="26.162" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Diodes Incorporated" x="89.916" y="26.162" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="D5V0H1U2LP1610-7" x="89.916" y="26.162" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="92.202" y="25.146" size="1.016" layer="25" font="vector" rot="R90"/>
 </element>
 <element name="D10" library="D5V0H1U2LP1610-7" package="0603DIODE" value="" x="53.34" y="28.702" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="53.34" y="28.702" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="D5V0H1U2LP1610-7DICT-ND" x="53.34" y="28.702" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Diodes Incorporated" x="53.34" y="28.702" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="D5V0H1U2LP1610-7" x="53.34" y="28.702" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="52.07" y="27.94" size="1.016" layer="25" font="vector" rot="R90"/>
 </element>
 <element name="D8" library="D5V0H1U2LP1610-7" package="0603DIODE" value="" x="53.594" y="41.656" smashed="yes" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="53.594" y="41.656" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="D5V0H1U2LP1610-7DICT-ND" x="53.594" y="41.656" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Diodes Incorporated" x="53.594" y="41.656" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="D5V0H1U2LP1610-7" x="53.594" y="41.656" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="51.308" y="42.418" size="1.016" layer="25" font="vector" rot="R270"/>
 </element>
 <element name="D7" library="D5V0H1U2LP1610-7" package="0603DIODE" value="" x="53.086" y="52.578" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="53.086" y="52.578" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="D5V0H1U2LP1610-7DICT-ND" x="53.086" y="52.578" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Diodes Incorporated" x="53.086" y="52.578" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="D5V0H1U2LP1610-7" x="53.086" y="52.578" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="51.816" y="51.816" size="1.016" layer="25" font="vector" rot="R90"/>
 </element>
 <element name="D2" library="D5V0H1U2LP1610-7" package="0603DIODE" value="" x="53.34" y="59.69" smashed="yes" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="53.34" y="59.69" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="D5V0H1U2LP1610-7DICT-ND" x="53.34" y="59.69" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Diodes Incorporated" x="53.34" y="59.69" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="D5V0H1U2LP1610-7" x="53.34" y="59.69" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="51.054" y="60.452" size="1.016" layer="25" font="vector" rot="R270"/>
 </element>
 <element name="D14" library="D5V0H1U2LP1610-7" package="0603DIODE" value="" x="53.086" y="56.134" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="53.086" y="56.134" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="D5V0H1U2LP1610-7DICT-ND" x="53.086" y="56.134" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Diodes Incorporated" x="53.086" y="56.134" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="D5V0H1U2LP1610-7" x="53.086" y="56.134" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="52.07" y="55.118" size="1.016" layer="25" font="vector" rot="R90"/>
 </element>
 <element name="D13" library="D5V0H1U2LP1610-7" package="0603DIODE" value="" x="53.086" y="47.244" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="53.086" y="47.244" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="D5V0H1U2LP1610-7DICT-ND" x="53.086" y="47.244" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Diodes Incorporated" x="53.086" y="47.244" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="D5V0H1U2LP1610-7" x="53.086" y="47.244" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="51.816" y="46.228" size="1.016" layer="25" font="vector" rot="R90"/>
 </element>
 <element name="D12" library="D5V0H1U2LP1610-7" package="0603DIODE" value="" x="53.34" y="37.592" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="53.34" y="37.592" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="D5V0H1U2LP1610-7DICT-ND" x="53.34" y="37.592" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Diodes Incorporated" x="53.34" y="37.592" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="D5V0H1U2LP1610-7" x="53.34" y="37.592" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="52.324" y="36.576" size="1.016" layer="25" font="vector" rot="R90"/>
 </element>
 <element name="D11" library="D5V0H1U2LP1610-7" package="0603DIODE" value="" x="53.086" y="23.876" smashed="yes" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="53.086" y="23.876" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="D5V0H1U2LP1610-7DICT-ND" x="53.086" y="23.876" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Diodes Incorporated" x="53.086" y="23.876" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="D5V0H1U2LP1610-7" x="53.086" y="23.876" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="50.8" y="24.892" size="1.016" layer="25" font="vector" rot="R270"/>
 </element>
 <element name="D15" library="D5V0H1U2LP1610-7" package="0603DIODE" value="" x="13.208" y="12.954" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="13.208" y="12.954" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="D5V0H1U2LP1610-7DICT-ND" x="13.208" y="12.954" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Diodes Incorporated" x="13.208" y="12.954" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="D5V0H1U2LP1610-7" x="13.208" y="12.954" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="15.494" y="11.684" size="1.016" layer="25" font="vector" rot="R90"/>
 </element>
 <element name="D16" library="D5V0H1U2LP1610-7" package="0603DIODE" value="" x="4.826" y="59.69" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="4.826" y="59.69" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="D5V0H1U2LP1610-7DICT-ND" x="4.826" y="59.69" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Diodes Incorporated" x="4.826" y="59.69" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="D5V0H1U2LP1610-7" x="4.826" y="59.69" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="3.556" y="57.404" size="1.016" layer="25" font="vector"/>
 </element>
 <element name="D9" library="D5V0H1U2LP1610-7" package="0603DIODE" value="" x="86.868" y="14.478" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="86.868" y="14.478" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="D12V0H1U2LP1610-7DICT-ND" x="86.868" y="14.478" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Diodes Incorporated" x="86.868" y="14.478" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="D12V0H1U2LP1610-7" x="86.868" y="14.478" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="85.598" y="11.938" size="1.016" layer="25" rot="R90"/>
 </element>
 <element name="H5" library="mount" package="#4/.300-BARE+STD_NUT_OR_STAR_WASHER" value="#4-BARE_MOUNTING_HOLE/.300" x="6.35" y="69.85" smashed="yes">

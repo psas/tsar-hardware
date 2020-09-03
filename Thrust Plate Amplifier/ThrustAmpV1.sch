@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -13125,11 +13125,31 @@ Includes 0.400" outline for 1/4" (standard) #4 nut-tool. If nut driving is not r
 </class>
 </classes>
 <parts>
-<part name="U2" library="INA126PA_Instrumentation_amp" deviceset="INA126PA" device=""/>
-<part name="U3" library="INA126PA_Instrumentation_amp" deviceset="INA126PA" device=""/>
-<part name="U4" library="INA126PA_Instrumentation_amp" deviceset="INA126PA" device=""/>
+<part name="U2" library="INA126PA_Instrumentation_amp" deviceset="INA126PA" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="INA126PA-ND"/>
+<attribute name="MFR" value="Texas Instruments"/>
+<attribute name="MPN" value="INA126PA"/>
+</part>
+<part name="U3" library="INA126PA_Instrumentation_amp" deviceset="INA126PA" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="INA126PA-ND"/>
+<attribute name="MFR" value="Texas Instruments"/>
+<attribute name="MPN" value="INA126PA"/>
+</part>
+<part name="U4" library="INA126PA_Instrumentation_amp" deviceset="INA126PA" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="INA126PA-ND"/>
+<attribute name="MFR" value="Texas Instruments"/>
+<attribute name="MPN" value="INA126PA"/>
+</part>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="TBD"/>
-<part name="U1" library="INA126PA_Instrumentation_amp" deviceset="INA126PA" device=""/>
+<part name="U1" library="INA126PA_Instrumentation_amp" deviceset="INA126PA" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="INA126PA-ND"/>
+<attribute name="MFR" value="Texas Instruments"/>
+<attribute name="MPN" value="INA126PA"/>
+</part>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="TBD"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="TBD"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="TBD"/>
@@ -13142,65 +13162,499 @@ Includes 0.400" outline for 1/4" (standard) #4 nut-tool. If nut driving is not r
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/5V" package3d_urn="urn:adsk.eagle:package:23502/1" value="NP"/>
 <part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/5V" package3d_urn="urn:adsk.eagle:package:23502/1" value="NP"/>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
-<part name="U$1" library="TSAR_Controller" deviceset="MP2456GJ-P" device=""/>
-<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="4.7 uF"/>
-<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100 nF"/>
-<part name="CR1" library="TSAR_Controller" deviceset="1N4148W-7-F" device=""/>
-<part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="SCHOTTKY-DIODE" device="SMD" package3d_urn="urn:adsk.eagle:package:43404/2" value="10BQ060TR"/>
-<part name="U$2" library="TSAR_Controller" deviceset="CLF5030NIT-100M-D" device=""/>
-<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="22 uF"/>
+<part name="U$1" library="TSAR_Controller" deviceset="MP2456GJ-P" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="1589-1120-1-ND"/>
+<attribute name="MFR" value="Monolithic Power Systems Inc."/>
+<attribute name="MPN" value="MP2456GJ-P"/>
+</part>
+<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="4.7 uF">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="1276-1244-1-ND"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics"/>
+<attribute name="MPN" value="CL21A475KAQNNNE"/>
+</part>
+<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100 nF">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="478-12790-1-ND"/>
+<attribute name="MFR" value="AVX Corporation"/>
+<attribute name="MPN" value="08055D104KAT2A"/>
+</part>
+<part name="CR1" library="TSAR_Controller" deviceset="1N4148W-7-F" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="1N4148W-FDICT-ND"/>
+<attribute name="MFR" value="Diodes Incorporated"/>
+<attribute name="MPN" value="1N4148W-7-F"/>
+</part>
+<part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="SCHOTTKY-DIODE" device="SMD" package3d_urn="urn:adsk.eagle:package:43404/2" value="10BQ060TR">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="1655-1342-1-ND"/>
+<attribute name="MFR" value="SMC Diode Solutions"/>
+<attribute name="MPN" value="10BQ060TR"/>
+</part>
+<part name="U$2" library="TSAR_Controller" deviceset="CLF5030NIT-100M-D" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="445-174699-1-ND"/>
+<attribute name="MFR" value="TDK Corporation"/>
+<attribute name="MPN" value="CLF5030NIT-100M-D"/>
+</part>
+<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="22 uF">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="1276-6786-1-ND"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics"/>
+<attribute name="MPN" value="CL21A226KPCLRNC"/>
+</part>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_C_L" device=""/>
-<part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="499 k"/>
+<part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="499 k">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="2019-RK73H2ATTD4993FCT-ND"/>
+<attribute name="MFR" value="KOA Speer Electronics, Inc."/>
+<attribute name="MPN" value="RK73H2ATTD4993F"/>
+</part>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
-<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="100 nF"/>
-<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="100 nF"/>
-<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="100 nF"/>
-<part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="100 nF"/>
+<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="100 nF">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="478-12790-1-ND"/>
+<attribute name="MFR" value="AVX Corporation"/>
+<attribute name="MPN" value="08055D104KAT2A"/>
+</part>
+<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="100 nF">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="478-12790-1-ND"/>
+<attribute name="MFR" value="AVX Corporation"/>
+<attribute name="MPN" value="08055D104KAT2A"/>
+</part>
+<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="100 nF">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="478-12790-1-ND"/>
+<attribute name="MFR" value="AVX Corporation"/>
+<attribute name="MPN" value="08055D104KAT2A"/>
+</part>
+<part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="100 nF">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="478-12790-1-ND"/>
+<attribute name="MFR" value="AVX Corporation"/>
+<attribute name="MPN" value="08055D104KAT2A"/>
+</part>
 <part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="NP"/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device="" value="6v"/>
-<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10 nF"/>
-<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1 uF"/>
-<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="2.2 uF"/>
+<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10 nF">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="445-14445-1-ND"/>
+<attribute name="MFR" value="TDK Corporation"/>
+<attribute name="MPN" value="C2012X5R2E103K125AA"/>
+</part>
+<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1 uF">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="1276-2395-1-ND"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics"/>
+<attribute name="MPN" value="CL21A105KACLNNC"/>
+</part>
+<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="2.2 uF">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="1276-6458-1-ND"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics"/>
+<attribute name="MPN" value="CL21A225KAFNNNG"/>
+</part>
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
-<part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10 nF"/>
-<part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1 uF"/>
-<part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="2.2 uF"/>
+<part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10 nF">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="445-14445-1-ND"/>
+<attribute name="MFR" value="TDK Corporation"/>
+<attribute name="MPN" value="C2012X5R2E103K125AA"/>
+</part>
+<part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1 uF">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="1276-2395-1-ND"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics"/>
+<attribute name="MPN" value="CL21A105KACLNNC"/>
+</part>
+<part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="2.2 uF">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="1276-6458-1-ND"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics"/>
+<attribute name="MPN" value="CL21A225KAFNNNG"/>
+</part>
 <part name="SUPPLY10" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="SUPPLY11" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="SUPPLY12" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
-<part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_05" device="PTH_LONGPADS" package3d_urn="urn:adsk.eagle:package:38109/1"/>
-<part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="PTH3" package3d_urn="urn:adsk.eagle:package:38048/1"/>
+<part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_05" device="PTH_LONGPADS" package3d_urn="urn:adsk.eagle:package:38109/1">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="WM4203-ND"/>
+<attribute name="MFR" value="Molex"/>
+<attribute name="MPN" value="0022232051"/>
+</part>
+<part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="PTH3" package3d_urn="urn:adsk.eagle:package:38048/1">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="900-0022232021-ND"/>
+<attribute name="MFR" value="Molex"/>
+<attribute name="MPN" value="22232021"/>
+</part>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device="" value="6v"/>
-<part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="124k"/>
-<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="19.1 k"/>
-<part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="120 pF"/>
-<part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="120 pF"/>
-<part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="120 pF"/>
-<part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="120 pF"/>
-<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1 K"/>
-<part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1 K"/>
-<part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1 K"/>
-<part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1 K"/>
-<part name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="" package3d_urn="urn:adsk.eagle:package:38085/1"/>
-<part name="J5" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="" package3d_urn="urn:adsk.eagle:package:38085/1"/>
-<part name="J6" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="" package3d_urn="urn:adsk.eagle:package:38085/1"/>
-<part name="J7" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="" package3d_urn="urn:adsk.eagle:package:38085/1"/>
-<part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="100 pF"/>
-<part name="U5" library="LP2985AIM5-3point3" deviceset="LP2985AIM5-3.3" device=""/>
-<part name="U6" library="LP2985AIM5-5point0" deviceset="LP2985AIM5-5.0/NOPB" device=""/>
-<part name="C22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="100 nF"/>
-<part name="C23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="100 pF"/>
-<part name="C24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="100 pF"/>
-<part name="C25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="100 pF"/>
-<part name="C26" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="100 pF"/>
-<part name="C27" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="100 pF"/>
-<part name="C28" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="100 pF"/>
-<part name="C29" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="100 pF"/>
-<part name="C19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="100 nF"/>
+<part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="124k">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="2019-RK73H2ATTD1243FCT-ND"/>
+<attribute name="MFR" value="KOA Speer Electronics, Inc."/>
+<attribute name="MPN" value="RK73H2ATTD1243F"/>
+</part>
+<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="19.1 k">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="RNCP0805FTD19K1CT-ND"/>
+<attribute name="MFR" value="Stackpole Electronics Inc"/>
+<attribute name="MPN" value="RNCP0805FTD19K1"/>
+</part>
+<part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="120 pF">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="399-7139-1-ND"/>
+<attribute name="MFR" value="KEMET"/>
+<attribute name="MPN" value="C0805C121KDRACTU"/>
+</part>
+<part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="120 pF">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="399-7139-1-ND"/>
+<attribute name="MFR" value="KEMET"/>
+<attribute name="MPN" value="C0805C121KDRACTU"/>
+</part>
+<part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="120 pF">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="399-7139-1-ND"/>
+<attribute name="MFR" value="KEMET"/>
+<attribute name="MPN" value="C0805C121KDRACTU"/>
+</part>
+<part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="120 pF">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="399-7139-1-ND"/>
+<attribute name="MFR" value="KEMET"/>
+<attribute name="MPN" value="C0805C121KDRACTU"/>
+</part>
+<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1 K">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="311-1.00KCRCT-ND"/>
+<attribute name="MFR" value="Yageo"/>
+<attribute name="MPN" value="RC0805FR-071KL"/>
+</part>
+<part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1 K">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="311-1.00KCRCT-ND"/>
+<attribute name="MFR" value="Yageo"/>
+<attribute name="MPN" value="RC0805FR-071KL"/>
+</part>
+<part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1 K">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="311-1.00KCRCT-ND"/>
+<attribute name="MFR" value="Yageo"/>
+<attribute name="MPN" value="RC0805FR-071KL"/>
+</part>
+<part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1 K">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="311-1.00KCRCT-ND"/>
+<attribute name="MFR" value="Yageo"/>
+<attribute name="MPN" value="RC0805FR-071KL"/>
+</part>
+<part name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="" package3d_urn="urn:adsk.eagle:package:38085/1">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="WM4202-ND"/>
+<attribute name="MFR" value="Molex"/>
+<attribute name="MPN" value="0022232041"/>
+</part>
+<part name="J5" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="" package3d_urn="urn:adsk.eagle:package:38085/1">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="WM4202-ND"/>
+<attribute name="MFR" value="Molex"/>
+<attribute name="MPN" value="0022232041"/>
+</part>
+<part name="J6" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="" package3d_urn="urn:adsk.eagle:package:38085/1">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="WM4202-ND"/>
+<attribute name="MFR" value="Molex"/>
+<attribute name="MPN" value="0022232041"/>
+</part>
+<part name="J7" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="" package3d_urn="urn:adsk.eagle:package:38085/1">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="WM4202-ND"/>
+<attribute name="MFR" value="Molex"/>
+<attribute name="MPN" value="0022232041"/>
+</part>
+<part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="100 pF">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="732-8046-1-ND"/>
+<attribute name="MFR" value="Würth Elektronik"/>
+<attribute name="MPN" value="885012207054"/>
+</part>
+<part name="U5" library="LP2985AIM5-3point3" deviceset="LP2985AIM5-3.3" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="LP2985AIM5-3.3/NOPBCT-ND"/>
+<attribute name="MFR" value="Texas Instruments"/>
+<attribute name="MPN" value="LP2985AIM5-3.3/NOPB"/>
+</part>
+<part name="U6" library="LP2985AIM5-5point0" deviceset="LP2985AIM5-5.0/NOPB" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="LP2985AIM5-5.0/NOPBCT-ND"/>
+<attribute name="MFR" value="Texas Instruments"/>
+<attribute name="MPN" value="LP2985AIM5-5.0/NOPB"/>
+</part>
+<part name="C22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="100 nF">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="478-12790-1-ND"/>
+<attribute name="MFR" value="AVX Corporation"/>
+<attribute name="MPN" value="08055D104KAT2A"/>
+</part>
+<part name="C23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="100 pF">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="732-8046-1-ND"/>
+<attribute name="MFR" value="Würth Elektronik"/>
+<attribute name="MPN" value="885012207054"/>
+</part>
+<part name="C24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="100 pF">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="732-8046-1-ND"/>
+<attribute name="MFR" value="Würth Elektronik"/>
+<attribute name="MPN" value="885012207054"/>
+</part>
+<part name="C25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="100 pF">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="732-8046-1-ND"/>
+<attribute name="MFR" value="Würth Elektronik"/>
+<attribute name="MPN" value="885012207054"/>
+</part>
+<part name="C26" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="100 pF">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="732-8046-1-ND"/>
+<attribute name="MFR" value="Würth Elektronik"/>
+<attribute name="MPN" value="885012207054"/>
+</part>
+<part name="C27" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="100 pF">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="732-8046-1-ND"/>
+<attribute name="MFR" value="Würth Elektronik"/>
+<attribute name="MPN" value="885012207054"/>
+</part>
+<part name="C28" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="100 pF">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="732-8046-1-ND"/>
+<attribute name="MFR" value="Würth Elektronik"/>
+<attribute name="MPN" value="885012207054"/>
+</part>
+<part name="C29" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="100 pF">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="732-8046-1-ND"/>
+<attribute name="MFR" value="Würth Elektronik"/>
+<attribute name="MPN" value="885012207054"/>
+</part>
+<part name="C19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="100 nF">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="478-12790-1-ND"/>
+<attribute name="MFR" value="AVX Corporation"/>
+<attribute name="MPN" value="08055D104KAT2A"/>
+</part>
 <part name="SUPPLY14" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY15" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY16" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -13236,27 +13690,113 @@ Includes 0.400" outline for 1/4" (standard) #4 nut-tool. If nut driving is not r
 <part name="SUPPLY45" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY46" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY47" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="C20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="100 nF"/>
+<part name="C20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="100 nF">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="478-12790-1-ND"/>
+<attribute name="MFR" value="AVX Corporation"/>
+<attribute name="MPN" value="08055D104KAT2A"/>
+</part>
 <part name="SUPPLY48" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="TP1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="TEST-POINT" device="TP_15TH_THRU" package3d_urn="urn:adsk.eagle:package:38288/1"/>
 <part name="TP2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="TEST-POINT" device="TP_15TH_THRU" package3d_urn="urn:adsk.eagle:package:38288/1"/>
 <part name="TP3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="TEST-POINT" device="TP_15TH_THRU" package3d_urn="urn:adsk.eagle:package:38288/1"/>
 <part name="TP4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="TEST-POINT" device="TP_15TH_THRU" package3d_urn="urn:adsk.eagle:package:38288/1"/>
-<part name="D4" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device=""/>
-<part name="D3" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device=""/>
-<part name="D6" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device=""/>
-<part name="D5" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device=""/>
-<part name="D10" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device=""/>
-<part name="D8" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device=""/>
-<part name="D7" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device=""/>
-<part name="D2" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device=""/>
-<part name="D14" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device=""/>
-<part name="D13" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device=""/>
-<part name="D12" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device=""/>
-<part name="D11" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device=""/>
-<part name="D15" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device=""/>
-<part name="D16" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device=""/>
-<part name="D9" library="D5V0H1U2LP1610-7" deviceset="D12V0H1U2LP1610-7" device="0603DIODE12V"/>
+<part name="D4" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="D5V0H1U2LP1610-7DICT-ND"/>
+<attribute name="MFR" value="Diodes Incorporated"/>
+<attribute name="MPN" value="D5V0H1U2LP1610-7"/>
+</part>
+<part name="D3" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="D5V0H1U2LP1610-7DICT-ND"/>
+<attribute name="MFR" value="Diodes Incorporated"/>
+<attribute name="MPN" value="D5V0H1U2LP1610-7"/>
+</part>
+<part name="D6" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="D5V0H1U2LP1610-7DICT-ND"/>
+<attribute name="MFR" value="Diodes Incorporated"/>
+<attribute name="MPN" value="D5V0H1U2LP1610-7"/>
+</part>
+<part name="D5" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="D5V0H1U2LP1610-7DICT-ND"/>
+<attribute name="MFR" value="Diodes Incorporated"/>
+<attribute name="MPN" value="D5V0H1U2LP1610-7"/>
+</part>
+<part name="D10" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="D5V0H1U2LP1610-7DICT-ND"/>
+<attribute name="MFR" value="Diodes Incorporated"/>
+<attribute name="MPN" value="D5V0H1U2LP1610-7"/>
+</part>
+<part name="D8" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="D5V0H1U2LP1610-7DICT-ND"/>
+<attribute name="MFR" value="Diodes Incorporated"/>
+<attribute name="MPN" value="D5V0H1U2LP1610-7"/>
+</part>
+<part name="D7" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="D5V0H1U2LP1610-7DICT-ND"/>
+<attribute name="MFR" value="Diodes Incorporated"/>
+<attribute name="MPN" value="D5V0H1U2LP1610-7"/>
+</part>
+<part name="D2" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="D5V0H1U2LP1610-7DICT-ND"/>
+<attribute name="MFR" value="Diodes Incorporated"/>
+<attribute name="MPN" value="D5V0H1U2LP1610-7"/>
+</part>
+<part name="D14" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="D5V0H1U2LP1610-7DICT-ND"/>
+<attribute name="MFR" value="Diodes Incorporated"/>
+<attribute name="MPN" value="D5V0H1U2LP1610-7"/>
+</part>
+<part name="D13" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="D5V0H1U2LP1610-7DICT-ND"/>
+<attribute name="MFR" value="Diodes Incorporated"/>
+<attribute name="MPN" value="D5V0H1U2LP1610-7"/>
+</part>
+<part name="D12" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="D5V0H1U2LP1610-7DICT-ND"/>
+<attribute name="MFR" value="Diodes Incorporated"/>
+<attribute name="MPN" value="D5V0H1U2LP1610-7"/>
+</part>
+<part name="D11" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="D5V0H1U2LP1610-7DICT-ND"/>
+<attribute name="MFR" value="Diodes Incorporated"/>
+<attribute name="MPN" value="D5V0H1U2LP1610-7"/>
+</part>
+<part name="D15" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="D5V0H1U2LP1610-7DICT-ND"/>
+<attribute name="MFR" value="Diodes Incorporated"/>
+<attribute name="MPN" value="D5V0H1U2LP1610-7"/>
+</part>
+<part name="D16" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="D5V0H1U2LP1610-7DICT-ND"/>
+<attribute name="MFR" value="Diodes Incorporated"/>
+<attribute name="MPN" value="D5V0H1U2LP1610-7"/>
+</part>
+<part name="D9" library="D5V0H1U2LP1610-7" deviceset="D12V0H1U2LP1610-7" device="0603DIODE12V">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="D12V0H1U2LP1610-7DICT-ND"/>
+<attribute name="MFR" value="Diodes Incorporated"/>
+<attribute name="MPN" value="D12V0H1U2LP1610-7"/>
+</part>
 <part name="H5" library="mount" deviceset="#4-BARE_MOUNTING_HOLE" device="/.300"/>
 <part name="H6" library="mount" deviceset="#4-BARE_MOUNTING_HOLE" device="/.300"/>
 <part name="H7" library="mount" deviceset="#4-BARE_MOUNTING_HOLE" device="/.300"/>
@@ -13307,14 +13847,26 @@ All capacitors are 0805 10% X5R with working voltage
 <instance part="U2" gate="A" x="368.3" y="215.9" smashed="yes">
 <attribute name="NAME" x="366.1156" y="240.2586" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="365.4806" y="235.1786" size="2.0828" layer="96" ratio="6" rot="SR0"/>
+<attribute name="MPN" x="368.3" y="215.9" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="368.3" y="215.9" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="368.3" y="215.9" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="368.3" y="215.9" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U3" gate="A" x="368.3" y="142.24" smashed="yes">
 <attribute name="NAME" x="366.1156" y="166.5986" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="365.4806" y="161.5186" size="2.0828" layer="96" ratio="6" rot="SR0"/>
+<attribute name="MPN" x="368.3" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="368.3" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="368.3" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="368.3" y="142.24" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U4" gate="A" x="368.3" y="63.5" smashed="yes">
 <attribute name="NAME" x="366.1156" y="87.8586" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="365.4806" y="82.7786" size="2.0828" layer="96" ratio="6" rot="SR0"/>
+<attribute name="MPN" x="368.3" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="368.3" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="368.3" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="368.3" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R1" gate="G$1" x="368.3" y="279.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="366.8014" y="275.59" size="1.778" layer="95" rot="R90"/>
@@ -13323,6 +13875,10 @@ All capacitors are 0805 10% X5R with working voltage
 <instance part="U1" gate="A" x="368.3" y="292.1" smashed="yes">
 <attribute name="NAME" x="366.1156" y="316.4586" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="365.4806" y="311.3786" size="2.0828" layer="96" ratio="6" rot="SR0"/>
+<attribute name="MPN" x="368.3" y="292.1" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="368.3" y="292.1" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="368.3" y="292.1" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="368.3" y="292.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R2" gate="G$1" x="365.76" y="203.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="364.2614" y="199.39" size="1.778" layer="95" rot="R90"/>
@@ -13374,30 +13930,58 @@ All capacitors are 0805 10% X5R with working voltage
 <instance part="U$1" gate="G$1" x="185.42" y="335.28" smashed="yes">
 <attribute name="NAME" x="176.53" y="347.98" size="1.27" layer="95"/>
 <attribute name="VALUE" x="171.45" y="322.58" size="1.27" layer="96"/>
+<attribute name="MPN" x="185.42" y="335.28" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="185.42" y="335.28" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="185.42" y="335.28" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="185.42" y="335.28" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C1" gate="G$1" x="193.04" y="358.14" smashed="yes" rot="R90">
 <attribute name="NAME" x="192.659" y="362.204" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="197.739" y="359.664" size="1.778" layer="96" rot="R90"/>
+<attribute name="DIS" x="193.04" y="358.14" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DPN" x="193.04" y="358.14" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="193.04" y="358.14" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="193.04" y="358.14" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C2" gate="G$1" x="205.74" y="337.82" smashed="yes">
 <attribute name="NAME" x="197.104" y="335.661" size="1.778" layer="95"/>
 <attribute name="VALUE" x="197.104" y="333.121" size="1.778" layer="96"/>
+<attribute name="MPN" x="205.74" y="337.82" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="205.74" y="337.82" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="205.74" y="337.82" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="205.74" y="337.82" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="CR1" gate="A" x="226.06" y="340.36" smashed="yes" rot="R180">
 <attribute name="VALUE" x="229.9462" y="345.8972" size="1.778" layer="96" ratio="10" rot="SR180"/>
 <attribute name="NAME" x="228.8794" y="337.6676" size="1.778" layer="95" ratio="10" rot="SR180"/>
+<attribute name="DIS" x="226.06" y="340.36" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="DPN" x="226.06" y="340.36" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MFR" x="226.06" y="340.36" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MPN" x="226.06" y="340.36" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="D1" gate="G$1" x="203.2" y="325.12" smashed="yes" rot="R90">
 <attribute name="NAME" x="200.406" y="325.755" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="202.946" y="323.469" size="1.778" layer="96" rot="R180"/>
+<attribute name="DIS" x="203.2" y="325.12" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DPN" x="203.2" y="325.12" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="203.2" y="325.12" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="203.2" y="325.12" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="U$2" gate="A" x="218.44" y="330.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="223.52" y="328.93" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="228.6" y="326.39" size="1.778" layer="96" rot="R180"/>
+<attribute name="DIS" x="218.44" y="330.2" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DPN" x="218.44" y="330.2" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="218.44" y="330.2" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="218.44" y="330.2" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C3" gate="G$1" x="241.3" y="335.28" smashed="yes">
 <attribute name="NAME" x="242.824" y="335.661" size="1.778" layer="95"/>
 <attribute name="VALUE" x="242.824" y="330.581" size="1.778" layer="96"/>
+<attribute name="DIS" x="241.3" y="335.28" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="241.3" y="335.28" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="241.3" y="335.28" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="241.3" y="335.28" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
 <instance part="FRAME1" gate="G$2" x="452.12" y="0" smashed="yes">
@@ -13408,6 +13992,10 @@ All capacitors are 0805 10% X5R with working voltage
 <instance part="R17" gate="G$1" x="157.48" y="345.44" smashed="yes" rot="R90">
 <attribute name="NAME" x="155.9814" y="341.63" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="160.782" y="341.63" size="1.778" layer="96" rot="R90"/>
+<attribute name="DIS" x="157.48" y="345.44" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DPN" x="157.48" y="345.44" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="157.48" y="345.44" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="157.48" y="345.44" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="SUPPLY2" gate="G$1" x="388.62" y="317.5" smashed="yes">
 <attribute name="VALUE" x="388.62" y="320.294" size="1.778" layer="96" align="bottom-center"/>
@@ -13427,18 +14015,34 @@ All capacitors are 0805 10% X5R with working voltage
 <instance part="C7" gate="G$1" x="396.24" y="83.82" smashed="yes" rot="R90">
 <attribute name="NAME" x="395.859" y="85.344" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="400.939" y="85.344" size="1.778" layer="96" rot="R90"/>
+<attribute name="MPN" x="396.24" y="83.82" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DPN" x="396.24" y="83.82" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIS" x="396.24" y="83.82" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="396.24" y="83.82" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C8" gate="G$1" x="398.78" y="165.1" smashed="yes" rot="R90">
 <attribute name="NAME" x="398.399" y="166.624" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="403.479" y="166.624" size="1.778" layer="96" rot="R90"/>
+<attribute name="MPN" x="398.78" y="165.1" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DPN" x="398.78" y="165.1" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIS" x="398.78" y="165.1" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="398.78" y="165.1" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C9" gate="G$1" x="396.24" y="238.76" smashed="yes" rot="R90">
 <attribute name="NAME" x="395.859" y="240.284" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="400.939" y="240.284" size="1.778" layer="96" rot="R90"/>
+<attribute name="MPN" x="396.24" y="238.76" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DPN" x="396.24" y="238.76" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIS" x="396.24" y="238.76" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="396.24" y="238.76" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C10" gate="G$1" x="393.7" y="314.96" smashed="yes" rot="R90">
 <attribute name="NAME" x="393.319" y="316.484" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="398.399" y="316.484" size="1.778" layer="96" rot="R90"/>
+<attribute name="MPN" x="393.7" y="314.96" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DPN" x="393.7" y="314.96" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIS" x="393.7" y="314.96" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="393.7" y="314.96" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R15" gate="G$1" x="157.48" y="335.28" smashed="yes" rot="R270">
 <attribute name="NAME" x="158.9786" y="339.09" size="1.778" layer="95" rot="R270"/>
@@ -13450,14 +14054,26 @@ All capacitors are 0805 10% X5R with working voltage
 <instance part="C4" gate="G$1" x="71.12" y="218.44" smashed="yes" rot="R90">
 <attribute name="NAME" x="70.485" y="219.456" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="75.311" y="219.456" size="1.778" layer="96" rot="R90"/>
+<attribute name="MPN" x="71.12" y="218.44" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DPN" x="71.12" y="218.44" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIS" x="71.12" y="218.44" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="71.12" y="218.44" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C5" gate="G$1" x="53.34" y="228.6" smashed="yes">
 <attribute name="NAME" x="54.356" y="229.235" size="1.778" layer="95"/>
 <attribute name="VALUE" x="54.356" y="224.409" size="1.778" layer="96"/>
+<attribute name="MPN" x="53.34" y="228.6" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="53.34" y="228.6" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="53.34" y="228.6" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="53.34" y="228.6" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C6" gate="G$1" x="99.06" y="236.22" smashed="yes">
 <attribute name="NAME" x="100.076" y="236.855" size="1.778" layer="95"/>
 <attribute name="VALUE" x="100.076" y="232.029" size="1.778" layer="96"/>
+<attribute name="MPN" x="99.06" y="236.22" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="99.06" y="236.22" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="99.06" y="236.22" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="99.06" y="236.22" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY8" gate="G$1" x="114.3" y="243.84" smashed="yes">
 <attribute name="VALUE" x="114.3" y="246.634" size="1.778" layer="96" align="bottom-center"/>
@@ -13465,14 +14081,26 @@ All capacitors are 0805 10% X5R with working voltage
 <instance part="C11" gate="G$1" x="193.04" y="223.52" smashed="yes" rot="R90">
 <attribute name="NAME" x="192.405" y="224.536" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="197.231" y="224.536" size="1.778" layer="96" rot="R90"/>
+<attribute name="MPN" x="193.04" y="223.52" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DPN" x="193.04" y="223.52" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIS" x="193.04" y="223.52" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="193.04" y="223.52" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C12" gate="G$1" x="177.8" y="231.14" smashed="yes">
 <attribute name="NAME" x="178.816" y="231.775" size="1.778" layer="95"/>
 <attribute name="VALUE" x="178.816" y="226.949" size="1.778" layer="96"/>
+<attribute name="MPN" x="177.8" y="231.14" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="177.8" y="231.14" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="177.8" y="231.14" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="177.8" y="231.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C13" gate="G$1" x="218.44" y="236.22" smashed="yes">
 <attribute name="NAME" x="219.456" y="236.855" size="1.778" layer="95"/>
 <attribute name="VALUE" x="219.456" y="232.029" size="1.778" layer="96"/>
+<attribute name="MPN" x="218.44" y="236.22" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="218.44" y="236.22" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="218.44" y="236.22" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="218.44" y="236.22" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY10" gate="G$1" x="177.8" y="251.46" smashed="yes">
 <attribute name="VALUE" x="177.8" y="254.254" size="1.778" layer="96" align="bottom-center"/>
@@ -13486,10 +14114,18 @@ All capacitors are 0805 10% X5R with working voltage
 <instance part="J2" gate="G$1" x="528.32" y="177.8" smashed="yes" rot="R180">
 <attribute name="VALUE" x="530.86" y="187.706" size="1.778" layer="96" font="vector" rot="R180"/>
 <attribute name="NAME" x="530.86" y="169.672" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="DIS" x="528.32" y="177.8" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="DPN" x="528.32" y="177.8" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MFR" x="528.32" y="177.8" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MPN" x="528.32" y="177.8" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="J1" gate="G$1" x="58.42" y="332.74" smashed="yes">
 <attribute name="VALUE" x="55.88" y="327.914" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="55.88" y="338.328" size="1.778" layer="95" font="vector"/>
+<attribute name="DIS" x="58.42" y="332.74" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="58.42" y="332.74" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="58.42" y="332.74" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="58.42" y="332.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY3" gate="G$1" x="53.34" y="254" smashed="yes">
 <attribute name="VALUE" x="53.34" y="256.794" size="1.778" layer="96" align="bottom-center"/>
@@ -13497,106 +14133,210 @@ All capacitors are 0805 10% X5R with working voltage
 <instance part="R16" gate="G$1" x="231.14" y="320.04" smashed="yes" rot="R90">
 <attribute name="NAME" x="229.6414" y="316.23" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="234.442" y="316.23" size="1.778" layer="96" rot="R90"/>
+<attribute name="DIS" x="231.14" y="320.04" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DPN" x="231.14" y="320.04" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="231.14" y="320.04" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="231.14" y="320.04" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R14" gate="G$1" x="231.14" y="304.8" smashed="yes" rot="R90">
 <attribute name="NAME" x="229.6414" y="300.99" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="234.442" y="300.99" size="1.778" layer="96" rot="R90"/>
+<attribute name="DIS" x="231.14" y="304.8" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DPN" x="231.14" y="304.8" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="231.14" y="304.8" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="231.14" y="304.8" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C14" gate="G$1" x="495.3" y="165.1" smashed="yes">
 <attribute name="NAME" x="496.316" y="165.735" size="1.778" layer="95"/>
 <attribute name="VALUE" x="496.316" y="160.909" size="1.778" layer="96"/>
+<attribute name="MPN" x="495.3" y="165.1" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="495.3" y="165.1" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="495.3" y="165.1" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="495.3" y="165.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C15" gate="G$1" x="495.3" y="190.5" smashed="yes">
 <attribute name="NAME" x="496.316" y="191.135" size="1.778" layer="95"/>
 <attribute name="VALUE" x="496.316" y="186.309" size="1.778" layer="96"/>
+<attribute name="MPN" x="495.3" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="495.3" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="495.3" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="495.3" y="190.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C16" gate="G$1" x="452.12" y="193.04" smashed="yes">
 <attribute name="NAME" x="453.136" y="193.675" size="1.778" layer="95"/>
 <attribute name="VALUE" x="453.136" y="188.849" size="1.778" layer="96"/>
+<attribute name="MPN" x="452.12" y="193.04" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="452.12" y="193.04" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="452.12" y="193.04" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="452.12" y="193.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C17" gate="G$1" x="452.12" y="165.1" smashed="yes">
 <attribute name="NAME" x="453.136" y="165.735" size="1.778" layer="95"/>
 <attribute name="VALUE" x="453.136" y="160.909" size="1.778" layer="96"/>
+<attribute name="MPN" x="452.12" y="165.1" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="452.12" y="165.1" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="452.12" y="165.1" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="452.12" y="165.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R13" gate="G$1" x="419.1" y="243.84" smashed="yes" rot="R90">
 <attribute name="NAME" x="417.6014" y="240.03" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="422.402" y="240.03" size="1.778" layer="96" rot="R90"/>
+<attribute name="MPN" x="419.1" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DPN" x="419.1" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIS" x="419.1" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="419.1" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R18" gate="G$1" x="416.56" y="198.12" smashed="yes" rot="R90">
 <attribute name="NAME" x="415.0614" y="194.31" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="414.782" y="201.93" size="1.778" layer="96" rot="R90"/>
+<attribute name="MPN" x="416.56" y="198.12" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DPN" x="416.56" y="198.12" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIS" x="416.56" y="198.12" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="416.56" y="198.12" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R19" gate="G$1" x="416.56" y="154.94" smashed="yes" rot="R90">
 <attribute name="NAME" x="415.0614" y="151.13" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="414.782" y="158.75" size="1.778" layer="96" rot="R90"/>
+<attribute name="MPN" x="416.56" y="154.94" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DPN" x="416.56" y="154.94" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIS" x="416.56" y="154.94" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="416.56" y="154.94" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R20" gate="G$1" x="419.1" y="111.76" smashed="yes" rot="R90">
 <attribute name="NAME" x="417.6014" y="107.95" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="422.402" y="107.95" size="1.778" layer="96" rot="R90"/>
+<attribute name="MPN" x="419.1" y="111.76" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DPN" x="419.1" y="111.76" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIS" x="419.1" y="111.76" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="419.1" y="111.76" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="J4" gate="G$1" x="215.9" y="142.24" smashed="yes" rot="R180">
 <attribute name="VALUE" x="220.98" y="149.606" size="1.778" layer="96" font="vector" rot="R180"/>
 <attribute name="NAME" x="220.98" y="134.112" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="MPN" x="215.9" y="142.24" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="DPN" x="215.9" y="142.24" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="DIS" x="215.9" y="142.24" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MFR" x="215.9" y="142.24" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="J5" gate="G$1" x="215.9" y="116.84" smashed="yes" rot="R180">
 <attribute name="VALUE" x="220.98" y="124.206" size="1.778" layer="96" font="vector" rot="R180"/>
 <attribute name="NAME" x="220.98" y="108.712" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="MPN" x="215.9" y="116.84" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="DPN" x="215.9" y="116.84" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="DIS" x="215.9" y="116.84" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MFR" x="215.9" y="116.84" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="J6" gate="G$1" x="215.9" y="88.9" smashed="yes" rot="R180">
 <attribute name="VALUE" x="220.98" y="96.266" size="1.778" layer="96" font="vector" rot="R180"/>
 <attribute name="NAME" x="220.98" y="80.772" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="MPN" x="215.9" y="88.9" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="DPN" x="215.9" y="88.9" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="DIS" x="215.9" y="88.9" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MFR" x="215.9" y="88.9" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="J7" gate="G$1" x="215.9" y="58.42" smashed="yes" rot="R180">
 <attribute name="VALUE" x="220.98" y="65.786" size="1.778" layer="96" font="vector" rot="R180"/>
 <attribute name="NAME" x="220.98" y="50.292" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="MPN" x="215.9" y="58.42" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="DPN" x="215.9" y="58.42" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="DIS" x="215.9" y="58.42" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MFR" x="215.9" y="58.42" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="C18" gate="G$1" x="238.76" y="144.78" smashed="yes" rot="R180">
 <attribute name="NAME" x="237.236" y="144.399" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="237.236" y="149.479" size="1.778" layer="96" rot="R180"/>
+<attribute name="DIS" x="238.76" y="144.78" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MPN" x="238.76" y="144.78" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="DPN" x="238.76" y="144.78" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MFR" x="238.76" y="144.78" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="U5" gate="A" x="182.88" y="241.3" smashed="yes">
 <attribute name="NAME" x="193.3956" y="250.4186" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="192.7606" y="247.8786" size="2.0828" layer="96" ratio="6" rot="SR0"/>
+<attribute name="MPN" x="182.88" y="241.3" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="182.88" y="241.3" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="182.88" y="241.3" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="182.88" y="241.3" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U6" gate="A" x="58.42" y="241.3" smashed="yes">
 <attribute name="NAME" x="74.0156" y="250.4186" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="73.3806" y="247.8786" size="2.0828" layer="96" ratio="6" rot="SR0"/>
+<attribute name="MPN" x="58.42" y="241.3" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="58.42" y="241.3" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="58.42" y="241.3" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="58.42" y="241.3" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C22" gate="G$1" x="78.74" y="355.6" smashed="yes" rot="R90">
 <attribute name="NAME" x="78.359" y="357.124" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="83.439" y="357.124" size="1.778" layer="96" rot="R90"/>
+<attribute name="MPN" x="78.74" y="355.6" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DPN" x="78.74" y="355.6" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIS" x="78.74" y="355.6" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="78.74" y="355.6" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C23" gate="G$1" x="238.76" y="119.38" smashed="yes" rot="R180">
 <attribute name="NAME" x="237.236" y="118.999" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="237.236" y="124.079" size="1.778" layer="96" rot="R180"/>
+<attribute name="DIS" x="238.76" y="119.38" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MPN" x="238.76" y="119.38" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="DPN" x="238.76" y="119.38" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MFR" x="238.76" y="119.38" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="C24" gate="G$1" x="238.76" y="91.44" smashed="yes" rot="R180">
 <attribute name="NAME" x="237.236" y="91.059" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="237.236" y="96.139" size="1.778" layer="96" rot="R180"/>
+<attribute name="DIS" x="238.76" y="91.44" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MPN" x="238.76" y="91.44" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="DPN" x="238.76" y="91.44" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MFR" x="238.76" y="91.44" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="C25" gate="G$1" x="238.76" y="60.96" smashed="yes" rot="R180">
 <attribute name="NAME" x="237.236" y="60.579" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="237.236" y="65.659" size="1.778" layer="96" rot="R180"/>
+<attribute name="DIS" x="238.76" y="60.96" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MPN" x="238.76" y="60.96" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="DPN" x="238.76" y="60.96" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MFR" x="238.76" y="60.96" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="C26" gate="G$1" x="281.94" y="137.16" smashed="yes">
 <attribute name="NAME" x="283.464" y="137.541" size="1.778" layer="95"/>
 <attribute name="VALUE" x="283.464" y="132.461" size="1.778" layer="96"/>
+<attribute name="DIS" x="281.94" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="281.94" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="281.94" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="281.94" y="137.16" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C27" gate="G$1" x="281.94" y="111.76" smashed="yes">
 <attribute name="NAME" x="283.464" y="112.141" size="1.778" layer="95"/>
 <attribute name="VALUE" x="283.464" y="107.061" size="1.778" layer="96"/>
+<attribute name="DIS" x="281.94" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="281.94" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="281.94" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="281.94" y="111.76" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C28" gate="G$1" x="281.94" y="83.82" smashed="yes">
 <attribute name="NAME" x="283.464" y="84.201" size="1.778" layer="95"/>
 <attribute name="VALUE" x="283.464" y="79.121" size="1.778" layer="96"/>
+<attribute name="DIS" x="281.94" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="281.94" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="281.94" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="281.94" y="83.82" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C29" gate="G$1" x="281.94" y="53.34" smashed="yes">
 <attribute name="NAME" x="283.464" y="53.721" size="1.778" layer="95"/>
 <attribute name="VALUE" x="283.464" y="48.641" size="1.778" layer="96"/>
+<attribute name="DIS" x="281.94" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="281.94" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="281.94" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="281.94" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C19" gate="G$1" x="172.72" y="160.02" smashed="yes" rot="R270">
 <attribute name="NAME" x="173.101" y="158.496" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="168.021" y="158.496" size="1.778" layer="96" rot="R270"/>
+<attribute name="MPN" x="172.72" y="160.02" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DPN" x="172.72" y="160.02" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DIS" x="172.72" y="160.02" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MFR" x="172.72" y="160.02" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="SUPPLY14" gate="GND" x="160.02" y="160.02" smashed="yes">
 <attribute name="VALUE" x="158.115" y="156.845" size="1.778" layer="96"/>
@@ -13706,6 +14446,10 @@ All capacitors are 0805 10% X5R with working voltage
 <instance part="C20" gate="G$1" x="172.72" y="45.72" smashed="yes" rot="R270">
 <attribute name="NAME" x="173.101" y="44.196" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="168.021" y="44.196" size="1.778" layer="96" rot="R270"/>
+<attribute name="MPN" x="172.72" y="45.72" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DPN" x="172.72" y="45.72" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DIS" x="172.72" y="45.72" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MFR" x="172.72" y="45.72" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="SUPPLY48" gate="GND" x="160.02" y="45.72" smashed="yes">
 <attribute name="VALUE" x="158.115" y="42.545" size="1.778" layer="96"/>
@@ -13728,49 +14472,109 @@ All capacitors are 0805 10% X5R with working voltage
 </instance>
 <instance part="D4" gate="G$1" x="439.42" y="165.1" smashed="yes" rot="R180">
 <attribute name="NAME" x="436.88" y="162.56" size="1.778" layer="95" rot="R180"/>
+<attribute name="MPN" x="439.42" y="165.1" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="DPN" x="439.42" y="165.1" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="DIS" x="439.42" y="165.1" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MFR" x="439.42" y="165.1" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="D3" gate="G$1" x="477.52" y="165.1" smashed="yes" rot="R180">
 <attribute name="NAME" x="474.98" y="162.56" size="1.778" layer="95" rot="R180"/>
+<attribute name="MPN" x="477.52" y="165.1" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="DPN" x="477.52" y="165.1" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="DIS" x="477.52" y="165.1" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MFR" x="477.52" y="165.1" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="D6" gate="G$1" x="477.52" y="195.58" smashed="yes">
 <attribute name="NAME" x="480.06" y="198.12" size="1.778" layer="95"/>
+<attribute name="MPN" x="477.52" y="195.58" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="477.52" y="195.58" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="477.52" y="195.58" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="477.52" y="195.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D5" gate="G$1" x="439.42" y="195.58" smashed="yes">
 <attribute name="NAME" x="441.96" y="198.12" size="1.778" layer="95"/>
+<attribute name="MPN" x="439.42" y="195.58" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="439.42" y="195.58" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="439.42" y="195.58" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="439.42" y="195.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D10" gate="G$1" x="269.24" y="134.62" smashed="yes" rot="R180">
 <attribute name="NAME" x="266.7" y="132.08" size="1.778" layer="95" rot="R180"/>
+<attribute name="MPN" x="269.24" y="134.62" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="DPN" x="269.24" y="134.62" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="DIS" x="269.24" y="134.62" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MFR" x="269.24" y="134.62" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="D8" gate="G$1" x="269.24" y="109.22" smashed="yes" rot="R180">
 <attribute name="NAME" x="266.7" y="106.68" size="1.778" layer="95" rot="R180"/>
+<attribute name="MPN" x="269.24" y="109.22" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="DPN" x="269.24" y="109.22" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="DIS" x="269.24" y="109.22" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MFR" x="269.24" y="109.22" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="D7" gate="G$1" x="269.24" y="81.28" smashed="yes" rot="R180">
 <attribute name="NAME" x="266.7" y="78.74" size="1.778" layer="95" rot="R180"/>
+<attribute name="MPN" x="269.24" y="81.28" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="DPN" x="269.24" y="81.28" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="DIS" x="269.24" y="81.28" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MFR" x="269.24" y="81.28" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="D2" gate="G$1" x="269.24" y="50.8" smashed="yes" rot="R180">
 <attribute name="NAME" x="266.7" y="48.26" size="1.778" layer="95" rot="R180"/>
+<attribute name="MPN" x="269.24" y="50.8" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="DPN" x="269.24" y="50.8" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="DIS" x="269.24" y="50.8" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MFR" x="269.24" y="50.8" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="D14" gate="G$1" x="251.46" y="63.5" smashed="yes">
 <attribute name="NAME" x="254" y="66.04" size="1.778" layer="95"/>
+<attribute name="MPN" x="251.46" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="251.46" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="251.46" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="251.46" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D13" gate="G$1" x="251.46" y="93.98" smashed="yes">
 <attribute name="NAME" x="254" y="96.52" size="1.778" layer="95"/>
+<attribute name="MPN" x="251.46" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="251.46" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="251.46" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="251.46" y="93.98" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D12" gate="G$1" x="251.46" y="121.92" smashed="yes">
 <attribute name="NAME" x="254" y="124.46" size="1.778" layer="95"/>
+<attribute name="MPN" x="251.46" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="251.46" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="251.46" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="251.46" y="121.92" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D11" gate="G$1" x="251.46" y="147.32" smashed="yes">
 <attribute name="NAME" x="254" y="149.86" size="1.778" layer="95"/>
+<attribute name="MPN" x="251.46" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="251.46" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="251.46" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="251.46" y="147.32" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D15" gate="G$1" x="170.18" y="165.1" smashed="yes" rot="R90">
 <attribute name="NAME" x="167.64" y="167.64" size="1.778" layer="95" rot="R90"/>
+<attribute name="MPN" x="170.18" y="165.1" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DPN" x="170.18" y="165.1" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIS" x="170.18" y="165.1" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="170.18" y="165.1" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="D16" gate="G$1" x="170.18" y="50.8" smashed="yes" rot="R90">
 <attribute name="NAME" x="167.64" y="53.34" size="1.778" layer="95" rot="R90"/>
+<attribute name="MPN" x="170.18" y="50.8" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DPN" x="170.18" y="50.8" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIS" x="170.18" y="50.8" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="170.18" y="50.8" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="D9" gate="G$1" x="81.28" y="340.36" smashed="yes" rot="R270">
 <attribute name="NAME" x="83.82" y="337.82" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="78.74" y="337.82" size="1.778" layer="96" rot="R270"/>
+<attribute name="DIS" x="81.28" y="340.36" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DPN" x="81.28" y="340.36" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MFR" x="81.28" y="340.36" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MPN" x="81.28" y="340.36" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="H5" gate="MT" x="50.038" y="17.018" smashed="yes">
 <attribute name="NAME" x="51.308" y="19.558" size="1.27" layer="95"/>
