@@ -8034,130 +8034,230 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </groups>
 <elements>
 <element name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="120p" x="157.607" y="35.4838" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="157.607" y="35.4838" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="399-7139-1-ND" x="157.607" y="35.4838" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="KEMET" x="157.607" y="35.4838" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="C0805C121KDRACTU" x="157.607" y="35.4838" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="158.0642" y="33.147" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="POPULARITY" value="88" x="157.607" y="35.4838" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="157.607" y="35.4838" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="160.147" y="34.2138" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R11" library="marionette" package=".0805-B" value="1k" x="155.1178" y="35.433" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="155.1178" y="35.433" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="311-1.00KCRCT-ND" x="155.1178" y="35.433" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Yageo" x="155.1178" y="35.433" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC0805FR-071KL" x="155.1178" y="35.433" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="155.702" y="38.1508" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="157.0228" y="34.798" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="120pF" x="157.861" y="56.5658" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="157.861" y="56.5658" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="399-7139-1-ND" x="157.861" y="56.5658" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="KEMET" x="157.861" y="56.5658" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="C0805C121KDRACTU" x="157.861" y="56.5658" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="157.8102" y="54.229" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="POPULARITY" value="88" x="152.781" y="56.5658" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="152.781" y="56.5658" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="160.401" y="55.2958" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R13" library="marionette" package=".0805-B" value="1k" x="154.9908" y="56.642" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="154.9908" y="56.642" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="311-1.00KCRCT-ND" x="154.9908" y="56.642" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Yageo" x="154.9908" y="56.642" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC0805FR-071KL" x="154.9908" y="56.642" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="155.575" y="54.5338" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="156.8958" y="56.007" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="120pF" x="157.607" y="65.7098" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="157.607" y="65.7098" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="399-7139-1-ND" x="157.607" y="65.7098" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="KEMET" x="157.607" y="65.7098" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="C0805C121KDRACTU" x="157.607" y="65.7098" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="158.8262" y="63.373" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="POPULARITY" value="88" x="152.527" y="65.7098" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="152.527" y="65.7098" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="160.147" y="64.4398" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R14" library="marionette" package=".0805-B" value="1k" x="155.3718" y="65.659" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="155.3718" y="65.659" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="311-1.00KCRCT-ND" x="155.3718" y="65.659" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Yageo" x="155.3718" y="65.659" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC0805FR-071KL" x="155.3718" y="65.659" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="154.686" y="62.9412" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="158.5468" y="65.024" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="120pF" x="157.861" y="74.3458" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="157.861" y="74.3458" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="399-7139-1-ND" x="157.861" y="74.3458" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="KEMET" x="157.861" y="74.3458" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="C0805C121KDRACTU" x="157.861" y="74.3458" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="158.0642" y="72.009" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="POPULARITY" value="88" x="152.781" y="74.3458" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="152.781" y="74.3458" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="160.401" y="73.0758" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R15" library="marionette" package=".0805-B" value="1k" x="155.3718" y="74.295" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="155.3718" y="74.295" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="311-1.00KCRCT-ND" x="155.3718" y="74.295" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Yageo" x="155.3718" y="74.295" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC0805FR-071KL" x="155.3718" y="74.295" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="153.416" y="71.3232" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="157.2768" y="73.66" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="120pF" x="175.656240625" y="38.407340625" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="175.656240625" y="38.407340625" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="399-7139-1-ND" x="175.656240625" y="38.407340625" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="KEMET" x="175.656240625" y="38.407340625" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="C0805C121KDRACTU" x="175.656240625" y="38.407340625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="175.059340625" y="35.417759375" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="POPULARITY" value="88" x="170.576240625" y="38.407340625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="170.576240625" y="38.407340625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="178.196240625" y="37.137340625" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R16" library="marionette" package=".0805-B" value="1k" x="172.8978" y="38.481" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="172.8978" y="38.481" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="311-1.00KCRCT-ND" x="172.8978" y="38.481" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Yageo" x="172.8978" y="38.481" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC0805FR-071KL" x="172.8978" y="38.481" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="171.958" y="35.7632" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="174.8028" y="37.846" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="120pF" x="175.895" y="47.6758" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="175.895" y="47.6758" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="399-7139-1-ND" x="175.895" y="47.6758" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="KEMET" x="175.895" y="47.6758" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="C0805C121KDRACTU" x="175.895" y="47.6758" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="176.0982" y="45.339" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="POPULARITY" value="88" x="170.815" y="47.6758" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="170.815" y="47.6758" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="178.435" y="46.4058" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R17" library="marionette" package=".0805-B" value="1k" x="172.8978" y="47.879" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="172.8978" y="47.879" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="311-1.00KCRCT-ND" x="172.8978" y="47.879" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Yageo" x="172.8978" y="47.879" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC0805FR-071KL" x="172.8978" y="47.879" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="173.482" y="46.0248" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="174.8028" y="47.244" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="120pF" x="175.387" y="56.3118" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="175.387" y="56.3118" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="399-7139-1-ND" x="175.387" y="56.3118" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="KEMET" x="175.387" y="56.3118" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="C0805C121KDRACTU" x="175.387" y="56.3118" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="175.8442" y="53.975" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="POPULARITY" value="88" x="170.307" y="56.3118" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="170.307" y="56.3118" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="177.927" y="55.0418" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R18" library="marionette" package=".0805-B" value="1k" x="172.6438" y="56.261" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="172.6438" y="56.261" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="311-1.00KCRCT-ND" x="172.6438" y="56.261" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Yageo" x="172.6438" y="56.261" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC0805FR-071KL" x="172.6438" y="56.261" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="171.958" y="53.5432" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="174.5488" y="55.626" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="120pF" x="175.133" y="64.9478" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="175.133" y="64.9478" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="399-7139-1-ND" x="175.133" y="64.9478" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="KEMET" x="175.133" y="64.9478" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="C0805C121KDRACTU" x="175.133" y="64.9478" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="175.5902" y="62.611" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="POPULARITY" value="88" x="170.053" y="64.9478" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="170.053" y="64.9478" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="177.673" y="63.6778" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R19" library="marionette" package=".0805-B" value="1k" x="172.6438" y="65.151" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="172.6438" y="65.151" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="311-1.00KCRCT-ND" x="172.6438" y="65.151" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Yageo" x="172.6438" y="65.151" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC0805FR-071KL" x="172.6438" y="65.151" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="171.704" y="62.4332" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="174.5488" y="64.516" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="120pF" x="174.625" y="74.3458" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="174.625" y="74.3458" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="399-7139-1-ND" x="174.625" y="74.3458" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="KEMET" x="174.625" y="74.3458" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="C0805C121KDRACTU" x="174.625" y="74.3458" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="175.0822" y="71.755" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="POPULARITY" value="88" x="169.545" y="74.3458" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="169.545" y="74.3458" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="177.165" y="73.0758" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R20" library="marionette" package=".0805-B" value="1k" x="172.3898" y="74.549" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="172.3898" y="74.549" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="311-1.00KCRCT-ND" x="172.3898" y="74.549" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Yageo" x="172.3898" y="74.549" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC0805FR-071KL" x="172.3898" y="74.549" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="171.45" y="70.5612" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="174.2948" y="73.914" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="0.1u" x="41.5544" y="31.5214" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="41.5544" y="31.5214" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="490-4789-1-ND" x="41.5544" y="31.5214" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Murata Electronics" x="41.5544" y="31.5214" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="GCM21BR72A104KA37L" x="41.5544" y="31.5214" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="39.9174" y="30.7754" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="POPULARITY" value="52" x="41.5544" y="31.5214" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="41.5544" y="31.5214" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="43.4544" y="30.5214" size="1.016" layer="27" rot="R90"/>
 </element>
 <element name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="1u" x="40.9956" y="24.2824" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="40.9956" y="24.2824" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="1276-2395-1-ND" x="40.9956" y="24.2824" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics" x="40.9956" y="24.2824" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CL21A105KACLNNC" x="40.9956" y="24.2824" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="39.6126" y="23.5364" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="POPULARITY" value="52" x="40.9956" y="24.2824" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="40.9956" y="24.2824" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="42.8956" y="23.2824" size="1.016" layer="27" rot="R90"/>
 </element>
 <element name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="1u" x="58.2422" y="31.4198" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="58.2422" y="31.4198" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="1276-2395-1-ND" x="58.2422" y="31.4198" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics" x="58.2422" y="31.4198" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CL21A105KACLNNC" x="58.2422" y="31.4198" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="60.1612" y="31.4358" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="POPULARITY" value="52" x="58.2422" y="31.4198" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="58.2422" y="31.4198" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="60.1422" y="30.4198" size="1.016" layer="27" rot="R90"/>
 </element>
 <element name="R12" library="marionette" package=".0805-B" value="1k" x="155.1178" y="47.879" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="155.1178" y="47.879" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="311-1.00KCRCT-ND" x="155.1178" y="47.879" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Yageo" x="155.1178" y="47.879" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC0805FR-071KL" x="155.1178" y="47.879" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="155.702" y="50.3428" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="157.0228" y="47.244" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="120pF" x="157.353" y="47.9298" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="157.353" y="47.9298" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="399-7139-1-ND" x="157.353" y="47.9298" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="KEMET" x="157.353" y="47.9298" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="C0805C121KDRACTU" x="157.353" y="47.9298" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="157.8102" y="45.847" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="POPULARITY" value="88" x="157.353" y="47.9298" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="157.353" y="47.9298" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="159.893" y="46.6598" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="1u" x="56.9214" y="25.7556" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="56.9214" y="25.7556" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="1276-2395-1-ND" x="56.9214" y="25.7556" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics" x="56.9214" y="25.7556" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CL21A105KACLNNC" x="56.9214" y="25.7556" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="58.8404" y="25.5176" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="POPULARITY" value="52" x="56.9214" y="25.7556" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="56.9214" y="25.7556" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="58.8214" y="24.7556" size="1.016" layer="27" rot="R90"/>
 </element>
 <element name="U$3" library="TSAR_Controller" package="SSOP-20" value="ADS8344" x="49.3014" y="27.7876" smashed="yes" rot="R180">
+<attribute name="DIS" value="Digi-Key" x="49.3014" y="27.7876" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="296-41197-1-ND" x="49.3014" y="27.7876" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Texas Instruments" x="49.3014" y="27.7876" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="ADS8344N/1K" x="49.3014" y="27.7876" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="54.3814" y="30.3276" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R1" library="marionette" package=".0805-B" value="NP" x="155.8798" y="39.497" smashed="yes" rot="R180">
@@ -8169,89 +8269,164 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="156.2608" y="53.594" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R3" library="marionette" package=".0805-B" value="150" x="155.8798" y="59.817" smashed="yes" rot="R180">
+<attribute name="DIS" value="Digi-Key" x="155.8798" y="59.817" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="RNCP0805FTD150RCT-ND" x="155.8798" y="59.817" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Stackpole Electronics Inc" x="155.8798" y="59.817" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="RNCP0805FTD150R" x="155.8798" y="59.817" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="159.0548" y="59.944" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="156.5148" y="61.722" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R4" library="marionette" package=".0805-B" value="150" x="156.3878" y="68.961" smashed="yes" rot="R180">
+<attribute name="DIS" value="Digi-Key" x="156.3878" y="68.961" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="RNCP0805FTD150RCT-ND" x="156.3878" y="68.961" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Stackpole Electronics Inc" x="156.3878" y="68.961" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="RNCP0805FTD150R" x="156.3878" y="68.961" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="158.496" y="68.8848" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="155.7528" y="73.406" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R5" library="marionette" package=".0805-B" value="150" x="156.1338" y="77.597" smashed="yes" rot="R180">
+<attribute name="DIS" value="Digi-Key" x="156.1338" y="77.597" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="RNCP0805FTD150RCT-ND" x="156.1338" y="77.597" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Stackpole Electronics Inc" x="156.1338" y="77.597" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="RNCP0805FTD150R" x="156.1338" y="77.597" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="159.5628" y="77.978" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="156.7688" y="79.502" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R6" library="marionette" package=".0805-B" value="150" x="173.6598" y="42.037" smashed="yes" rot="R180">
+<attribute name="DIS" value="Digi-Key" x="173.6598" y="42.037" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="RNCP0805FTD150RCT-ND" x="173.6598" y="42.037" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Stackpole Electronics Inc" x="173.6598" y="42.037" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="RNCP0805FTD150R" x="173.6598" y="42.037" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="176.8348" y="42.418" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="174.2948" y="43.942" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R7" library="marionette" package=".0805-B" value="150" x="173.9138" y="51.181" smashed="yes" rot="R180">
+<attribute name="DIS" value="Digi-Key" x="173.9138" y="51.181" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="RNCP0805FTD150RCT-ND" x="173.9138" y="51.181" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Stackpole Electronics Inc" x="173.9138" y="51.181" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="RNCP0805FTD150R" x="173.9138" y="51.181" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="177.0888" y="51.308" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="174.5488" y="53.086" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R8" library="marionette" package=".0805-B" value="150" x="175.1838" y="59.817" smashed="yes" rot="R180">
+<attribute name="DIS" value="Digi-Key" x="175.1838" y="59.817" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="RNCP0805FTD150RCT-ND" x="175.1838" y="59.817" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Stackpole Electronics Inc" x="175.1838" y="59.817" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="RNCP0805FTD150R" x="175.1838" y="59.817" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="178.3588" y="60.198" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="175.8188" y="61.722" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R9" library="marionette" package=".0805-B" value="150" x="173.6598" y="68.199" smashed="yes" rot="R180">
+<attribute name="DIS" value="Digi-Key" x="173.6598" y="68.199" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="RNCP0805FTD150RCT-ND" x="173.6598" y="68.199" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Stackpole Electronics Inc" x="173.6598" y="68.199" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="RNCP0805FTD150R" x="173.6598" y="68.199" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="176.8348" y="68.58" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="174.2948" y="70.104" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R10" library="marionette" package=".0805-B" value="150" x="173.1518" y="77.597" smashed="yes" rot="R180">
+<attribute name="DIS" value="Digi-Key" x="173.1518" y="77.597" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="RNCP0805FTD150RCT-ND" x="173.1518" y="77.597" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Stackpole Electronics Inc" x="173.1518" y="77.597" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="RNCP0805FTD150R" x="173.1518" y="77.597" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="176.8348" y="78.232" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="173.7868" y="79.502" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="120pF" x="56.7944" y="45.4914" smashed="yes" rot="R180">
+<attribute name="DIS" value="Digi-Key" x="56.7944" y="45.4914" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="399-7139-1-ND" x="56.7944" y="45.4914" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="KEMET" x="56.7944" y="45.4914" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="C0805C121KDRACTU" x="56.7944" y="45.4914" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="59.1566" y="46.1264" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="POPULARITY" value="88" x="56.7944" y="1319.3014" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="56.7944" y="1319.3014" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="58.0644" y="48.0314" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R27" library="marionette" package=".0805-B" value="1k" x="56.7944" y="48.0314" smashed="yes" rot="R180">
+<attribute name="DIS" value="Digi-Key" x="56.7944" y="48.0314" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="311-1.00KCRCT-ND" x="56.7944" y="48.0314" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Yageo" x="56.7944" y="48.0314" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="RC0805FR-071KL" x="56.7944" y="48.0314" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="59.0296" y="48.7934" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="57.4294" y="49.9364" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="120pF" x="50.6984" y="52.8574" smashed="yes" rot="R180">
+<attribute name="DIS" value="Digi-Key" x="50.6984" y="52.8574" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="399-7139-1-ND" x="50.6984" y="52.8574" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="KEMET" x="50.6984" y="52.8574" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="C0805C121KDRACTU" x="50.6984" y="52.8574" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="52.8066" y="53.4924" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="POPULARITY" value="88" x="50.6984" y="1336.8274" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="50.6984" y="1336.8274" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="51.9684" y="55.3974" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R28" library="marionette" package=".0805-B" value="1k" x="50.6984" y="55.3974" smashed="yes" rot="R180">
+<attribute name="DIS" value="Digi-Key" x="50.6984" y="55.3974" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="311-1.00KCRCT-ND" x="50.6984" y="55.3974" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Yageo" x="50.6984" y="55.3974" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="RC0805FR-071KL" x="50.6984" y="55.3974" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="52.6796" y="56.1594" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="51.3334" y="57.3024" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="120pF" x="44.6024" y="45.4914" smashed="yes" rot="R180">
+<attribute name="DIS" value="Digi-Key" x="44.6024" y="45.4914" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="399-7139-1-ND" x="44.6024" y="45.4914" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="KEMET" x="44.6024" y="45.4914" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="C0805C121KDRACTU" x="44.6024" y="45.4914" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="47.2186" y="45.8724" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="POPULARITY" value="88" x="44.6024" y="1339.6214" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="44.6024" y="1339.6214" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="45.8724" y="48.0314" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R29" library="marionette" package=".0805-B" value="1k" x="44.6024" y="48.0314" smashed="yes" rot="R180">
+<attribute name="DIS" value="Digi-Key" x="44.6024" y="48.0314" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="311-1.00KCRCT-ND" x="44.6024" y="48.0314" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Yageo" x="44.6024" y="48.0314" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="RC0805FR-071KL" x="44.6024" y="48.0314" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="47.0916" y="48.7934" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="45.2374" y="49.9364" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C20" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="120pf" x="38.7604" y="52.8574" smashed="yes" rot="R180">
+<attribute name="DIS" value="Digi-Key" x="38.7604" y="52.8574" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="399-7139-1-ND" x="38.7604" y="52.8574" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="KEMET" x="38.7604" y="52.8574" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="C0805C121KDRACTU" x="38.7604" y="52.8574" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="41.1226" y="53.4924" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="POPULARITY" value="88" x="38.7604" y="1357.1474" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="38.7604" y="1357.1474" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="40.0304" y="55.3974" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R31" library="marionette" package=".0805-B" value="1k" x="38.7604" y="55.3974" smashed="yes" rot="R180">
+<attribute name="DIS" value="Digi-Key" x="38.7604" y="55.3974" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="311-1.00KCRCT-ND" x="38.7604" y="55.3974" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Yageo" x="38.7604" y="55.3974" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="RC0805FR-071KL" x="38.7604" y="55.3974" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="40.9956" y="56.1594" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="39.3954" y="57.3024" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C21" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="120pF" x="32.4104" y="45.4914" smashed="yes" rot="R180">
+<attribute name="DIS" value="Digi-Key" x="32.4104" y="45.4914" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="399-7139-1-ND" x="32.4104" y="45.4914" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="KEMET" x="32.4104" y="45.4914" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="C0805C121KDRACTU" x="32.4104" y="45.4914" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="35.0266" y="46.1264" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="POPULARITY" value="88" x="32.4104" y="1359.9414" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="32.4104" y="1359.9414" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="33.6804" y="48.0314" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R32" library="marionette" package=".0805-B" value="1k" x="32.4104" y="48.0314" smashed="yes" rot="R180">
+<attribute name="DIS" value="Digi-Key" x="32.4104" y="48.0314" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="311-1.00KCRCT-ND" x="32.4104" y="48.0314" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Yageo" x="32.4104" y="48.0314" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="RC0805FR-071KL" x="32.4104" y="48.0314" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="34.8996" y="48.7934" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="33.0454" y="49.9364" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="OPENHS2" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2021" package3d_urn="urn:adsk.eagle:package:8078633/1" value="22-23-2021" x="150.7998" y="37.211" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="150.7998" y="37.211" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="900-0022232021-ND" x="150.7998" y="37.211" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="MOLEX" x="150.7998" y="37.211" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Molex" x="150.7998" y="37.211" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="22-23-2021" x="150.7998" y="37.211" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="148.7678" y="40.767" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="OC_FARNELL" value="1462926" x="150.7998" y="37.211" size="1.778" layer="27" display="off"/>
@@ -8260,7 +8435,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="SPICEPREFIX" value="X" x="150.7998" y="37.211" size="1.778" layer="27" display="off"/>
 </element>
 <element name="OPENHS1" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2021" package3d_urn="urn:adsk.eagle:package:8078633/1" value="22-23-2021" x="150.7998" y="48.895" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="150.7998" y="48.895" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="900-0022232021-ND" x="150.7998" y="48.895" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="MOLEX" x="143.1798" y="-1264.285" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Molex" x="150.7998" y="48.895" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="22-23-2021" x="143.1798" y="-1264.285" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="148.7678" y="52.705" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="OC_FARNELL" value="1462926" x="143.1798" y="-1264.285" size="1.778" layer="27" display="off"/>
@@ -8268,7 +8446,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="POPULARITY" value="40" x="143.1798" y="-1264.285" size="1.778" layer="27" display="off"/>
 </element>
 <element name="PT1" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2021" package3d_urn="urn:adsk.eagle:package:8078633/1" value="22-23-2021" x="150.7998" y="57.785" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="150.7998" y="57.785" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="900-0022232021-ND" x="150.7998" y="57.785" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="MOLEX" x="143.1798" y="-1266.825" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Molex" x="150.7998" y="57.785" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="22-23-2021" x="143.1798" y="-1266.825" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="148.2598" y="61.595" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="OC_FARNELL" value="1462926" x="143.1798" y="-1266.825" size="1.778" layer="27" display="off"/>
@@ -8276,7 +8457,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="POPULARITY" value="40" x="143.1798" y="-1266.825" size="1.778" layer="27" display="off"/>
 </element>
 <element name="PT2" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2021" package3d_urn="urn:adsk.eagle:package:8078633/1" value="22-23-2021" x="150.7998" y="66.675" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="150.7998" y="66.675" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="900-0022232021-ND" x="150.7998" y="66.675" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="MOLEX" x="143.1798" y="-1269.365" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Molex" x="150.7998" y="66.675" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="22-23-2021" x="143.1798" y="-1269.365" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="148.2598" y="70.485" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="OC_FARNELL" value="1462926" x="143.1798" y="-1269.365" size="1.778" layer="27" display="off"/>
@@ -8284,7 +8468,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="POPULARITY" value="40" x="143.1798" y="-1269.365" size="1.778" layer="27" display="off"/>
 </element>
 <element name="PT3" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2021" package3d_urn="urn:adsk.eagle:package:8078633/1" value="22-23-2021" x="150.7998" y="75.565" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="150.7998" y="75.565" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="900-0022232021-ND" x="150.7998" y="75.565" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="MOLEX" x="143.1798" y="-1271.905" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Molex" x="150.7998" y="75.565" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="22-23-2021" x="143.1798" y="-1271.905" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="148.2598" y="79.375" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="OC_FARNELL" value="1462926" x="143.1798" y="-1271.905" size="1.778" layer="27" display="off"/>
@@ -8292,7 +8479,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="POPULARITY" value="40" x="143.1798" y="-1271.905" size="1.778" layer="27" display="off"/>
 </element>
 <element name="PT4" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2021" package3d_urn="urn:adsk.eagle:package:8078633/1" value="22-23-2021" x="168.3258" y="39.751" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="168.3258" y="39.751" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="900-0022232021-ND" x="168.3258" y="39.751" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="MOLEX" x="160.7058" y="-1319.149" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Molex" x="168.3258" y="39.751" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="22-23-2021" x="160.7058" y="-1319.149" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="165.7858" y="43.561" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="OC_FARNELL" value="1462926" x="160.7058" y="-1319.149" size="1.778" layer="27" display="off"/>
@@ -8300,7 +8490,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="POPULARITY" value="40" x="160.7058" y="-1319.149" size="1.778" layer="27" display="off"/>
 </element>
 <element name="PT5" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2021" package3d_urn="urn:adsk.eagle:package:8078633/1" value="22-23-2021" x="168.3258" y="48.641" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="168.3258" y="48.641" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="900-0022232021-ND" x="168.3258" y="48.641" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="MOLEX" x="160.7058" y="-1321.689" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Molex" x="168.3258" y="48.641" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="22-23-2021" x="160.7058" y="-1321.689" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="165.7858" y="52.451" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="OC_FARNELL" value="1462926" x="160.7058" y="-1321.689" size="1.778" layer="27" display="off"/>
@@ -8308,7 +8501,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="POPULARITY" value="40" x="160.7058" y="-1321.689" size="1.778" layer="27" display="off"/>
 </element>
 <element name="PIT2" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2021" package3d_urn="urn:adsk.eagle:package:8078633/1" value="22-23-2021" x="168.3258" y="57.531" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="168.3258" y="57.531" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="900-0022232021-ND" x="168.3258" y="57.531" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="MOLEX" x="160.7058" y="-1324.229" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Molex" x="168.3258" y="57.531" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="22-23-2021" x="160.7058" y="-1324.229" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="165.7858" y="61.341" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="OC_FARNELL" value="1462926" x="160.7058" y="-1324.229" size="1.778" layer="27" display="off"/>
@@ -8316,7 +8512,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="POPULARITY" value="40" x="160.7058" y="-1324.229" size="1.778" layer="27" display="off"/>
 </element>
 <element name="PIT5" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2021" package3d_urn="urn:adsk.eagle:package:8078633/1" value="22-23-2021" x="168.3258" y="66.421" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="168.3258" y="66.421" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="900-0022232021-ND" x="168.3258" y="66.421" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="MOLEX" x="160.7058" y="-1326.769" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Molex" x="168.3258" y="66.421" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="22-23-2021" x="160.7058" y="-1326.769" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="165.7858" y="70.231" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="OC_FARNELL" value="1462926" x="160.7058" y="-1326.769" size="1.778" layer="27" display="off"/>
@@ -8324,7 +8523,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="POPULARITY" value="40" x="160.7058" y="-1326.769" size="1.778" layer="27" display="off"/>
 </element>
 <element name="PIT6" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2021" package3d_urn="urn:adsk.eagle:package:8078633/1" value="22-23-2021" x="168.3258" y="75.311" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="168.3258" y="75.311" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="900-0022232021-ND" x="168.3258" y="75.311" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="MOLEX" x="160.7058" y="-1329.309" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Molex" x="168.3258" y="75.311" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="22-23-2021" x="160.7058" y="-1329.309" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="165.7858" y="79.121" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="OC_FARNELL" value="1462926" x="160.7058" y="-1329.309" size="1.778" layer="27" display="off"/>
@@ -8332,7 +8534,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="POPULARITY" value="40" x="160.7058" y="-1329.309" size="1.778" layer="27" display="off"/>
 </element>
 <element name="CRYO4" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2021" package3d_urn="urn:adsk.eagle:package:8078633/1" value="22-23-2021" x="38.5064" y="60.4266" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="38.5064" y="60.4266" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="900-0022232021-ND" x="38.5064" y="60.4266" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="MOLEX" x="30.8864" y="-1355.6234" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Molex" x="38.5064" y="60.4266" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="22-23-2021" x="30.8864" y="-1355.6234" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="35.9664" y="64.2366" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="OC_FARNELL" value="1462926" x="30.8864" y="-1355.6234" size="1.778" layer="27" display="off"/>
@@ -8340,7 +8545,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="POPULARITY" value="40" x="30.8864" y="-1355.6234" size="1.778" layer="27" display="off"/>
 </element>
 <element name="CRYO1" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2021" package3d_urn="urn:adsk.eagle:package:8078633/1" value="22-23-2021" x="56.7944" y="53.0606" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="56.7944" y="53.0606" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="900-0022232021-ND" x="56.7944" y="53.0606" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="MOLEX" x="49.1744" y="-1374.4194" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Molex" x="56.7944" y="53.0606" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="22-23-2021" x="49.1744" y="-1374.4194" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="54.2544" y="56.8706" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="OC_FARNELL" value="1462926" x="49.1744" y="-1374.4194" size="1.778" layer="27" display="off"/>
@@ -8348,7 +8556,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="POPULARITY" value="40" x="49.1744" y="-1374.4194" size="1.778" layer="27" display="off"/>
 </element>
 <element name="CRYO2" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2021" package3d_urn="urn:adsk.eagle:package:8078633/1" value="22-23-2021" x="50.6984" y="60.4266" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="50.6984" y="60.4266" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="900-0022232021-ND" x="50.6984" y="60.4266" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="MOLEX" x="43.0784" y="-1378.4834" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Molex" x="50.6984" y="60.4266" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="22-23-2021" x="43.0784" y="-1378.4834" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="48.1584" y="64.2366" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="OC_FARNELL" value="1462926" x="43.0784" y="-1378.4834" size="1.778" layer="27" display="off"/>
@@ -8356,7 +8567,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="POPULARITY" value="40" x="43.0784" y="-1378.4834" size="1.778" layer="27" display="off"/>
 </element>
 <element name="CRYO3" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2021" package3d_urn="urn:adsk.eagle:package:8078633/1" value="22-23-2021" x="44.6024" y="53.0606" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="44.6024" y="53.0606" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="900-0022232021-ND" x="44.6024" y="53.0606" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="MOLEX" x="36.9824" y="-1397.2794" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Molex" x="44.6024" y="53.0606" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="22-23-2021" x="36.9824" y="-1397.2794" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="42.0624" y="56.8706" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="OC_FARNELL" value="1462926" x="36.9824" y="-1397.2794" size="1.778" layer="27" display="off"/>
@@ -8364,7 +8578,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="POPULARITY" value="40" x="36.9824" y="-1397.2794" size="1.778" layer="27" display="off"/>
 </element>
 <element name="AMBIENT" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2021" package3d_urn="urn:adsk.eagle:package:8078633/1" value="22-23-2021" x="32.4104" y="53.0606" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="32.4104" y="53.0606" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="900-0022232021-ND" x="32.4104" y="53.0606" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="MOLEX" x="24.7904" y="-1408.7094" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Molex" x="32.4104" y="53.0606" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="22-23-2021" x="24.7904" y="-1408.7094" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="29.8704" y="56.8706" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="OC_FARNELL" value="1462926" x="24.7904" y="-1408.7094" size="1.778" layer="27" display="off"/>
@@ -8372,70 +8589,130 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="POPULARITY" value="40" x="24.7904" y="-1408.7094" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R21" library="marionette" package=".0805-B" value="150" x="55.5244" y="60.9346" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="55.5244" y="60.9346" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="RNCP0805FTD150RCT-ND" x="55.5244" y="60.9346" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Stackpole Electronics Inc" x="55.5244" y="60.9346" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RNCP0805FTD150R" x="55.5244" y="60.9346" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="56.2864" y="63.7794" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="57.4294" y="60.2996" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R22" library="marionette" package=".0805-B" value="150" x="49.4284" y="68.3006" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="49.4284" y="68.3006" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="RNCP0805FTD150RCT-ND" x="49.4284" y="68.3006" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Stackpole Electronics Inc" x="49.4284" y="68.3006" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RNCP0805FTD150R" x="49.4284" y="68.3006" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="49.9364" y="70.8914" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="51.3334" y="67.6656" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R23" library="marionette" package=".0805-B" value="150" x="43.3324" y="60.9346" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="43.3324" y="60.9346" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="RNCP0805FTD150RCT-ND" x="43.3324" y="60.9346" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Stackpole Electronics Inc" x="43.3324" y="60.9346" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RNCP0805FTD150R" x="43.3324" y="60.9346" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="45.2374" y="60.2996" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="45.2374" y="60.2996" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R24" library="marionette" package=".0805-B" value="150" x="37.2364" y="68.3006" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="37.2364" y="68.3006" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="RNCP0805FTD150RCT-ND" x="37.2364" y="68.3006" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Stackpole Electronics Inc" x="37.2364" y="68.3006" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RNCP0805FTD150R" x="37.2364" y="68.3006" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="37.7444" y="70.8914" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="39.1414" y="67.6656" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R25" library="marionette" package=".0805-B" value="22k" x="31.1404" y="60.9346" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="31.1404" y="60.9346" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="311-22.0KCRCT-ND" x="31.1404" y="60.9346" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Yageo" x="31.1404" y="60.9346" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC0805FR-0722KL" x="31.1404" y="60.9346" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="33.0454" y="60.2996" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="33.0454" y="60.2996" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="U$1" library="TSAR_Controller (2)" package="SOT6" value="MP2456GJ-P" x="71.7804" y="54.7116" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="71.7804" y="54.7116" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="1589-1120-1-ND" x="71.7804" y="54.7116" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Monolithic Power Systems Inc." x="71.7804" y="54.7116" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MP2456GJ-P" x="71.7804" y="54.7116" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="74.3204" y="55.2196" size="0.635" layer="21" font="vector" ratio="20"/>
 </element>
 <element name="L2" library="TSAR_Controller (2)" package="0.209&quot;LX0.197&quot;W(5.30MMX5.00MM)" value="10uH" x="77.3176" y="62.5856" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="77.3176" y="62.5856" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="445-174699-1-ND" x="77.3176" y="62.5856" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="TDK Corporation" x="77.3176" y="62.5856" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CLF5030NIT-100M-D" x="77.3176" y="62.5856" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="81.4324" y="63.0936" size="0.635" layer="21" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="82.3976" y="58.7756" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF" x="72.0344" y="60.2996" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="72.0344" y="60.2996" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="490-4789-1-ND" x="72.0344" y="60.2996" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Murata Electronics" x="72.0344" y="60.2996" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="GCM21BR72A104KA37L" x="72.0344" y="60.2996" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="73.0504" y="61.3664" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="POPULARITY" value="88" x="72.0344" y="60.2996" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="72.0344" y="60.2996" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="70.7644" y="57.7596" size="1.27" layer="27"/>
 </element>
 <element name="C19" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF" x="71.2724" y="63.6016" smashed="yes" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="71.2724" y="63.6016" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="490-5523-1-ND" x="71.2724" y="63.6016" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Murata Electronics" x="71.2724" y="63.6016" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="GRM21BR61E106KA73L" x="71.2724" y="63.6016" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="72.5424" y="64.9224" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="POPULARITY" value="88" x="71.2724" y="63.6016" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="71.2724" y="63.6016" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="68.7324" y="64.8716" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R26" library="marionette" package=".0805-B" value="124k" x="65.6336" y="64.3636" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="65.6336" y="64.3636" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="2019-RK73H2ATTD1243FCT-ND" x="65.6336" y="64.3636" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="KOA Speer Electronics, Inc." x="65.6336" y="64.3636" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="RK73H2ATTD1243F" x="65.6336" y="64.3636" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="63.9826" y="65.5066" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="64.9986" y="62.4586" size="1.27" layer="27"/>
 </element>
 <element name="R30" library="marionette" package=".0805-B" value="23.7k" x="69.47408125" y="51.226721875" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="69.47408125" y="51.226721875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="2019-RK73H2ATTD2372FCT-ND" x="69.47408125" y="51.226721875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="KOA Speer Electronics, Inc." x="69.47408125" y="51.226721875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RK73H2ATTD2372F" x="69.47408125" y="51.226721875" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="68.280278125" y="52.58308125" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="71.37908125" y="50.591721875" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="D28" library="diode" library_urn="urn:adsk.eagle:library:210" package="DO214AA" package3d_urn="urn:adsk.eagle:package:43433/2" value="DFLS160" x="74.0156" y="57.7596" smashed="yes" rot="R180">
+<attribute name="DIS" value="Digi-Key" x="74.0156" y="57.7596" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="DFLS160DICT-ND" x="74.0156" y="57.7596" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Diodes Incorporated" x="74.0156" y="57.7596" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="DFLS160-7" x="74.0156" y="57.7596" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="78.2844" y="57.4684" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="POPULARITY" value="8" x="74.0156" y="57.7596" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="76.6556" y="60.4656" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="C22" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="4.7uF" x="74.7649" y="50.0888" smashed="yes" rot="R180">
+<attribute name="DIS" value="Digi-Key" x="74.7649" y="50.0888" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="1276-1244-1-ND" x="74.7649" y="50.0888" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics" x="74.7649" y="50.0888" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="CL21A475KAQNNNE" x="74.7649" y="50.0888" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="76.962" y="49.8729" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="POPULARITY" value="88" x="74.7649" y="50.0888" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="74.7649" y="50.0888" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="76.0349" y="52.6288" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C23" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF" x="77.5716" y="53.4416" smashed="yes" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="77.5716" y="53.4416" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="490-4789-1-ND" x="77.5716" y="53.4416" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Murata Electronics" x="77.5716" y="53.4416" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="GCM21BR72A104KA37L" x="77.5716" y="53.4416" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="78.8924" y="53.4416" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="POPULARITY" value="88" x="77.5716" y="53.4416" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="77.5716" y="53.4416" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="75.0316" y="54.7116" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R33" library="marionette" package=".0805-B" value="10k" x="74.5236" y="52.1716" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="74.5236" y="52.1716" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="2019-RN73R2ATTD1002F25CT-ND" x="74.5236" y="52.1716" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="KOA Speer Electronics, Inc." x="74.5236" y="52.1716" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="RN73R2ATTD1002F25" x="74.5236" y="52.1716" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="75.7174" y="53.8734" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="73.8886" y="50.2666" size="1.27" layer="27"/>
 </element>
@@ -8444,51 +8721,91 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="73.616821875" y="50.58918125" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="U$4" library="TSAR_Controller (2)" package="SOT6" value="MP2456GJ-P" x="70.1548" y="37.4142" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="70.1548" y="37.4142" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="1589-1120-1-ND" x="70.1548" y="37.4142" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Monolithic Power Systems Inc." x="70.1548" y="37.4142" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MP2456GJ-P" x="70.1548" y="37.4142" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="72.4408" y="37.1602" size="0.635" layer="21" font="vector" ratio="20"/>
 <attribute name="VALUE" x="66.0908" y="29.0322" size="0.635" layer="21" font="vector" ratio="20"/>
 </element>
 <element name="L1" library="TSAR_Controller (2)" package="0.209&quot;LX0.197&quot;W(5.30MMX5.00MM)" value="10uH" x="73.9902" y="45.1612" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="73.9902" y="45.1612" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="445-174699-1-ND" x="73.9902" y="45.1612" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="TDK Corporation" x="73.9902" y="45.1612" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CLF5030NIT-100M-D" x="73.9902" y="45.1612" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="78.0542" y="44.3992" size="0.635" layer="21" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="79.0702" y="41.3512" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C24" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF" x="68.6562" y="43.1292" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="68.6562" y="43.1292" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="490-4789-1-ND" x="68.6562" y="43.1292" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Murata Electronics" x="68.6562" y="43.1292" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="GCM21BR72A104KA37L" x="68.6562" y="43.1292" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="67.3608" y="40.7162" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="POPULARITY" value="88" x="49.3522" y="40.8432" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="49.3522" y="40.8432" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="67.3862" y="40.5892" size="1.27" layer="27"/>
 </element>
 <element name="C25" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF" x="69.1388" y="46.5582" smashed="yes" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="69.1388" y="46.5582" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="490-5523-1-ND" x="69.1388" y="46.5582" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Murata Electronics" x="69.1388" y="46.5582" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="GRM21BR61E106KA73L" x="69.1388" y="46.5582" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="70.8152" y="45.8978" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="POPULARITY" value="88" x="71.9328" y="64.3382" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="71.9328" y="64.3382" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="66.5988" y="47.8282" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R35" library="marionette" package=".0805-B" value="73.2k" x="65.0748" y="46.5582" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="65.0748" y="46.5582" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="541-73.2KCCT-ND" x="65.0748" y="46.5582" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Vishay Dale" x="65.0748" y="46.5582" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CRCW080573K2FKEA" x="65.0748" y="46.5582" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="63.9318" y="45.9232" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="66.9798" y="45.9232" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R36" library="marionette" package=".0805-B" value="23.7k" x="67.6148" y="33.6042" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="67.6148" y="33.6042" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="2019-RK73H2ATTD2372FCT-ND" x="67.6148" y="33.6042" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="KOA Speer Electronics, Inc." x="67.6148" y="33.6042" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RK73H2ATTD2372F" x="67.6148" y="33.6042" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="66.4718" y="32.9692" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="69.5198" y="32.9692" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="D27" library="diode" library_urn="urn:adsk.eagle:library:210" package="DO214AA" package3d_urn="urn:adsk.eagle:package:43433/2" value="DFLS160" x="71.4502" y="40.5892" smashed="yes" rot="R180">
+<attribute name="DIS" value="Digi-Key" x="71.4502" y="40.5892" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="DFLS160DICT-ND" x="71.4502" y="40.5892" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Diodes Incorporated" x="71.4502" y="40.5892" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="DFLS160-7" x="71.4502" y="40.5892" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="72.9758" y="38.5708" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="POPULARITY" value="8" x="88.2142" y="42.8752" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="74.0902" y="43.2952" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="C26" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="4.7uF" x="72.697340625" y="32.771078125" smashed="yes" rot="R180">
+<attribute name="DIS" value="Digi-Key" x="72.697340625" y="32.771078125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="1276-1244-1-ND" x="72.697340625" y="32.771078125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics" x="72.697340625" y="32.771078125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="CL21A475KAQNNNE" x="72.697340625" y="32.771078125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="71.229221875" y="30.998159375" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="POPULARITY" value="88" x="97.843340625" y="62.489078125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="97.843340625" y="62.489078125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="73.967340625" y="35.311078125" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C27" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF" x="75.4354625" y="36.0426" smashed="yes" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="75.4354625" y="36.0426" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="490-4789-1-ND" x="75.4354625" y="36.0426" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Murata Electronics" x="75.4354625" y="36.0426" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="GCM21BR72A104KA37L" x="75.4354625" y="36.0426" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="76.7334" y="36.3194625" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="POPULARITY" value="88" x="50.7974625" y="47.9806" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="50.7974625" y="47.9806" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="72.8954625" y="37.3126" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R37" library="marionette" package=".0805-B" value="10k" x="72.4154" y="34.800540625" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="72.4154" y="34.800540625" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="2019-RN73R2ATTD1002F25CT-ND" x="72.4154" y="34.800540625" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="KOA Speer Electronics, Inc." x="72.4154" y="34.800540625" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="RN73R2ATTD1002F25" x="72.4154" y="34.800540625" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="73.784459375" y="32.1564" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="71.7804" y="32.895540625" size="1.27" layer="27"/>
 </element>
@@ -8497,11 +8814,19 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="71.534021875" y="33.4264" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="ANALOG_TO_DAQ" library="marionette" package="IDC_RECEPTACLES" value="IDC_RECEPTACLE_2X20-S9175-ND" x="125.634" y="9.162" smashed="yes">
-<attribute name="NAME" x="112.828640625" y="2.8041375" size="1.27" layer="25" font="vector" ratio="20"/>
+<attribute name="DIS" value="Digi-Key" x="125.634" y="9.162" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="S9175-ND" x="125.634" y="9.162" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Sullins Connector Solutions" x="125.634" y="9.162" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="SBH11-PBPC-D20-ST-BK" x="125.634" y="9.162" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="101.504" y="14.242" size="1" layer="33"/>
+<attribute name="NAME" x="112.828640625" y="2.8041375" size="1.27" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="150.634" y="15.162" size="0.85" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="SERIAL_TO_DAQ" library="marionette" package="IDC_RECEPTACLES" value="IDC_RECEPTACLE_2X20-S9175-ND" x="45.8354" y="8.5196" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="45.8354" y="8.5196" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="S9175-ND" x="45.8354" y="8.5196" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Sullins Connector Solutions" x="45.8354" y="8.5196" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="SBH11-PBPC-D20-ST-BK" x="45.8354" y="8.5196" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="36.517459375" y="2.2989" size="1.27" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="21.7054" y="13.5996" size="1" layer="33"/>
 <attribute name="VALUE" x="70.8354" y="14.5196" size="0.85" layer="27" font="vector" ratio="15"/>
@@ -8516,45 +8841,76 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="61.214" y="71.628" size="1.016" layer="27" ratio="10"/>
 </element>
 <element name="POE_BYPASS" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" package="C2.5-4" package3d_urn="urn:adsk.eagle:package:5408/1" value="100u" x="65.786" y="69.596" smashed="yes" rot="R180">
+<attribute name="DIS" value="Digi-Key" x="65.786" y="69.596" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="P5182-ND" x="65.786" y="69.596" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Panasonic Electronic Components" x="65.786" y="69.596" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="ECA-1HM101" x="65.786" y="69.596" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="68.453" y="69.469" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="POPULARITY" value="6" x="65.786" y="69.596" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="67.437" y="73.025" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="C28" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="120pF" x="26.67" y="42.926" smashed="yes" rot="R180">
+<attribute name="DIS" value="Digi-Key" x="26.67" y="42.926" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="399-7139-1-ND" x="26.67" y="42.926" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="KEMET" x="26.67" y="42.926" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="C0805C121KDRACTU" x="26.67" y="42.926" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="28.956" y="43.688" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="POPULARITY" value="88" x="26.67" y="42.926" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="26.67" y="42.926" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="27.94" y="45.466" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R39" library="marionette" package=".0805-B" value="1k" x="26.67" y="45.466" smashed="yes" rot="R180">
-<attribute name="NAME" x="28.686" y="46.204" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="DIS" value="Digi-Key" x="26.67" y="45.466" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="311-1.00KCRCT-ND" x="26.67" y="45.466" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Yageo" x="26.67" y="45.466" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="RC0805FR-071KL" x="26.67" y="45.466" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="26.67" y="45.466" size="0.4" layer="33" ratio="15" rot="R180" align="center"/>
+<attribute name="NAME" x="28.686" y="46.204" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="28.17" y="47.266" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="C29" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="120pF" x="19.05" y="41.656" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="19.05" y="41.656" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="399-7139-1-ND" x="19.05" y="41.656" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="KEMET" x="19.05" y="41.656" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="C0805C121KDRACTU" x="19.05" y="41.656" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="19.558" y="39.116" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="POPULARITY" value="88" x="19.05" y="41.656" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="19.05" y="41.656" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="21.59" y="40.386" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R40" library="marionette" package=".0805-B" value="1k" x="16.764" y="41.656" smashed="yes" rot="R90">
-<attribute name="NAME" x="15.256" y="40.918" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="DIS" value="Digi-Key" x="16.764" y="41.656" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="311-1.00KCRCT-ND" x="16.764" y="41.656" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Yageo" x="16.764" y="41.656" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC0805FR-071KL" x="16.764" y="41.656" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="16.764" y="41.656" size="0.4" layer="33" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="15.256" y="40.918" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="18.564" y="40.156" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="C30" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="120pF" x="10.16" y="51.816" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="10.16" y="51.816" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="399-7139-1-ND" x="10.16" y="51.816" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="KEMET" x="10.16" y="51.816" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="C0805C121KDRACTU" x="10.16" y="51.816" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="9.398" y="53.086" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="POPULARITY" value="88" x="10.16" y="51.816" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="10.16" y="51.816" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="8.89" y="49.276" size="1.27" layer="27"/>
 </element>
 <element name="R41" library="marionette" package=".0805-B" value="1k" x="7.112" y="52.832" smashed="yes" rot="R90">
-<attribute name="NAME" x="5.604" y="52.348" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="DIS" value="Digi-Key" x="7.112" y="52.832" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="311-1.00KCRCT-ND" x="7.112" y="52.832" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Yageo" x="7.112" y="52.832" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC0805FR-071KL" x="7.112" y="52.832" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="7.112" y="52.832" size="0.4" layer="33" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="5.604" y="52.348" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="8.912" y="51.332" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="OPEN1" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2021" package3d_urn="urn:adsk.eagle:package:8078633/1" value="22-23-2021" x="26.416" y="60.452" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="26.416" y="60.452" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="900-0022232021-ND" x="26.416" y="60.452" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="MOLEX" x="19.812" y="71.374" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Molex" x="26.416" y="60.452" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="22-23-2021" x="19.812" y="71.374" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="23.876" y="64.262" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="OC_FARNELL" value="1462926" x="19.812" y="71.374" size="1.778" layer="27" display="off"/>
@@ -8563,7 +8919,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="23.876" y="55.372" size="1.016" layer="27" ratio="10"/>
 </element>
 <element name="OPEN2" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2021" package3d_urn="urn:adsk.eagle:package:8078633/1" value="22-23-2021" x="20.066" y="50.292" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="20.066" y="50.292" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="900-0022232021-ND" x="20.066" y="50.292" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="MOLEX" x="13.462" y="61.214" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Molex" x="20.066" y="50.292" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="22-23-2021" x="13.462" y="61.214" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="17.526" y="54.102" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="OC_FARNELL" value="1462926" x="13.462" y="61.214" size="1.778" layer="27" display="off"/>
@@ -8572,7 +8931,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="17.526" y="45.212" size="1.016" layer="27" ratio="10"/>
 </element>
 <element name="OPEN3" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2021" package3d_urn="urn:adsk.eagle:package:8078633/1" value="22-23-2021" x="12.446" y="61.214" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="12.446" y="61.214" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="900-0022232021-ND" x="12.446" y="61.214" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="MOLEX" x="5.842" y="72.136" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Molex" x="12.446" y="61.214" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="22-23-2021" x="5.842" y="72.136" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="9.906" y="65.024" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="OC_FARNELL" value="1462926" x="5.842" y="72.136" size="1.778" layer="27" display="off"/>
@@ -8596,8 +8958,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="15.516" y="51.332" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="THRUST" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="6410-05" package3d_urn="urn:adsk.eagle:package:8078651/1" value="Thrust Plate Connector" x="167.894" y="20.828" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="167.894" y="20.828" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="WM4203-ND" x="167.894" y="20.828" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="M-PN" value="0022232051" x="167.894" y="20.828" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="MOLEX" x="167.894" y="20.828" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="167.894" y="20.828" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Molex" x="167.894" y="20.828" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="164.1109" y="18.1879" size="1.27" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="OC_FARNELL" value="unknown" x="167.894" y="20.828" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="167.894" y="20.828" size="1.778" layer="27" rot="R90" display="off"/>
@@ -8632,57 +8997,129 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="10.287" y="81.026" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="D1" library="D5V0H1U2LP1610-7" package="0603DIODE" value="D5V0H1U2LP1610-7" x="9.906" y="49.276" smashed="yes" rot="R180">
+<attribute name="DIS" value="Digi-Key" x="9.906" y="49.276" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="D5V0H1U2LP1610-7DICT-ND" x="9.906" y="49.276" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Diodes Incorporated" x="9.906" y="49.276" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="D5V0H1U2LP1610-7" x="9.906" y="49.276" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="10.16" y="48.26" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 </element>
 <element name="D2" library="D5V0H1U2LP1610-7" package="0603DIODE" value="D5V0H1U2LP1610-7" x="26.67" y="39.116" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="26.67" y="39.116" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="D5V0H1U2LP1610-7DICT-ND" x="26.67" y="39.116" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Diodes Incorporated" x="26.67" y="39.116" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="D5V0H1U2LP1610-7" x="26.67" y="39.116" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="24.13" y="38.608" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="D3" library="D5V0H1U2LP1610-7" package="0603DIODE" value="D5V0H1U2LP1610-7" x="32.258" y="41.91" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="32.258" y="41.91" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="D5V0H1U2LP1610-7DICT-ND" x="32.258" y="41.91" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Diodes Incorporated" x="32.258" y="41.91" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="D5V0H1U2LP1610-7" x="32.258" y="41.91" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="31.242" y="39.878" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="D4" library="D5V0H1U2LP1610-7" package="0603DIODE" value="D5V0H1U2LP1610-7" x="38.608" y="49.276" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="38.608" y="49.276" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="D5V0H1U2LP1610-7DICT-ND" x="38.608" y="49.276" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Diodes Incorporated" x="38.608" y="49.276" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="D5V0H1U2LP1610-7" x="38.608" y="49.276" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="37.592" y="46.99" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="D5" library="D5V0H1U2LP1610-7" package="0603DIODE" value="D5V0H1U2LP1610-7" x="44.45" y="41.91" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="44.45" y="41.91" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="D5V0H1U2LP1610-7DICT-ND" x="44.45" y="41.91" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Diodes Incorporated" x="44.45" y="41.91" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="D5V0H1U2LP1610-7" x="44.45" y="41.91" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="43.434" y="39.624" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="D6" library="D5V0H1U2LP1610-7" package="0603DIODE" value="D5V0H1U2LP1610-7" x="50.8" y="49.022" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="50.8" y="49.022" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="D5V0H1U2LP1610-7DICT-ND" x="50.8" y="49.022" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Diodes Incorporated" x="50.8" y="49.022" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="D5V0H1U2LP1610-7" x="50.8" y="49.022" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="49.53" y="46.99" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="D7" library="D5V0H1U2LP1610-7" package="0603DIODE" value="D5V0H1U2LP1610-7" x="56.642" y="41.91" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="56.642" y="41.91" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="D5V0H1U2LP1610-7DICT-ND" x="56.642" y="41.91" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Diodes Incorporated" x="56.642" y="41.91" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="D5V0H1U2LP1610-7" x="56.642" y="41.91" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="55.372" y="39.624" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="D8" library="D5V0H1U2LP1610-7" package="0603DIODE" value="D5V0H1U2LP1610-7" x="160.02" y="35.052" smashed="yes" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="160.02" y="35.052" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="D5V0H1U2LP1610-7DICT-ND" x="160.02" y="35.052" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Diodes Incorporated" x="160.02" y="35.052" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="D5V0H1U2LP1610-7" x="160.02" y="35.052" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="161.29" y="34.544" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="D9" library="D5V0H1U2LP1610-7" package="0603DIODE" value="D5V0H1U2LP1610-7" x="160.02" y="47.498" smashed="yes" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="160.02" y="47.498" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="D5V0H1U2LP1610-7DICT-ND" x="160.02" y="47.498" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Diodes Incorporated" x="160.02" y="47.498" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="D5V0H1U2LP1610-7" x="160.02" y="47.498" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="161.29" y="46.99" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="D10" library="D5V0H1U2LP1610-7" package="0603DIODE" value="D5V0H1U2LP1610-7" x="160.2638375" y="56.24068125" smashed="yes" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="160.2638375" y="56.24068125" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="D5V0H1U2LP1610-7DICT-ND" x="160.2638375" y="56.24068125" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Diodes Incorporated" x="160.2638375" y="56.24068125" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="D5V0H1U2LP1610-7" x="160.2638375" y="56.24068125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="161.43731875" y="55.8698375" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="D11" library="D5V0H1U2LP1610-7" package="0603DIODE" value="D5V0H1U2LP1610-7" x="160.274" y="65.532" smashed="yes" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="160.274" y="65.532" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="D5V0H1U2LP1610-7DICT-ND" x="160.274" y="65.532" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Diodes Incorporated" x="160.274" y="65.532" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="D5V0H1U2LP1610-7" x="160.274" y="65.532" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="161.544" y="65.278" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="D12" library="D5V0H1U2LP1610-7" package="0603DIODE" value="D5V0H1U2LP1610-7" x="160.398459375" y="74.0537" smashed="yes" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="160.398459375" y="74.0537" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="D5V0H1U2LP1610-7DICT-ND" x="160.398459375" y="74.0537" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Diodes Incorporated" x="160.398459375" y="74.0537" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="D5V0H1U2LP1610-7" x="160.398459375" y="74.0537" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="161.9123" y="73.530459375" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="D13" library="D5V0H1U2LP1610-7" package="0603DIODE" value="D5V0H1U2LP1610-7" x="178.562" y="38.1" smashed="yes" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="178.562" y="38.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="D5V0H1U2LP1610-7DICT-ND" x="178.562" y="38.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Diodes Incorporated" x="178.562" y="38.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="D5V0H1U2LP1610-7" x="178.562" y="38.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="179.832" y="38.1" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="D14" library="D5V0H1U2LP1610-7" package="0603DIODE" value="D5V0H1U2LP1610-7" x="178.816" y="47.498" smashed="yes" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="178.816" y="47.498" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="D5V0H1U2LP1610-7DICT-ND" x="178.816" y="47.498" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Diodes Incorporated" x="178.816" y="47.498" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="D5V0H1U2LP1610-7" x="178.816" y="47.498" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="180.34" y="46.99" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="D15" library="D5V0H1U2LP1610-7" package="0603DIODE" value="D5V0H1U2LP1610-7" x="178.308" y="56.134" smashed="yes" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="178.308" y="56.134" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="D5V0H1U2LP1610-7DICT-ND" x="178.308" y="56.134" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Diodes Incorporated" x="178.308" y="56.134" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="D5V0H1U2LP1610-7" x="178.308" y="56.134" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="179.578" y="55.626" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="D16" library="D5V0H1U2LP1610-7" package="0603DIODE" value="D5V0H1U2LP1610-7" x="177.8" y="64.77" smashed="yes" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="177.8" y="64.77" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="D5V0H1U2LP1610-7DICT-ND" x="177.8" y="64.77" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Diodes Incorporated" x="177.8" y="64.77" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="D5V0H1U2LP1610-7" x="177.8" y="64.77" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="179.07" y="64.262" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="D17" library="D5V0H1U2LP1610-7" package="0603DIODE" value="D5V0H1U2LP1610-7" x="177.038" y="74.168" smashed="yes" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="177.038" y="74.168" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="D5V0H1U2LP1610-7DICT-ND" x="177.038" y="74.168" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Diodes Incorporated" x="177.038" y="74.168" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="D5V0H1U2LP1610-7" x="177.038" y="74.168" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="178.308" y="73.66" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="D18" library="D5V0H1U2LP1610-7" package="0603DIODE" value="D5V0H1U2LP1610-7" x="21.59" y="41.402" smashed="yes" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="21.59" y="41.402" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="D5V0H1U2LP1610-7DICT-ND" x="21.59" y="41.402" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Diodes Incorporated" x="21.59" y="41.402" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="D5V0H1U2LP1610-7" x="21.59" y="41.402" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="22.86" y="41.656" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="JP4" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="1X03" package3d_urn="urn:adsk.eagle:package:6240710/1" value="" x="26.416" y="53.086" smashed="yes" rot="R270">
@@ -8765,67 +9202,114 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="146.788" y="45.488" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="C31" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="0.1u" x="87.2363" y="18.42008125" smashed="yes" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="87.2363" y="18.42008125" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="490-4789-1-ND" x="87.2363" y="18.42008125" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Murata Electronics" x="87.2363" y="18.42008125" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="GCM21BR72A104KA37L" x="87.2363" y="18.42008125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="88.00008125" y="16.0287" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="POPULARITY" value="52" x="122.0343" y="35.18408125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="122.0343" y="35.18408125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="85.3363" y="19.42008125" size="1.016" layer="27" rot="R270"/>
 </element>
 <element name="C32" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="1u" x="84.582" y="35.56" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="84.582" y="35.56" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="1276-2395-1-ND" x="84.582" y="35.56" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics" x="84.582" y="35.56" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CL21A105KACLNNC" x="84.582" y="35.56" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="85.328" y="38.241" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="POPULARITY" value="52" x="54.61" y="14.732" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="54.61" y="14.732" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="86.482" y="34.56" size="1.016" layer="27" rot="R90"/>
 </element>
 <element name="C33" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="1u" x="82.296" y="30.48" smashed="yes" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="82.296" y="30.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="1276-2395-1-ND" x="82.296" y="30.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics" x="82.296" y="30.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="CL21A105KACLNNC" x="82.296" y="30.48" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="80.377" y="31.226" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="POPULARITY" value="52" x="107.442" y="55.118" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="107.442" y="55.118" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="80.396" y="31.48" size="1.016" layer="27" rot="R270"/>
 </element>
 <element name="C34" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="1u" x="87.122" y="35.306" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="87.122" y="35.306" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="1276-2395-1-ND" x="87.122" y="35.306" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics" x="87.122" y="35.306" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CL21A105KACLNNC" x="87.122" y="35.306" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="87.868" y="38.241" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="POPULARITY" value="52" x="66.802" y="6.858" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="66.802" y="6.858" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="89.022" y="34.306" size="1.016" layer="27" rot="R90"/>
 </element>
 <element name="U$8" library="TSAR_Controller" package="SSOP-20" value="ADS8344" x="89.408" y="27.178" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="89.408" y="27.178" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="296-41197-1-ND" x="89.408" y="27.178" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Texas Instruments" x="89.408" y="27.178" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="ADS8344N/1K" x="89.408" y="27.178" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="91.948" y="22.098" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C40" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="120pF" x="107.442" y="54.102" smashed="yes" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="107.442" y="54.102" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="399-7139-1-ND" x="107.442" y="54.102" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="KEMET" x="107.442" y="54.102" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="C0805C121KDRACTU" x="107.442" y="54.102" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="106.68" y="51.308" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="POPULARITY" value="88" x="21.844" y="112.522" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="21.844" y="112.522" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="104.902" y="55.372" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R60" library="marionette" package=".0805-B" value="1k" x="104.648" y="54.102" smashed="yes" rot="R270">
-<attribute name="NAME" x="103.91" y="51.546" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="DIS" value="Digi-Key" x="104.648" y="54.102" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="311-1.00KCRCT-ND" x="104.648" y="54.102" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Yageo" x="104.648" y="54.102" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="RC0805FR-071KL" x="104.648" y="54.102" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="104.648" y="54.102" size="0.4" layer="33" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="103.91" y="51.546" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="102.848" y="55.602" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="C41" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="120pF" x="107.442" y="65.532" smashed="yes" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="107.442" y="65.532" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="399-7139-1-ND" x="107.442" y="65.532" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="KEMET" x="107.442" y="65.532" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="C0805C121KDRACTU" x="107.442" y="65.532" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="106.68" y="62.484" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="POPULARITY" value="88" x="10.922" y="130.302" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="10.922" y="130.302" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="104.902" y="66.802" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R61" library="marionette" package=".0805-B" value="1k" x="104.648" y="65.532" smashed="yes" rot="R270">
-<attribute name="NAME" x="103.91" y="62.468" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="DIS" value="Digi-Key" x="104.648" y="65.532" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="311-1.00KCRCT-ND" x="104.648" y="65.532" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Yageo" x="104.648" y="65.532" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="RC0805FR-071KL" x="104.648" y="65.532" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="104.648" y="65.532" size="0.4" layer="33" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="103.91" y="62.468" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="102.848" y="67.032" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="C42" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="120pF" x="108.204" y="77.216" smashed="yes" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="108.204" y="77.216" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="399-7139-1-ND" x="108.204" y="77.216" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="KEMET" x="108.204" y="77.216" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="C0805C121KDRACTU" x="108.204" y="77.216" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="107.442" y="74.422" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="POPULARITY" value="88" x="0.762" y="148.336" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="0.762" y="148.336" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="105.664" y="78.486" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R62" library="marionette" package=".0805-B" value="1k" x="105.41" y="77.216" smashed="yes" rot="R270">
-<attribute name="NAME" x="104.672" y="74.66" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="DIS" value="Digi-Key" x="105.41" y="77.216" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="311-1.00KCRCT-ND" x="105.41" y="77.216" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Yageo" x="105.41" y="77.216" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="RC0805FR-071KL" x="105.41" y="77.216" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="105.41" y="77.216" size="0.4" layer="33" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="104.672" y="74.66" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="103.61" y="78.716" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="OPEN4" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2021" package3d_urn="urn:adsk.eagle:package:8078633/1" value="22-23-2021" x="100.076" y="54.102" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="100.076" y="54.102" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="900-0022232021-ND" x="100.076" y="54.102" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="MOLEX" x="218.44" y="-2.286" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Molex" x="100.076" y="54.102" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="22-23-2021" x="218.44" y="-2.286" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="96.266" y="52.832" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="OC_FARNELL" value="1462926" x="218.44" y="-2.286" size="1.778" layer="27" rot="R90" display="off"/>
@@ -8834,7 +9318,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="105.156" y="51.562" size="1.016" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="OPEN5" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2021" package3d_urn="urn:adsk.eagle:package:8078633/1" value="22-23-2021" x="100.076" y="65.532" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="100.076" y="65.532" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="900-0022232021-ND" x="100.076" y="65.532" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="MOLEX" x="218.44" y="-5.842" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Molex" x="100.076" y="65.532" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="22-23-2021" x="218.44" y="-5.842" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="96.52" y="64.262" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="OC_FARNELL" value="1462926" x="218.44" y="-5.842" size="1.778" layer="27" rot="R90" display="off"/>
@@ -8843,7 +9330,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="105.156" y="62.992" size="1.016" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="OPEN6" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2021" package3d_urn="urn:adsk.eagle:package:8078633/1" value="22-23-2021" x="100.838" y="77.216" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="100.838" y="77.216" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="900-0022232021-ND" x="100.838" y="77.216" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="MOLEX" x="219.202" y="-9.144" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Molex" x="100.838" y="77.216" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="22-23-2021" x="219.202" y="-9.144" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="97.028" y="75.946" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="OC_FARNELL" value="1462926" x="219.202" y="-9.144" size="1.778" layer="27" rot="R90" display="off"/>
@@ -8894,12 +9384,24 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="94.742" y="80.899" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="D19" library="D5V0H1U2LP1610-7" package="0603DIODE" value="D5V0H1U2LP1610-7" x="110.744" y="77.47" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="110.744" y="77.47" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="D5V0H1U2LP1610-7DICT-ND" x="110.744" y="77.47" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Diodes Incorporated" x="110.744" y="77.47" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="D5V0H1U2LP1610-7" x="110.744" y="77.47" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="111.76" y="75.692" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 </element>
 <element name="D20" library="D5V0H1U2LP1610-7" package="0603DIODE" value="D5V0H1U2LP1610-7" x="109.728" y="54.356" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="109.728" y="54.356" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="D5V0H1U2LP1610-7DICT-ND" x="109.728" y="54.356" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Diodes Incorporated" x="109.728" y="54.356" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="D5V0H1U2LP1610-7" x="109.728" y="54.356" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="110.49" y="52.578" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 </element>
 <element name="D26" library="D5V0H1U2LP1610-7" package="0603DIODE" value="D5V0H1U2LP1610-7" x="109.982" y="65.786" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="109.982" y="65.786" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="D5V0H1U2LP1610-7DICT-ND" x="109.982" y="65.786" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Diodes Incorporated" x="109.982" y="65.786" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="D5V0H1U2LP1610-7" x="109.982" y="65.786" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="110.998" y="64.008" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 </element>
 <element name="JP14" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="1X03" package3d_urn="urn:adsk.eagle:package:6240710/1" value="" x="99.568" y="48.514" smashed="yes">
@@ -8915,18 +9417,29 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="96.266" y="68.453" size="1.27" layer="27"/>
 </element>
 <element name="C35" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="120pF" x="134.62" y="76.962" smashed="yes" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="134.62" y="76.962" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="399-7139-1-ND" x="134.62" y="76.962" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="KEMET" x="134.62" y="76.962" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="C0805C121KDRACTU" x="134.62" y="76.962" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="133.604" y="74.168" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="POPULARITY" value="88" x="134.62" y="85.344" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="134.62" y="85.344" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="132.08" y="78.232" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R47" library="marionette" package=".0805-B" value="1k" x="131.826" y="76.962" smashed="yes" rot="R270">
-<attribute name="NAME" x="131.088" y="74.152" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="DIS" value="Digi-Key" x="131.826" y="76.962" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="311-1.00KCRCT-ND" x="131.826" y="76.962" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Yageo" x="131.826" y="76.962" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="RC0805FR-071KL" x="131.826" y="76.962" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="131.826" y="76.962" size="0.4" layer="33" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="131.088" y="74.152" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="130.026" y="78.462" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="OPEN7" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2021" package3d_urn="urn:adsk.eagle:package:8078633/1" value="22-23-2021" x="127.254" y="76.708" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="127.254" y="76.708" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="900-0022232021-ND" x="127.254" y="76.708" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="MOLEX" x="127.254" y="70.104" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Molex" x="127.254" y="76.708" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="22-23-2021" x="127.254" y="70.104" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="123.444" y="74.168" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="OC_FARNELL" value="1462926" x="127.254" y="70.104" size="1.778" layer="27" rot="R90" display="off"/>
@@ -8940,6 +9453,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="134.85" y="72.92" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="D21" library="D5V0H1U2LP1610-7" package="0603DIODE" value="D5V0H1U2LP1610-7" x="136.906" y="77.216" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="136.906" y="77.216" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="D5V0H1U2LP1610-7DICT-ND" x="136.906" y="77.216" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Diodes Incorporated" x="136.906" y="77.216" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="D5V0H1U2LP1610-7" x="136.906" y="77.216" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="137.668" y="75.438" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 </element>
 <element name="JP17" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="1X03" package3d_urn="urn:adsk.eagle:package:6240710/1" value="" x="127" y="71.12" smashed="yes">
@@ -8947,18 +9464,29 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="123.19" y="67.945" size="1.27" layer="27"/>
 </element>
 <element name="C36" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="120pF" x="134.874" y="65.786" smashed="yes" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="134.874" y="65.786" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="399-7139-1-ND" x="134.874" y="65.786" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="KEMET" x="134.874" y="65.786" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="C0805C121KDRACTU" x="134.874" y="65.786" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="134.112" y="62.992" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="POPULARITY" value="88" x="134.874" y="74.168" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="134.874" y="74.168" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="132.334" y="67.056" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R49" library="marionette" package=".0805-B" value="1k" x="132.334" y="65.786" smashed="yes" rot="R270">
-<attribute name="NAME" x="131.342" y="63.23" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="DIS" value="Digi-Key" x="132.334" y="65.786" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="311-1.00KCRCT-ND" x="132.334" y="65.786" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Yageo" x="132.334" y="65.786" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="RC0805FR-071KL" x="132.334" y="65.786" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="132.334" y="65.786" size="0.4" layer="33" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="131.342" y="63.23" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="130.534" y="67.286" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="OPEN8" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2021" package3d_urn="urn:adsk.eagle:package:8078633/1" value="22-23-2021" x="127.254" y="66.04" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="127.254" y="66.04" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="900-0022232021-ND" x="127.254" y="66.04" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="MOLEX" x="127.254" y="59.436" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Molex" x="127.254" y="66.04" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="22-23-2021" x="127.254" y="59.436" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="123.444" y="63.5" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="OC_FARNELL" value="1462926" x="127.254" y="59.436" size="1.778" layer="27" rot="R90" display="off"/>
@@ -8972,6 +9500,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="135.104" y="62.252" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="D22" library="D5V0H1U2LP1610-7" package="0603DIODE" value="D5V0H1U2LP1610-7" x="137.16" y="66.04" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="137.16" y="66.04" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="D5V0H1U2LP1610-7DICT-ND" x="137.16" y="66.04" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Diodes Incorporated" x="137.16" y="66.04" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="D5V0H1U2LP1610-7" x="137.16" y="66.04" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="138.176" y="64.262" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 </element>
 <element name="JP18" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="1X03" package3d_urn="urn:adsk.eagle:package:6240710/1" value="" x="127" y="60.452" smashed="yes">
@@ -8979,18 +9511,29 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="123.19" y="57.277" size="1.27" layer="27"/>
 </element>
 <element name="C37" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="120pF" x="134.62" y="53.848" smashed="yes" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="134.62" y="53.848" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="399-7139-1-ND" x="134.62" y="53.848" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="KEMET" x="134.62" y="53.848" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="C0805C121KDRACTU" x="134.62" y="53.848" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="133.858" y="51.054" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="POPULARITY" value="88" x="134.62" y="62.23" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="134.62" y="62.23" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="132.08" y="55.118" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R54" library="marionette" package=".0805-B" value="1k" x="131.826" y="53.848" smashed="yes" rot="R270">
-<attribute name="NAME" x="131.088" y="51.292" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="DIS" value="Digi-Key" x="131.826" y="53.848" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="311-1.00KCRCT-ND" x="131.826" y="53.848" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Yageo" x="131.826" y="53.848" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="RC0805FR-071KL" x="131.826" y="53.848" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="131.826" y="53.848" size="0.4" layer="33" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="131.088" y="51.292" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="130.026" y="55.348" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="OPEN9" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2021" package3d_urn="urn:adsk.eagle:package:8078633/1" value="22-23-2021" x="127" y="53.848" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="127" y="53.848" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="900-0022232021-ND" x="127" y="53.848" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="MOLEX" x="127" y="47.244" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Molex" x="127" y="53.848" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="22-23-2021" x="127" y="47.244" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="123.19" y="51.308" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="OC_FARNELL" value="1462926" x="127" y="47.244" size="1.778" layer="27" rot="R90" display="off"/>
@@ -9004,6 +9547,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="135.104" y="49.806" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="D23" library="D5V0H1U2LP1610-7" package="0603DIODE" value="D5V0H1U2LP1610-7" x="136.906" y="54.102" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="136.906" y="54.102" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="D5V0H1U2LP1610-7DICT-ND" x="136.906" y="54.102" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Diodes Incorporated" x="136.906" y="54.102" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="D5V0H1U2LP1610-7" x="136.906" y="54.102" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="137.668" y="52.324" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 </element>
 <element name="JP19" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="1X03" package3d_urn="urn:adsk.eagle:package:6240710/1" value="" x="127.508" y="48.006" smashed="yes">
@@ -9011,18 +9558,29 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="123.698" y="44.831" size="1.27" layer="27"/>
 </element>
 <element name="C38" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="120pF" x="134.874" y="40.64" smashed="yes" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="134.874" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="399-7139-1-ND" x="134.874" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="KEMET" x="134.874" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="C0805C121KDRACTU" x="134.874" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="134.112" y="37.846" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="POPULARITY" value="88" x="134.874" y="49.022" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="134.874" y="49.022" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="132.334" y="41.91" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R56" library="marionette" package=".0805-B" value="1k" x="132.08" y="40.64" smashed="yes" rot="R270">
-<attribute name="NAME" x="131.342" y="37.83" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="DIS" value="Digi-Key" x="132.08" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="311-1.00KCRCT-ND" x="132.08" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Yageo" x="132.08" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="RC0805FR-071KL" x="132.08" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="132.08" y="40.64" size="0.4" layer="33" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="131.342" y="37.83" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="130.28" y="42.14" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="OPEN10" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2021" package3d_urn="urn:adsk.eagle:package:8078633/1" value="22-23-2021" x="127.254" y="40.64" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="127.254" y="40.64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="900-0022232021-ND" x="127.254" y="40.64" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="MOLEX" x="127.254" y="34.036" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Molex" x="127.254" y="40.64" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="22-23-2021" x="127.254" y="34.036" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="123.444" y="38.1" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="OC_FARNELL" value="1462926" x="127.254" y="34.036" size="1.778" layer="27" rot="R90" display="off"/>
@@ -9036,6 +9594,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="137.644" y="36.344" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="D24" library="D5V0H1U2LP1610-7" package="0603DIODE" value="D5V0H1U2LP1610-7" x="137.16" y="40.894" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="137.16" y="40.894" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="D5V0H1U2LP1610-7DICT-ND" x="137.16" y="40.894" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Diodes Incorporated" x="137.16" y="40.894" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="D5V0H1U2LP1610-7" x="137.16" y="40.894" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="136.398" y="38.354" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="JP20" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="1X03" package3d_urn="urn:adsk.eagle:package:6240710/1" value="" x="129.286" y="34.544" smashed="yes">
@@ -9043,18 +9605,29 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="125.476" y="31.369" size="1.27" layer="27"/>
 </element>
 <element name="C39" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="120pF" x="107.442" y="42.164" smashed="yes" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="107.442" y="42.164" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="399-7139-1-ND" x="107.442" y="42.164" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="KEMET" x="107.442" y="42.164" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="C0805C121KDRACTU" x="107.442" y="42.164" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="106.68" y="39.116" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="POPULARITY" value="88" x="107.442" y="50.546" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="107.442" y="50.546" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="104.902" y="43.434" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R58" library="marionette" package=".0805-B" value="1k" x="104.648" y="42.164" smashed="yes" rot="R270">
-<attribute name="NAME" x="103.91" y="39.354" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="DIS" value="Digi-Key" x="104.648" y="42.164" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="311-1.00KCRCT-ND" x="104.648" y="42.164" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Yageo" x="104.648" y="42.164" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="RC0805FR-071KL" x="104.648" y="42.164" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="104.648" y="42.164" size="0.4" layer="33" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="103.91" y="39.354" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="102.848" y="43.664" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="OPEN11" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2021" package3d_urn="urn:adsk.eagle:package:8078633/1" value="22-23-2021" x="100.076" y="42.164" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="100.076" y="42.164" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="900-0022232021-ND" x="100.076" y="42.164" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="MOLEX" x="100.076" y="35.56" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Molex" x="100.076" y="42.164" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="22-23-2021" x="100.076" y="35.56" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="96.266" y="40.64" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="OC_FARNELL" value="1462926" x="100.076" y="35.56" size="1.778" layer="27" rot="R90" display="off"/>
@@ -9068,6 +9641,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="107.672" y="38.376" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="D25" library="D5V0H1U2LP1610-7" package="0603DIODE" value="D5V0H1U2LP1610-7" x="109.728" y="42.418" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="109.728" y="42.418" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="D5V0H1U2LP1610-7DICT-ND" x="109.728" y="42.418" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Diodes Incorporated" x="109.728" y="42.418" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="D5V0H1U2LP1610-7" x="109.728" y="42.418" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="110.49" y="40.64" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 </element>
 <element name="JP21" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="1X03" package3d_urn="urn:adsk.eagle:package:6240710/1" value="" x="99.822" y="36.576" smashed="yes">
@@ -9122,14 +9699,22 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="D30" library="TSAR_Controller" package="SOD123" value="1N4148W-7-F" x="67.056" y="46.99" smashed="yes" rot="R90">
 <attribute name="BUILT_BY" value="EMA_Anthony" x="67.056" y="46.99" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="COPYRIGHT" value="Copyright (C) 2016 Accelerated Designs. All rights reserved" x="67.056" y="46.99" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIS" value="Digi-Key" x="67.056" y="46.99" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="1N4148W-FDICT-ND" x="67.056" y="46.99" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="1N4148W-7-F" x="67.056" y="46.99" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Diodes Incorporated" x="67.056" y="46.99" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="1N4148W-7-F" x="67.056" y="46.99" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="66.3194" y="49.403" size="0.635" layer="25" font="vector" ratio="20" rot="SR0"/>
 <attribute name="VENDOR" value="Diodes Inc" x="67.056" y="46.99" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="D29" library="TSAR_Controller" package="SOD123" value="1N4148W-7-F" x="68.58" y="63.754" smashed="yes" rot="R90">
 <attribute name="BUILT_BY" value="EMA_Anthony" x="68.58" y="63.754" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="COPYRIGHT" value="Copyright (C) 2016 Accelerated Designs. All rights reserved" x="68.58" y="63.754" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIS" value="Digi-Key" x="68.58" y="63.754" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="1N4148W-FDICT-ND" x="68.58" y="63.754" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="1N4148W-7-F" x="68.58" y="63.754" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Diodes Incorporated" x="68.58" y="63.754" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="1N4148W-7-F" x="68.58" y="63.754" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="67.8434" y="66.421" size="0.635" layer="25" font="vector" ratio="20" rot="SR0"/>
 <attribute name="VENDOR" value="Diodes Inc" x="68.58" y="63.754" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
