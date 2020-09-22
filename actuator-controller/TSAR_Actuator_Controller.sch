@@ -13747,12 +13747,7 @@ part number 2062-2P from STA</description>
 <attribute name="MPN" value="282834-2"/>
 </part>
 <part name="GND117" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="12V" library="TSAR_Controller" deviceset="282834-2" device="">
-<attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="A98333-ND"/>
-<attribute name="MFR" value="TE Connectivity AMP Connectors"/>
-<attribute name="MPN" value="282834-2"/>
-</part>
+<part name="12V" library="TSAR_Controller" deviceset="282834-2" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="GND92" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SOLENOID_0" library="TSAR_Controller" deviceset="282834-2" device="">
@@ -14761,12 +14756,7 @@ The voltage divider on EN may need to be adjusted.</text>
 <instance part="P+3" gate="1" x="152.4" y="171.45" smashed="yes">
 <attribute name="VALUE" x="149.86" y="166.37" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="12V" gate="A" x="199.39" y="182.88" smashed="yes" rot="MR180">
-<attribute name="DIS" x="199.39" y="182.88" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="DPN" x="199.39" y="182.88" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MFR" x="199.39" y="182.88" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MPN" x="199.39" y="182.88" size="1.778" layer="96" rot="MR180" display="off"/>
-</instance>
+<instance part="12V" gate="A" x="199.39" y="182.88" smashed="yes" rot="MR180"/>
 <instance part="P+4" gate="1" x="196.85" y="187.96" smashed="yes">
 <attribute name="VALUE" x="194.31" y="182.88" size="1.778" layer="96" rot="R90"/>
 </instance>
