@@ -13547,8 +13547,7 @@ part number 2062-2P from STA</description>
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="399-1124-1-ND"/>
 <attribute name="MFR" value="KEMET"/>
-<attribute name="MPN" value="C0805C121J5GACTU
-"/>
+<attribute name="MPN" value="C0805C121J5GACTU "/>
 </part>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -13569,8 +13568,7 @@ part number 2062-2P from STA</description>
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="399-1124-1-ND"/>
 <attribute name="MFR" value="KEMET"/>
-<attribute name="MPN" value="C0805C121J5GACTU
-"/>
+<attribute name="MPN" value="C0805C121J5GACTU "/>
 </part>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -13591,8 +13589,7 @@ part number 2062-2P from STA</description>
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="399-1124-1-ND"/>
 <attribute name="MFR" value="KEMET"/>
-<attribute name="MPN" value="C0805C121J5GACTU
-"/>
+<attribute name="MPN" value="C0805C121J5GACTU "/>
 </part>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -13613,8 +13610,7 @@ part number 2062-2P from STA</description>
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="399-1124-1-ND"/>
 <attribute name="MFR" value="KEMET"/>
-<attribute name="MPN" value="C0805C121J5GACTU
-"/>
+<attribute name="MPN" value="C0805C121J5GACTU "/>
 </part>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -13635,8 +13631,7 @@ part number 2062-2P from STA</description>
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="399-1124-1-ND"/>
 <attribute name="MFR" value="KEMET"/>
-<attribute name="MPN" value="C0805C121J5GACTU
-"/>
+<attribute name="MPN" value="C0805C121J5GACTU "/>
 </part>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -13657,8 +13652,7 @@ part number 2062-2P from STA</description>
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="399-1124-1-ND"/>
 <attribute name="MFR" value="KEMET"/>
-<attribute name="MPN" value="C0805C121J5GACTU
-"/>
+<attribute name="MPN" value="C0805C121J5GACTU "/>
 </part>
 <part name="GND103" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND104" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -13679,8 +13673,7 @@ part number 2062-2P from STA</description>
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="399-1124-1-ND"/>
 <attribute name="MFR" value="KEMET"/>
-<attribute name="MPN" value="C0805C121J5GACTU
-"/>
+<attribute name="MPN" value="C0805C121J5GACTU "/>
 </part>
 <part name="GND106" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND107" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -13701,8 +13694,7 @@ part number 2062-2P from STA</description>
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="399-1124-1-ND"/>
 <attribute name="MFR" value="KEMET"/>
-<attribute name="MPN" value="C0805C121J5GACTU
-"/>
+<attribute name="MPN" value="C0805C121J5GACTU "/>
 </part>
 <part name="GND109" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND110" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -13723,8 +13715,7 @@ part number 2062-2P from STA</description>
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="399-1124-1-ND"/>
 <attribute name="MFR" value="KEMET"/>
-<attribute name="MPN" value="C0805C121J5GACTU
-"/>
+<attribute name="MPN" value="C0805C121J5GACTU "/>
 </part>
 <part name="GND112" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND113" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -13745,8 +13736,7 @@ part number 2062-2P from STA</description>
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="399-1124-1-ND"/>
 <attribute name="MFR" value="KEMET"/>
-<attribute name="MPN" value="C0805C121J5GACTU
-"/>
+<attribute name="MPN" value="C0805C121J5GACTU "/>
 </part>
 <part name="GND115" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND116" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -13757,12 +13747,7 @@ part number 2062-2P from STA</description>
 <attribute name="MPN" value="282834-2"/>
 </part>
 <part name="GND117" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="12V" library="TSAR_Controller" deviceset="282834-2" device="">
-<attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="A98333-ND"/>
-<attribute name="MFR" value="TE Connectivity AMP Connectors"/>
-<attribute name="MPN" value="282834-2"/>
-</part>
+<part name="12V" library="TSAR_Controller" deviceset="282834-2" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="GND92" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SOLENOID_0" library="TSAR_Controller" deviceset="282834-2" device="">
@@ -14668,16 +14653,15 @@ part number 2062-2P from STA</description>
 <sheet>
 <description>5V Power Regulator</description>
 <plain>
-<text x="77.47" y="173.99" size="1.778" layer="97">12V to 5V Regulator</text>
+<text x="77.47" y="173.99" size="1.778" layer="97">12V/24V to 5V Regulator</text>
 <text x="120.65" y="166.37" size="1.778" layer="96">1N4148W-7-F</text>
 <text x="8.89" y="124.46" size="1.778" layer="97">R13 may need to be tested.  
-EN(P4) needs to be above 1.35V to turn on the regulator, 
-but the datasheet is unclear about how to configure the voltage divider.
-</text>
+EN(P4) needs to be above 1.35V to turn on the regulator.
+Make sure the sink current of EN pin does not exceed 100uA</text>
 <text x="7.62" y="115.57" size="1.778" layer="97">The 5V regulator is 50V tolerant.
 The voltage divider on EN may need to be adjusted.</text>
 <text x="21.59" y="193.04" size="2.54" layer="97">Power Regulators</text>
-<text x="190.5" y="193.04" size="1.778" layer="97">12V Connector from PoE</text>
+<text x="190.5" y="193.04" size="1.778" layer="97">12V/24V Connector from PoE</text>
 <text x="186.69" y="170.18" size="1.778" layer="97">VBATT From Test Stand Battery.</text>
 <text x="7.62" y="5.08" size="1.778" layer="97">All Resistors and Capacitors are 0805, unless otherwise noted.</text>
 <text x="96.52" y="17.78" size="1.778" layer="97">Drill Holes for Standoffs.</text>
@@ -14772,12 +14756,7 @@ The voltage divider on EN may need to be adjusted.</text>
 <instance part="P+3" gate="1" x="152.4" y="171.45" smashed="yes">
 <attribute name="VALUE" x="149.86" y="166.37" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="12V" gate="A" x="199.39" y="182.88" smashed="yes" rot="MR180">
-<attribute name="DIS" x="199.39" y="182.88" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="DPN" x="199.39" y="182.88" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MFR" x="199.39" y="182.88" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MPN" x="199.39" y="182.88" size="1.778" layer="96" rot="MR180" display="off"/>
-</instance>
+<instance part="12V" gate="A" x="199.39" y="182.88" smashed="yes" rot="MR180"/>
 <instance part="P+4" gate="1" x="196.85" y="187.96" smashed="yes">
 <attribute name="VALUE" x="194.31" y="182.88" size="1.778" layer="96" rot="R90"/>
 </instance>
