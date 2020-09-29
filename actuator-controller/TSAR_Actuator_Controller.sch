@@ -13551,12 +13551,6 @@ part number 2062-2P from STA</description>
 </part>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="SENSOR_0" library="TSAR_Controller" deviceset="282834-2" device="">
-<attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="A98333-ND"/>
-<attribute name="MFR" value="TE Connectivity AMP Connectors"/>
-<attribute name="MPN" value="282834-2"/>
-</part>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="120pF">
 <spice>
@@ -13572,12 +13566,6 @@ part number 2062-2P from STA</description>
 </part>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="SENSOR_1" library="TSAR_Controller" deviceset="282834-2" device="">
-<attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="A98333-ND"/>
-<attribute name="MFR" value="TE Connectivity AMP Connectors"/>
-<attribute name="MPN" value="282834-2"/>
-</part>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="120pF">
 <spice>
@@ -13593,12 +13581,6 @@ part number 2062-2P from STA</description>
 </part>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="SENSOR_2" library="TSAR_Controller" deviceset="282834-2" device="">
-<attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="A98333-ND"/>
-<attribute name="MFR" value="TE Connectivity AMP Connectors"/>
-<attribute name="MPN" value="282834-2"/>
-</part>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="120pF">
 <spice>
@@ -13614,12 +13596,6 @@ part number 2062-2P from STA</description>
 </part>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="SENSOR_3" library="TSAR_Controller" deviceset="282834-2" device="">
-<attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="A98333-ND"/>
-<attribute name="MFR" value="TE Connectivity AMP Connectors"/>
-<attribute name="MPN" value="282834-2"/>
-</part>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="120pF">
 <spice>
@@ -13635,12 +13611,6 @@ part number 2062-2P from STA</description>
 </part>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="SENSOR_4" library="TSAR_Controller" deviceset="282834-2" device="">
-<attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="A98333-ND"/>
-<attribute name="MFR" value="TE Connectivity AMP Connectors"/>
-<attribute name="MPN" value="282834-2"/>
-</part>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="120pF">
 <spice>
@@ -13656,12 +13626,6 @@ part number 2062-2P from STA</description>
 </part>
 <part name="GND103" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND104" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="SENSOR_5" library="TSAR_Controller" deviceset="282834-2" device="">
-<attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="A98333-ND"/>
-<attribute name="MFR" value="TE Connectivity AMP Connectors"/>
-<attribute name="MPN" value="282834-2"/>
-</part>
 <part name="GND105" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="120pF">
 <spice>
@@ -13677,12 +13641,6 @@ part number 2062-2P from STA</description>
 </part>
 <part name="GND106" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND107" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="SENSOR_6" library="TSAR_Controller" deviceset="282834-2" device="">
-<attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="A98333-ND"/>
-<attribute name="MFR" value="TE Connectivity AMP Connectors"/>
-<attribute name="MPN" value="282834-2"/>
-</part>
 <part name="GND108" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="120pF">
 <spice>
@@ -13698,12 +13656,6 @@ part number 2062-2P from STA</description>
 </part>
 <part name="GND109" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND110" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="SENSOR_7" library="TSAR_Controller" deviceset="282834-2" device="">
-<attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="A98333-ND"/>
-<attribute name="MFR" value="TE Connectivity AMP Connectors"/>
-<attribute name="MPN" value="282834-2"/>
-</part>
 <part name="GND111" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C40" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="120pF">
 <spice>
@@ -13719,12 +13671,6 @@ part number 2062-2P from STA</description>
 </part>
 <part name="GND112" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND113" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="SENSOR_8" library="TSAR_Controller" deviceset="282834-2" device="">
-<attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="A98333-ND"/>
-<attribute name="MFR" value="TE Connectivity AMP Connectors"/>
-<attribute name="MPN" value="282834-2"/>
-</part>
 <part name="GND114" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C41" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="120pF">
 <spice>
@@ -13740,12 +13686,6 @@ part number 2062-2P from STA</description>
 </part>
 <part name="GND115" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND116" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="SENSOR_9" library="TSAR_Controller" deviceset="282834-2" device="">
-<attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="A98333-ND"/>
-<attribute name="MFR" value="TE Connectivity AMP Connectors"/>
-<attribute name="MPN" value="282834-2"/>
-</part>
 <part name="GND117" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="12V" library="TSAR_Controller" deviceset="282834-2" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
@@ -14648,6 +14588,66 @@ part number 2062-2P from STA</description>
 <part name="H5" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
 <part name="H6" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
 <part name="H7" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
+<part name="SENSOR0" library="TSAR_Controller" deviceset="282834-2" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="A98333-ND"/>
+<attribute name="MFR" value="TE Connectivity AMP Connectors"/>
+<attribute name="MPN" value="282834-2"/>
+</part>
+<part name="SENSOR1" library="TSAR_Controller" deviceset="282834-2" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="A98333-ND"/>
+<attribute name="MFR" value="TE Connectivity AMP Connectors"/>
+<attribute name="MPN" value="282834-2"/>
+</part>
+<part name="SENSOR2" library="TSAR_Controller" deviceset="282834-2" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="A98333-ND"/>
+<attribute name="MFR" value="TE Connectivity AMP Connectors"/>
+<attribute name="MPN" value="282834-2"/>
+</part>
+<part name="SENSOR3" library="TSAR_Controller" deviceset="282834-2" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="A98333-ND"/>
+<attribute name="MFR" value="TE Connectivity AMP Connectors"/>
+<attribute name="MPN" value="282834-2"/>
+</part>
+<part name="SENSOR4" library="TSAR_Controller" deviceset="282834-2" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="A98333-ND"/>
+<attribute name="MFR" value="TE Connectivity AMP Connectors"/>
+<attribute name="MPN" value="282834-2"/>
+</part>
+<part name="SENSOR9" library="TSAR_Controller" deviceset="282834-2" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="A98333-ND"/>
+<attribute name="MFR" value="TE Connectivity AMP Connectors"/>
+<attribute name="MPN" value="282834-2"/>
+</part>
+<part name="SENSOR8" library="TSAR_Controller" deviceset="282834-2" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="A98333-ND"/>
+<attribute name="MFR" value="TE Connectivity AMP Connectors"/>
+<attribute name="MPN" value="282834-2"/>
+</part>
+<part name="SENSOR7" library="TSAR_Controller" deviceset="282834-2" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="A98333-ND"/>
+<attribute name="MFR" value="TE Connectivity AMP Connectors"/>
+<attribute name="MPN" value="282834-2"/>
+</part>
+<part name="SENSOR6" library="TSAR_Controller" deviceset="282834-2" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="A98333-ND"/>
+<attribute name="MFR" value="TE Connectivity AMP Connectors"/>
+<attribute name="MPN" value="282834-2"/>
+</part>
+<part name="SENSOR5" library="TSAR_Controller" deviceset="282834-2" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="A98333-ND"/>
+<attribute name="MFR" value="TE Connectivity AMP Connectors"/>
+<attribute name="MPN" value="282834-2"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -17003,13 +17003,6 @@ The voltage divider on EN may need to be adjusted.</text>
 <instance part="GND13" gate="1" x="55.88" y="166.37" smashed="yes">
 <attribute name="VALUE" x="53.34" y="163.83" size="1.778" layer="96"/>
 </instance>
-<instance part="SENSOR_0" gate="A" x="74.93" y="180.34" smashed="yes">
-<attribute name="NAME" x="79.0956" y="184.3786" size="2.0828" layer="95" ratio="6" rot="SR0"/>
-<attribute name="MPN" x="74.93" y="180.34" size="1.778" layer="96" display="off"/>
-<attribute name="DPN" x="74.93" y="180.34" size="1.778" layer="96" display="off"/>
-<attribute name="MFR" x="74.93" y="180.34" size="1.778" layer="96" display="off"/>
-<attribute name="DIS" x="74.93" y="180.34" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="GND14" gate="1" x="74.93" y="175.26" smashed="yes">
 <attribute name="VALUE" x="72.39" y="172.72" size="1.778" layer="96"/>
 </instance>
@@ -17026,13 +17019,6 @@ The voltage divider on EN may need to be adjusted.</text>
 </instance>
 <instance part="GND2" gate="1" x="55.88" y="140.97" smashed="yes">
 <attribute name="VALUE" x="53.34" y="138.43" size="1.778" layer="96"/>
-</instance>
-<instance part="SENSOR_1" gate="A" x="74.93" y="154.94" smashed="yes">
-<attribute name="NAME" x="79.0956" y="158.9786" size="2.0828" layer="95" ratio="6" rot="SR0"/>
-<attribute name="MPN" x="74.93" y="154.94" size="1.778" layer="96" display="off"/>
-<attribute name="DPN" x="74.93" y="154.94" size="1.778" layer="96" display="off"/>
-<attribute name="MFR" x="74.93" y="154.94" size="1.778" layer="96" display="off"/>
-<attribute name="DIS" x="74.93" y="154.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND6" gate="1" x="74.93" y="149.86" smashed="yes">
 <attribute name="VALUE" x="72.39" y="147.32" size="1.778" layer="96"/>
@@ -17051,13 +17037,6 @@ The voltage divider on EN may need to be adjusted.</text>
 <instance part="GND8" gate="1" x="55.88" y="118.11" smashed="yes">
 <attribute name="VALUE" x="53.34" y="115.57" size="1.778" layer="96"/>
 </instance>
-<instance part="SENSOR_2" gate="A" x="74.93" y="132.08" smashed="yes">
-<attribute name="NAME" x="79.0956" y="136.1186" size="2.0828" layer="95" ratio="6" rot="SR0"/>
-<attribute name="MPN" x="74.93" y="132.08" size="1.778" layer="96" display="off"/>
-<attribute name="DPN" x="74.93" y="132.08" size="1.778" layer="96" display="off"/>
-<attribute name="MFR" x="74.93" y="132.08" size="1.778" layer="96" display="off"/>
-<attribute name="DIS" x="74.93" y="132.08" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="GND9" gate="1" x="74.93" y="127" smashed="yes">
 <attribute name="VALUE" x="72.39" y="124.46" size="1.778" layer="96"/>
 </instance>
@@ -17074,13 +17053,6 @@ The voltage divider on EN may need to be adjusted.</text>
 </instance>
 <instance part="GND16" gate="1" x="55.88" y="95.25" smashed="yes">
 <attribute name="VALUE" x="53.34" y="92.71" size="1.778" layer="96"/>
-</instance>
-<instance part="SENSOR_3" gate="A" x="74.93" y="109.22" smashed="yes">
-<attribute name="NAME" x="79.0956" y="113.2586" size="2.0828" layer="95" ratio="6" rot="SR0"/>
-<attribute name="MPN" x="74.93" y="109.22" size="1.778" layer="96" display="off"/>
-<attribute name="DPN" x="74.93" y="109.22" size="1.778" layer="96" display="off"/>
-<attribute name="MFR" x="74.93" y="109.22" size="1.778" layer="96" display="off"/>
-<attribute name="DIS" x="74.93" y="109.22" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND17" gate="1" x="74.93" y="104.14" smashed="yes">
 <attribute name="VALUE" x="72.39" y="101.6" size="1.778" layer="96"/>
@@ -17099,13 +17071,6 @@ The voltage divider on EN may need to be adjusted.</text>
 <instance part="GND19" gate="1" x="55.88" y="69.85" smashed="yes">
 <attribute name="VALUE" x="53.34" y="67.31" size="1.778" layer="96"/>
 </instance>
-<instance part="SENSOR_4" gate="A" x="74.93" y="83.82" smashed="yes">
-<attribute name="NAME" x="79.0956" y="87.8586" size="2.0828" layer="95" ratio="6" rot="SR0"/>
-<attribute name="MPN" x="74.93" y="83.82" size="1.778" layer="96" display="off"/>
-<attribute name="DPN" x="74.93" y="83.82" size="1.778" layer="96" display="off"/>
-<attribute name="MFR" x="74.93" y="83.82" size="1.778" layer="96" display="off"/>
-<attribute name="DIS" x="74.93" y="83.82" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="GND20" gate="1" x="74.93" y="78.74" smashed="yes">
 <attribute name="VALUE" x="72.39" y="76.2" size="1.778" layer="96"/>
 </instance>
@@ -17122,13 +17087,6 @@ The voltage divider on EN may need to be adjusted.</text>
 </instance>
 <instance part="GND104" gate="1" x="151.13" y="166.37" smashed="yes">
 <attribute name="VALUE" x="148.59" y="163.83" size="1.778" layer="96"/>
-</instance>
-<instance part="SENSOR_5" gate="A" x="170.18" y="180.34" smashed="yes">
-<attribute name="NAME" x="174.3456" y="184.3786" size="2.0828" layer="95" ratio="6" rot="SR0"/>
-<attribute name="MPN" x="170.18" y="180.34" size="1.778" layer="96" display="off"/>
-<attribute name="DPN" x="170.18" y="180.34" size="1.778" layer="96" display="off"/>
-<attribute name="MFR" x="170.18" y="180.34" size="1.778" layer="96" display="off"/>
-<attribute name="DIS" x="170.18" y="180.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND105" gate="1" x="170.18" y="175.26" smashed="yes">
 <attribute name="VALUE" x="167.64" y="172.72" size="1.778" layer="96"/>
@@ -17147,13 +17105,6 @@ The voltage divider on EN may need to be adjusted.</text>
 <instance part="GND107" gate="1" x="151.13" y="140.97" smashed="yes">
 <attribute name="VALUE" x="148.59" y="138.43" size="1.778" layer="96"/>
 </instance>
-<instance part="SENSOR_6" gate="A" x="170.18" y="154.94" smashed="yes">
-<attribute name="NAME" x="174.3456" y="158.9786" size="2.0828" layer="95" ratio="6" rot="SR0"/>
-<attribute name="MPN" x="170.18" y="154.94" size="1.778" layer="96" display="off"/>
-<attribute name="DPN" x="170.18" y="154.94" size="1.778" layer="96" display="off"/>
-<attribute name="MFR" x="170.18" y="154.94" size="1.778" layer="96" display="off"/>
-<attribute name="DIS" x="170.18" y="154.94" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="GND108" gate="1" x="170.18" y="149.86" smashed="yes">
 <attribute name="VALUE" x="167.64" y="147.32" size="1.778" layer="96"/>
 </instance>
@@ -17170,13 +17121,6 @@ The voltage divider on EN may need to be adjusted.</text>
 </instance>
 <instance part="GND110" gate="1" x="149.86" y="118.11" smashed="yes">
 <attribute name="VALUE" x="147.32" y="115.57" size="1.778" layer="96"/>
-</instance>
-<instance part="SENSOR_7" gate="A" x="168.91" y="132.08" smashed="yes">
-<attribute name="NAME" x="173.0756" y="136.1186" size="2.0828" layer="95" ratio="6" rot="SR0"/>
-<attribute name="MPN" x="168.91" y="132.08" size="1.778" layer="96" display="off"/>
-<attribute name="DPN" x="168.91" y="132.08" size="1.778" layer="96" display="off"/>
-<attribute name="MFR" x="168.91" y="132.08" size="1.778" layer="96" display="off"/>
-<attribute name="DIS" x="168.91" y="132.08" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND111" gate="1" x="168.91" y="127" smashed="yes">
 <attribute name="VALUE" x="166.37" y="124.46" size="1.778" layer="96"/>
@@ -17195,13 +17139,6 @@ The voltage divider on EN may need to be adjusted.</text>
 <instance part="GND113" gate="1" x="151.13" y="95.25" smashed="yes">
 <attribute name="VALUE" x="148.59" y="92.71" size="1.778" layer="96"/>
 </instance>
-<instance part="SENSOR_8" gate="A" x="170.18" y="109.22" smashed="yes">
-<attribute name="NAME" x="174.3456" y="113.2586" size="2.0828" layer="95" ratio="6" rot="SR0"/>
-<attribute name="MPN" x="170.18" y="109.22" size="1.778" layer="96" display="off"/>
-<attribute name="DPN" x="170.18" y="109.22" size="1.778" layer="96" display="off"/>
-<attribute name="MFR" x="170.18" y="109.22" size="1.778" layer="96" display="off"/>
-<attribute name="DIS" x="170.18" y="109.22" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="GND114" gate="1" x="170.18" y="104.14" smashed="yes">
 <attribute name="VALUE" x="167.64" y="101.6" size="1.778" layer="96"/>
 </instance>
@@ -17218,13 +17155,6 @@ The voltage divider on EN may need to be adjusted.</text>
 </instance>
 <instance part="GND116" gate="1" x="151.13" y="69.85" smashed="yes">
 <attribute name="VALUE" x="148.59" y="67.31" size="1.778" layer="96"/>
-</instance>
-<instance part="SENSOR_9" gate="A" x="170.18" y="83.82" smashed="yes">
-<attribute name="NAME" x="174.3456" y="87.8586" size="2.0828" layer="95" ratio="6" rot="SR0"/>
-<attribute name="MPN" x="170.18" y="83.82" size="1.778" layer="96" display="off"/>
-<attribute name="DPN" x="170.18" y="83.82" size="1.778" layer="96" display="off"/>
-<attribute name="MFR" x="170.18" y="83.82" size="1.778" layer="96" display="off"/>
-<attribute name="DIS" x="170.18" y="83.82" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND117" gate="1" x="170.18" y="78.74" smashed="yes">
 <attribute name="VALUE" x="167.64" y="76.2" size="1.778" layer="96"/>
@@ -17459,6 +17389,76 @@ The voltage divider on EN may need to be adjusted.</text>
 <instance part="GND73" gate="1" x="128.27" y="69.85" smashed="yes">
 <attribute name="VALUE" x="125.73" y="67.31" size="1.778" layer="96"/>
 </instance>
+<instance part="SENSOR0" gate="A" x="76.2" y="180.34" smashed="yes">
+<attribute name="NAME" x="77.8256" y="185.6486" size="2.0828" layer="95" ratio="6" rot="SR0"/>
+<attribute name="MPN" x="76.2" y="180.34" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="76.2" y="180.34" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="76.2" y="180.34" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="76.2" y="180.34" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="SENSOR1" gate="A" x="76.2" y="154.94" smashed="yes">
+<attribute name="NAME" x="80.3656" y="160.2486" size="2.0828" layer="95" ratio="6" rot="SR0"/>
+<attribute name="MPN" x="76.2" y="154.94" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="76.2" y="154.94" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="76.2" y="154.94" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="76.2" y="154.94" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="SENSOR2" gate="A" x="76.2" y="132.08" smashed="yes">
+<attribute name="NAME" x="80.3656" y="137.3886" size="2.0828" layer="95" ratio="6" rot="SR0"/>
+<attribute name="MPN" x="76.2" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="76.2" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="76.2" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="76.2" y="132.08" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="SENSOR3" gate="A" x="76.2" y="109.22" smashed="yes">
+<attribute name="NAME" x="80.3656" y="114.5286" size="2.0828" layer="95" ratio="6" rot="SR0"/>
+<attribute name="MPN" x="76.2" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="76.2" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="76.2" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="76.2" y="109.22" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="SENSOR4" gate="A" x="76.2" y="83.82" smashed="yes">
+<attribute name="NAME" x="80.3656" y="89.1286" size="2.0828" layer="95" ratio="6" rot="SR0"/>
+<attribute name="MPN" x="76.2" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="76.2" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="76.2" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="76.2" y="83.82" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="SENSOR9" gate="A" x="172.72" y="83.82" smashed="yes">
+<attribute name="NAME" x="176.8856" y="89.1286" size="2.0828" layer="95" ratio="6" rot="SR0"/>
+<attribute name="MPN" x="172.72" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="172.72" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="172.72" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="172.72" y="83.82" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="SENSOR8" gate="A" x="172.72" y="109.22" smashed="yes">
+<attribute name="NAME" x="176.8856" y="114.5286" size="2.0828" layer="95" ratio="6" rot="SR0"/>
+<attribute name="MPN" x="172.72" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="172.72" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="172.72" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="172.72" y="109.22" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="SENSOR7" gate="A" x="170.18" y="132.08" smashed="yes">
+<attribute name="NAME" x="174.3456" y="137.3886" size="2.0828" layer="95" ratio="6" rot="SR0"/>
+<attribute name="MPN" x="170.18" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="170.18" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="170.18" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="170.18" y="132.08" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="SENSOR6" gate="A" x="172.72" y="154.94" smashed="yes">
+<attribute name="NAME" x="176.8856" y="160.2486" size="2.0828" layer="95" ratio="6" rot="SR0"/>
+<attribute name="MPN" x="172.72" y="154.94" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="172.72" y="154.94" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="172.72" y="154.94" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="172.72" y="154.94" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="SENSOR5" gate="A" x="172.72" y="180.34" smashed="yes">
+<attribute name="NAME" x="176.8856" y="185.6486" size="2.0828" layer="95" ratio="6" rot="SR0"/>
+<attribute name="MPN" x="172.72" y="180.34" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="172.72" y="180.34" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="172.72" y="180.34" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="172.72" y="180.34" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -17469,80 +17469,40 @@ The voltage divider on EN may need to be adjusted.</text>
 <pinref part="C13" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="GND14" gate="1" pin="GND"/>
-<pinref part="SENSOR_0" gate="A" pin="2"/>
-</segment>
-<segment>
 <pinref part="GND1" gate="1" pin="GND"/>
 <pinref part="C1" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="GND6" gate="1" pin="GND"/>
-<pinref part="SENSOR_1" gate="A" pin="2"/>
 </segment>
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
 <pinref part="C12" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="GND9" gate="1" pin="GND"/>
-<pinref part="SENSOR_2" gate="A" pin="2"/>
-</segment>
-<segment>
 <pinref part="GND15" gate="1" pin="GND"/>
 <pinref part="C14" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="GND17" gate="1" pin="GND"/>
-<pinref part="SENSOR_3" gate="A" pin="2"/>
 </segment>
 <segment>
 <pinref part="GND18" gate="1" pin="GND"/>
 <pinref part="C15" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="GND20" gate="1" pin="GND"/>
-<pinref part="SENSOR_4" gate="A" pin="2"/>
-</segment>
-<segment>
 <pinref part="GND103" gate="1" pin="GND"/>
 <pinref part="C17" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="GND105" gate="1" pin="GND"/>
-<pinref part="SENSOR_5" gate="A" pin="2"/>
 </segment>
 <segment>
 <pinref part="GND106" gate="1" pin="GND"/>
 <pinref part="C18" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="GND108" gate="1" pin="GND"/>
-<pinref part="SENSOR_6" gate="A" pin="2"/>
-</segment>
-<segment>
 <pinref part="GND109" gate="1" pin="GND"/>
 <pinref part="C19" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="GND111" gate="1" pin="GND"/>
-<pinref part="SENSOR_7" gate="A" pin="2"/>
 </segment>
 <segment>
 <pinref part="GND112" gate="1" pin="GND"/>
 <pinref part="C40" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="GND114" gate="1" pin="GND"/>
-<pinref part="SENSOR_8" gate="A" pin="2"/>
-</segment>
-<segment>
 <pinref part="GND115" gate="1" pin="GND"/>
 <pinref part="C41" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="GND117" gate="1" pin="GND"/>
-<pinref part="SENSOR_9" gate="A" pin="2"/>
 </segment>
 <segment>
 <pinref part="GND19" gate="1" pin="GND"/>
@@ -17623,6 +17583,56 @@ The voltage divider on EN may need to be adjusted.</text>
 <segment>
 <pinref part="GND73" gate="1" pin="GND"/>
 <pinref part="R58" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="GND6" gate="1" pin="GND"/>
+<pinref part="SENSOR1" gate="A" pin="2"/>
+<wire x1="74.93" y1="152.4" x2="76.2" y2="152.4" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SENSOR6" gate="A" pin="2"/>
+<pinref part="GND108" gate="1" pin="GND"/>
+<wire x1="172.72" y1="152.4" x2="170.18" y2="152.4" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SENSOR5" gate="A" pin="2"/>
+<pinref part="GND105" gate="1" pin="GND"/>
+<wire x1="172.72" y1="177.8" x2="170.18" y2="177.8" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SENSOR2" gate="A" pin="2"/>
+<pinref part="GND9" gate="1" pin="GND"/>
+<wire x1="76.2" y1="129.54" x2="74.93" y2="129.54" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND20" gate="1" pin="GND"/>
+<pinref part="SENSOR4" gate="A" pin="2"/>
+<wire x1="74.93" y1="81.28" x2="76.2" y2="81.28" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND17" gate="1" pin="GND"/>
+<pinref part="SENSOR3" gate="A" pin="2"/>
+<wire x1="74.93" y1="106.68" x2="76.2" y2="106.68" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SENSOR9" gate="A" pin="2"/>
+<pinref part="GND117" gate="1" pin="GND"/>
+<wire x1="172.72" y1="81.28" x2="170.18" y2="81.28" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND114" gate="1" pin="GND"/>
+<pinref part="SENSOR8" gate="A" pin="2"/>
+<wire x1="170.18" y1="106.68" x2="172.72" y2="106.68" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SENSOR7" gate="A" pin="2"/>
+<pinref part="GND111" gate="1" pin="GND"/>
+<wire x1="170.18" y1="129.54" x2="168.91" y2="129.54" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SENSOR0" gate="A" pin="2"/>
+<pinref part="GND14" gate="1" pin="GND"/>
+<wire x1="76.2" y1="177.8" x2="74.93" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TBD_SENSOR_0" class="0">
@@ -17815,74 +17825,74 @@ The voltage divider on EN may need to be adjusted.</text>
 <junction x="128.27" y="83.82"/>
 </segment>
 </net>
-<net name="N$10" class="0">
+<net name="N$5" class="0">
 <segment>
-<pinref part="SENSOR_1" gate="A" pin="1"/>
-<wire x1="68.58" y1="154.94" x2="74.93" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="R11" gate="G$1" pin="2"/>
+<pinref part="SENSOR1" gate="A" pin="1"/>
+<wire x1="68.58" y1="154.94" x2="76.2" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$11" class="0">
+<net name="N$6" class="0">
 <segment>
-<pinref part="SENSOR_2" gate="A" pin="1"/>
-<wire x1="68.58" y1="132.08" x2="74.93" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="R8" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$13" class="0">
-<segment>
-<pinref part="SENSOR_4" gate="A" pin="1"/>
-<wire x1="68.58" y1="83.82" x2="74.93" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="R12" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$14" class="0">
-<segment>
-<pinref part="SENSOR_5" gate="A" pin="1"/>
-<wire x1="163.83" y1="180.34" x2="170.18" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="R47" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$15" class="0">
-<segment>
-<pinref part="SENSOR_6" gate="A" pin="1"/>
-<wire x1="163.83" y1="154.94" x2="170.18" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="SENSOR6" gate="A" pin="1"/>
 <pinref part="R14" gate="G$1" pin="2"/>
+<wire x1="172.72" y1="154.94" x2="163.83" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$16" class="0">
+<net name="N$7" class="0">
 <segment>
-<pinref part="SENSOR_7" gate="A" pin="1"/>
-<wire x1="162.56" y1="132.08" x2="168.91" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="R9" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$18" class="0">
-<segment>
-<pinref part="SENSOR_8" gate="A" pin="1"/>
-<wire x1="163.83" y1="109.22" x2="170.18" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="R15" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$20" class="0">
-<segment>
-<pinref part="SENSOR_9" gate="A" pin="1"/>
-<wire x1="163.83" y1="83.82" x2="170.18" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="R48" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="SENSOR_3" gate="A" pin="1"/>
-<wire x1="74.93" y1="109.22" x2="68.58" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="R10" gate="G$1" pin="2"/>
+<pinref part="SENSOR5" gate="A" pin="1"/>
+<pinref part="R47" gate="G$1" pin="2"/>
+<wire x1="172.72" y1="180.34" x2="163.83" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
+<pinref part="SENSOR2" gate="A" pin="1"/>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="76.2" y1="132.08" x2="68.58" y2="132.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="SENSOR4" gate="A" pin="1"/>
+<pinref part="R12" gate="G$1" pin="2"/>
+<wire x1="76.2" y1="83.82" x2="68.58" y2="83.82" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="SENSOR3" gate="A" pin="1"/>
+<pinref part="R10" gate="G$1" pin="2"/>
+<wire x1="76.2" y1="109.22" x2="68.58" y2="109.22" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="R48" gate="G$1" pin="2"/>
+<pinref part="SENSOR9" gate="A" pin="1"/>
+<wire x1="163.83" y1="83.82" x2="172.72" y2="83.82" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="SENSOR8" gate="A" pin="1"/>
+<pinref part="R15" gate="G$1" pin="2"/>
+<wire x1="172.72" y1="109.22" x2="163.83" y2="109.22" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="SENSOR7" gate="A" pin="1"/>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="170.18" y1="132.08" x2="162.56" y2="132.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<pinref part="SENSOR0" gate="A" pin="1"/>
 <pinref part="R46" gate="G$1" pin="2"/>
-<pinref part="SENSOR_0" gate="A" pin="1"/>
-<wire x1="68.58" y1="180.34" x2="74.93" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="180.34" x2="76.2" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
