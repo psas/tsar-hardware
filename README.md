@@ -13,40 +13,32 @@ Below you can see the block diagram of the whole system,
 
 Within this repo there are several subsystems.
 
-### LOTO
+![sys_arch](https://github.com/psas/tsar-hardware/blob/master/images/TSAR%20System%20Architecture_repo.png?raw=true)
+
+### [LOTO](https://github.com/psas/tsar-hardware/tree/master/LOTO)
 
 The LOTO Repo is the Lock-Out Tag-Out subsystem.
-
-![sys_arch_loto](https://github.com/psas/tsar-hardware/blob/master/images/TSAR System Architecture_LOTO.png?raw=true)
 
 This system prevents the test stand from being powered while key-holders are past the safety line. 
 
 
-### Thrust Plate Amplifier
+### [Thrust Plate Amplifier](https://github.com/psas/tsar-hardware/tree/master/Thrust%20Plate%20Amplifier)
 
-The Thrust Plate Amplifier amplifies the thrust plate signal! WOW!
-
-![sys_arch_tpa](https://github.com/psas/tsar-hardware/blob/master/images/TSAR System Architecture_TPA.png?raw=true)
+The Thrust Plate Amplifier amplifies the thrust plate signal.
 
 
-### Actuator Controller
+### [Actuator Controller](https://github.com/psas/tsar-hardware/tree/master/actuator-controller)
 
 This board communicates with the BB-AI over UART and controls the valves. The processor is a STM32F0 using a Nucleo-board. 
 
-![sys_arch_ac](https://github.com/psas/tsar-hardware/blob/master/images/TSAR System Architecture_AC.png?raw=true)
-
 For more information on the software for this board please see [Actuator Controller Code](https://github.com/psas/tsar-software/tree/master/actuator-controller)
 
-### Tsar Sensor Front End
+### [Tsar Sensor Front End](https://github.com/psas/tsar-hardware/tree/master/tsar_SensorFrontEnd)
 
-This board collects the data from all of the sensors (temperature, pressure, thrust plate) and conditions the signals to the Marionette for compilation. 
+This board collects the data from all of the sensors (temperature, pressure, thrust plate) and conditions the signals to the Marionette. 
 
-![sys_arch_dib](https://github.com/psas/tsar-hardware/blob/master/images/TSAR System Architecture_DIB.png?raw=true)
+### [Valve Indicator](https://github.com/psas/tsar-hardware/tree/master/valve_indicator)
 
-### Valve Indicator
-
-This board collects the valve position data and compares it to the expected valve state. If there is an error it will display a HEX code over LEDs which valve is misbehaving. 
-
-![sys_arch_ac](https://github.com/psas/tsar-hardware/blob/master/images/TSAR System Architecture_VI.png?raw=true)
+This board collects the valve position data and compares it to the expected valve state. If there is an error it will display a HEX code over LEDs to indicate which valve is misbehaving. 
 
 For more information on the software for this board please see [Valve Indicator Code](https://github.com/psas/tsar-software)
