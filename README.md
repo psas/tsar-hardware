@@ -7,7 +7,7 @@ The TSAR system controls the test stand at a safe distance with several safety f
 
 Below you can see the block diagram of the whole system,
 
-![sys_arch](https://github.com/psas/tsar-hardware/blob/master/images/TSAR System Architecture.png?raw=true)
+![sys_arch](https://github.com/psas/tsar-hardware/blob/master/images/TSAR%20System%20Architecture.png?raw=true)
 
 ## Systems Within the Repo
 
