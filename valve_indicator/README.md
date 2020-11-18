@@ -37,11 +37,11 @@ Outputs:
 We are using the OshPark design rules for a 2-layer board.
 
 ### Safety Bar Level 0 Block Diagram:
-![Level 0 Block Diagram](https://github.com/psas/tsar-hardware/blob/master/valve_indicator/level0.png?raw=true)
+![Level 0 Block Diagram](https://github.com/psas/tsar-hardware/blob/master/images/level0.png?raw=true)
 
 ### Safety Bar Level 1 Block Diagram:
-![Level 2 Block Diagram](https://github.com/psas/tsar-hardware/blob/master/valve_indicator/level1.png?raw=true)
+![Level 2 Block Diagram](https://github.com/psas/tsar-hardware/blob/master/images/level1.png?raw=true)
 
-![Level 2 Block Diagram](https://github.com/psas/tsar-hardware/blob/master/valve_indicator/level1annotated.png?raw=true)
+![Level 2 Block Diagram](https://github.com/psas/tsar-hardware/blob/master/images/level1annotated.png?raw=true)
 
 
