@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle>
+    <drawing>
+        <grid unitdist="mm" unit="mm"/>
+        <layers>
+            <layer name="Top" color="4" number="1" visible="yes" active="yes" fill="1"/>
+            <layer name="Bottom" color="4" number="16" visible="yes" active="yes" fill="1"/>
+            <layer name="tPlace" color="7" number="21" visible="yes" active="yes" fill="1"/>
+            <layer name="bPlace" color="7" number="22" visible="yes" active="yes" fill="1"/>
+            <layer name="tNames" color="7" number="25" visible="yes" active="yes" fill="1"/>
+            <layer name="bNames" color="7" number="26" visible="yes" active="yes" fill="1"/>
+            <layer name="tValues" color="7" number="27" visible="yes" active="yes" fill="1"/>
+            <layer name="bValues" color="7" number="28" visible="yes" active="yes" fill="1"/>
+            <layer name="tStop" color="7" number="29" visible="yes" active="yes" fill="1"/>
+            <layer name="bStop" color="7" number="30" visible="yes" active="yes" fill="1"/>
+            <layer name="tCream" color="7" number="31" visible="yes" active="yes" fill="1"/>
+            <layer name="bCream" color="7" number="32" visible="yes" active="yes" fill="1"/>
+            <layer name="tKeepout" color="4" number="39" visible="yes" active="yes" fill="1"/>
+            <layer name="bKeepout" color="4" number="40" visible="yes" active="yes" fill="1"/>
+            <layer name="tRestrict" color="0" number="41" visible="yes" active="yes" fill="1"/>
+            <layer name="bRestrict" color="0" number="42" visible="yes" active="yes" fill="1"/>
+            <layer name="tDocu" color="7" number="51" visible="yes" active="yes" fill="1"/>
+            <layer name="bDocu" color="7" number="52" visible="yes" active="yes" fill="1"/>
+            <layer name="Nets" color="2" number="91" visible="yes" active="yes" fill="1"/>
+            <layer name="Busses" color="1" number="92" visible="yes" active="yes" fill="1"/>
+            <layer name="Pins" color="2" number="93" visible="yes" active="yes" fill="1"/>
+            <layer name="Symbols" color="4" number="94" visible="yes" active="yes" fill="1"/>
+            <layer name="Names" color="7" number="95" visible="yes" active="yes" fill="1"/>
+            <layer name="Values" color="7" number="96" visible="yes" active="yes" fill="1"/>
+            <layer name="Info" color="7" number="97" visible="yes" active="yes" fill="1"/>
+            <layer name="Guide" color="6" number="98" visible="yes" active="yes" fill="1"/>
+        </layers>
+        <library name="Upverter Library">
+            <description>Upverter Parts Library
+
+Created by Upverter.com</description>
+            <packages>
+                <package name="ON_SEMICONDUCTOR_1N5819G_0">
+                    <description>ONSC-D-K1A2-2_A</description>
+                    <wire layer="21" y2="1.175" width="0.15" x2="-1.055" y1="-1.175" x1="-1.055"/>
+                    <wire layer="21" y2="0.0" width="0.15" x2="-2.325" y1="0.0" x1="-3.595"/>
+                    <wire layer="21" y2="0.0" width="0.15" x2="3.595" y1="0.0" x1="2.325"/>
+                    <wire layer="21" y2="1.175" width="0.15" x2="2.325" y1="-1.175" x1="2.325"/>
+                    <wire layer="21" y2="-1.175" width="0.15" x2="2.325" y1="-1.175" x1="-2.325"/>
+                    <wire layer="21" y2="1.175" width="0.15" x2="-2.325" y1="-1.175" x1="-2.325"/>
+                    <wire layer="21" y2="1.175" width="0.15" x2="2.325" y1="1.175" x1="-2.325"/>
+                    <text layer="25" align="bottom-left" y="1.175" x="-6.545" rot="R0" size="1.0">&gt;NAME</text>
+                    <pad diameter="1.55" name="2" shape="round" drill="1.05" y="0.0" x="4.77" rot="R0"/>
+                    <pad diameter="1.55" name="1" shape="round" drill="1.05" y="0.0" x="-4.77" rot="R0"/>
+                </package>
+            </packages>
+            <symbols>
+                <symbol name="ON_SEMICONDUCTOR_1N5819G_0_0">
+                    <description>ONSC-D-K1A2-2_A</description>
+                    <wire layer="94" y2="-5.08" width="0.508" x2="0.0" y1="-10.16" x1="0.0"/>
+                    <wire layer="94" y2="-5.08" width="0.508" x2="10.16" y1="-5.08" x1="0.0"/>
+                    <wire layer="94" y2="-10.16" width="0.508" x2="10.16" y1="-5.08" x1="10.16"/>
+                    <wire layer="94" y2="-10.16" width="0.508" x2="0.0" y1="-10.16" x1="10.16"/>
+                    <wire layer="94" y2="-7.62" width="0.15" x2="10.16" y1="-7.62" x1="10.16"/>
+                    <wire layer="94" y2="-7.62" width="0.15" x2="0.0" y1="-7.62" x1="0.0"/>
+                    <text layer="95" align="top-left" y="-2.54" x="0.0" rot="R0" size="2.54">&gt;NAME</text>
+                    <text layer="95" align="top-left" y="-15.24" x="0.0" rot="R0" size="2.54">1N5819G</text>
+                    <pin direction="pas" name="K" visible="both" length="middle" y="-7.62" x="15.24" rot="R180"/>
+                    <pin direction="pas" name="A" visible="both" length="middle" y="-7.62" x="-5.08"/>
+                </symbol>
+            </symbols>
+            <devicesets>
+                <deviceset prefix="D" name="ON_SEMICONDUCTOR_1N5819G">
+                    <description>ONSC-D-K1A2-2_A</description>
+                    <gates>
+                        <gate name="G$0" symbol="ON_SEMICONDUCTOR_1N5819G_0_0" x="0"/>
+                    </gates>
+                    <devices>
+                        <device name="ON_SEMICONDUCTOR_1N5819G_0_0" package="ON_SEMICONDUCTOR_1N5819G_0">
+                            <connects>
+                                <connect gate="G$0" pad="1" pin="K"/>
+                                <connect gate="G$0" pad="2" pin="A"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="ciiva_ids" value="816898"/>
+                                    <attribute name="Package_Version" value="Rev. U, 02/2005"/>
+                                    <attribute name="Component_Link_1_Description" value="Manufacturer URL"/>
+                                    <attribute name="vault_guid" value="57AEE52E-5B0E-47AE-9EAB-BAA728AE600D"/>
+                                    <attribute name="Mounting_Technology" value="Through Hole"/>
+                                    <attribute name="MPN" value="1N5819G"/>
+                                    <attribute name="Component_Link_1_URL" value="http://www.onsemi.com/"/>
+                                    <attribute name="imported" value="yes"/>
+                                    <attribute name="MF" value="On Semiconductor"/>
+                                    <attribute name="prefix" value="D"/>
+                                    <attribute name="import_ts" value="1521856209"/>
+                                    <attribute name="Datasheet_Version" value="Rev. 10"/>
+                                    <attribute name="Packing" value="Bulk Bag"/>
+                                    <attribute name="Package_Description" value="2-Pin, Axial Lead, Diameter 2.35 mm"/>
+                                    <attribute name="datasheet" value="http://www.onsemi.cn/pub_link/Collateral/1N5817-D.PDF"/>
+                                    <attribute name="Configuration" value="Single"/>
+                                    <attribute name="vault_revision" value="DEF46966-1E3B-4719-9E7B-5D0A79F25317"/>
+                                    <attribute name="footprint_variant_name_0" value="Manufacturer Recommended"/>
+                                    <attribute name="release_date" value="1407122700"/>
+                                    <attribute name="imported_from" value="vault"/>
+                                    <attribute name="rohs" value="Yes"/>
+                                    <attribute name="Component_Link_3_Description" value="Package Specification"/>
+                                    <attribute name="IFSM_Max_A" value="25"/>
+                                    <attribute name="package" value="AXIAL_LEAD-2-59-10"/>
+                                    <attribute name="Component_Link_3_URL" value="http://www.onsemi.cn/pub_link/Collateral/59-10.PDF"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                    </devices>
+                </deviceset>
+            </devicesets>
+        </library>
+    </drawing>
+</eagle>
