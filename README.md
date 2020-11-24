@@ -35,10 +35,10 @@ For more information on the software for this board please see [Actuator Control
 
 ### [Tsar Sensor Front End](https://github.com/psas/tsar-hardware/tree/master/tsar_SensorFrontEnd)
 
-This board collects the data from all of the sensors (temperature, pressure, thrust plate) and conditions the signals to the Marionette. 
+This board collects the data from all of the sensors (temperature, pressure, thrust plate) and conditions the signals to send to the Marionette. 
 
 ### [Valve Indicator](https://github.com/psas/tsar-hardware/tree/master/valve_indicator)
 
-This board collects the valve position data and compares it to the expected valve state. If there is an error it will display a HEX code over LEDs to indicate which valve is misbehaving. 
+This board collects the valve position data and compares it to the expected valve state. If there is an error it will display a code over LEDs to indicate which valve is misbehaving. 
 
 For more information on the software for this board please see [Valve Indicator Code](https://github.com/psas/tsar-software)
