@@ -9,11 +9,11 @@ Below you can see the levels of block diagrams for the whole system,
 
 ### V -1
 
-![sys_arch](https://github.com/psas/tsar-hardware/blob/master/images/TSAR_SA_BD0.png?raw=true)
+![sys_arch](https://github.com/psas/tsar-hardware/blob/master/images/TSAR_SA_BDneg1.png?raw=true)
 
 ### V 0
 
-![sys_arch](https://github.com/psas/tsar-hardware/blob/master/images/TSAR_SA_BDneg1.png?raw=true)
+![sys_arch](https://github.com/psas/tsar-hardware/blob/master/images/TSAR_SA_BD0.png?raw=true)
 
 ### V 1
 
