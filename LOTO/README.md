@@ -8,4 +8,4 @@ There are nine of these boards mounted in the LOTO box. Each board indicates the
 
 ## Level 1 Block Diagram
 
-![l1loto](https://github.com/psas/tsar-hardware/blob/master/images/level1_LOTO.png?raw=true)
+![l1loto](https://github.com/psas/tsar-hardware/blob/master/images/level_1_LOTO.png?raw=true)
