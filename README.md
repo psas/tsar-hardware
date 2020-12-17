@@ -51,4 +51,4 @@ This board collects the data from all of the sensors (temperature, pressure, thr
 
 This board collects the valve position data and compares it to the expected valve state. If there is an error it will display a code over LEDs to indicate which valve is misbehaving. 
 
-For more information on the software for this board please see [Valve Indicator Code](https://github.com/psas/tsar-software)
+For more information on the software for this board please see [Valve Indicator Code](https://github.com/psas/tsar-software/tree/master/valve_indicator)
