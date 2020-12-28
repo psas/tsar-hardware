@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -18857,8 +18857,8 @@ input.</text>
 <approved hash="106,2,73.66,88.9,PF1,,,,,"/>
 <approved hash="106,2,73.66,86.36,VBAT,,,,,"/>
 <approved hash="106,2,73.66,121.92,VDD,,,,,"/>
-<approved hash="113,2,77.4277,105.636,CN7,,,,,"/>
-<approved hash="113,2,179.028,110.716,CN10,,,,,"/>
+<approved hash="113,2,77.4277,105.606,CN7,,,,,"/>
+<approved hash="113,2,179.028,110.686,CN10,,,,,"/>
 <approved hash="113,1,61.2394,146.05,12V,,,,,"/>
 <approved hash="113,3,88.0119,142.482,IGN,,,,,"/>
 <approved hash="113,3,90.1675,94.2223,SOV_1,,,,,"/>
@@ -18869,7 +18869,7 @@ input.</text>
 <approved hash="113,3,265.428,180.582,SOV_7,,,,,"/>
 <approved hash="113,3,250.554,133.592,SOV_8,,,,,"/>
 <approved hash="113,3,250.554,87.8723,SOV_9,,,,,"/>
-<approved hash="113,1,59.0973,96.3574,BATTERY,,,,,"/>
+<approved hash="113,1,59.0973,96.3879,BATTERY,,,,,"/>
 <approved hash="113,4,124.234,162.802,SENSOR0,,,,,"/>
 <approved hash="113,4,125.504,137.402,SENSOR1,,,,,"/>
 <approved hash="113,4,125.504,114.542,SENSOR2,,,,,"/>
