@@ -2624,7 +2624,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DPN" value="1514-CMPSH1-4TRPBFREECT-ND" x="118.6528" y="63.3156" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFR" value="Central Semiconductor Corp" x="118.6528" y="63.3156" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="CMPSH1-4 TR PBFREE" x="118.6528" y="63.3156" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="117.6368" y="62.0456" size="1.016" layer="25" align="top-right"/>
+<attribute name="NAME" x="121.8278" y="62.4266" size="1.016" layer="25" align="top-right"/>
 <attribute name="POPULARITY" value="0" x="133.8928" y="1347.2856" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="120pF" x="57.167" y="34.5839875" smashed="yes" rot="R270">
@@ -2813,7 +2813,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DPN" value="1514-CMPSH1-4TRPBFREECT-ND" x="119.7958" y="56.4576" size="1.778" layer="27" display="off"/>
 <attribute name="MFR" value="Central Semiconductor Corp" x="119.7958" y="56.4576" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CMPSH1-4 TR PBFREE" x="119.7958" y="56.4576" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="120.8118" y="57.7276" size="1.016" layer="25" rot="R180" align="top-right"/>
+<attribute name="NAME" x="119.1608" y="58.7436" size="1.016" layer="25" rot="R180" align="top-right"/>
 <attribute name="POPULARITY" value="0" x="119.7958" y="66.6176" size="1.778" layer="27" display="off"/>
 </element>
 <element name="SOV_1" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X02" package3d_urn="urn:adsk.eagle:package:22435/2" value="" x="140.0617125" y="55.74565" smashed="yes" rot="R90">
@@ -2863,7 +2863,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DPN" value="RMCF0805FT28K0CT-ND" x="116.704" y="56.555" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFR" value="Stackpole Electronics Inc" x="116.704" y="56.555" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="RMCF0805FT28K0" x="116.704" y="56.555" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="117.974" y="58.206" size="1.016" layer="25" rot="R90" align="top-right"/>
+<attribute name="NAME" x="115.942" y="58.714" size="1.016" layer="25" rot="R180" align="top-right"/>
 <attribute name="POPULARITY" value="85" x="92.574" y="67.985" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="92.574" y="67.985" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
@@ -2872,7 +2872,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DPN" value="1514-CMPSH1-4TRPBFREECT-ND" x="119.9228" y="51.3628" size="1.778" layer="27" display="off"/>
 <attribute name="MFR" value="Central Semiconductor Corp" x="119.9228" y="51.3628" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CMPSH1-4 TR PBFREE" x="119.9228" y="51.3628" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="120.9388" y="52.6328" size="1.016" layer="25" rot="R180" align="top-right"/>
+<attribute name="NAME" x="118.9068" y="48.3148" size="1.016" layer="25" rot="R180" align="top-right"/>
 <attribute name="POPULARITY" value="0" x="119.9228" y="61.5228" size="1.778" layer="27" display="off"/>
 </element>
 <element name="SOV_2" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X02" package3d_urn="urn:adsk.eagle:package:22435/2" value="" x="140.152425" y="49.68731875" smashed="yes" rot="R90">
@@ -2958,7 +2958,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DPN" value="RMCF0805FT28K0CT-ND" x="116.704" y="51.3332" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFR" value="Stackpole Electronics Inc" x="116.704" y="51.3332" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="RMCF0805FT28K0" x="116.704" y="51.3332" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="117.974" y="52.9842" size="1.016" layer="25" rot="R90" align="top-right"/>
+<attribute name="NAME" x="115.434" y="53.4922" size="1.016" layer="25" rot="R180" align="top-right"/>
 <attribute name="POPULARITY" value="85" x="92.574" y="64.0332" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="92.574" y="64.0332" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
@@ -2967,7 +2967,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DPN" value="1514-CMPSH1-4TRPBFREECT-ND" x="119.9228" y="44.8858" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFR" value="Central Semiconductor Corp" x="119.9228" y="44.8858" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="CMPSH1-4 TR PBFREE" x="119.9228" y="44.8858" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="121.1928" y="43.8698" size="1.016" layer="25" rot="R90" align="top-right"/>
+<attribute name="NAME" x="119.0338" y="46.6638" size="1.016" layer="25" rot="R180" align="top-right"/>
 <attribute name="POPULARITY" value="0" x="130.0828" y="44.8858" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="SOV_3" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X02" package3d_urn="urn:adsk.eagle:package:22435/2" value="" x="140.2431375" y="43.6289875" smashed="yes" rot="R90">
@@ -3017,7 +3017,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DPN" value="RMCF0805FT28K0CT-ND" x="116.704" y="44.7292" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFR" value="Stackpole Electronics Inc" x="116.704" y="44.7292" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RMCF0805FT28K0" x="116.704" y="44.7292" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="115.434" y="43.0782" size="1.016" layer="25" rot="R270" align="top-right"/>
+<attribute name="NAME" x="115.434" y="46.8882" size="1.016" layer="25" rot="R180" align="top-right"/>
 <attribute name="POPULARITY" value="85" x="140.834" y="32.0292" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="140.834" y="32.0292" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
@@ -3026,7 +3026,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DPN" value="1514-CMPSH1-4TRPBFREECT-ND" x="120.0498" y="39.029" size="1.778" layer="27" display="off"/>
 <attribute name="MFR" value="Central Semiconductor Corp" x="120.0498" y="39.029" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CMPSH1-4 TR PBFREE" x="120.0498" y="39.029" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="121.0658" y="40.299" size="1.016" layer="25" rot="R180" align="top-right"/>
+<attribute name="NAME" x="119.1608" y="40.934" size="1.016" layer="25" rot="R180" align="top-right"/>
 <attribute name="POPULARITY" value="0" x="88.2998" y="49.189" size="1.778" layer="27" display="off"/>
 </element>
 <element name="SOV_4" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X02" package3d_urn="urn:adsk.eagle:package:22435/2" value="" x="140.33385" y="37.57065625" smashed="yes" rot="R90">
@@ -3076,7 +3076,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DPN" value="RMCF0805FT28K0CT-ND" x="116.577" y="39.1264" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFR" value="Stackpole Electronics Inc" x="116.577" y="39.1264" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="RMCF0805FT28K0" x="116.577" y="39.1264" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="117.847" y="40.7774" size="1.016" layer="25" rot="R90" align="top-right"/>
+<attribute name="NAME" x="115.18" y="41.2854" size="1.016" layer="25" rot="R180" align="top-right"/>
 <attribute name="POPULARITY" value="85" x="110.227" y="64.5264" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="110.227" y="64.5264" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
@@ -3085,7 +3085,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DPN" value="1514-CMPSH1-4TRPBFREECT-ND" x="119.9228" y="31.282" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFR" value="Central Semiconductor Corp" x="119.9228" y="31.282" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="CMPSH1-4 TR PBFREE" x="119.9228" y="31.282" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="121.1928" y="30.266" size="1.016" layer="25" rot="R90" align="top-right"/>
+<attribute name="NAME" x="118.9068" y="33.06" size="1.016" layer="25" rot="R180" align="top-right"/>
 <attribute name="POPULARITY" value="0" x="90.7128" y="31.282" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="SOV_5" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X02" package3d_urn="urn:adsk.eagle:package:22435/2" value="" x="140.4245625" y="31.512325" smashed="yes" rot="R90">
@@ -3135,7 +3135,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DPN" value="RMCF0805FT28K0CT-ND" x="116.577" y="31.3794" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFR" value="Stackpole Electronics Inc" x="116.577" y="31.3794" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RMCF0805FT28K0" x="116.577" y="31.3794" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="115.407" y="29.6914" size="1.016" layer="25" rot="R270" align="top-right"/>
+<attribute name="NAME" x="115.28" y="33.5014" size="1.016" layer="25" rot="R180" align="top-right"/>
 <attribute name="POPULARITY" value="85" x="166.107" y="31.3794" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="166.107" y="31.3794" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
@@ -3144,7 +3144,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DPN" value="1514-CMPSH1-4TRPBFREECT-ND" x="119.658" y="24.244996875" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFR" value="Central Semiconductor Corp" x="119.658" y="24.244996875" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="CMPSH1-4 TR PBFREE" x="119.658" y="24.244996875" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="119.277" y="22.212996875" size="1.016" layer="25" rot="R270"/>
+<attribute name="NAME" x="118.769" y="25.895996875" size="1.016" layer="25"/>
 <attribute name="POPULARITY" value="0" x="40.918" y="31.864996875" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="SOV_6" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X02" package3d_urn="urn:adsk.eagle:package:22435/2" value="" x="140.515275" y="25.45399375" smashed="yes" rot="R90">
@@ -3194,7 +3194,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DPN" value="RMCF0805FT28K0CT-ND" x="116.608" y="24.215396875" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFR" value="Stackpole Electronics Inc" x="116.608" y="24.215396875" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RMCF0805FT28K0" x="116.608" y="24.215396875" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="115.492" y="22.527396875" size="1.016" layer="25" rot="R90"/>
+<attribute name="NAME" x="115.238" y="26.464396875" size="1.016" layer="25"/>
 <attribute name="POPULARITY" value="85" x="215.668" y="11.515396875" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="215.668" y="11.515396875" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
@@ -3203,7 +3203,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DPN" value="1514-CMPSH1-4TRPBFREECT-ND" x="119.658" y="17.84353125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFR" value="Central Semiconductor Corp" x="119.658" y="17.84353125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="CMPSH1-4 TR PBFREE" x="119.658" y="17.84353125" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="119.15" y="16.06553125" size="1.016" layer="25" rot="R270"/>
+<attribute name="NAME" x="118.769" y="19.62153125" size="1.016" layer="25"/>
 <attribute name="POPULARITY" value="0" x="-8.612" y="33.08353125" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="SOV_7" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X02" package3d_urn="urn:adsk.eagle:package:22435/2" value="" x="140.606" y="19.3956625" smashed="yes" rot="R90">
@@ -3253,7 +3253,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DPN" value="RMCF0805FT28K0CT-ND" x="116.481" y="17.94093125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFR" value="Stackpole Electronics Inc" x="116.481" y="17.94093125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RMCF0805FT28K0" x="116.481" y="17.94093125" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="115.442" y="15.84093125" size="1.016" layer="25" rot="R90"/>
+<attribute name="NAME" x="115.188" y="20.03193125" size="1.016" layer="25"/>
 <attribute name="POPULARITY" value="85" x="265.071" y="-7.45906875" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="265.071" y="-7.45906875" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
@@ -3262,7 +3262,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DPN" value="1514-CMPSH1-4TRPBFREECT-ND" x="119.658" y="11.823065625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFR" value="Central Semiconductor Corp" x="119.658" y="11.823065625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="CMPSH1-4 TR PBFREE" x="119.658" y="11.823065625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="118.261" y="9.918065625" size="1.016" layer="25" rot="R270"/>
+<attribute name="NAME" x="118.388" y="13.601065625" size="1.016" layer="25"/>
 <attribute name="POPULARITY" value="0" x="129.818" y="16.903065625" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="SOV_8" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X02" package3d_urn="urn:adsk.eagle:package:22435/2" value="" x="140.606" y="13.33733125" smashed="yes" rot="R90">
@@ -3312,7 +3312,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DPN" value="RMCF0805FT28K0CT-ND" x="116.227" y="11.666465625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFR" value="Stackpole Electronics Inc" x="116.227" y="11.666465625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RMCF0805FT28K0" x="116.227" y="11.666465625" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="118.398" y="9.734465625" size="1.016" layer="25" rot="R90"/>
+<attribute name="NAME" x="115.096" y="13.798465625" size="1.016" layer="25"/>
 <attribute name="POPULARITY" value="85" x="132.737" y="-1.033534375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="132.737" y="-1.033534375" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
@@ -3321,7 +3321,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DPN" value="1514-CMPSH1-4TRPBFREECT-ND" x="119.658" y="6.3106" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFR" value="Central Semiconductor Corp" x="119.658" y="6.3106" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="CMPSH1-4 TR PBFREE" x="119.658" y="6.3106" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="119.277" y="4.5326" size="1.016" layer="25" rot="R270"/>
+<attribute name="NAME" x="118.515" y="8.0886" size="1.016" layer="25"/>
 <attribute name="POPULARITY" value="0" x="80.288" y="19.0106" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="SOV_9" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X02" package3d_urn="urn:adsk.eagle:package:22435/2" value="" x="140.606" y="7.279" smashed="yes" rot="R90">
@@ -3371,7 +3371,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DPN" value="RMCF0805FT28K0CT-ND" x="116.354" y="6.281" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFR" value="Stackpole Electronics Inc" x="116.354" y="6.281" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RMCF0805FT28K0" x="116.354" y="6.281" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="115.26" y="5.103" size="1.016" layer="25" rot="R90"/>
+<attribute name="NAME" x="115.006" y="8.405" size="1.016" layer="25"/>
 <attribute name="POPULARITY" value="85" x="176.044" y="6.281" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="176.044" y="6.281" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
