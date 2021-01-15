@@ -18997,7 +18997,7 @@ Source: www.kingbright.com</description>
 </pinmapping>
 </spice>
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-CL10B104KB8NNNLTR-ND"/>
+<attribute name="DPN" value="1276-CL10B104KB8NNNLCT-ND"/>
 <attribute name="MFR" value="Murata Electronics"/>
 <attribute name="MPN" value="CL10B104KB8NNNL"/>
 </part>
@@ -19433,7 +19433,7 @@ Source: www.kingbright.com</description>
 </pinmapping>
 </spice>
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-CL10B104KB8NNNLTR-ND"/>
+<attribute name="DPN" value="1276-CL10B104KB8NNNLCT-ND"/>
 <attribute name="MFR" value="Samsung Electro-Mechanics"/>
 <attribute name="MPN" value="CL10B104KB8NNNL"/>
 </part>
@@ -19445,19 +19445,19 @@ Source: www.kingbright.com</description>
 </pinmapping>
 </spice>
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="490-18664-2-ND"/>
-<attribute name="MFR" value="Murata Electronics"/>
-<attribute name="MPN" value="GRM21BR61H106ME43L"/>
+<attribute name="DPN" value="1276-6736-1-ND"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics"/>
+<attribute name="MPN" value="CL31A106MBHNNNE"/>
 </part>
 <part name="R26" library="marionette" deviceset="R-US_" device="0805-B" value="124k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="2019-RK73H2ATTD1243FTR-ND"/>
+<attribute name="DPN" value="2019-RK73H2ATTD1243FCT-ND"/>
 <attribute name="MFR" value="KOA Speer Electronics, Inc."/>
 <attribute name="MPN" value="RK73H2ATTD1243F"/>
 </part>
 <part name="R30" library="marionette" deviceset="R-US_" device="0805-B" value="23.7k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="2019-RK73H2ATTD2372FTR-ND"/>
+<attribute name="DPN" value="2019-RK73H2ATTD2372FCT-ND"/>
 <attribute name="MFR" value="KOA Speer Electronics, Inc."/>
 <attribute name="MPN" value="RK73H2ATTD2372F"/>
 </part>
@@ -19475,7 +19475,7 @@ Source: www.kingbright.com</description>
 </pinmapping>
 </spice>
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-1248-2-ND"/>
+<attribute name="DPN" value="1276-1248-1-ND"/>
 <attribute name="MFR" value="Samsung Electro-Mechanics"/>
 <attribute name="MPN" value="CL21A475KBQNNNE"/>
 </part>
@@ -19487,7 +19487,7 @@ Source: www.kingbright.com</description>
 </pinmapping>
 </spice>
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-CL10B104KB8NNNLTR-ND"/>
+<attribute name="DPN" value="1276-CL10B104KB8NNNLCT-ND"/>
 <attribute name="MFR" value="Samsung Electro-Mechanics"/>
 <attribute name="MPN" value="CL10B104KB8NNNL"/>
 </part>
@@ -19499,7 +19499,7 @@ Source: www.kingbright.com</description>
 </pinmapping>
 </spice>
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="BC4966TR-ND"/>
+<attribute name="DPN" value="BC4966CT-ND"/>
 <attribute name="MFR" value="Vishay Dale"/>
 <attribute name="MPN" value="CRMA1206AF500KFKEF"/>
 </part>
@@ -19530,7 +19530,7 @@ Source: www.kingbright.com</description>
 </pinmapping>
 </spice>
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-CL10B104KB8NNNLTR-ND"/>
+<attribute name="DPN" value="1276-CL10B104KB8NNNLCT-ND"/>
 <attribute name="MFR" value="Samsung Electro-Mechanics"/>
 <attribute name="MPN" value="CL10B104KB8NNNL"/>
 </part>
@@ -19542,19 +19542,19 @@ Source: www.kingbright.com</description>
 </pinmapping>
 </spice>
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="490-18664-2-ND"/>
-<attribute name="MFR" value="Murata Electronics"/>
-<attribute name="MPN" value="GRM21BR61H106ME43L"/>
+<attribute name="DPN" value="1276-6736-1-ND"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics"/>
+<attribute name="MPN" value="CL31A106MBHNNNE"/>
 </part>
 <part name="R35" library="marionette" deviceset="R-US_" device="0805-B" value="73.2k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="2019-RK73H2ATTD7322FTR-ND"/>
+<attribute name="DPN" value="2019-RK73H2ATTD7322FCT-ND"/>
 <attribute name="MFR" value="KOA Speer Electronics, Inc."/>
 <attribute name="MPN" value="RK73H2ATTD7322F"/>
 </part>
 <part name="R36" library="marionette" deviceset="R-US_" device="0805-B" value="23.7k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="2019-RK73H2ATTD2372FTR-ND"/>
+<attribute name="DPN" value="2019-RK73H2ATTD2372FCT-ND"/>
 <attribute name="MFR" value="KOA Speer Electronics, Inc."/>
 <attribute name="MPN" value="RK73H2ATTD2372F"/>
 </part>
@@ -19572,7 +19572,7 @@ Source: www.kingbright.com</description>
 </pinmapping>
 </spice>
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-1248-2-ND"/>
+<attribute name="DPN" value="1276-1248-1-ND"/>
 <attribute name="MFR" value="Samsung Electro-Mechanics"/>
 <attribute name="MPN" value="CL21A475KBQNNNE"/>
 </part>
@@ -19584,13 +19584,13 @@ Source: www.kingbright.com</description>
 </pinmapping>
 </spice>
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-CL10B104KB8NNNLTR-ND"/>
+<attribute name="DPN" value="1276-CL10B104KB8NNNLCT-ND"/>
 <attribute name="MFR" value="Samsung Electro-Mechanics"/>
 <attribute name="MPN" value="CL10B104KB8NNNL"/>
 </part>
 <part name="R37" library="marionette" deviceset="R-US_" device="0805-B" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="RHM10KADTR-ND"/>
+<attribute name="DPN" value="RHM10KADCT-ND"/>
 <attribute name="MFR" value="Rohm Semiconductor"/>
 <attribute name="MPN" value="ESR03EZPF1002"/>
 </part>
@@ -19842,7 +19842,7 @@ Source: www.kingbright.com</description>
 </pinmapping>
 </spice>
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-CL10B104KB8NNNLTR-ND"/>
+<attribute name="DPN" value="1276-CL10B104KB8NNNLCT-ND"/>
 <attribute name="MFR" value="Murata Electronics"/>
 <attribute name="MPN" value="CL10B104KB8NNNL"/>
 </part>
@@ -20231,9 +20231,9 @@ Source: www.kingbright.com</description>
 </part>
 <part name="L3" library="TSAR_Controller (2)" deviceset="CLF5030NIT-100M-D" device="" value="33uH">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="240-3161-2-ND"/>
-<attribute name="MFR" value="Laird-Signal Integrity Products"/>
-<attribute name="MPN" value="MGV0503330M-10"/>
+<attribute name="DPN" value="553-PM4340.333NLTCT-ND"/>
+<attribute name="MFR" value="Pulse Electronics Power"/>
+<attribute name="MPN" value="PM4340.333NLT"/>
 </part>
 <part name="C43" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF">
 <spice>
@@ -20243,7 +20243,7 @@ Source: www.kingbright.com</description>
 </pinmapping>
 </spice>
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-CL10B104KB8NNNLTR-ND"/>
+<attribute name="DPN" value="1276-CL10B104KB8NNNLCT-ND"/>
 <attribute name="MFR" value="Samsung Electro-Mechanics"/>
 <attribute name="MPN" value="CL10B104KB8NNNL"/>
 </part>
@@ -20273,7 +20273,7 @@ Source: www.kingbright.com</description>
 </pinmapping>
 </spice>
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-1248-2-ND"/>
+<attribute name="DPN" value="1276-1248-1-ND"/>
 <attribute name="MFR" value="Samsung Electro-Mechanics"/>
 <attribute name="MPN" value="CL21A475KBQNNNE"/>
 </part>
@@ -20285,7 +20285,7 @@ Source: www.kingbright.com</description>
 </pinmapping>
 </spice>
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-CL10B104KB8NNNLTR-ND"/>
+<attribute name="DPN" value="1276-CL10B104KB8NNNLCT-ND"/>
 <attribute name="MFR" value="Samsung Electro-Mechanics"/>
 <attribute name="MPN" value="CL10B104KB8NNNL"/>
 </part>
@@ -20297,7 +20297,7 @@ Source: www.kingbright.com</description>
 </pinmapping>
 </spice>
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="BC4966TR-ND"/>
+<attribute name="DPN" value="BC4966CT-ND"/>
 <attribute name="MFR" value="Vishay Dale"/>
 <attribute name="MPN" value="CRMA1206AF500KFKEF"/>
 </part>
@@ -20334,7 +20334,7 @@ Source: www.kingbright.com</description>
 </pinmapping>
 </spice>
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="541-2779-2-ND"/>
+<attribute name="DPN" value="541-2779-1-ND"/>
 <attribute name="MFR" value="Vishay Dale"/>
 <attribute name="MPN" value="RCS06030000Z0EA"/>
 </part>
@@ -20346,7 +20346,7 @@ Source: www.kingbright.com</description>
 </pinmapping>
 </spice>
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="541-2779-2-ND"/>
+<attribute name="DPN" value="541-2779-1-ND"/>
 <attribute name="MFR" value="Vishay Dale"/>
 <attribute name="MPN" value="RCS06030000Z0EA"/>
 </part>
@@ -20358,7 +20358,7 @@ Source: www.kingbright.com</description>
 </pinmapping>
 </spice>
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="541-2779-2-ND"/>
+<attribute name="DPN" value="541-2779-1-ND"/>
 <attribute name="MFR" value="Vishay Dale"/>
 <attribute name="MPN" value="RCS06030000Z0EA"/>
 </part>
@@ -20370,7 +20370,7 @@ Source: www.kingbright.com</description>
 </pinmapping>
 </spice>
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="541-2779-2-ND"/>
+<attribute name="DPN" value="541-2779-1-ND"/>
 <attribute name="MFR" value="Vishay Dale"/>
 <attribute name="MPN" value="RCS06030000Z0EA"/>
 </part>
@@ -20394,7 +20394,7 @@ Source: www.kingbright.com</description>
 </pinmapping>
 </spice>
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="541-2779-2-ND"/>
+<attribute name="DPN" value="541-2779-1-ND"/>
 <attribute name="MFR" value="Vishay Dale"/>
 <attribute name="MPN" value="RCS06030000Z0EA"/>
 </part>
@@ -20406,7 +20406,7 @@ Source: www.kingbright.com</description>
 </pinmapping>
 </spice>
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="541-2779-2-ND"/>
+<attribute name="DPN" value="541-2779-1-ND"/>
 <attribute name="MFR" value="Vishay Dale"/>
 <attribute name="MPN" value="RCS06030000Z0EA"/>
 </part>
@@ -20418,7 +20418,7 @@ Source: www.kingbright.com</description>
 </pinmapping>
 </spice>
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-1860-2-ND"/>
+<attribute name="DPN" value="1276-1860-1-ND"/>
 <attribute name="MFR" value="Samsung Electro-Mechanics"/>
 <attribute name="MPN" value="CL10A105KB8NNNC"/>
 </part>
@@ -20430,7 +20430,7 @@ Source: www.kingbright.com</description>
 </pinmapping>
 </spice>
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-1860-2-ND"/>
+<attribute name="DPN" value="1276-1860-1-ND"/>
 <attribute name="MFR" value="Samsung Electro-Mechanics"/>
 <attribute name="MPN" value="CL10A105KB8NNNC"/>
 </part>
@@ -20442,9 +20442,9 @@ Source: www.kingbright.com</description>
 </pinmapping>
 </spice>
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="490-18664-2-ND"/>
-<attribute name="MFR" value="Murata Electronics"/>
-<attribute name="MPN" value="GRM21BR61H106ME43L"/>
+<attribute name="DPN" value="1276-6736-1-ND"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics"/>
+<attribute name="MPN" value="CL31A106MBHNNNE"/>
 </part>
 <part name="C53" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10uF">
 <spice>
@@ -20454,9 +20454,9 @@ Source: www.kingbright.com</description>
 </pinmapping>
 </spice>
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="490-18664-2-ND"/>
-<attribute name="MFR" value="Murata Electronics"/>
-<attribute name="MPN" value="GRM21BR61H106ME43L"/>
+<attribute name="DPN" value="1276-6736-1-ND"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics"/>
+<attribute name="MPN" value="CL31A106MBHNNNE"/>
 </part>
 <part name="P+15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device="" value="+12V"/>
 <part name="P+19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+24V" device="" value="+24V"/>
