@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -23,7 +23,7 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -46,7 +46,7 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
@@ -58,7 +58,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -80,75 +80,12 @@
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
-<layer number="100" name="Muster" color="7" fill="1" visible="no" active="yes"/>
-<layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
-<layer number="102" name="Mittellin" color="7" fill="1" visible="no" active="yes"/>
-<layer number="103" name="Stiffner" color="7" fill="1" visible="no" active="yes"/>
-<layer number="104" name="Name" color="7" fill="1" visible="no" active="yes"/>
-<layer number="105" name="Beschreib" color="7" fill="1" visible="no" active="yes"/>
-<layer number="106" name="BGA-Top" color="7" fill="1" visible="no" active="yes"/>
-<layer number="107" name="BD-Top" color="7" fill="1" visible="no" active="yes"/>
-<layer number="108" name="tBridges" color="7" fill="1" visible="no" active="yes"/>
-<layer number="109" name="tBPL" color="7" fill="1" visible="no" active="yes"/>
-<layer number="110" name="bBPL" color="7" fill="1" visible="no" active="yes"/>
-<layer number="111" name="MPL" color="7" fill="1" visible="no" active="yes"/>
-<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="113" name="IDFDebug" color="7" fill="1" visible="no" active="yes"/>
-<layer number="114" name="FRNTMAAT1" color="7" fill="1" visible="no" active="yes"/>
-<layer number="115" name="FRNTMAAT2" color="7" fill="1" visible="no" active="yes"/>
-<layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
-<layer number="117" name="BACKMAAT1" color="7" fill="1" visible="no" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
-<layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="no" active="yes"/>
-<layer number="120" name="KAP_MAAT1" color="7" fill="1" visible="no" active="yes"/>
-<layer number="121" name="sName" color="7" fill="1" visible="no" active="yes"/>
-<layer number="122" name="_bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
-<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
-<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="129" name="top_silk" color="7" fill="1" visible="no" active="yes"/>
-<layer number="130" name="SMDSTROOK" color="7" fill="1" visible="no" active="yes"/>
-<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
-<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
-<layer number="133" name="bottom_silk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="134" name="silk_top" color="7" fill="1" visible="no" active="no"/>
 <layer number="135" name="silk_bottom" color="7" fill="1" visible="no" active="no"/>
-<layer number="136" name="silktop" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="137" name="silkbottom" color="7" fill="1" visible="no" active="yes"/>
-<layer number="140" name="Testjig_Mill" color="26" fill="1" visible="no" active="yes"/>
-<layer number="141" name="TestjigBotDepthMill" color="49" fill="1" visible="no" active="yes"/>
-<layer number="142" name="top_plate_holes" color="42" fill="1" visible="no" active="yes"/>
-<layer number="143" name="bottom_plate_holes" color="50" fill="1" visible="no" active="yes"/>
-<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
-<layer number="145" name="DrillLegend_01-16" color="2" fill="9" visible="no" active="yes"/>
-<layer number="146" name="DrillLegend_01-20" color="7" fill="1" visible="no" active="yes"/>
-<layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
-<layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
 <layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
 <layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
-<layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
-<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
-<layer number="201" name="201bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="202" name="202bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="203" name="203bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="204" name="204bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="205" name="205bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="206" name="206bmp" color="7" fill="10" visible="no" active="yes"/>
-<layer number="207" name="207bmp" color="8" fill="10" visible="no" active="yes"/>
-<layer number="208" name="208bmp" color="9" fill="10" visible="no" active="yes"/>
-<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="215" name="215bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="216" name="216bmp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
 <layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
 <layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
@@ -157,22 +94,6 @@
 <layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
-<layer number="225" name="225bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="226" name="226bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="227" name="227bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="228" name="228bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="229" name="229bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="230" name="230bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="231" name="Eagle3D_PG1" color="7" fill="1" visible="no" active="yes"/>
-<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="yes"/>
-<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="yes"/>
-<layer number="248" name="Housing" color="7" fill="1" visible="no" active="yes"/>
-<layer number="249" name="Edge" color="7" fill="1" visible="no" active="yes"/>
-<layer number="250" name="Descript" color="7" fill="1" visible="no" active="yes"/>
-<layer number="251" name="SMDround" color="7" fill="1" visible="no" active="yes"/>
-<layer number="252" name="coverlay15" color="13" fill="7" visible="no" active="yes"/>
-<layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
-<layer number="255" name="Accent" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
 <plain>
@@ -180,7 +101,7 @@
 <wire x1="130.556" y1="0" x2="130.556" y2="85.09" width="0" layer="20"/>
 <wire x1="130.556" y1="85.09" x2="2.032" y2="85.09" width="0" layer="20"/>
 <wire x1="2.032" y1="85.09" x2="2.032" y2="0" width="0" layer="20"/>
-<text x="34.036" y="19.05" size="1.6764" layer="136" ratio="20">TSAR capstone 2019-2020
+<text x="34.036" y="19.05" size="1.6764" layer="21" ratio="20">TSAR capstone 2019-2020
 Sensor Front End Board
 REV 1.1 2020-12-29</text>
 <text x="13.4848625" y="80.96758125" size="0.8128" layer="25" ratio="20">12V</text>
@@ -188,7 +109,7 @@ REV 1.1 2020-12-29</text>
 <text x="43.434" y="81.788" size="0.8128" layer="25" ratio="20">5V</text>
 <text x="80.518" y="78.994" size="0.8128" layer="21" ratio="20">5V</text>
 <text x="71.628" y="78.74" size="0.8128" layer="21" ratio="20">12V</text>
-<text x="36.83" y="15.24" size="1.27" layer="136" ratio="20">Conrad Clemans, cclemans@pdx.edu
+<text x="36.83" y="15.24" size="1.27" layer="21" ratio="20">Conrad Clemans, cclemans@pdx.edu
 Jennifer Jordan, jejor2@pdx.edu</text>
 <text x="50.292" y="66.802" size="1.016" layer="25">-     +</text>
 <text x="20.5968625" y="80.96758125" size="0.8128" layer="25" ratio="20">12V</text>
@@ -3445,8 +3366,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DPN" value="P1.0KBYCT-ND" x="16.256" y="50.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFR" value="Panasonic Electronic Components" x="16.256" y="50.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="ERJ-PA3F1001V" x="16.256" y="50.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="16.256" y="50.8" size="0.4" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="NAME" x="15.224" y="51.792" size="0.8128" layer="25" ratio="20"/>
+<attribute name="NAME" x="16.256" y="50.8" size="0.4" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="POPULARITY" value="77" x="16.256" y="50.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="16.256" y="50.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="17.756" y="52.6" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
@@ -3466,8 +3387,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DPN" value="P1.0KBYCT-ND" x="7.112" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFR" value="Panasonic Electronic Components" x="7.112" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="ERJ-PA3F1001V" x="7.112" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="7.112" y="31.75" size="0.4" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="NAME" x="6.112" y="30.758" size="0.8128" layer="25" ratio="20" rot="R90"/>
+<attribute name="NAME" x="7.112" y="31.75" size="0.4" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="POPULARITY" value="77" x="7.112" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="7.112" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="8.912" y="30.25" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
@@ -3487,8 +3408,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DPN" value="P1.0KBYCT-ND" x="5.588" y="50.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFR" value="Panasonic Electronic Components" x="5.588" y="50.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="ERJ-PA3F1001V" x="5.588" y="50.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="5.588" y="50.8" size="0.4" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="NAME" x="4.588" y="49.808" size="0.8128" layer="25" ratio="20" rot="R90"/>
+<attribute name="NAME" x="5.588" y="50.8" size="0.4" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="POPULARITY" value="77" x="5.588" y="50.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="5.588" y="50.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="7.388" y="49.3" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
@@ -3802,8 +3723,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DPN" value="P1.0KBYCT-ND" x="66.294" y="52.832" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFR" value="Panasonic Electronic Components" x="66.294" y="52.832" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="ERJ-PA3F1001V" x="66.294" y="52.832" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="66.294" y="52.832" size="0.4" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="65.302" y="54.34" size="0.8128" layer="25" ratio="20"/>
+<attribute name="NAME" x="66.294" y="52.832" size="0.4" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="POPULARITY" value="77" x="66.294" y="52.832" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="66.294" y="52.832" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="64.494" y="54.332" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
@@ -3823,8 +3744,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DPN" value="P1.0KBYCT-ND" x="66.04" y="64.262" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFR" value="Panasonic Electronic Components" x="66.04" y="64.262" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="ERJ-PA3F1001V" x="66.04" y="64.262" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="66.04" y="64.262" size="0.4" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="65.302" y="65.77" size="0.8128" layer="25" ratio="20"/>
+<attribute name="NAME" x="66.04" y="64.262" size="0.4" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="POPULARITY" value="77" x="66.04" y="64.262" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="66.04" y="64.262" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="64.24" y="65.762" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
@@ -3844,8 +3765,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DPN" value="P1.0KBYCT-ND" x="66.548" y="74.93" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFR" value="Panasonic Electronic Components" x="66.548" y="74.93" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="ERJ-PA3F1001V" x="66.548" y="74.93" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="66.548" y="74.93" size="0.4" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="65.556" y="76.438" size="0.8128" layer="25" ratio="20"/>
+<attribute name="NAME" x="66.548" y="74.93" size="0.4" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="POPULARITY" value="77" x="66.548" y="74.93" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="66.548" y="74.93" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="64.748" y="76.43" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
@@ -3988,8 +3909,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DPN" value="P1.0KBYCT-ND" x="90.424" y="76.454" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFR" value="Panasonic Electronic Components" x="90.424" y="76.454" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="ERJ-PA3F1001V" x="90.424" y="76.454" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="90.424" y="76.454" size="0.4" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="NAME" x="89.638" y="78.248" size="0.8128" layer="25" ratio="20"/>
+<attribute name="NAME" x="90.424" y="76.454" size="0.4" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="POPULARITY" value="77" x="90.424" y="76.454" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="90.424" y="76.454" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="92.224" y="74.954" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
@@ -4039,8 +3960,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DPN" value="P1.0KBYCT-ND" x="90.932" y="65.278" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFR" value="Panasonic Electronic Components" x="90.932" y="65.278" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="ERJ-PA3F1001V" x="90.932" y="65.278" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="90.932" y="65.278" size="0.4" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="NAME" x="89.892" y="66.818" size="0.8128" layer="25" ratio="20"/>
+<attribute name="NAME" x="90.932" y="65.278" size="0.4" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="POPULARITY" value="77" x="90.932" y="65.278" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="90.932" y="65.278" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="92.732" y="63.778" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
@@ -4090,8 +4011,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DPN" value="P1.0KBYCT-ND" x="90.424" y="53.34" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFR" value="Panasonic Electronic Components" x="90.424" y="53.34" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="ERJ-PA3F1001V" x="90.424" y="53.34" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="90.424" y="53.34" size="0.4" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="NAME" x="89.384" y="54.88" size="0.8128" layer="25" ratio="20"/>
+<attribute name="NAME" x="90.424" y="53.34" size="0.4" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="POPULARITY" value="77" x="90.424" y="53.34" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="90.424" y="53.34" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="92.224" y="51.84" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
@@ -4141,8 +4062,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DPN" value="P1.0KBYCT-ND" x="90.678" y="40.132" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFR" value="Panasonic Electronic Components" x="90.678" y="40.132" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="ERJ-PA3F1001V" x="90.678" y="40.132" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="90.678" y="40.132" size="0.4" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="NAME" x="89.638" y="41.672" size="0.8128" layer="25" ratio="20"/>
+<attribute name="NAME" x="90.678" y="40.132" size="0.4" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="POPULARITY" value="77" x="90.678" y="40.132" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="90.678" y="40.132" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="92.478" y="38.632" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
@@ -4192,8 +4113,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DPN" value="P1.0KBYCT-ND" x="66.294" y="40.894" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFR" value="Panasonic Electronic Components" x="66.294" y="40.894" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="ERJ-PA3F1001V" x="66.294" y="40.894" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="66.294" y="40.894" size="0.4" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="65.302" y="42.402" size="0.8128" layer="25" ratio="20"/>
+<attribute name="NAME" x="66.294" y="40.894" size="0.4" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="POPULARITY" value="77" x="66.294" y="40.894" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="66.294" y="40.894" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="64.494" y="42.394" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
@@ -4394,8 +4315,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DPN" value="BC4966CT-ND" x="30.988" y="51.816" size="1.778" layer="27" display="off"/>
 <attribute name="MFR" value="Vishay Dale" x="30.988" y="51.816" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CRMA1206AF500KFKEF" x="30.988" y="51.816" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="42.926" y="68.58" size="0.4" layer="33" ratio="15" align="center"/>
 <attribute name="NAME" x="41.934" y="66.532" size="0.8128" layer="25" ratio="15"/>
+<attribute name="NAME" x="42.926" y="68.58" size="0.4" layer="33" ratio="15" align="center"/>
 <attribute name="POPULARITY" value="19" x="42.926" y="68.58" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="42.926" y="68.58" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="41.426" y="66.78" size="0.8" layer="27" font="vector" ratio="15"/>
