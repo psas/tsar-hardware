@@ -3721,9 +3721,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="IGN." library="led" library_urn="urn:adsk.eagle:library:259" package="PLCC2" package3d_urn="urn:adsk.eagle:package:15861/1" value="LG_T679-F1G2-1" x="131.599575" y="61.870165625" smashed="yes" rot="R180">
 <attribute name="COLOR" value="green" x="131.599575" y="61.870165625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIS" value="Digi-Key" x="131.599575" y="61.870165625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DPN" value="2460-L196B-QOC-ND" x="131.599575" y="61.870165625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFR" value="American Opto Plus LED" x="131.599575" y="61.870165625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="L196B-QOC" x="131.599575" y="61.870165625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="732-158301227ACT-ND" x="131.599575" y="61.870165625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Würth Elektronik" x="131.599575" y="61.870165625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="158301227A" x="131.599575" y="61.870165625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POPULARITY" value="0" x="131.599575" y="61.870165625" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="20k" x="128.651" y="36.526403125" smashed="yes" rot="R90">
@@ -3738,9 +3738,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="SOV_4." library="led" library_urn="urn:adsk.eagle:library:259" package="PLCC2" package3d_urn="urn:adsk.eagle:package:15861/1" value="LG_T679-F1G2-1" x="131.599575" y="37.578003125" smashed="yes" rot="R180">
 <attribute name="COLOR" value="green" x="131.599575" y="36.308003125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIS" value="Digi-Key" x="131.599575" y="37.578003125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DPN" value="2460-L196B-QOC-ND" x="131.599575" y="37.578003125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFR" value="American Opto Plus LED" x="131.599575" y="37.578003125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="L196B-QOC" x="131.599575" y="37.578003125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="732-158301227ACT-ND" x="131.599575" y="37.578003125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Würth Elektronik" x="131.599575" y="37.578003125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="158301227A" x="131.599575" y="37.578003125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POPULARITY" value="0" x="131.599575" y="36.308003125" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="20k" x="128.651" y="12.234240625" smashed="yes" rot="R90">
@@ -3755,9 +3755,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="SOV_8." library="led" library_urn="urn:adsk.eagle:library:259" package="PLCC2" package3d_urn="urn:adsk.eagle:package:15861/1" value="LG_T679-F1G2-1" x="131.599575" y="13.285840625" smashed="yes" rot="R180">
 <attribute name="COLOR" value="green" x="131.599575" y="10.745840625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIS" value="Digi-Key" x="131.599575" y="13.285840625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DPN" value="2460-L196B-QOC-ND" x="131.599575" y="13.285840625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFR" value="American Opto Plus LED" x="131.599575" y="13.285840625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="L196B-QOC" x="131.599575" y="13.285840625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="732-158301227ACT-ND" x="131.599575" y="13.285840625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Würth Elektronik" x="131.599575" y="13.285840625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="158301227A" x="131.599575" y="13.285840625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POPULARITY" value="0" x="131.599575" y="10.745840625" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="20k" x="128.651" y="6.1612" smashed="yes" rot="R90">
@@ -3772,9 +3772,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="SOV_9." library="led" library_urn="urn:adsk.eagle:library:259" package="PLCC2" package3d_urn="urn:adsk.eagle:package:15861/1" value="LG_T679-F1G2-1" x="131.599575" y="7.2128" smashed="yes" rot="R180">
 <attribute name="COLOR" value="green" x="131.599575" y="4.6728" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIS" value="Digi-Key" x="131.599575" y="7.2128" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DPN" value="2460-L196B-QOC-ND" x="131.599575" y="7.2128" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFR" value="American Opto Plus LED" x="131.599575" y="7.2128" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="L196B-QOC" x="131.599575" y="7.2128" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="732-158301227ACT-ND" x="131.599575" y="7.2128" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Würth Elektronik" x="131.599575" y="7.2128" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="158301227A" x="131.599575" y="7.2128" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POPULARITY" value="0" x="131.599575" y="4.6728" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R59" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="20k" x="128.651" y="30.4533625" smashed="yes" rot="R90">
@@ -3789,9 +3789,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="SOV_5." library="led" library_urn="urn:adsk.eagle:library:259" package="PLCC2" package3d_urn="urn:adsk.eagle:package:15861/1" value="LG_T679-F1G2-1" x="131.599575" y="31.5049625" smashed="yes" rot="R180">
 <attribute name="COLOR" value="green" x="131.599575" y="28.9649625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIS" value="Digi-Key" x="131.599575" y="31.5049625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DPN" value="2460-L196B-QOC-ND" x="131.599575" y="31.5049625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFR" value="American Opto Plus LED" x="131.599575" y="31.5049625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="L196B-QOC" x="131.599575" y="31.5049625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="732-158301227ACT-ND" x="131.599575" y="31.5049625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Würth Elektronik" x="131.599575" y="31.5049625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="158301227A" x="131.599575" y="31.5049625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POPULARITY" value="0" x="131.599575" y="28.9649625" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R60" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="20k" x="128.651" y="54.745525" smashed="yes" rot="R90">
@@ -3806,9 +3806,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="SOV_1." library="led" library_urn="urn:adsk.eagle:library:259" package="PLCC2" package3d_urn="urn:adsk.eagle:package:15861/1" value="LG_T679-F1G2-1" x="131.599575" y="55.797125" smashed="yes" rot="R180">
 <attribute name="COLOR" value="green" x="131.599575" y="53.257125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIS" value="Digi-Key" x="131.599575" y="55.797125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DPN" value="2460-L196B-QOC-ND" x="131.599575" y="55.797125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFR" value="American Opto Plus LED" x="131.599575" y="55.797125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="L196B-QOC" x="131.599575" y="55.797125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="732-158301227ACT-ND" x="131.599575" y="55.797125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Würth Elektronik" x="131.599575" y="55.797125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="158301227A" x="131.599575" y="55.797125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POPULARITY" value="0" x="131.599575" y="53.257125" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R61" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="20k" x="128.651" y="48.672484375" smashed="yes" rot="R90">
@@ -3823,9 +3823,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="SOV_2." library="led" library_urn="urn:adsk.eagle:library:259" package="PLCC2" package3d_urn="urn:adsk.eagle:package:15861/1" value="LG_T679-F1G2-1" x="131.599575" y="49.724084375" smashed="yes" rot="R180">
 <attribute name="COLOR" value="green" x="131.599575" y="47.184084375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIS" value="Digi-Key" x="131.599575" y="49.724084375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DPN" value="2460-L196B-QOC-ND" x="131.599575" y="49.724084375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFR" value="American Opto Plus LED" x="131.599575" y="49.724084375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="L196B-QOC" x="131.599575" y="49.724084375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="732-158301227ACT-ND" x="131.599575" y="49.724084375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Würth Elektronik" x="131.599575" y="49.724084375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="158301227A" x="131.599575" y="49.724084375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POPULARITY" value="0" x="131.599575" y="47.184084375" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R62" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="20k" x="128.651" y="24.380321875" smashed="yes" rot="R90">
@@ -3840,9 +3840,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="SOV_6." library="led" library_urn="urn:adsk.eagle:library:259" package="PLCC2" package3d_urn="urn:adsk.eagle:package:15861/1" value="LG_T679-F1G2-1" x="131.599575" y="25.431921875" smashed="yes" rot="R180">
 <attribute name="COLOR" value="green" x="131.599575" y="22.891921875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIS" value="Digi-Key" x="131.599575" y="25.431921875" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DPN" value="2460-L196B-QOC-ND" x="131.599575" y="25.431921875" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFR" value="American Opto Plus LED" x="131.599575" y="25.431921875" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="L196B-QOC" x="131.599575" y="25.431921875" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="732-158301227ACT-ND" x="131.599575" y="25.431921875" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Würth Elektronik" x="131.599575" y="25.431921875" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="158301227A" x="131.599575" y="25.431921875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POPULARITY" value="0" x="131.599575" y="22.891921875" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R63" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="20k" x="128.651" y="18.30728125" smashed="yes" rot="R90">
@@ -3857,9 +3857,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="SOV_7." library="led" library_urn="urn:adsk.eagle:library:259" package="PLCC2" package3d_urn="urn:adsk.eagle:package:15861/1" value="LG_T679-F1G2-1" x="131.599575" y="19.35888125" smashed="yes" rot="R180">
 <attribute name="COLOR" value="green" x="131.599575" y="16.81888125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIS" value="Digi-Key" x="131.599575" y="19.35888125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DPN" value="2460-L196B-QOC-ND" x="131.599575" y="19.35888125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFR" value="American Opto Plus LED" x="131.599575" y="19.35888125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="L196B-QOC" x="131.599575" y="19.35888125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="732-158301227ACT-ND" x="131.599575" y="19.35888125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Würth Elektronik" x="131.599575" y="19.35888125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="158301227A" x="131.599575" y="19.35888125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POPULARITY" value="0" x="131.599575" y="16.81888125" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R64" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="20k" x="128.651" y="42.59944375" smashed="yes" rot="R90">
@@ -3874,9 +3874,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="SOV_3." library="led" library_urn="urn:adsk.eagle:library:259" package="PLCC2" package3d_urn="urn:adsk.eagle:package:15861/1" value="LG_T679-F1G2-1" x="131.599575" y="43.65104375" smashed="yes" rot="R180">
 <attribute name="COLOR" value="green" x="131.599575" y="41.11104375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIS" value="Digi-Key" x="131.599575" y="43.65104375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DPN" value="2460-L196B-QOC-ND" x="131.599575" y="43.65104375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFR" value="American Opto Plus LED" x="131.599575" y="43.65104375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="L196B-QOC" x="131.599575" y="43.65104375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="732-158301227ACT-ND" x="131.599575" y="43.65104375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Würth Elektronik" x="131.599575" y="43.65104375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="158301227A" x="131.599575" y="43.65104375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POPULARITY" value="0" x="131.599575" y="41.11104375" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R65" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="0" x="24.257" y="56.501" smashed="yes">
@@ -3918,9 +3918,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="POE+" library="led" library_urn="urn:adsk.eagle:library:259" package="PLCC2" package3d_urn="urn:adsk.eagle:package:15861/1" value="LG_T679-F1G2-1" x="6.477" y="49.149" smashed="yes" rot="R180">
 <attribute name="COLOR" value="green" x="6.477" y="47.879" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIS" value="Digi-Key" x="6.477" y="49.149" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DPN" value="350-2035-2-ND" x="6.477" y="49.149" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFR" value="Dialight" x="6.477" y="49.149" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="5988070107F" x="6.477" y="49.149" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="732-158301227ACT-ND" x="6.477" y="49.149" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Würth Elektronik" x="6.477" y="49.149" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="158301227A" x="6.477" y="49.149" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="3.683" y="51.181" size="1.016" layer="25" rot="R270"/>
 <attribute name="POPULARITY" value="0" x="6.477" y="47.879" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -3936,9 +3936,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="5V" library="led" library_urn="urn:adsk.eagle:library:259" package="PLCC2" package3d_urn="urn:adsk.eagle:package:15861/1" value="LG_T679-F1G2-1" x="6.477" y="55.753" smashed="yes">
 <attribute name="COLOR" value="green" x="6.477" y="58.293" size="1.778" layer="27" display="off"/>
 <attribute name="DIS" value="Digi-Key" x="6.477" y="55.753" size="1.778" layer="27" display="off"/>
-<attribute name="DPN" value="350-2035-2-ND" x="6.477" y="55.753" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Dialight" x="6.477" y="55.753" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="5988070107F" x="6.477" y="55.753" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="732-158301227ACT-ND" x="6.477" y="55.753" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Würth Elektronik" x="6.477" y="55.753" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="158301227A" x="6.477" y="55.753" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="4.572" y="54.864" size="1.016" layer="25" rot="R90"/>
 <attribute name="POPULARITY" value="0" x="6.477" y="58.293" size="1.778" layer="27" display="off"/>
 </element>

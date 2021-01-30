@@ -14834,9 +14834,9 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 </part>
 <part name="IGN." library="led" library_urn="urn:adsk.eagle:library:259" deviceset="*_T679-?-1" device="F1G2" package3d_urn="urn:adsk.eagle:package:15861/1" technology="LG">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="2460-L196B-QOC-ND"/>
-<attribute name="MFR" value="American Opto Plus LED"/>
-<attribute name="MPN" value="L196B-QOC"/>
+<attribute name="DPN" value="732-158301227ACT-ND"/>
+<attribute name="MFR" value="Würth Elektronik"/>
+<attribute name="MPN" value="158301227A"/>
 </part>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="20k">
@@ -14853,9 +14853,9 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 </part>
 <part name="SOV_4." library="led" library_urn="urn:adsk.eagle:library:259" deviceset="*_T679-?-1" device="F1G2" package3d_urn="urn:adsk.eagle:package:15861/1" technology="LG">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="2460-L196B-QOC-ND"/>
-<attribute name="MFR" value="American Opto Plus LED"/>
-<attribute name="MPN" value="L196B-QOC"/>
+<attribute name="DPN" value="732-158301227ACT-ND"/>
+<attribute name="MFR" value="Würth Elektronik"/>
+<attribute name="MPN" value="158301227A"/>
 </part>
 <part name="GND31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="20k">
@@ -14872,9 +14872,9 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 </part>
 <part name="SOV_8." library="led" library_urn="urn:adsk.eagle:library:259" deviceset="*_T679-?-1" device="F1G2" package3d_urn="urn:adsk.eagle:package:15861/1" technology="LG">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="2460-L196B-QOC-ND"/>
-<attribute name="MFR" value="American Opto Plus LED"/>
-<attribute name="MPN" value="L196B-QOC"/>
+<attribute name="DPN" value="732-158301227ACT-ND"/>
+<attribute name="MFR" value="Würth Elektronik"/>
+<attribute name="MPN" value="158301227A"/>
 </part>
 <part name="GND32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="20k">
@@ -14891,9 +14891,9 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 </part>
 <part name="SOV_9." library="led" library_urn="urn:adsk.eagle:library:259" deviceset="*_T679-?-1" device="F1G2" package3d_urn="urn:adsk.eagle:package:15861/1" technology="LG">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="2460-L196B-QOC-ND"/>
-<attribute name="MFR" value="American Opto Plus LED"/>
-<attribute name="MPN" value="L196B-QOC"/>
+<attribute name="DPN" value="732-158301227ACT-ND"/>
+<attribute name="MFR" value="Würth Elektronik"/>
+<attribute name="MPN" value="158301227A"/>
 </part>
 <part name="GND33" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R59" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="20k">
@@ -14910,9 +14910,9 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 </part>
 <part name="SOV_5." library="led" library_urn="urn:adsk.eagle:library:259" deviceset="*_T679-?-1" device="F1G2" package3d_urn="urn:adsk.eagle:package:15861/1" technology="LG">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="2460-L196B-QOC-ND"/>
-<attribute name="MFR" value="American Opto Plus LED"/>
-<attribute name="MPN" value="L196B-QOC"/>
+<attribute name="DPN" value="732-158301227ACT-ND"/>
+<attribute name="MFR" value="Würth Elektronik"/>
+<attribute name="MPN" value="158301227A"/>
 </part>
 <part name="GND35" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R60" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="20k">
@@ -14929,9 +14929,9 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 </part>
 <part name="SOV_1." library="led" library_urn="urn:adsk.eagle:library:259" deviceset="*_T679-?-1" device="F1G2" package3d_urn="urn:adsk.eagle:package:15861/1" technology="LG">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="2460-L196B-QOC-ND"/>
-<attribute name="MFR" value="American Opto Plus LED"/>
-<attribute name="MPN" value="L196B-QOC"/>
+<attribute name="DPN" value="732-158301227ACT-ND"/>
+<attribute name="MFR" value="Würth Elektronik"/>
+<attribute name="MPN" value="158301227A"/>
 </part>
 <part name="GND38" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R61" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="20k">
@@ -14948,9 +14948,9 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 </part>
 <part name="SOV_2." library="led" library_urn="urn:adsk.eagle:library:259" deviceset="*_T679-?-1" device="F1G2" package3d_urn="urn:adsk.eagle:package:15861/1" technology="LG">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="2460-L196B-QOC-ND"/>
-<attribute name="MFR" value="American Opto Plus LED"/>
-<attribute name="MPN" value="L196B-QOC"/>
+<attribute name="DPN" value="732-158301227ACT-ND"/>
+<attribute name="MFR" value="Würth Elektronik"/>
+<attribute name="MPN" value="158301227A"/>
 </part>
 <part name="GND40" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R62" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="20k">
@@ -14967,9 +14967,9 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 </part>
 <part name="SOV_6." library="led" library_urn="urn:adsk.eagle:library:259" deviceset="*_T679-?-1" device="F1G2" package3d_urn="urn:adsk.eagle:package:15861/1" technology="LG">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="2460-L196B-QOC-ND"/>
-<attribute name="MFR" value="American Opto Plus LED"/>
-<attribute name="MPN" value="L196B-QOC"/>
+<attribute name="DPN" value="732-158301227ACT-ND"/>
+<attribute name="MFR" value="Würth Elektronik"/>
+<attribute name="MPN" value="158301227A"/>
 </part>
 <part name="GND74" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R63" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="20k">
@@ -14986,9 +14986,9 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 </part>
 <part name="SOV_7." library="led" library_urn="urn:adsk.eagle:library:259" deviceset="*_T679-?-1" device="F1G2" package3d_urn="urn:adsk.eagle:package:15861/1" technology="LG">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="2460-L196B-QOC-ND"/>
-<attribute name="MFR" value="American Opto Plus LED"/>
-<attribute name="MPN" value="L196B-QOC"/>
+<attribute name="DPN" value="732-158301227ACT-ND"/>
+<attribute name="MFR" value="Würth Elektronik"/>
+<attribute name="MPN" value="158301227A"/>
 </part>
 <part name="GND75" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R64" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="20k">
@@ -15005,9 +15005,9 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 </part>
 <part name="SOV_3." library="led" library_urn="urn:adsk.eagle:library:259" deviceset="*_T679-?-1" device="F1G2" package3d_urn="urn:adsk.eagle:package:15861/1" technology="LG">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="2460-L196B-QOC-ND"/>
-<attribute name="MFR" value="American Opto Plus LED"/>
-<attribute name="MPN" value="L196B-QOC"/>
+<attribute name="DPN" value="732-158301227ACT-ND"/>
+<attribute name="MFR" value="Würth Elektronik"/>
+<attribute name="MPN" value="158301227A"/>
 </part>
 <part name="GND76" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R65" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="0">
@@ -15060,9 +15060,9 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 </part>
 <part name="POE+" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="*_T679-?-1" device="F1G2" package3d_urn="urn:adsk.eagle:package:15861/1" technology="LG">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="350-2035-2-ND"/>
-<attribute name="MFR" value="Dialight"/>
-<attribute name="MPN" value="5988070107F"/>
+<attribute name="DPN" value="732-158301227ACT-ND"/>
+<attribute name="MFR" value="Würth Elektronik"/>
+<attribute name="MPN" value="158301227A"/>
 </part>
 <part name="GND77" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R68" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k">
@@ -15079,9 +15079,9 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 </part>
 <part name="5V" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="*_T679-?-1" device="F1G2" package3d_urn="urn:adsk.eagle:package:15861/1" technology="LG">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="350-2035-2-ND"/>
-<attribute name="MFR" value="Dialight"/>
-<attribute name="MPN" value="5988070107F"/>
+<attribute name="DPN" value="732-158301227ACT-ND"/>
+<attribute name="MFR" value="Würth Elektronik"/>
+<attribute name="MPN" value="158301227A"/>
 </part>
 <part name="GND78" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SOV_2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2">
