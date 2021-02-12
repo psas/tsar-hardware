@@ -41,7 +41,7 @@ The Thrust Plate Amplifier amplifies the thrust plate signal.
 
 This board communicates with the BB-AI over UART and controls the valves. The processor is a STM32F0 using a Nucleo-board. 
 
-For more information on the software for this board please see [Actuator Controller Code](https://github.com/psas/tsar-software/tree/master/actuator-controller)
+For more information on the software for this board please see [Actuator Controller Code, Firmware](https://github.com/psas/tsar-software/tree/master/Actuator%20Controller%20Firmware) and [Actuator Controller Code, Test](https://github.com/psas/tsar-software/tree/master/Actuator%20Controller%20Test)
 
 ### [Tsar Sensor Front End](https://github.com/psas/tsar-hardware/tree/master/tsar_SensorFrontEnd)
 
