@@ -20025,7 +20025,7 @@ This package is identical to 0603-B, but has its tPlace silkscreen layer removed
 <attribute name="MFR" value="Samsung Electro-Mechanics"/>
 <attribute name="MPN" value="CL10A105KB8NNNC"/>
 </part>
-<part name="R1" library="oresat-rcl" deviceset="R-US_" device="0603-A-NOSILK" value="150">
+<part name="R1" library="oresat-rcl" deviceset="R-US_" device="0805-A-NOSILK" value="150">
 <spice>
 <pinmapping spiceprefix="R">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -20033,11 +20033,11 @@ This package is identical to 0603-B, but has its tPlace silkscreen layer removed
 </pinmapping>
 </spice>
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="P150BYCT-ND"/>
-<attribute name="MFR" value="Panasonic Electronic Components"/>
-<attribute name="MPN" value="ERJ-PA3F1500V"/>
+<attribute name="DPN" value="A110464CT-ND"/>
+<attribute name="MFR" value="TE Connectivity Passive Product"/>
+<attribute name="MPN" value="4-2176091-1"/>
 </part>
-<part name="R2" library="oresat-rcl" deviceset="R-US_" device="0603-A-NOSILK" value="150">
+<part name="R2" library="oresat-rcl" deviceset="R-US_" device="0805-A-NOSILK" value="150">
 <spice>
 <pinmapping spiceprefix="R">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -20045,11 +20045,11 @@ This package is identical to 0603-B, but has its tPlace silkscreen layer removed
 </pinmapping>
 </spice>
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="P150BYCT-ND"/>
-<attribute name="MFR" value="Panasonic Electronic Components"/>
-<attribute name="MPN" value="ERJ-PA3F1500V"/>
+<attribute name="DPN" value="A110464CT-ND"/>
+<attribute name="MFR" value="TE Connectivity Passive Product"/>
+<attribute name="MPN" value="4-2176091-1"/>
 </part>
-<part name="R3" library="oresat-rcl" deviceset="R-US_" device="0603-A-NOSILK" value="150">
+<part name="R3" library="oresat-rcl" deviceset="R-US_" device="0805-A-NOSILK" value="150">
 <spice>
 <pinmapping spiceprefix="R">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -20057,11 +20057,11 @@ This package is identical to 0603-B, but has its tPlace silkscreen layer removed
 </pinmapping>
 </spice>
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="P150BYCT-ND"/>
-<attribute name="MFR" value="Panasonic Electronic Components"/>
-<attribute name="MPN" value="ERJ-PA3F1500V"/>
+<attribute name="DPN" value="A110464CT-ND"/>
+<attribute name="MFR" value="TE Connectivity Passive Product"/>
+<attribute name="MPN" value="4-2176091-1"/>
 </part>
-<part name="R4" library="oresat-rcl" deviceset="R-US_" device="0603-A-NOSILK" value="150">
+<part name="R4" library="oresat-rcl" deviceset="R-US_" device="0805-A-NOSILK" value="150">
 <spice>
 <pinmapping spiceprefix="R">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -20069,11 +20069,11 @@ This package is identical to 0603-B, but has its tPlace silkscreen layer removed
 </pinmapping>
 </spice>
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="P150BYCT-ND"/>
-<attribute name="MFR" value="Panasonic Electronic Components"/>
-<attribute name="MPN" value="ERJ-PA3F1500V"/>
+<attribute name="DPN" value="A110464CT-ND"/>
+<attribute name="MFR" value="TE Connectivity Passive Product"/>
+<attribute name="MPN" value="4-2176091-1"/>
 </part>
-<part name="R5" library="oresat-rcl" deviceset="R-US_" device="0603-A-NOSILK" value="150">
+<part name="R5" library="oresat-rcl" deviceset="R-US_" device="0805-A-NOSILK" value="150">
 <spice>
 <pinmapping spiceprefix="R">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -20081,11 +20081,11 @@ This package is identical to 0603-B, but has its tPlace silkscreen layer removed
 </pinmapping>
 </spice>
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="P150BYCT-ND"/>
-<attribute name="MFR" value="Panasonic Electronic Components"/>
-<attribute name="MPN" value="ERJ-PA3F1500V"/>
+<attribute name="DPN" value="A110464CT-ND"/>
+<attribute name="MFR" value="TE Connectivity Passive Product"/>
+<attribute name="MPN" value="4-2176091-1"/>
 </part>
-<part name="R6" library="oresat-rcl" deviceset="R-US_" device="0603-A-NOSILK" value="150">
+<part name="R6" library="oresat-rcl" deviceset="R-US_" device="0805-A-NOSILK" value="150">
 <spice>
 <pinmapping spiceprefix="R">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -20093,11 +20093,11 @@ This package is identical to 0603-B, but has its tPlace silkscreen layer removed
 </pinmapping>
 </spice>
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="P150BYCT-ND"/>
-<attribute name="MFR" value="Panasonic Electronic Components"/>
-<attribute name="MPN" value="ERJ-PA3F1500V"/>
+<attribute name="DPN" value="A110464CT-ND"/>
+<attribute name="MFR" value="TE Connectivity Passive Product"/>
+<attribute name="MPN" value="4-2176091-1"/>
 </part>
-<part name="R7" library="oresat-rcl" deviceset="R-US_" device="0603-A-NOSILK" value="150">
+<part name="R7" library="oresat-rcl" deviceset="R-US_" device="0805-A-NOSILK" value="150">
 <spice>
 <pinmapping spiceprefix="R">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -20105,11 +20105,11 @@ This package is identical to 0603-B, but has its tPlace silkscreen layer removed
 </pinmapping>
 </spice>
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="P150BYCT-ND"/>
-<attribute name="MFR" value="Panasonic Electronic Components"/>
-<attribute name="MPN" value="ERJ-PA3F1500V"/>
+<attribute name="DPN" value="A110464CT-ND"/>
+<attribute name="MFR" value="TE Connectivity Passive Product"/>
+<attribute name="MPN" value="4-2176091-1"/>
 </part>
-<part name="R8" library="oresat-rcl" deviceset="R-US_" device="0603-A-NOSILK" value="150">
+<part name="R8" library="oresat-rcl" deviceset="R-US_" device="0805-A-NOSILK" value="150">
 <spice>
 <pinmapping spiceprefix="R">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -20117,11 +20117,11 @@ This package is identical to 0603-B, but has its tPlace silkscreen layer removed
 </pinmapping>
 </spice>
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="P150BYCT-ND"/>
-<attribute name="MFR" value="Panasonic Electronic Components"/>
-<attribute name="MPN" value="ERJ-PA3F1500V"/>
+<attribute name="DPN" value="A110464CT-ND"/>
+<attribute name="MFR" value="TE Connectivity Passive Product"/>
+<attribute name="MPN" value="4-2176091-1"/>
 </part>
-<part name="R9" library="oresat-rcl" deviceset="R-US_" device="0603-A-NOSILK" value="150">
+<part name="R9" library="oresat-rcl" deviceset="R-US_" device="0805-A-NOSILK" value="150">
 <spice>
 <pinmapping spiceprefix="R">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -20129,11 +20129,11 @@ This package is identical to 0603-B, but has its tPlace silkscreen layer removed
 </pinmapping>
 </spice>
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="P150BYCT-ND"/>
-<attribute name="MFR" value="Panasonic Electronic Components"/>
-<attribute name="MPN" value="ERJ-PA3F1500V"/>
+<attribute name="DPN" value="A110464CT-ND"/>
+<attribute name="MFR" value="TE Connectivity Passive Product"/>
+<attribute name="MPN" value="4-2176091-1"/>
 </part>
-<part name="R10" library="oresat-rcl" deviceset="R-US_" device="0603-A-NOSILK" value="150">
+<part name="R10" library="oresat-rcl" deviceset="R-US_" device="0805-A-NOSILK" value="150">
 <spice>
 <pinmapping spiceprefix="R">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -20141,9 +20141,9 @@ This package is identical to 0603-B, but has its tPlace silkscreen layer removed
 </pinmapping>
 </spice>
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="P150BYCT-ND"/>
-<attribute name="MFR" value="Panasonic Electronic Components"/>
-<attribute name="MPN" value="ERJ-PA3F1500V"/>
+<attribute name="DPN" value="A110464CT-ND"/>
+<attribute name="MFR" value="TE Connectivity Passive Product"/>
+<attribute name="MPN" value="4-2176091-1"/>
 </part>
 <part name="C16" library="oresat-rcl" deviceset="C-US" device="C0603K" value="120pF">
 <spice>
@@ -20569,7 +20569,6 @@ This package is identical to 0603-B, but has its tPlace silkscreen layer removed
 <attribute name="DPN" value="900-0022232021-ND"/>
 <attribute name="MFR" value="Molex"/>
 </part>
-<part name="R44" library="oresat-rcl" deviceset="R-US_" device="0603-A-NOSILK" value="NP"/>
 <part name="R53" library="oresat-rcl" deviceset="R-US_" device="0805-A-NOSILK" value="NP"/>
 <part name="JP3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:6240710/1"/>
 <part name="D1" library="D5V0H1U2LP1610-7" deviceset="D5V0H1U2LP1610-7" device="" value="D5V0H1U2LP1610-7">
@@ -20682,7 +20681,6 @@ This package is identical to 0603-B, but has its tPlace silkscreen layer removed
 </part>
 <part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
-<part name="JP6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:6240710/1"/>
 <part name="THRUSTPOWER" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device="" package3d_urn="urn:adsk.eagle:package:8078633/1"/>
 <part name="P+14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device="" value="+12V"/>
 <part name="H3" library="mount" deviceset="#4-BARE_MOUNTING_HOLE" device="/.300"/>
@@ -21098,9 +21096,9 @@ This package is identical to 0603-B, but has its tPlace silkscreen layer removed
 </part>
 <part name="R75" library="oresat-rcl" deviceset="R-US_" device="0805-A-NOSILK" value="8.2k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="2019-RK73H2ATTD2372FCT-ND"/>
+<attribute name="DPN" value="2019-RK73H2ATTD8201FCT-ND"/>
 <attribute name="MFR" value="KOA Speer Electronics, Inc."/>
-<attribute name="MPN" value="2019-RK73H2ATTD8201FCT-ND"/>
+<attribute name="MPN" value="RK73H2ATTD8201F"/>
 </part>
 <part name="D31" library="DFLS160-7" deviceset="DFLS160-7" device="" value="DFLS160">
 <attribute name="DIS" value="Digi-Key"/>
@@ -23995,10 +23993,6 @@ Bridge Center Pin to Pin 3 for Variable Current Sensor</text>
 <attribute name="DPN" x="20.32" y="109.22" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="MFR" x="20.32" y="109.22" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="R44" gate="R" x="22.86" y="99.06" smashed="yes" rot="MR90">
-<attribute name="NAME" x="24.3586" y="95.25" size="1.778" layer="95" rot="MR90"/>
-<attribute name="VALUE" x="19.558" y="95.25" size="1.778" layer="96" rot="MR90"/>
-</instance>
 <instance part="R53" gate="R" x="22.86" y="266.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="21.3614" y="262.89" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="26.162" y="262.89" size="1.778" layer="96"/>
@@ -24068,10 +24062,6 @@ Bridge Center Pin to Pin 3 for Variable Current Sensor</text>
 </instance>
 <instance part="P+11" gate="1" x="17.78" y="292.1" smashed="yes">
 <attribute name="VALUE" x="15.24" y="287.02" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="JP6" gate="A" x="33.02" y="111.76" smashed="yes">
-<attribute name="NAME" x="26.67" y="117.475" size="1.778" layer="95"/>
-<attribute name="VALUE" x="26.67" y="104.14" size="1.778" layer="96"/>
 </instance>
 <instance part="C31" gate="C" x="416.56" y="149.86" smashed="yes">
 <attribute name="NAME" x="418.084" y="150.241" size="1.778" layer="95"/>
@@ -24821,9 +24811,9 @@ Bridge Center Pin to Pin 3 for Variable Current Sensor</text>
 <wire x1="48.26" y1="121.92" x2="48.26" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R44" gate="R" pin="1"/>
-<wire x1="22.86" y1="91.44" x2="22.86" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="GND44" gate="1" pin="GND"/>
+<pinref part="OPEN3" gate="-2" pin="S"/>
+<wire x1="22.86" y1="91.44" x2="22.86" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND42" gate="1" pin="GND"/>
@@ -25417,29 +25407,15 @@ Bridge Center Pin to Pin 3 for Variable Current Sensor</text>
 <wire x1="165.1" y1="76.2" x2="116.84" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$28" class="0">
-<segment>
-<pinref part="R44" gate="R" pin="2"/>
-<pinref part="OPEN3" gate="-2" pin="S"/>
-<wire x1="22.86" y1="109.22" x2="22.86" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="JP6" gate="A" pin="3"/>
-<wire x1="22.86" y1="106.68" x2="22.86" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="109.22" x2="27.94" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="109.22" x2="27.94" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="106.68" x2="22.86" y2="106.68" width="0.1524" layer="91"/>
-<junction x="22.86" y="106.68"/>
-</segment>
-</net>
 <net name="N$33" class="0">
 <segment>
 <pinref part="OPEN3" gate="-1" pin="S"/>
 <pinref part="R53" gate="R" pin="1"/>
-<wire x1="22.86" y1="114.3" x2="22.86" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="JP6" gate="A" pin="1"/>
-<wire x1="22.86" y1="119.38" x2="22.86" y2="261.62" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="114.3" x2="30.48" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="119.38" x2="22.86" y2="119.38" width="0.1524" layer="91"/>
-<junction x="22.86" y="119.38"/>
+<wire x1="22.86" y1="114.3" x2="22.86" y2="261.62" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="114.3" x2="33.02" y2="114.3" width="0.1524" layer="91"/>
+<junction x="22.86" y="114.3"/>
+<pinref part="R41" gate="R" pin="2"/>
+<wire x1="33.02" y1="114.3" x2="33.02" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$34" class="0">
@@ -25459,16 +25435,6 @@ Bridge Center Pin to Pin 3 for Variable Current Sensor</text>
 <pinref part="JP3" gate="A" pin="2"/>
 <pinref part="R53" gate="R" pin="2"/>
 <wire x1="22.86" y1="281.94" x2="22.86" y2="271.78" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$42" class="0">
-<segment>
-<pinref part="JP6" gate="A" pin="2"/>
-<wire x1="30.48" y1="111.76" x2="25.4" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="111.76" x2="25.4" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="104.14" x2="33.02" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="R41" gate="R" pin="2"/>
-<wire x1="33.02" y1="104.14" x2="33.02" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DIO40/SPI1-SCK" class="0">
