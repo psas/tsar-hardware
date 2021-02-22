@@ -7592,11 +7592,36 @@ Includes 0.400" outline for 1/4" (standard) #4 nut-tool. If nut driving is not r
 </classes>
 <parts>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
-<part name="VI_24V" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
-<part name="SFE_24V" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
-<part name="SFE_5V" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
-<part name="BBAI_5V" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
-<part name="PIT_GREEN" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="VI_24V" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="WM10560CT-ND"/>
+<attribute name="MFR" value="Molex"/>
+<attribute name="MPN" value="1718573002"/>
+</part>
+<part name="SFE_24V" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="WM10560CT-ND"/>
+<attribute name="MFR" value="Molex"/>
+<attribute name="MPN" value="1718573002"/>
+</part>
+<part name="SFE_5V" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="WM10560CT-ND"/>
+<attribute name="MFR" value="Molex"/>
+<attribute name="MPN" value="1718573002"/>
+</part>
+<part name="BBAI_5V" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="WM10560CT-ND"/>
+<attribute name="MFR" value="Molex"/>
+<attribute name="MPN" value="1718573002"/>
+</part>
+<part name="PIT_GREEN" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="WM10560CT-ND"/>
+<attribute name="MFR" value="Molex"/>
+<attribute name="MPN" value="1718573002"/>
+</part>
 <part name="POE_IN" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DCBARREL" device="SMT" package3d_urn="urn:adsk.eagle:package:6240730/1" value="24V">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="2092-KLDX-SMT2-0202-ACT-ND"/>
@@ -7724,22 +7749,42 @@ Includes 0.400" outline for 1/4" (standard) #4 nut-tool. If nut driving is not r
 <instance part="VI_24V" gate="G$1" x="238.76" y="132.08" smashed="yes">
 <attribute name="NAME" x="232.41" y="137.795" size="1.778" layer="95"/>
 <attribute name="VALUE" x="232.41" y="127" size="1.778" layer="96"/>
+<attribute name="DIS" x="238.76" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="238.76" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="238.76" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="238.76" y="132.08" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SFE_24V" gate="G$1" x="238.76" y="119.38" smashed="yes">
 <attribute name="NAME" x="232.41" y="125.095" size="1.778" layer="95"/>
 <attribute name="VALUE" x="232.41" y="114.3" size="1.778" layer="96"/>
+<attribute name="DIS" x="238.76" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="238.76" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="238.76" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="238.76" y="119.38" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SFE_5V" gate="G$1" x="238.76" y="106.68" smashed="yes">
 <attribute name="NAME" x="232.41" y="112.395" size="1.778" layer="95"/>
 <attribute name="VALUE" x="232.41" y="101.6" size="1.778" layer="96"/>
+<attribute name="DIS" x="238.76" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="238.76" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="238.76" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="238.76" y="106.68" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="BBAI_5V" gate="G$1" x="238.76" y="93.98" smashed="yes">
 <attribute name="NAME" x="232.41" y="99.695" size="1.778" layer="95"/>
 <attribute name="VALUE" x="232.41" y="88.9" size="1.778" layer="96"/>
+<attribute name="DIS" x="238.76" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="238.76" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="238.76" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="238.76" y="93.98" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="PIT_GREEN" gate="G$1" x="238.76" y="81.28" smashed="yes">
 <attribute name="NAME" x="232.41" y="86.995" size="1.778" layer="95"/>
 <attribute name="VALUE" x="232.41" y="76.2" size="1.778" layer="96"/>
+<attribute name="DIS" x="238.76" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="238.76" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="238.76" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="238.76" y="81.28" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="POE_IN" gate="G$1" x="30.48" y="139.7" smashed="yes">
 <attribute name="NAME" x="25.4" y="144.78" size="1.27" layer="95"/>

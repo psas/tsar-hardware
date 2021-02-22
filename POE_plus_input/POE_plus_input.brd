@@ -3783,26 +3783,46 @@ design rules under a new name.</description>
 </groups>
 <elements>
 <element name="BBAI_5V" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X02" package3d_urn="urn:adsk.eagle:package:22435/2" value="" x="61.9252" y="5.1054" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="61.9252" y="5.1054" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="WM10560CT-ND" x="61.9252" y="5.1054" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Molex" x="61.9252" y="5.1054" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="1718573002" x="61.9252" y="5.1054" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="58.801" y="10.1092" size="1.27" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="98" x="89.8652" y="-50.7746" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="59.3852" y="1.9304" size="1.27" layer="27"/>
 </element>
 <element name="PIT_GREEN" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X02" package3d_urn="urn:adsk.eagle:package:22435/2" value="" x="19.5072" y="5.1054" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="19.5072" y="5.1054" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="WM10560CT-ND" x="19.5072" y="5.1054" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Molex" x="19.5072" y="5.1054" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="1718573002" x="19.5072" y="5.1054" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="14.859" y="10.1092" size="1.27" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="98" x="61.4172" y="-24.1046" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="16.9672" y="1.9304" size="1.27" layer="27"/>
 </element>
 <element name="SFE_24V" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X02" package3d_urn="urn:adsk.eagle:package:22435/2" value="" x="40.7162" y="5.1054" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="40.7162" y="5.1054" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="WM10560CT-ND" x="40.7162" y="5.1054" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Molex" x="40.7162" y="5.1054" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="1718573002" x="40.7162" y="5.1054" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="37.338" y="9.9822" size="1.27" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="98" x="59.7662" y="-50.7746" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="38.1762" y="1.9304" size="1.27" layer="27"/>
 </element>
 <element name="SFE_5V" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X02" package3d_urn="urn:adsk.eagle:package:22435/2" value="" x="51.3207" y="5.1054" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="51.3207" y="5.1054" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="WM10560CT-ND" x="51.3207" y="5.1054" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Molex" x="51.3207" y="5.1054" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="1718573002" x="51.3207" y="5.1054" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="48.3235" y="10.1092" size="1.27" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="98" x="88.1507" y="-50.7746" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="48.7807" y="1.9304" size="1.27" layer="27"/>
 </element>
 <element name="VI_24V" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X02" package3d_urn="urn:adsk.eagle:package:22435/2" value="" x="30.1117" y="5.1054" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="30.1117" y="5.1054" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="WM10560CT-ND" x="30.1117" y="5.1054" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Molex" x="30.1117" y="5.1054" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="1718573002" x="30.1117" y="5.1054" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="27.4955" y="9.9822" size="1.27" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="98" x="74.5617" y="-50.7746" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="27.5717" y="1.9304" size="1.27" layer="27"/>
