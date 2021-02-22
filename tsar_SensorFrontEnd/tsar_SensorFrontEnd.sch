@@ -21515,7 +21515,6 @@ This package is identical to 0603-B, but has its tPlace silkscreen layer removed
 </part>
 <part name="GND110" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="P+16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="POE_IB_5V" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="900-0022232021-ND"/>
@@ -23073,9 +23072,6 @@ UNLESS OTHERWISE MARKED</text>
 <instance part="GND76" gate="1" x="241.3" y="203.2" smashed="yes">
 <attribute name="VALUE" x="238.76" y="200.66" size="1.778" layer="96"/>
 </instance>
-<instance part="P+16" gate="1" x="134.62" y="193.04" smashed="yes">
-<attribute name="VALUE" x="132.08" y="187.96" size="1.778" layer="96" rot="R90"/>
-</instance>
 </instances>
 <busses>
 </busses>
@@ -23416,15 +23412,16 @@ UNLESS OTHERWISE MARKED</text>
 <net name="ADC1.5" class="0">
 <segment>
 <pinref part="C6" gate="C" pin="1"/>
-<pinref part="R16" gate="R" pin="1"/>
-<wire x1="271.78" y1="152.4" x2="279.4" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="ANALOG_TO_DAQ" gate="G1" pin="26"/>
+<label x="181.102" y="149.098" size="1.778" layer="95"/>
+<wire x1="175.26" y1="149.86" x2="271.78" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="R16" gate="R" pin="1"/>
 <wire x1="279.4" y1="152.4" x2="292.1" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="D13" gate="G$1" pin="P$2"/>
 <junction x="279.4" y="152.4"/>
-<label x="181.102" y="149.098" size="1.778" layer="95"/>
-<wire x1="175.26" y1="149.86" x2="271.78" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="271.78" y1="152.4" x2="279.4" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="149.86" x2="271.78" y2="152.4" width="0.1524" layer="91"/>
+<junction x="271.78" y="149.86"/>
 </segment>
 </net>
 <net name="N$38" class="0">
@@ -23624,17 +23621,6 @@ UNLESS OTHERWISE MARKED</text>
 <junction x="256.54" y="259.08"/>
 </segment>
 </net>
-<net name="+5V" class="0">
-<segment>
-<pinref part="ANALOG_TO_DAQ" gate="G1" pin="5"/>
-<pinref part="ANALOG_TO_DAQ" gate="G1" pin="6"/>
-<wire x1="160.02" y1="175.26" x2="175.26" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="175.26" x2="134.62" y2="175.26" width="0.1524" layer="91"/>
-<junction x="160.02" y="175.26"/>
-<wire x1="134.62" y1="175.26" x2="134.62" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="P+16" gate="1" pin="+5V"/>
-</segment>
-</net>
 <net name="MBUS-SDA" class="0">
 <segment>
 <pinref part="ANALOG_TO_DAQ" gate="G1" pin="3"/>
@@ -23738,6 +23724,13 @@ UNLESS OTHERWISE MARKED</text>
 <pinref part="ANALOG_TO_DAQ" gate="G1" pin="4"/>
 <wire x1="180.34" y1="177.8" x2="175.26" y2="177.8" width="0.1524" layer="91"/>
 <label x="180.34" y="177.8" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="ANALOG_TO_DAQ" gate="G1" pin="5"/>
+<pinref part="ANALOG_TO_DAQ" gate="G1" pin="6"/>
+<wire x1="160.02" y1="175.26" x2="175.26" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -25576,31 +25569,54 @@ UNLESS OTHERWISE MARKED</text>
 <errors>
 <approved hash="104,1,82.55,182.88,U$4,IN,+24V,,,"/>
 <approved hash="104,1,82.55,55.88,U$2,IN,+24V,,,"/>
-<approved hash="104,3,220.98,73.66,U1,VCC+_2,+5V,,,"/>
-<approved hash="104,3,220.98,76.2,U1,GND_2,GND,,,"/>
-<approved hash="104,3,220.98,93.98,U1,VCC+,+5V,,,"/>
-<approved hash="104,3,375.92,101.6,U2,VCC+_2,+5V,,,"/>
-<approved hash="104,3,375.92,104.14,U2,GND_2,GND,,,"/>
-<approved hash="104,3,375.92,121.92,U2,VCC+,+5V,,,"/>
-<approved hash="113,3,21.3639,282.177,JP3,,,,,"/>
-<approved hash="113,3,30.7171,113.256,JP6,,,,,"/>
-<approved hash="113,3,582.585,308.384,UA_4_V,,,,,"/>
-<approved hash="113,3,600.365,308.384,UA_5_V,,,,,"/>
-<approved hash="113,3,615.605,308.384,UA_6_V,,,,,"/>
-<approved hash="113,3,568.035,166.596,UA_4_S,,,,,"/>
-<approved hash="113,3,585.815,138.656,UA_5_S,,,,,"/>
-<approved hash="113,3,601.055,108.176,UA_6_S,,,,,"/>
-<approved hash="113,3,527.395,212.316,UA_7_S,,,,,"/>
-<approved hash="113,3,507.075,232.636,UA_8_S,,,,,"/>
-<approved hash="113,3,486.755,250.416,UA_9_S,,,,,"/>
-<approved hash="113,3,465.725,268.196,UA_10_S,,,,,"/>
-<approved hash="113,3,547.099,191.996,UA_11_S,,,,,"/>
-<approved hash="113,3,484.235,308.384,UA_10_V,,,,,"/>
-<approved hash="113,3,503.845,308.384,UA_9_V,,,,,"/>
-<approved hash="113,3,524.165,308.384,UA_8_V,,,,,"/>
-<approved hash="113,3,544.485,308.384,UA_7_V,,,,,"/>
-<approved hash="113,3,565.421,308.384,UA_11_V,,,,,"/>
+<approved hash="104,3,200.66,73.66,U1,VCC+_2,+5V,,,"/>
+<approved hash="104,3,200.66,76.2,U1,GND_2,GND,,,"/>
+<approved hash="104,3,200.66,93.98,U1,VCC+,+5V,,,"/>
+<approved hash="104,3,355.6,99.06,U2,VCC+_2,+5V,,,"/>
+<approved hash="104,3,355.6,101.6,U2,GND_2,GND,,,"/>
+<approved hash="104,3,355.6,119.38,U2,VCC+,+5V,,,"/>
+<approved hash="106,3,281.94,76.2,CAN0_H,,,,,"/>
+<approved hash="106,3,266.7,76.2,CAN0_L,,,,,"/>
+<approved hash="106,2,160.02,172.72,DAC0,,,,,"/>
+<approved hash="106,2,175.26,172.72,DAC1,,,,,"/>
+<approved hash="106,2,160.02,170.18,DAC2,,,,,"/>
+<approved hash="106,2,175.26,170.18,DAC3,,,,,"/>
+<approved hash="106,3,266.7,101.6,DIO42,,,,,"/>
+<approved hash="106,3,281.94,101.6,DIO43,,,,,"/>
+<approved hash="106,3,266.7,99.06,DIO44/I2C0-SDA,,,,,"/>
+<approved hash="106,3,281.94,99.06,DIO45/I2C0-SCL,,,,,"/>
+<approved hash="106,3,266.7,96.52,DIO46,,,,,"/>
+<approved hash="106,3,281.94,96.52,DIO47,,,,,"/>
+<approved hash="106,3,266.7,93.98,DIO48/UART0-TX,,,,,"/>
+<approved hash="106,3,281.94,93.98,DIO49/UART0-RX,,,,,"/>
+<approved hash="106,3,266.7,91.44,DIO50,,,,,"/>
+<approved hash="106,3,281.94,91.44,DIO51,,,,,"/>
+<approved hash="106,3,266.7,88.9,DIO52/UART1-TX,,,,,"/>
+<approved hash="106,3,281.94,88.9,DIO53/UART1-RX,,,,,"/>
+<approved hash="106,3,266.7,86.36,DIO54/UART1-CTS,,,,,"/>
+<approved hash="106,3,281.94,86.36,DIO55/UART1-RTS,,,,,"/>
+<approved hash="106,3,266.7,83.82,DIO56/UART2-TX,,,,,"/>
+<approved hash="106,3,281.94,83.82,DIO57/UART2-RX,,,,,"/>
+<approved hash="106,3,266.7,81.28,DIO58/UART2-CTS,,,,,"/>
+<approved hash="106,3,281.94,81.28,DIO59/UART2-RTS,,,,,"/>
+<approved hash="106,3,266.7,78.74,DIO60,,,,,"/>
+<approved hash="106,3,281.94,78.74,DIO61,,,,,"/>
+<approved hash="106,2,160.02,142.24,DIO62,,,,,"/>
+<approved hash="106,2,175.26,142.24,DIO63,,,,,"/>
+<approved hash="106,2,160.02,139.7,DIO64,,,,,"/>
+<approved hash="106,2,175.26,139.7,DIO65,,,,,"/>
+<approved hash="106,2,160.02,137.16,DIO66,,,,,"/>
+<approved hash="106,2,175.26,137.16,DIO67,,,,,"/>
+<approved hash="106,2,160.02,134.62,DIO68,,,,,"/>
+<approved hash="106,2,175.26,134.62,DIO69,,,,,"/>
+<approved hash="106,2,175.26,177.8,MBUS-SCL,,,,,"/>
+<approved hash="106,3,281.94,119.38,MBUS-SCL-1,,,,,"/>
+<approved hash="106,2,160.02,177.8,MBUS-SDA,,,,,"/>
+<approved hash="106,3,266.7,119.38,MBUS-SDA-1,,,,,"/>
+<approved hash="106,2,160.02,167.64,N$16,,,,,"/>
+<approved hash="108,2,271.78,149.86,ADC1.5,,,,,"/>
 <approved hash="113,1,33.5295,111.986,POE_IB_5V,,,,,"/>
+<approved hash="113,3,556.497,254.226,TO_VI,,,,,"/>
 </errors>
 </schematic>
 </drawing>
