@@ -26101,9 +26101,9 @@ push-push type</description>
 </part>
 <part name="Q5" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="IRF9530" device="" package3d_urn="urn:adsk.eagle:package:29484/3">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="IRF9530NPBF-ND"/>
-<attribute name="MFR" value="Infineon Technologies"/>
-<attribute name="MPN" value="IRF9530NPBF"/>
+<attribute name="DPN" value="FQP17P10-ND"/>
+<attribute name="MFR" value="ON Semiconductor"/>
+<attribute name="MPN" value="FQP17P10"/>
 </part>
 <part name="+3V12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="R19" library="oresat-rcl" deviceset="R-US_" device="0805-C-NOSILK" value="100k">
@@ -26239,65 +26239,65 @@ push-push type</description>
 <attribute name="MFR" value="Panasonic Electronic Components"/>
 <attribute name="MPN" value="ERJ-3RQFR33V"/>
 </part>
-<part name="C20" library="oresat-rcl" deviceset="C-US" device="C0805K" value="10uF">
+<part name="C20" library="oresat-rcl" deviceset="C-US" device="C1206K" value="10uF">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="490-18664-1-ND"/>
-<attribute name="MFR" value="Murata Electronics"/>
-<attribute name="MPN" value="GRM21BR61H106ME43L"/>
+<attribute name="DPN" value="1276-2876-1-ND"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics"/>
+<attribute name="MPN" value="CL31A106KBHNNNE"/>
 </part>
-<part name="C13" library="oresat-rcl" deviceset="C-US" device="C0805K" value="10uF">
+<part name="C13" library="oresat-rcl" deviceset="C-US" device="C1206K" value="10uF">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="490-18664-1-ND"/>
-<attribute name="MFR" value="Murata Electronics"/>
-<attribute name="MPN" value="GRM21BR61H106ME43L"/>
+<attribute name="DPN" value="1276-2876-1-ND"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics"/>
+<attribute name="MPN" value="CL31A106KBHNNNE"/>
 </part>
-<part name="C14" library="oresat-rcl" deviceset="C-US" device="C0805K" value="10uF">
+<part name="C14" library="oresat-rcl" deviceset="C-US" device="C1206K" value="10uF">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="490-18664-1-ND"/>
-<attribute name="MFR" value="Murata Electronics"/>
-<attribute name="MPN" value="GRM21BR61H106ME43L"/>
+<attribute name="DPN" value="1276-2876-1-ND"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics"/>
+<attribute name="MPN" value="CL31A106KBHNNNE"/>
 </part>
-<part name="C15" library="oresat-rcl" deviceset="C-US" device="C0805K" value="10uF">
+<part name="C15" library="oresat-rcl" deviceset="C-US" device="C1206K" value="10uF">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="490-18664-1-ND"/>
-<attribute name="MFR" value="Murata Electronics"/>
-<attribute name="MPN" value="GRM21BR61H106ME43L"/>
+<attribute name="DPN" value="1276-2876-1-ND"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics"/>
+<attribute name="MPN" value="CL31A106KBHNNNE"/>
 </part>
-<part name="C16" library="oresat-rcl" deviceset="C-US" device="C0805K" value="10uF">
+<part name="C16" library="oresat-rcl" deviceset="C-US" device="C1206K" value="10uF">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="490-18664-1-ND"/>
-<attribute name="MFR" value="Murata Electronics"/>
-<attribute name="MPN" value="GRM21BR61H106ME43L"/>
+<attribute name="DPN" value="1276-2876-1-ND"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics"/>
+<attribute name="MPN" value="CL31A106KBHNNNE"/>
 </part>
-<part name="C17" library="oresat-rcl" deviceset="C-US" device="C0805K" value="10uF">
+<part name="C17" library="oresat-rcl" deviceset="C-US" device="C1206K" value="10uF">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="490-18664-1-ND"/>
-<attribute name="MFR" value="Murata Electronics"/>
-<attribute name="MPN" value="GRM21BR61H106ME43L"/>
+<attribute name="DPN" value="1276-2876-1-ND"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics"/>
+<attribute name="MPN" value="CL31A106KBHNNNE"/>
 </part>
-<part name="C18" library="oresat-rcl" deviceset="C-US" device="C0805K" value="10uF">
+<part name="C18" library="oresat-rcl" deviceset="C-US" device="C1206K" value="10uF">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="490-18664-1-ND"/>
-<attribute name="MFR" value="Murata Electronics"/>
-<attribute name="MPN" value="GRM21BR61H106ME43L"/>
+<attribute name="DPN" value="1276-2876-1-ND"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics"/>
+<attribute name="MPN" value="CL31A106KBHNNNE"/>
 </part>
-<part name="C19" library="oresat-rcl" deviceset="C-US" device="C0805K" value="10uF">
+<part name="C19" library="oresat-rcl" deviceset="C-US" device="C1206K" value="10uF">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="490-18664-1-ND"/>
-<attribute name="MFR" value="Murata Electronics"/>
-<attribute name="MPN" value="GRM21BR61H106ME43L"/>
+<attribute name="DPN" value="1276-2876-1-ND"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics"/>
+<attribute name="MPN" value="CL31A106KBHNNNE"/>
 </part>
-<part name="C21" library="oresat-rcl" deviceset="C-US" device="C0805K" value="10uF">
+<part name="C21" library="oresat-rcl" deviceset="C-US" device="C1206K" value="10uF">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="490-18664-1-ND"/>
-<attribute name="MFR" value="Murata Electronics"/>
-<attribute name="MPN" value="GRM21BR61H106ME43L"/>
+<attribute name="DPN" value="1276-2876-1-ND"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics"/>
+<attribute name="MPN" value="CL31A106KBHNNNE"/>
 </part>
-<part name="C22" library="oresat-rcl" deviceset="C-US" device="C0805K" value="10uF">
+<part name="C22" library="oresat-rcl" deviceset="C-US" device="C1206K" value="10uF">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="490-18664-1-ND"/>
-<attribute name="MFR" value="Murata Electronics"/>
-<attribute name="MPN" value="GRM21BR61H106ME43L"/>
+<attribute name="DPN" value="1276-2876-1-ND"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics"/>
+<attribute name="MPN" value="CL31A106KBHNNNE"/>
 </part>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="SOD123" package3d_urn="urn:adsk.eagle:package:43420/1" value="1N5819">
