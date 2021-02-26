@@ -4,7 +4,7 @@ The Sensor Front End board is an intermediate board which connects various test 
 
 The adc channels on the Marionette sample 12-bits at upto 1Msps. The Front End board adc channels sample 16-bits at 100ksps, which is sent to the Marionette over SPI.
 
-There are 18 channels which can be configured by the user for the desired sensor.  The channels are configurable by setting two 3-pin jumpers and one resistor per channel.  The first jumper connects the appropriate power, either 5V on pin 1 or 12V on pin 3.  The second jumper connects the channel output before or after the sensor connection.  For variable current sensors the jumper should be placed between pins 2 and 3 and the NP resistor connected to pin 3 should be chosen to set the maximum output voltage at 3V, the NP resistor pads from power to the sensor connector should be bridged.  For variable voltage sensors the jumper should be placed between pins 1 and 2 with the appropriate Value resistor placed between the locking connector and the power jumper.  Pin 1 on each jumper can be identified by the JPx on the silkscreen which is located closest to pin 1.
+## Sensor Front End Block Diagram
 
-When assembling this board it is recommended to follow the process outlined in the “Test Plan” portion of the Final Project Report, located in the 2019-2020 Capstone subfolder of the TSAR folder in the PSAS shared drive. Datasheets and characterization for currently selected sensors can be found in the Sensors folder with the previously mentioned capstone folder. 
+![Level 1 Block Diagram](https://github.com/psas/tsar-hardware/blob/master/images/Psensor_front_block.png.png?raw=true)
 
