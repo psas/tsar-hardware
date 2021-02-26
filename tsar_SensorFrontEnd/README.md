@@ -6,5 +6,5 @@ The adc channels on the Marionette sample 12-bits at upto 1Msps. The Front End b
 
 ## Sensor Front End Block Diagram
 
-![Level 1 Block Diagram](https://github.com/psas/tsar-hardware/blob/master/images/sensor_front_block.png.png?raw=true)
+![Level 1 Block Diagram](https://github.com/psas/tsar-hardware/blob/master/images/sensor_front_block.png?raw=true)
 
