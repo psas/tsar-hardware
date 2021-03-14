@@ -1,0 +1,13 @@
+Qty,Parts,DIS,DPN,MFR,MPN
+1,JP1,Digi-Key,A19439-ND,TE Connectivity AMP Connectors,1-640454-2
+2,"E_STOP, POE+_PS",Digi-Key,ED10561-ND,On Shore Technology Inc.,OSTVN02A150
+2,"POE+_INJ, POE_INJ",Digi-Key,900-0022232021-ND,Molex,22232021
+2,"R12, R16",Digi-Key,311-10.0KCRCT-ND,Yageo,RC0805FR-0710KL
+9,"R_S1, R_S2, R_S3, R_S4, R_S5, R_S6, R_S7, R_S8, R_S9",Digi-Key,P1.0KBYCT-ND,Panasonic Electronic Components,ERJ-PA3F1001V
+2,"Q1, Q4",Digi-Key,1727-1142-1-ND,Nexperia USA Inc.,"BSS138P,215"
+2,"R13, R21",Digi-Key,RMCF0805FT28K0CT-ND,Stackpole Electronics Inc,RMCF0805FT28K0
+2,"R1, R3",Digi-Key,311-4.70KCRCT-ND,Yageo,RC0805FR-074K7L
+2,"U1, U2",Digi-Key,296-31524-1-ND,Texas Instruments,CD4082BNSR
+2,"D1, D2",Digi-Key,1514-CMHSH5-4TRPBFREECT-ND,Central Semiconductor Corp,CMHSH5-4 TR PBFREE
+2,"Q2, Q3",Digi-Key,IRF9530NPBF-ND,Infineon Technologies,IRF9530NPBF
+4,"H1, H2, H3, H4",,,,
