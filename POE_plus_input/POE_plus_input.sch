@@ -5659,20 +5659,22 @@ This package is identical to 0603-B, but has its tPlace silkscreen layer removed
 <wire x1="0.79" y1="-0.4" x2="-0.79" y2="-0.4" width="0.1" layer="33"/>
 <text x="0" y="0" size="0.3" layer="33" ratio="15" align="center">&gt;NAME</text>
 </package>
-<package name="22MMX22MMX12MM">
-<description>Wurth 22mm x 22.5mm x 12.0mm high, Metal composite shielded inductor</description>
-<smd name="1" x="0" y="-8.25" dx="7" dy="5.5" layer="1" rot="R90"/>
-<smd name="2" x="0" y="8.25" dx="7" dy="5.5" layer="1" rot="R90"/>
-<wire x1="-10.5" y1="11.25" x2="10.5" y2="11.25" width="0.25" layer="21"/>
-<wire x1="10.5" y1="11.25" x2="11" y2="10.75" width="0.25" layer="21" curve="-90"/>
-<wire x1="11" y1="10.75" x2="11" y2="-10.75" width="0.25" layer="21"/>
-<wire x1="11" y1="-10.75" x2="10.5" y2="-11.25" width="0.25" layer="21" curve="-90"/>
-<wire x1="10.5" y1="-11.25" x2="-10.5" y2="-11.25" width="0.25" layer="21"/>
-<wire x1="-10.5" y1="-11.25" x2="-11" y2="-10.75" width="0.25" layer="21" curve="-90"/>
-<wire x1="-11" y1="-10.75" x2="-11" y2="10.75" width="0.25" layer="21"/>
-<wire x1="-11" y1="10.75" x2="-10.5" y2="11.25" width="0.25" layer="21" curve="-90"/>
-<text x="13" y="11" size="0.8" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="13" y="9" size="0.8" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+<package name="L_SHIELDED_13MMX13MMX6MM">
+<description>12.8mm x 13mm x 6.2mm tall for flat wire high current Wurth Inductors.  Example 7443551600, 6.0uH</description>
+<smd name="1" x="-5.25" y="0" dx="4.5" dy="5" layer="1"/>
+<smd name="2" x="5.25" y="0" dx="4.5" dy="5" layer="1"/>
+<wire x1="-6.4" y1="-6.4" x2="6.4" y2="-6.4" width="0.254" layer="21"/>
+<wire x1="6.4" y1="-6.4" x2="6.4" y2="-3.1" width="0.254" layer="21"/>
+<wire x1="-6.4" y1="-6.4" x2="-6.4" y2="-3.1" width="0.254" layer="21"/>
+<wire x1="-6.4" y1="3.1" x2="-6.4" y2="6.3" width="0.254" layer="21"/>
+<wire x1="-6.4" y1="6.3" x2="6.4" y2="6.3" width="0.254" layer="21"/>
+<wire x1="6.4" y1="6.3" x2="6.4" y2="3.1" width="0.254" layer="21"/>
+<wire x1="-6.4" y1="6.3" x2="-6.4" y2="-6.4" width="0.254" layer="51"/>
+<wire x1="-6.4" y1="-6.4" x2="6.4" y2="-6.4" width="0.254" layer="51"/>
+<wire x1="6.4" y1="-6.4" x2="6.4" y2="6.3" width="0.254" layer="51"/>
+<wire x1="6.4" y1="6.3" x2="-6.4" y2="6.3" width="0.254" layer="51"/>
+<text x="-3" y="7" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-2" y="-8" size="0.8" layer="25" font="vector" ratio="20">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -7325,13 +7327,13 @@ This package is identical to 0603-B, but has its tPlace silkscreen layer removed
 </device>
 </devices>
 </deviceset>
-<deviceset name="L_METAL_COMPOSITE_SHIELDED" prefix="L">
-<description>Wurth family of metal composite shielded high current inductors.  For example, part no. 74435588200, 82uH, 7A.</description>
+<deviceset name="L_SHIELDED" prefix="L">
+<description>Wurth 6.0uH Shielded Inductor, 12A max Current, 14A Sat. Current, 8 mOhms, 13mm x 12.5mm x 6mm case, Wurth No. 7443551600, Digikey No. 732-1129-1-ND</description>
 <gates>
 <gate name="G$1" symbol="L-SHIELDED-FERRITECORE" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="22MMX22MMX12MM">
+<device name="" package="L_SHIELDED_13MMX13MMX6MM">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -7652,7 +7654,7 @@ Includes 0.400" outline for 1/4" (standard) #4 nut-tool. If nut driving is not r
 <attribute name="MFR" value="United Chemi-Con"/>
 <attribute name="MPN" value="KTS500B156M55N0T00"/>
 </part>
-<part name="C_IN2" library="oresat-rcl" deviceset="C-US" device="C0805K" value="15uF/50V">
+<part name="C_IN2" library="oresat-rcl" deviceset="C-US" device="C2220K" value="15uF/50V">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="565-3335-1-ND"/>
 <attribute name="MFR" value="United Chemi-Con"/>
@@ -7682,7 +7684,7 @@ Includes 0.400" outline for 1/4" (standard) #4 nut-tool. If nut driving is not r
 <attribute name="MFR" value="Yageo"/>
 <attribute name="MPN" value="RC1206FR-078K2L"/>
 </part>
-<part name="L1" library="oresat-rcl" deviceset="L_METAL_COMPOSITE_SHIELDED" device="" value="33uH">
+<part name="L1" library="oresat-rcl" deviceset="L_SHIELDED" device="" value="33uH">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="553-1406-ND"/>
 <attribute name="MFR" value="Pulse Electronics Power"/>
