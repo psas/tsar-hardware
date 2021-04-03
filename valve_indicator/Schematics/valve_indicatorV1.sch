@@ -29130,11 +29130,6 @@ Connector type could change</text>
 </net>
 <net name="OUT_CLK" class="0">
 <segment>
-<wire x1="129.54" y1="142.24" x2="142.24" y2="142.24" width="0.1524" layer="91"/>
-<label x="129.54" y="142.24" size="1.778" layer="95" rot="MR0" xref="yes"/>
-<pinref part="U4" gate="A" pin="PA5"/>
-</segment>
-<segment>
 <wire x1="271.78" y1="200.66" x2="264.16" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="200.66" x2="261.62" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="342.9" y1="241.3" x2="243.84" y2="241.3" width="0.1524" layer="91"/>
@@ -29146,13 +29141,13 @@ Connector type could change</text>
 <pinref part="IC1" gate="D" pin="I"/>
 <label x="261.62" y="200.66" size="1.778" layer="95" rot="MR0" xref="yes"/>
 </segment>
+<segment>
+<wire x1="132.08" y1="86.36" x2="142.24" y2="86.36" width="0.1524" layer="91"/>
+<label x="132.08" y="86.36" size="1.778" layer="95" rot="MR0" xref="yes"/>
+<pinref part="U4" gate="A" pin="PB10"/>
+</segment>
 </net>
 <net name="OUT_DO" class="0">
-<segment>
-<wire x1="114.3" y1="139.7" x2="142.24" y2="139.7" width="0.1524" layer="91"/>
-<label x="114.3" y="139.7" size="1.778" layer="95" rot="MR0" xref="yes"/>
-<pinref part="U4" gate="A" pin="PA6"/>
-</segment>
 <segment>
 <wire x1="312.42" y1="213.36" x2="292.1" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="276.86" y1="220.98" x2="292.1" y2="220.98" width="0.1524" layer="91"/>
@@ -29160,17 +29155,22 @@ Connector type could change</text>
 <label x="276.86" y="220.98" size="1.778" layer="95" rot="MR0" xref="yes"/>
 <wire x1="292.1" y1="220.98" x2="292.1" y2="213.36" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="220.98" y1="147.32" x2="208.28" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="U4" gate="A" pin="PC3"/>
+<label x="220.98" y="147.32" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="OUT_DI" class="0">
-<segment>
-<wire x1="129.54" y1="137.16" x2="142.24" y2="137.16" width="0.1524" layer="91"/>
-<label x="129.54" y="137.16" size="1.778" layer="95" rot="MR0" xref="yes"/>
-<pinref part="U4" gate="A" pin="PA7"/>
-</segment>
 <segment>
 <wire x1="271.78" y1="210.82" x2="261.62" y2="210.82" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="B" pin="I"/>
 <label x="261.62" y="210.82" size="1.778" layer="95" rot="MR0" xref="yes"/>
+</segment>
+<segment>
+<wire x1="228.6" y1="149.86" x2="208.28" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="U4" gate="A" pin="PC2"/>
+<label x="228.6" y="149.86" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="IN_H8" class="0">
@@ -29222,13 +29222,11 @@ Connector type could change</text>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="CM1" gate="A" pin="SWDCLK/TCK"/>
-<wire x1="40.64" y1="129.54" x2="38.1" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="119.38" x2="86.36" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="119.38" x2="86.36" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="129.54" x2="38.1" y2="129.54" width="0.1524" layer="91"/>
-<junction x="38.1" y="129.54"/>
 <pinref part="U4" gate="A" pin="PA14"/>
+<pinref part="CM1" gate="A" pin="SWDCLK/TCK"/>
+<wire x1="38.1" y1="129.54" x2="86.36" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="OUT_BUZZ" class="0">
@@ -29431,11 +29429,6 @@ Connector type could change</text>
 </segment>
 </net>
 <net name="PB10" class="0">
-<segment>
-<wire x1="132.08" y1="86.36" x2="142.24" y2="86.36" width="0.1524" layer="91"/>
-<label x="132.08" y="86.36" size="1.778" layer="95" rot="MR0" xref="yes"/>
-<pinref part="U4" gate="A" pin="PB10"/>
-</segment>
 <segment>
 <wire x1="170.18" y1="53.34" x2="175.26" y2="53.34" width="0.1524" layer="91"/>
 <label x="170.18" y="53.34" size="1.778" layer="95" rot="MR0" xref="yes"/>
@@ -29700,22 +29693,12 @@ Connector type could change</text>
 </net>
 <net name="PC3" class="0">
 <segment>
-<wire x1="228.6" y1="147.32" x2="208.28" y2="147.32" width="0.1524" layer="91"/>
-<label x="228.6" y="147.32" size="1.778" layer="95" xref="yes"/>
-<pinref part="U4" gate="A" pin="PC3"/>
-</segment>
-<segment>
 <wire x1="187.96" y1="30.48" x2="182.88" y2="30.48" width="0.1524" layer="91"/>
 <label x="187.96" y="30.48" size="1.778" layer="95" xref="yes"/>
 <pinref part="JP2" gate="A" pin="22"/>
 </segment>
 </net>
 <net name="PC2" class="0">
-<segment>
-<wire x1="220.98" y1="149.86" x2="208.28" y2="149.86" width="0.1524" layer="91"/>
-<label x="220.98" y="149.86" size="1.778" layer="95" xref="yes"/>
-<pinref part="U4" gate="A" pin="PC2"/>
-</segment>
 <segment>
 <wire x1="187.96" y1="20.32" x2="182.88" y2="20.32" width="0.1524" layer="91"/>
 <label x="187.96" y="20.32" size="1.778" layer="95" xref="yes"/>
@@ -29796,6 +29779,27 @@ Connector type could change</text>
 <pinref part="R23" gate="R" pin="2"/>
 <pinref part="SD" gate="G$1" pin="C"/>
 <wire x1="368.3" y1="208.28" x2="368.3" y2="213.36" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PA_5" class="0">
+<segment>
+<wire x1="129.54" y1="142.24" x2="142.24" y2="142.24" width="0.1524" layer="91"/>
+<label x="129.54" y="142.24" size="1.778" layer="95" rot="MR0" xref="yes"/>
+<pinref part="U4" gate="A" pin="PA5"/>
+</segment>
+</net>
+<net name="PA_6" class="0">
+<segment>
+<wire x1="121.92" y1="139.7" x2="142.24" y2="139.7" width="0.1524" layer="91"/>
+<label x="121.92" y="139.7" size="1.778" layer="95" rot="MR0" xref="yes"/>
+<pinref part="U4" gate="A" pin="PA6"/>
+</segment>
+</net>
+<net name="PA_7" class="0">
+<segment>
+<wire x1="129.54" y1="137.16" x2="142.24" y2="137.16" width="0.1524" layer="91"/>
+<label x="129.54" y="137.16" size="1.778" layer="95" rot="MR0" xref="yes"/>
+<pinref part="U4" gate="A" pin="PA7"/>
 </segment>
 </net>
 </nets>
@@ -31000,6 +31004,12 @@ CTS/RTS added to sync up clocks</text>
 <approved hash="104,2,137.16,190.5,U4B,VDDUSB,+3V3,,,"/>
 <approved hash="104,2,289.56,149.86,IC1P,VSS,GND,,,"/>
 <approved hash="104,2,289.56,165.1,IC1P,VDD,+3V3,,,"/>
+<approved hash="106,2,142.24,142.24,PA_5,,,,,"/>
+<approved hash="106,2,142.24,139.7,PA_6,,,,,"/>
+<approved hash="106,2,142.24,137.16,PA_7,,,,,"/>
+<approved hash="106,2,175.26,53.34,PB10,,,,,"/>
+<approved hash="106,2,182.88,20.32,PC2,,,,,"/>
+<approved hash="106,2,182.88,30.48,PC3,,,,,"/>
 <approved hash="113,3,318.728,138.656,JP1,,,,,"/>
 <approved hash="113,2,179.028,38.3261,JP2,,,,,"/>
 <approved hash="113,2,368.622,217.17,SD,,,,,"/>
