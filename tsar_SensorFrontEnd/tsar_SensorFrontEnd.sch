@@ -28692,6 +28692,20 @@ the temperature is (1.5 - 1.25) / 0.005 = 50°C</text>
 <wire x1="129.54" y1="58.42" x2="129.54" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="CH15" class="0">
+<segment>
+<pinref part="U4" gate="A" pin="CH15"/>
+<wire x1="401.32" y1="48.26" x2="393.7" y2="48.26" width="0.1524" layer="91"/>
+<label x="393.7" y="48.26" size="1.27" layer="95" rot="MR0" xref="yes"/>
+</segment>
+</net>
+<net name="CH7" class="0">
+<segment>
+<pinref part="U4" gate="A" pin="CH7"/>
+<wire x1="441.96" y1="30.48" x2="449.58" y2="30.48" width="0.1524" layer="91"/>
+<label x="449.58" y="30.48" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -29625,54 +29639,90 @@ the temperature is (1.5 - 1.25) / 0.005 = 50°C</text>
 <errors>
 <approved hash="104,1,82.55,182.88,U$4,IN,+24V,,,"/>
 <approved hash="104,1,82.55,55.88,U$2,IN,+24V,,,"/>
-<approved hash="104,3,200.66,73.66,U1,VCC+_2,+5V,,,"/>
-<approved hash="104,3,200.66,76.2,U1,GND_2,GND,,,"/>
-<approved hash="104,3,200.66,93.98,U1,VCC+,+5V,,,"/>
-<approved hash="104,3,355.6,99.06,U2,VCC+_2,+5V,,,"/>
-<approved hash="104,3,355.6,101.6,U2,GND_2,GND,,,"/>
-<approved hash="104,3,355.6,119.38,U2,VCC+,+5V,,,"/>
-<approved hash="106,3,281.94,76.2,CAN0_H,,,,,"/>
-<approved hash="106,3,266.7,76.2,CAN0_L,,,,,"/>
-<approved hash="106,2,160.02,172.72,DAC0,,,,,"/>
-<approved hash="106,2,175.26,172.72,DAC1,,,,,"/>
-<approved hash="106,2,160.02,170.18,DAC2,,,,,"/>
-<approved hash="106,2,175.26,170.18,DAC3,,,,,"/>
-<approved hash="106,3,266.7,101.6,DIO42,,,,,"/>
-<approved hash="106,3,281.94,101.6,DIO43,,,,,"/>
-<approved hash="106,3,266.7,99.06,DIO44/I2C0-SDA,,,,,"/>
-<approved hash="106,3,281.94,99.06,DIO45/I2C0-SCL,,,,,"/>
-<approved hash="106,3,266.7,96.52,DIO46,,,,,"/>
-<approved hash="106,3,281.94,96.52,DIO47,,,,,"/>
-<approved hash="106,3,266.7,93.98,DIO48/UART0-TX,,,,,"/>
-<approved hash="106,3,281.94,93.98,DIO49/UART0-RX,,,,,"/>
-<approved hash="106,3,266.7,91.44,DIO50,,,,,"/>
-<approved hash="106,3,281.94,91.44,DIO51,,,,,"/>
-<approved hash="106,3,266.7,88.9,DIO52/UART1-TX,,,,,"/>
-<approved hash="106,3,281.94,88.9,DIO53/UART1-RX,,,,,"/>
-<approved hash="106,3,266.7,86.36,DIO54/UART1-CTS,,,,,"/>
-<approved hash="106,3,281.94,86.36,DIO55/UART1-RTS,,,,,"/>
-<approved hash="106,3,266.7,83.82,DIO56/UART2-TX,,,,,"/>
-<approved hash="106,3,281.94,83.82,DIO57/UART2-RX,,,,,"/>
-<approved hash="106,3,266.7,81.28,DIO58/UART2-CTS,,,,,"/>
-<approved hash="106,3,281.94,81.28,DIO59/UART2-RTS,,,,,"/>
-<approved hash="106,3,266.7,78.74,DIO60,,,,,"/>
-<approved hash="106,3,281.94,78.74,DIO61,,,,,"/>
-<approved hash="106,2,160.02,142.24,DIO62,,,,,"/>
-<approved hash="106,2,175.26,142.24,DIO63,,,,,"/>
-<approved hash="106,2,160.02,139.7,DIO64,,,,,"/>
-<approved hash="106,2,175.26,139.7,DIO65,,,,,"/>
-<approved hash="106,2,160.02,137.16,DIO66,,,,,"/>
-<approved hash="106,2,175.26,137.16,DIO67,,,,,"/>
-<approved hash="106,2,160.02,134.62,DIO68,,,,,"/>
-<approved hash="106,2,175.26,134.62,DIO69,,,,,"/>
-<approved hash="106,2,175.26,177.8,MBUS-SCL,,,,,"/>
-<approved hash="106,3,281.94,119.38,MBUS-SCL-1,,,,,"/>
-<approved hash="106,2,160.02,177.8,MBUS-SDA,,,,,"/>
-<approved hash="106,3,266.7,119.38,MBUS-SDA-1,,,,,"/>
-<approved hash="106,2,160.02,167.64,N$16,,,,,"/>
-<approved hash="108,2,271.78,149.86,ADC1.5,,,,,"/>
-<approved hash="113,1,33.5295,111.986,POE_IB_5V,,,,,"/>
-<approved hash="113,3,556.497,254.226,TO_VI,,,,,"/>
+<approved hash="104,3,193.04,63.5,U3,VA+_2,+3V3,,,"/>
+<approved hash="104,3,193.04,60.96,U3,AGND_2,GND,,,"/>
+<approved hash="104,3,193.04,50.8,U3,AGND_3,GND,,,"/>
+<approved hash="104,3,193.04,27.94,U3,AGND_4,GND,,,"/>
+<approved hash="104,3,233.68,27.94,U3,AGND_5,GND,,,"/>
+<approved hash="104,3,233.68,50.8,U3,VA+,+3V3,,,"/>
+<approved hash="104,3,233.68,53.34,U3,AGND,GND,,,"/>
+<approved hash="104,3,233.68,66.04,U3,BDGND,GND,,,"/>
+<approved hash="104,3,233.68,68.58,U3,VBD+,+3V3,,,"/>
+<approved hash="104,3,401.32,63.5,U4,VA+_2,+3V3,,,"/>
+<approved hash="104,3,401.32,60.96,U4,AGND_2,GND,,,"/>
+<approved hash="104,3,401.32,50.8,U4,AGND_3,GND,,,"/>
+<approved hash="104,3,401.32,27.94,U4,AGND_4,GND,,,"/>
+<approved hash="104,3,441.96,27.94,U4,AGND_5,GND,,,"/>
+<approved hash="104,3,441.96,50.8,U4,VA+,+3V3,,,"/>
+<approved hash="104,3,441.96,53.34,U4,AGND,GND,,,"/>
+<approved hash="104,3,441.96,66.04,U4,BDGND,GND,,,"/>
+<approved hash="104,3,441.96,68.58,U4,VBD+,+3V3,,,"/>
+<approved hash="104,3,215.9,297.18,U1,VS-,GND,,,"/>
+<approved hash="104,3,215.9,299.72,U1,VS+,+5V,,,"/>
+<approved hash="104,3,215.9,254,U2,VS-,GND,,,"/>
+<approved hash="104,3,215.9,256.54,U2,VS+,+5V,,,"/>
+<approved hash="104,3,215.9,210.82,U5,VS-,GND,,,"/>
+<approved hash="104,3,215.9,213.36,U5,VS+,+5V,,,"/>
+<approved hash="104,3,215.9,167.64,U6,VS-,GND,,,"/>
+<approved hash="104,3,215.9,170.18,U6,VS+,+5V,,,"/>
+<approved hash="104,3,99.06,254,U7,VS-,GND,,,"/>
+<approved hash="104,3,99.06,256.54,U7,VS+,+5V,,,"/>
+<approved hash="104,3,99.06,210.82,U8,VS-,GND,,,"/>
+<approved hash="104,3,99.06,213.36,U8,VS+,+5V,,,"/>
+<approved hash="104,3,99.06,167.64,U9,VS-,GND,,,"/>
+<approved hash="104,3,99.06,170.18,U9,VS+,+5V,,,"/>
+<approved hash="106,3,330.2,48.26,CAN0_H,,,,,"/>
+<approved hash="106,3,314.96,48.26,CAN0_L,,,,,"/>
+<approved hash="209,3,441.96,30.48,CH7,,,,,"/>
+<approved hash="106,3,441.96,30.48,CH7,,,,,"/>
+<approved hash="209,3,401.32,48.26,CH15,,,,,"/>
+<approved hash="106,3,401.32,48.26,CH15,,,,,"/>
+<approved hash="106,2,111.76,172.72,DAC0,,,,,"/>
+<approved hash="106,2,127,172.72,DAC1,,,,,"/>
+<approved hash="106,2,111.76,170.18,DAC2,,,,,"/>
+<approved hash="106,2,127,170.18,DAC3,,,,,"/>
+<approved hash="106,3,314.96,81.28,DIO36,,,,,"/>
+<approved hash="106,3,330.2,81.28,DIO37,,,,,"/>
+<approved hash="106,3,314.96,73.66,DIO42,,,,,"/>
+<approved hash="106,3,330.2,73.66,DIO43,,,,,"/>
+<approved hash="106,3,314.96,71.12,DIO44/I2C0-SDA,,,,,"/>
+<approved hash="106,3,330.2,71.12,DIO45/I2C0-SCL,,,,,"/>
+<approved hash="106,3,314.96,68.58,DIO46,,,,,"/>
+<approved hash="106,3,330.2,68.58,DIO47,,,,,"/>
+<approved hash="106,3,314.96,66.04,DIO48/UART0-TX,,,,,"/>
+<approved hash="106,3,330.2,66.04,DIO49/UART0-RX,,,,,"/>
+<approved hash="106,3,314.96,63.5,DIO50,,,,,"/>
+<approved hash="106,3,330.2,63.5,DIO51,,,,,"/>
+<approved hash="106,3,314.96,60.96,DIO52/UART1-TX,,,,,"/>
+<approved hash="106,3,330.2,60.96,DIO53/UART1-RX,,,,,"/>
+<approved hash="106,3,314.96,58.42,DIO54/UART1-CTS,,,,,"/>
+<approved hash="106,3,330.2,58.42,DIO55/UART1-RTS,,,,,"/>
+<approved hash="106,3,314.96,55.88,DIO56/UART2-TX,,,,,"/>
+<approved hash="106,3,330.2,55.88,DIO57/UART2-RX,,,,,"/>
+<approved hash="106,3,314.96,53.34,DIO58/UART2-CTS,,,,,"/>
+<approved hash="106,3,330.2,53.34,DIO59/UART2-RTS,,,,,"/>
+<approved hash="106,3,314.96,50.8,DIO60,,,,,"/>
+<approved hash="106,3,330.2,50.8,DIO61,,,,,"/>
+<approved hash="106,2,111.76,142.24,DIO62,,,,,"/>
+<approved hash="106,2,127,142.24,DIO63,,,,,"/>
+<approved hash="106,2,111.76,139.7,DIO64,,,,,"/>
+<approved hash="106,2,127,139.7,DIO65,,,,,"/>
+<approved hash="106,2,111.76,137.16,DIO66,,,,,"/>
+<approved hash="106,2,127,137.16,DIO67,,,,,"/>
+<approved hash="106,2,111.76,134.62,DIO68,,,,,"/>
+<approved hash="106,2,127,134.62,DIO69,,,,,"/>
+<approved hash="106,2,127,177.8,MBUS-SCL,,,,,"/>
+<approved hash="106,3,330.2,91.44,MBUS-SCL-1,,,,,"/>
+<approved hash="106,2,111.76,177.8,MBUS-SDA,,,,,"/>
+<approved hash="106,3,314.96,91.44,MBUS-SDA-1,,,,,"/>
+<approved hash="106,2,111.76,167.64,N$16,,,,,"/>
+<approved hash="208,3,187.96,73.66,V+,sup,,,,"/>
+<approved hash="208,3,396.24,73.66,V+,sup,,,,"/>
+<approved hash="208,3,116.84,58.42,V+,out,,,,"/>
+<approved hash="208,3,129.54,71.12,V+,sup,,,,"/>
+<approved hash="113,1,33.5965,111.986,POE_IN_5V,,,,,"/>
+<approved hash="113,3,528.557,269.466,TO_VI,,,,,"/>
+<approved hash="113,4,323.808,218.666,JP1,,,,,"/>
 </errors>
 </schematic>
 </drawing>
