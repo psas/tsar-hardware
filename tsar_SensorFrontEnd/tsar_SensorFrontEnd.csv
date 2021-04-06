@@ -1,45 +1,48 @@
-"Qty";"Value";"Device";"Package";"Parts";"Description";"BUILT_BY";"COPYRIGHT";"DATASHEET_URL";"DESCRIPTION";"DIGI-KEY_PART_NUMBER";"DIS";"DPN";"FAMILY_NAME";"GENERIC_PART_NUMBER";"INDUSTRY_STD_PKG_TYPE";"MANUFACTURER";"MANUFACTURER_PART_NUMBER";"MF";"MFR";"MP";"MPN";"OC_FARNELL";"OC_NEWARK";"PACKAGE";"PACKAGE_DESIGNATOR";"PIN_COUNT";"POPULARITY";"PURCHASE-URL";"SPICEPREFIX";"VENDOR";
-"4";"";"22-23-2021";"22-23-2021";"OPEN4, OPEN5, OPEN6, OPEN11";".100" (2.54mm) Center Header - 2 Pin";"";"";"";"";"";"Digi-Key";"900-0022232021-ND";"";"";"";"";"";"MOLEX";"Molex";"";"22-23-2021";"1462926";"25C3832";"";"";"";"40";"";"";"";
-"1";"";"CLF5030NIT-100M-D";"0.209"LX0.197"W(5.30MMX5.00MM)";"L1";"";"";"";"";"";"";"Digi-Key";"445-174699-1-ND";"";"";"";"";"";"";"TDK Corporation";"";"CLF5030NIT-100M-D";"";"";"";"";"";"";"";"";"";
-"1";"";"PINHD-1X2";"1X02";"POE_IB_5V";"PIN HEADER";"";"";"";"";"";"Digi-Key";"900-0022232021-ND";"";"";"";"";"";"";"Molex";"";"0022232021";"";"";"";"";"";"98";"";"";"";
-"17";"";"PINHD-1X3";"1X03";"JP3, UA_4_S, UA_4_V, UA_5_S, UA_5_V, UA_6_S, UA_6_V, UA_7_S, UA_7_V, UA_8_S, UA_8_V, UA_9_S, UA_9_V, UA_10_S, UA_10_V, UA_11_S, UA_11_V";"PIN HEADER";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";
-"4";"#4-BARE_MOUNTING_HOLE/.300";"#4-BARE_MOUNTING_HOLE/.300";"#4/.300-BARE+STD_NUT_OR_STAR_WASHER";"H3, H4, H5, H6";"1/8" drill hole for #4 screw mount";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";
-"4";"0";"R-US_0603-A-NOSILK";".0603-A-NOSILK";"R80, R81, R82, R83";"RESISTOR, American symbol";"";"";"";"";"";"Digi-Key";"541-2779-1-ND";"";"";"";"";"";"";"Vishay Dale";"";"RCS06030000Z0EA";"";"";"";"";"";"";"";"";"";
-"2";"0.1u";"C-USC0603K";"C0603K";"C12, C31";"CAPACITOR, American symbol";"";"";"";"";"";"Digi-Key";"1276-CL10B104KB8NNNLCT-ND";"";"";"";"";"";"";"Murata Electronics";"";"CL10B104KB8NNNL";"";"";"";"";"";"";"";"";"";
-"3";"0.1uF";"C-USC0603K";"C0603K";"C24, C27, C46";"CAPACITOR, American symbol";"";"";"";"";"";"Digi-Key";"1276-CL10B104KB8NNNLCT-ND";"";"";"";"";"";"";"Samsung Electro-Mechanics";"";"CL10B104KB8NNNL";"";"";"";"";"";"";"";"";"";
-"1";"100nF";"C-USC0603K";"C0603K";"C43";"CAPACITOR, American symbol";"";"";"";"";"";"Digi-Key";"1276-CL10B104KB8NNNLCT-ND";"";"";"";"";"";"";"Samsung Electro-Mechanics";"";"CL10B104KB8NNNL";"";"";"";"";"";"";"";"";"";
-"1";"100u";"C2.5/4";"C2.5-4";"POE_BYPASS";"CAPACITOR";"";"";"";"";"";"Digi-Key";"P5182-ND";"";"";"";"";"";"";"Panasonic Electronic Components";"";"ECA-1HM101";"";"";"";"";"";"6";"";"";"";
-"1";"10k";"R-US_0805-B";".0805-B";"R37";"RESISTOR, American symbol";"";"";"";"";"";"Digi-Key";"RHM10KADCT-ND";"";"";"";"";"";"";"Rohm Semiconductor";"";"ESR03EZPF1002";"";"";"";"";"";"";"";"";"";
-"3";"10uF";"C-USC1206K";"C1206K";"C25, C52, C53";"CAPACITOR, American symbol";"";"";"";"";"";"Digi-Key";"1276-6736-1-ND";"";"";"";"";"";"";"Samsung Electro-Mechanics";"";"CL31A106MBHNNNE";"";"";"";"";"";"";"";"";"";
-"1";"113k";"R-US_0805-A-NOSILK";".0805-A-NOSILK";"R69";"RESISTOR, American symbol";"";"";"";"";"";"Digi-Key";"2019-RK73H2ATTD1133FCT-ND";"";"";"";"";"";"";"KOA Speer Electronics, Inc.";"";"RK73H2ATTD1133F";"";"";"";"";"";"";"";"";"";
-"25";"120pF";"C-USC0603K";"C0603K";"C1, C2, C3, C4, C5, C6, C7, C8, C9, C10, C16, C17, C18, C21, C28, C29, C30, C35, C36, C37, C38, C39, C40, C41, C42";"CAPACITOR, American symbol";"";"";"";"";"";"Digi-Key";"1276-1160-1-ND";"";"";"";"";"";"";"Samsung Electro-Mechanics";"";"CL10C121JB8NNNC";"";"";"";"";"";"";"";"";"";
-"1";"120pf";"C-USC0603K";"C0603K";"C20";"CAPACITOR, American symbol";"";"";"";"";"";"Digi-Key";"1276-1160-1-ND";"";"";"";"";"";"";"Samsung Electro-Mechanics";"";"CL10C121JB8NNNC";"";"";"";"";"";"";"";"";"";
-"10";"150";"R-US_0805-A-NOSILK";".0805-A-NOSILK";"R1, R2, R3, R4, R5, R6, R7, R8, R9, R10";"RESISTOR, American symbol";"";"";"";"";"";"Digi-Key";"A110464CT-ND";"";"";"";"";"";"";"TE Connectivity Passive Product";"";"4-2176091-1";"";"";"";"";"";"";"";"";"";
-"5";"150";"R-US_0805-A-NOSILK";".0805-A-NOSILK";"R21, R22, R23, R24, R26";"RESISTOR, American symbol";"";"";"";"";"";"Digi-Key";"RNCP0805FTD150RCT-ND";"";"";"";"";"";"";"Stackpole Electronics Inc";"";"RNCP0805FTD150R";"";"";"";"";"";"";"";"";"";
-"1";"1N4148W-7-F";"1N4148W-7-F";"SOD123";"D30";"";"EMA_Anthony";"Copyright (C) 2016 Accelerated Designs. All rights reserved";"";"";"";"Digi-Key";"1N4148W-FDICT-ND";"";"";"";"";"1N4148W-7-F";"";"Diodes Incorporated";"";"1N4148W-7-F";"";"";"";"";"";"";"";"";"Diodes Inc";
-"28";"1k";"R-US_0603-A-NOSILK";".0603-A-NOSILK";"R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R27, R28, R29, R31, R32, R39, R40, R41, R46, R47, R49, R54, R56, R58, R60, R61, R62, R84";"RESISTOR, American symbol";"";"";"";"";"";"Digi-Key";"P1.0KBYCT-ND";"";"";"";"";"";"";"Panasonic Electronic Components";"";"ERJ-PA3F1001V";"";"";"";"";"";"";"";"";"";
-"6";"1u";"C-USC0603K";"C0603K";"C11, C13, C14, C32, C33, C34";"CAPACITOR, American symbol";"";"";"";"";"";"Digi-Key";"1276-1860-1-ND";"";"";"";"";"";"";"Samsung Electro-Mechanics";"";"CL10A105KB8NNNC";"";"";"";"";"";"";"";"";"";
-"2";"1uF";"C-USC0603K";"C0603K";"C50, C51";"CAPACITOR, American symbol";"";"";"";"";"";"Digi-Key";"1276-1860-1-ND";"";"";"";"";"";"";"Samsung Electro-Mechanics";"";"CL10A105KB8NNNC";"";"";"";"";"";"";"";"";"";
-"2";"20k";"R-US_0603-A-NOSILK";".0603-A-NOSILK";"R45, R85";"RESISTOR, American symbol";"";"";"";"";"";"Digi-Key";"P20KBZCT-ND";"";"";"";"";"";"";"Panasonic Electronic Components";"";"ERJ-PA3J203V";"";"";"";"";"";"";"";"";"";
-"2";"22-23-2021";"22-23-2021";"22-23-2021";"POE, THRUSTPOWER";".100" (2.54mm) Center Header - 2 Pin";"";"";"";"";"";"";"";"";"";"";"";"";"MOLEX";"";"";"22-23-2021";"1462926";"25C3832";"";"";"";"40";"";"";"";
-"21";"22-23-2021";"22-23-2021";"22-23-2021";"AMBIENT, AMBIENT2, CRYO1, CRYO2, CRYO3, CRYO4, CRYO5, OPEN3, OPEN7, OPEN8, OPEN9, OPEN10, OPENHS1, PIT2, PIT5, PIT6, PT1, PT2, PT3, PT4, PT5";".100" (2.54mm) Center Header - 2 Pin";"";"";"";"";"";"Digi-Key";"900-0022232021-ND";"";"";"";"";"";"MOLEX";"Molex";"";"22-23-2021";"1462926";"25C3832";"";"";"";"40";"";"";"";
-"1";"22-23-2021";"22-23-2021";"22-23-2021";"OPENHS2";".100" (2.54mm) Center Header - 2 Pin";"";"";"";"";"";"Digi-Key";"900-0022232021-ND";"";"";"";"";"";"MOLEX";"Molex";"";"22-23-2021";"1462926";"25C3832";"";"";"";"40";"";"X";"";
-"1";"22-23-2051";"22-23-2051";"22-23-2051";"TP";".100" (2.54mm) Center Header - 5 Pin";"";"";"";"";"";"Digi-Key";"WM4203-ND ";"";"";"";"";"";"MOLEX";"Molex";"";"22-23-2051";"1462952";"38C9178";"";"";"";"4";"";"";"";
-"2";"22k";"R-US_0805-A-NOSILK";".0805-A-NOSILK";"R25, R30";"RESISTOR, American symbol";"";"";"";"";"";"Digi-Key";"311-22.0KCRCT-ND";"";"";"";"";"";"";"Yageo";"";"RC0805FR-0722KL";"";"";"";"";"";"";"";"";"";
-"1";"23.7k";"R-US_0805-A-NOSILK";".0805-A-NOSILK";"R36";"RESISTOR, American symbol";"";"";"";"";"";"Digi-Key";"2019-RK73H2ATTD2372FCT-ND";"";"";"";"";"";"";"KOA Speer Electronics, Inc.";"";"RK73H2ATTD2372F";"";"";"";"";"";"";"";"";"";
-"1";"33uH";"CLF5030NIT-100M-D";"0.209"LX0.197"W(5.30MMX5.00MM)";"L3";"";"";"";"";"";"";"Digi-Key";"553-PM4340.333NLTCT-ND";"";"";"";"";"";"";"Pulse Electronics Power";"";"PM4340.333NLT";"";"";"";"";"";"";"";"";"";
-"2";"4.7uF";"C-USC0805K";"C0805K";"C26, C45";"CAPACITOR, American symbol";"";"";"";"";"";"Digi-Key";"1276-1248-1-ND";"";"";"";"";"";"";"Samsung Electro-Mechanics";"";"CL21A475KBQNNNE";"";"";"";"";"";"";"";"";"";
-"2";"47pF";"C-USC0603K";"C0603K";"C47, C49";"CAPACITOR, American symbol";"";"";"";"";"";"Digi-Key";"445-1277-1-ND";"";"";"";"";"";"";"TDK Corporation";"";"C1608C0G1H470J080AA";"";"";"";"";"";"";"";"";"";
-"1";"500k";"R-US_1206-A";"1206-A";"R76";"RESISTOR, American symbol";"";"";"";"";"";"Digi-Key";"BC4966CT-ND";"";"";"";"";"";"";"Vishay Dale";"";"CRMA1206AF500KFKEF";"";"";"";"";"";"";"";"";"";
-"1";"73.2k";"R-US_0805-A-NOSILK";".0805-A-NOSILK";"R35";"RESISTOR, American symbol";"";"";"";"";"";"Digi-Key";"2019-RK73H2ATTD7322FCT-ND";"";"";"";"";"";"";"KOA Speer Electronics, Inc.";"";"RK73H2ATTD7322F";"";"";"";"";"";"";"";"";"";
-"1";"8.2k";"R-US_0805-A-NOSILK";".0805-A-NOSILK";"R75";"RESISTOR, American symbol";"";"";"";"";"";"Digi-Key";"2019-RK73H2ATTD8201FCT-ND";"";"";"";"";"";"";"KOA Speer Electronics, Inc.";"";"RK73H2ATTD8201F";"";"";"";"";"";"";"";"";"";
-"2";"ADS8344N";"ADS8344N";"DB20";"U1, U2";"";"";"";"http://www.ti.com/lit/gpn/ADS8344";"16-Bit, 8-Channel Serial Output Sampling Analog-to-Digital Converter";"";"";"";"PRECISION ADC (<=10MSPS)";"ADS8344";"SSOP";"Texas Instruments";"";"";"";"";"";"";"";"";"DB";"20";"";"";"";"";
-"26";"D5V0H1U2LP1610-7";"D5V0H1U2LP1610-7";"0603DIODE";"D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11, D12, D13, D14, D15, D16, D17, D18, D19, D20, D21, D22, D23, D24, D25, D26";"";"";"";"";"";"";"Digi-Key";"D5V0H1U2LP1610-7DICT-ND";"";"";"";"";"";"";"Diodes Incorporated";"";"D5V0H1U2LP1610-7";"";"";"";"";"";"";"";"";"";
-"2";"DFLS160";"DFLS160-7";"POWERDI-123";"D27, D31";"";"";"";"";" Diode Schottky 60V 1A Surface Mount PowerDI™ 123 ";"DFLS160DICT-ND";"Digi-Key";"DFLS160DICT-ND";"";"";"";"";"";"Diodes Inc.";"Diodes Incorporated";"DFLS160-7";"DFLS160-7";"";"";"POWERDI®123 Diodes Incorporated";"";"";"";"https://pricing.snapeda.com/search/part/DFLS160-7/?ref=eda";"";"";
-"2";"IDC_RECEPTACLE_2X20-S9175-ND";"IDC_RECEPTACLE_2X20-S9175-ND";"IDC_RECEPTACLES";"ANALOG_TO_DAQ, SERIAL_TO_DAQ";"IDC keyed, shrouded Receptacles";"";"";"";"";"";"Digi-Key";"S9175-ND";"";"";"";"";"";"";"Sullins Connector Solutions";"";"SBH11-PBPC-D20-ST-BK";"";"";"";"";"";"";"";"";"";
-"2";"MP2456GJ-P";"MP2456GJ-P";"SOT6";"U$2, U$4";"";"";"";"";"";"";"Digi-Key";"1589-1120-1-ND";"";"";"";"";"";"";"Monolithic Power Systems Inc.";"";"MP2456GJ-P";"";"";"";"";"";"";"";"";"";
-"16";"NP";"R-US_0603-A-NOSILK";".0603-A-NOSILK";"R48, R50, R55, R57, R59, R63, R64, R65, R66, R67, R68, R70, R71, R72, R73, R74";"RESISTOR, American symbol";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";
-"2";"NP";"R-US_0805-A-NOSILK";".0805-A-NOSILK";"R53, R77";"RESISTOR, American symbol";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";
-"1";"NP";"R-US_R0603";"R0603";"R38";"RESISTOR, American symbol";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"77";"";"R";"";
-"1";"blue";"LEDCHIP-LED0603";"CHIP-LED0603";"12V.";"LED";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"26";"";"";"";
-"3";"red";"LEDCHIP-LED0603";"CHIP-LED0603";"3V3., 5V., POE.";"LED";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"26";"";"";"";
+Qty,Parts,DIS,DPN,MFR,MPN
+1,L1,Digi-Key,445-174699-1-ND,TDK Corporation,CLF5030NIT-100M-D
+1,TO_VI,Digi-Key,WM10196-ND,Molex,1718570012
+1,POE_IN_5V,Digi-Key,900-0022232021-ND,Molex,22232021
+1,JP1,Digi-Key,S2011EC-12-ND,Sullins Connector Solutions,PRPC012DAAN-RC
+4,"R80, R81, R82, R83",Digi-Key,541-2779-1-ND,Vishay Dale,RCS06030000Z0EA
+14,"C16, C17, C19, C21, C23, C28, C34, C44, C55, C56, C59, C60, C63, C64",Digi-Key,1276-1009-1-ND,Samsung Electro-Mechanics,CL10B103KB8NNNC
+17,"C12, C18, C20, C22, C24, C27, C29, C31, C46, C48, C54, C57, C58, C61, C62, C65, C66",Digi-Key,1276-CL10B104KB8NNNLCT-ND,Samsung Electro-Mechanics,CL10B104KB8NNNL
+7,"R21, R25, R29, R33, R39, R50, R55",Digi-Key,2019-SG73P1JTTD1000FCT-ND,"KOA Speer Electronics, Inc.",SG73P1JTTD1000F
+7,"R22, R26, R30, R34, R40, R51, R57",Digi-Key,2019-SG73P1JTTD1000FCT-ND,Stackpole Electronics Inc,SG73P1JTTD1000F
+1,C43,Digi-Key,1276-CL10B104KB8NNNLCT-ND,Samsung Electro-Mechanics,CL10B104KB8NNNL
+1,POE_BYPASS,Digi-Key,P5182-ND,Panasonic Electronic Components,ECA-1HM101
+1,R37,Digi-Key,RHM10KADCT-ND,Rohm Semiconductor,ESR03EZPF1002
+3,"C25, C52, C53",Digi-Key,1276-6736-1-ND,Samsung Electro-Mechanics,CL31A106MBHNNNE
+1,R69,Digi-Key,2019-RK73H2ATTD1133FCT-ND,"KOA Speer Electronics, Inc.",RK73H2ATTD1133F
+33,"C1, C2, C3, C4, C5, C6, C7, C8, C9, C10, C30, C35, C36, C37, C38, C39, C40, C41, C42, C70, C71, C73, C74, C75, C76, C77, C78, C79, C80, C83, C84, C85, C86",Digi-Key,1276-1160-1-ND,Samsung Electro-Mechanics,CL10C121JB8NNNC
+10,"R1, R2, R3, R4, R5, R6, R7, R8, R9, R10",Digi-Key,A110464CT-ND,TE Connectivity Passive Product,4-2176091-1
+7,"R24, R28, R32, R43, R48, R53, R63",Digi-Key,511-1732-1-ND,Stackpole Electronics Inc,SDR03EZPJ102
+7,"R23, R27, R31, R42, R44, R52, R59",Digi-Key,118-CMP0603-FX-1004ELFCT-ND,Bourns Inc.,CMP0603-FX-1004ELF
+1,D30,Digi-Key,1N4148W-FDICT-ND,Diodes Incorporated,1N4148W-7-F
+35,"R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R41, R46, R47, R49, R54, R56, R58, R60, R61, R62, R65, R66, R68, R70, R71, R72, R73, R74, R78, R79, R84, R88, R89, R90, R91",Digi-Key,P1.0KBYCT-ND,Panasonic Electronic Components,ERJ-PA3F1001V
+1,C67,Digi-Key,1276-1102-1-ND,Samsung Electro-Mechanics,CL10A105KA8NNNC
+6,"C11, C13, C14, C15, C32, C33",Digi-Key,1276-1860-1-ND,Samsung Electro-Mechanics,CL10A105KB8NNNC
+2,"C50, C51",Digi-Key,1276-1860-1-ND,Samsung Electro-Mechanics,CL10A105KB8NNNC
+2,"R45, R85",Digi-Key,P20KBZCT-ND,Panasonic Electronic Components,ERJ-PA3J203V
+2,"POE, THRUSTPOWER",Digi-Key,900-0022232021-ND,Molex,22-23-2021
+16,"PT-F02, PT-F03, PT-F04, PT-L01, PT-L02, PT-L03, PT-L04, PT-M01, PT-M02, TT-F01, TT-F02, TT-L01, TT-L02, TT-L03, TT-L04, TT-L05",Digi-Key,900-0022232021-ND,Molex,22-23-2021
+1,PT-F01,Digi-Key,900-0022232021-ND,Molex,22-23-2021
+1,TP,Digi-Key,WM4203-ND,Molex,22-23-2051
+1,C68,Digi-Key,490-10468-1-ND,Murata Electronics,GRM188C60J226MEA0D
+1,R36,Digi-Key,2019-RK73H2ATTD2372FCT-ND,"KOA Speer Electronics, Inc.",RK73H2ATTD2372F
+1,L3,Digi-Key,553-PM4340.333NLTCT-ND,Pulse Electronics Power,PM4340.333NLT
+2,"C26, C45",Digi-Key,1276-1248-1-ND,Samsung Electro-Mechanics,CL21A475KBQNNNE
+2,"C47, C49",Digi-Key,445-1277-1-ND,TDK Corporation,C1608C0G1H470J080AA
+1,R76,Digi-Key,BC4966CT-ND,Vishay Dale,CRMA1206AF500KFKEF
+1,R35,Digi-Key,2019-RK73H2ATTD7322FCT-ND,"KOA Speer Electronics, Inc.",RK73H2ATTD7322F
+1,R75,Digi-Key,2019-RK73H2ATTD8201FCT-ND,"KOA Speer Electronics, Inc.",RK73H2ATTD8201F
+7,"U1, U2, U5, U6, U7, U8, U9",Digi-Key,AD8495ARMZ-ND,Analog Devices Inc.,AD8495ARMZ
+2,"U3, U4",Digi-Key,296-50898-1-ND,Texas Instruments,ADS7953QDBTRQ1
+33,"D1, D8, D9, D10, D11, D12, D13, D14, D15, D16, D17, D19, D20, D21, D22, D23, D24, D25, D26, D32, D33, D34, D35, D36, D37, D38, D39, D41, D42, D44, D45, D46, D47",Digi-Key,D5V0H1U2LP1610-7DICT-ND,Diodes Incorporated,D5V0H1U2LP1610-7
+2,"D27, D31",Digi-Key,DFLS160DICT-ND,Diodes Incorporated,DFLS160-7
+4,"3V3., 5V., 12V., POE+.",Digi-Key,350-2035-1-ND,Dialight,5988070107F
+2,"ANALOG_TO_DAQ, SERIAL_TO_DAQ",Digi-Key,S9175-ND,Sullins Connector Solutions,SBH11-PBPC-D20-ST-BK
+2,"U$2, U$4",Digi-Key,1589-1120-1-ND,Monolithic Power Systems Inc.,MP2456GJ-P
+1,R77,,,,
+1,R38,,,,
+1,U10,Digi-Key,296-39165-1-ND,Texas Instruments,REF5025AIDR
+7,"D2, D3, D4, D5, D6, D7, D28",Digi-Key,497-13181-1-ND,STMicroelectronics,TLVH431AIL3T

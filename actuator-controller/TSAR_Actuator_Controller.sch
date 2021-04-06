@@ -9896,7 +9896,13 @@ Includes 0.400" outline for 1/4" (standard) #4 nut-tool. If nut driving is not r
 <part name="H4" library="mount" deviceset="#4-BARE_MOUNTING_HOLE" device="/.300"/>
 <part name="H5" library="mount" deviceset="#4-BARE_MOUNTING_HOLE" device="/.300"/>
 <part name="H6" library="mount" deviceset="#4-BARE_MOUNTING_HOLE" device="/.300"/>
-<part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X5" device="" package3d_urn="urn:adsk.eagle:package:22469/2"/>
+<part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X5" device="" package3d_urn="urn:adsk.eagle:package:22469/2">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="AE11083-ND"/>
+<attribute name="MFR" value="Molex"/>
+<attribute name="MPN" value="AWHW 10A-0202-T"/>
+</part>
+<part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9917,6 +9923,18 @@ The Nucleo Board is the processor which holds the state machine, controls the va
 <text x="188.214" y="97.028" size="1.27" layer="97">PB_13</text>
 <text x="165.608" y="89.408" size="1.27" layer="97">PA_2</text>
 <text x="165.608" y="86.868" size="1.27" layer="97">PA_3</text>
+<wire x1="58.42" y1="172.72" x2="111.76" y2="172.72" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="111.76" y1="172.72" x2="111.76" y2="137.16" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="111.76" y1="137.16" x2="58.42" y2="137.16" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="58.42" y1="137.16" x2="58.42" y2="172.72" width="0.1524" layer="97" style="shortdash"/>
+<text x="60.96" y="160.02" size="1.778" layer="97">This connector sends the current 
+test stand state to the valve indicator
+ board.</text>
+<text x="59.69" y="167.64" size="3.81" layer="97">UART Status to VI</text>
+<text x="166.116" y="117.348" size="1.27" layer="97">PA_6</text>
+<text x="187.452" y="127.508" size="1.27" layer="97">PC_5</text>
+<text x="187.452" y="104.648" size="1.27" layer="97">PB_1</text>
+<text x="187.452" y="91.948" size="1.27" layer="97">PC_4</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -9972,9 +9990,16 @@ The Nucleo Board is the processor which holds the state machine, controls the va
 <attribute name="NAME" x="166.37" y="10.16" size="1.27" layer="95"/>
 <attribute name="VALUE" x="167.64" y="5.08" size="1.27" layer="96" display="off"/>
 </instance>
-<instance part="JP1" gate="A" x="81.28" y="157.48" smashed="yes">
-<attribute name="NAME" x="74.93" y="165.735" size="1.778" layer="95"/>
-<attribute name="VALUE" x="74.93" y="147.32" size="1.778" layer="96"/>
+<instance part="JP1" gate="A" x="76.2" y="152.4" smashed="yes">
+<attribute name="NAME" x="69.85" y="160.655" size="1.778" layer="95"/>
+<attribute name="VALUE" x="69.85" y="142.24" size="1.778" layer="96"/>
+<attribute name="MPN" x="76.2" y="152.4" size="1.27" layer="96" display="off"/>
+<attribute name="DIS" x="76.2" y="152.4" size="1.27" layer="96" display="off"/>
+<attribute name="DPN" x="76.2" y="152.4" size="1.27" layer="96" display="off"/>
+<attribute name="MFR" x="76.2" y="152.4" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="GND1" gate="1" x="66.04" y="142.24" smashed="yes">
+<attribute name="VALUE" x="63.5" y="139.7" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -10013,6 +10038,12 @@ The Nucleo Board is the processor which holds the state machine, controls the va
 <pinref part="CN10" gate="G$1" pin="9"/>
 <wire x1="175.26" y1="121.92" x2="152.4" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="GND79" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="3"/>
+<wire x1="73.66" y1="152.4" x2="66.04" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="152.4" x2="66.04" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="GND1" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="PC_10" class="0">
@@ -10253,11 +10284,16 @@ The Nucleo Board is the processor which holds the state machine, controls the va
 <label x="165.1" y="119.38" size="1.27" layer="95" rot="MR0" xref="yes"/>
 </segment>
 </net>
-<net name="PA_6" class="0">
+<net name="CTS_VI" class="0">
 <segment>
 <pinref part="CN10" gate="G$1" pin="13"/>
 <wire x1="175.26" y1="116.84" x2="165.1" y2="116.84" width="0.1524" layer="91"/>
 <label x="165.1" y="116.84" size="1.27" layer="95" rot="MR0" xref="yes"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="4"/>
+<wire x1="73.66" y1="149.86" x2="83.82" y2="149.86" width="0.1524" layer="91"/>
+<label x="83.82" y="149.86" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="PA_7" class="0">
@@ -10311,7 +10347,7 @@ The Nucleo Board is the processor which holds the state machine, controls the va
 <segment>
 <pinref part="CN10" gate="G$1" pin="27"/>
 <wire x1="175.26" y1="99.06" x2="165.1" y2="99.06" width="0.1524" layer="91"/>
-<label x="160.02" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="165.1" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="PB_5" class="0">
@@ -10346,11 +10382,16 @@ The Nucleo Board is the processor which holds the state machine, controls the va
 <label x="193.04" y="132.08" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="PC_5" class="0">
+<net name="RX_VI" class="0">
 <segment>
 <pinref part="CN10" gate="G$1" pin="6"/>
 <wire x1="182.88" y1="127" x2="193.04" y2="127" width="0.1524" layer="91"/>
 <label x="193.04" y="127" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="2"/>
+<wire x1="83.82" y1="154.94" x2="73.66" y2="154.94" width="0.1524" layer="91"/>
+<label x="83.82" y="154.94" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="U5V" class="0">
@@ -10402,11 +10443,16 @@ The Nucleo Board is the processor which holds the state machine, controls the va
 <label x="193.04" y="106.68" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="PB_1" class="0">
+<net name="RTS_VI" class="0">
 <segment>
 <pinref part="CN10" gate="G$1" pin="24"/>
 <wire x1="182.88" y1="104.14" x2="193.04" y2="104.14" width="0.1524" layer="91"/>
 <label x="193.04" y="104.14" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="5"/>
+<wire x1="73.66" y1="147.32" x2="83.82" y2="147.32" width="0.1524" layer="91"/>
+<label x="83.82" y="147.32" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SOL_GPIO_7" class="0">
@@ -10509,11 +10555,16 @@ The Nucleo Board is the processor which holds the state machine, controls the va
 <label x="91.44" y="93.98" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="PC_4" class="0">
+<net name="TX_VI" class="0">
 <segment>
 <pinref part="CN10" gate="G$1" pin="34"/>
 <wire x1="182.88" y1="91.44" x2="193.04" y2="91.44" width="0.1524" layer="91"/>
 <label x="193.04" y="91.44" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="1"/>
+<wire x1="83.82" y1="157.48" x2="73.66" y2="157.48" width="0.1524" layer="91"/>
+<label x="83.82" y="157.48" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="NC_6" class="0">
@@ -12310,7 +12361,6 @@ poe trigger to a solenoid relay.</text>
 <approved hash="106,1,81.28,91.44,PA_1,,,,,"/>
 <approved hash="106,1,81.28,88.9,PA_4,,,,,"/>
 <approved hash="106,1,175.26,119.38,PA_5,,,,,"/>
-<approved hash="106,1,175.26,116.84,PA_6,,,,,"/>
 <approved hash="106,1,175.26,114.3,PA_7,,,,,"/>
 <approved hash="106,1,182.88,116.84,PA_11,,,,,"/>
 <approved hash="106,1,182.88,119.38,PA_12,,,,,"/>
@@ -12318,7 +12368,6 @@ poe trigger to a solenoid relay.</text>
 <approved hash="106,1,73.66,109.22,PA_14,,,,,"/>
 <approved hash="106,1,73.66,106.68,PA_15,,,,,"/>
 <approved hash="106,1,81.28,86.36,PB_0,,,,,"/>
-<approved hash="106,1,182.88,104.14,PB_1,,,,,"/>
 <approved hash="106,1,182.88,106.68,PB_2,,,,,"/>
 <approved hash="106,1,175.26,93.98,PB_3,,,,,"/>
 <approved hash="106,1,175.26,99.06,PB_4,,,,,"/>
@@ -12334,8 +12383,6 @@ poe trigger to a solenoid relay.</text>
 <approved hash="106,1,81.28,83.82,PC_1,,,,,"/>
 <approved hash="106,1,73.66,83.82,PC_2,,,,,"/>
 <approved hash="106,1,73.66,81.28,PC_3,,,,,"/>
-<approved hash="106,1,182.88,91.44,PC_4,,,,,"/>
-<approved hash="106,1,182.88,127,PC_5,,,,,"/>
 <approved hash="106,1,182.88,132.08,PC_8,,,,,"/>
 <approved hash="106,1,175.26,132.08,PC_9,,,,,"/>
 <approved hash="106,1,73.66,127,PC_10,,,,,"/>
@@ -12367,6 +12414,7 @@ poe trigger to a solenoid relay.</text>
 <approved hash="113,2,189.228,78.9823,SOV_2,,,,,"/>
 <approved hash="113,2,56.5573,203.037,BATTERY,,,,,"/>
 <approved hash="113,2,193.757,130.071,FRAME5,,,,,"/>
+<approved hash="113,1,73.8971,153.896,JP1,,,,,"/>
 </errors>
 </schematic>
 </drawing>
