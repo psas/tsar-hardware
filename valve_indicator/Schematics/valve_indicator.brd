@@ -188,7 +188,7 @@
 <board>
 <plain>
 <text x="52.7558" y="22.8346" size="0.8128" layer="25">RX   TX</text>
-<text x="3.2258" y="15.4686" size="1.27" layer="25" rot="R90">valve_indicator_V1.1, 2021/2/21</text>
+<text x="3.2258" y="15.4686" size="1.27" layer="25" rot="R90">valve_indicator_V1.2, 2021/4/6</text>
 <text x="5.1308" y="15.5956" size="0.8128" layer="25" rot="R90">Jennifer Jordan, jejor2@pdx.edu, github.com/psas/tsar-hardware</text>
 <text x="43.9928" y="22.8346" size="0.8128" layer="25">RTS   CTS</text>
 <wire x1="91.3001" y1="94.9001" x2="2.0001" y2="95.0099" width="0.001" layer="148"/>
