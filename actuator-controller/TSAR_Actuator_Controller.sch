@@ -11781,7 +11781,6 @@ Includes 0.400" outline for 1/4" (standard) #4 nut-tool. If nut driving is not r
 <attribute name="MFR" value="Infineon Technologies"/>
 <attribute name="MPN" value="IRF9530NPBF"/>
 </part>
-<part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="V+" device="" value="VBATT"/>
 <part name="Q10" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCH" device="-BSS138" value="220mA/50V/3.5Ω">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1727-1142-1-ND"/>
@@ -12484,6 +12483,7 @@ Includes 0.400" outline for 1/4" (standard) #4 nut-tool. If nut driving is not r
 </part>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
 <part name="SUPPLY12" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="V+" device="" value="VBATT"/>
+<part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device="" value="+12V"/>
 </parts>
 <sheets>
 <sheet>
@@ -13487,9 +13487,6 @@ poe trigger to a solenoid relay.</text>
 <attribute name="DIS" x="231.14" y="172.72" size="1.778" layer="96" display="off"/>
 <attribute name="MFR" x="231.14" y="172.72" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="SUPPLY6" gate="1" x="228.6" y="187.96" smashed="yes">
-<attribute name="VALUE" x="227.33" y="189.23" size="1.778" layer="96"/>
-</instance>
 <instance part="Q10" gate="NMOS" x="220.98" y="165.1" smashed="yes">
 <attribute name="NAME" x="226.06" y="165.1" size="1.778" layer="95" font="vector"/>
 <attribute name="MPN" x="220.98" y="165.1" size="1.778" layer="96" display="off"/>
@@ -14067,6 +14064,9 @@ poe trigger to a solenoid relay.</text>
 <attribute name="DIS" x="327.66" y="96.52" size="1.778" layer="96" display="off"/>
 <attribute name="MFR" x="327.66" y="96.52" size="1.778" layer="96" display="off"/>
 </instance>
+<instance part="P+1" gate="1" x="228.6" y="187.96" smashed="yes">
+<attribute name="VALUE" x="226.06" y="182.88" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -14466,16 +14466,6 @@ poe trigger to a solenoid relay.</text>
 <wire x1="228.6" y1="231.14" x2="228.6" y2="228.6" width="0.1524" layer="91"/>
 <junction x="228.6" y="228.6"/>
 <pinref part="R25" gate="R" pin="2"/>
-</segment>
-<segment>
-<wire x1="233.68" y1="182.88" x2="228.6" y2="182.88" width="0.1524" layer="91"/>
-<pinref part="Q9" gate="G$1" pin="S"/>
-<wire x1="228.6" y1="182.88" x2="223.52" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="233.68" y1="182.88" x2="233.68" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="SUPPLY6" gate="1" pin="V+"/>
-<wire x1="228.6" y1="185.42" x2="228.6" y2="182.88" width="0.1524" layer="91"/>
-<junction x="228.6" y="182.88"/>
-<pinref part="R28" gate="R" pin="2"/>
 </segment>
 <segment>
 <wire x1="233.68" y1="134.62" x2="228.6" y2="134.62" width="0.1524" layer="91"/>
@@ -14909,6 +14899,18 @@ poe trigger to a solenoid relay.</text>
 <pinref part="R64" gate="R" pin="1"/>
 <wire x1="243.84" y1="200.66" x2="243.84" y2="203.2" width="0.1524" layer="91"/>
 <pinref part="SOV_3." gate="G$1" pin="A"/>
+</segment>
+</net>
+<net name="+12V" class="0">
+<segment>
+<wire x1="233.68" y1="182.88" x2="228.6" y2="182.88" width="0.1524" layer="91"/>
+<pinref part="Q9" gate="G$1" pin="S"/>
+<wire x1="228.6" y1="182.88" x2="223.52" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="182.88" x2="233.68" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="185.42" x2="228.6" y2="182.88" width="0.1524" layer="91"/>
+<junction x="228.6" y="182.88"/>
+<pinref part="R28" gate="R" pin="2"/>
+<pinref part="P+1" gate="1" pin="+12V"/>
 </segment>
 </net>
 </nets>
