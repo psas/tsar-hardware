@@ -23316,7 +23316,7 @@ UNLESS OTHERWISE MARKED</text>
 <text x="279.908" y="117.856" size="1.778" layer="97">Electrolytic Cap</text>
 <frame x1="0" y1="0" x2="338.836" y2="209.042" columns="8" rows="5" layer="94"/>
 <text x="44.958" y="64.262" size="2.54" layer="97">24V input, 12V output voltage regulator
-(for Pressure Sensors)</text>
+(for Pressure Sensors and Thrust Plate Amp Board)</text>
 <text x="55.118" y="115.062" size="2.54" layer="97">5V input from POE+ Input Board; up to 3A 
 (for AD58344 &amp; Thermocouple Sensors)</text>
 <text x="248.92" y="91.44" size="1.778" layer="97">To Thrust Plate Amp Board</text>
@@ -23339,12 +23339,12 @@ UNLESS OTHERWISE MARKED</text>
 <attribute name="DIS" x="96.52" y="175.26" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="L1" gate="A" x="149.86" y="170.18" smashed="yes" rot="R90">
-<attribute name="NAME" x="154.94" y="168.91" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="154.94" y="173.99" size="1.778" layer="96" rot="R180"/>
 <attribute name="DPN" x="149.86" y="170.18" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MFR" x="149.86" y="170.18" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="149.86" y="170.18" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DIS" x="149.86" y="170.18" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="154.94" y="168.91" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="154.94" y="173.99" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C24" gate="C" x="129.54" y="177.8" smashed="yes">
 <attribute name="NAME" x="131.064" y="178.181" size="1.778" layer="95"/>
@@ -28711,16 +28711,12 @@ the temperature is (1.5 - 1.25) / 0.005 = 50°C</text>
 <sheet>
 <description>Extra Sensors</description>
 <plain>
-<text x="83.312" y="272.034" size="6.4516" layer="97">Valve Position Sensors</text>
+<text x="83.312" y="272.034" size="6.4516" layer="97">Extra Sensor Inputs</text>
 <wire x1="78.74" y1="281.94" x2="571.5" y2="281.94" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="571.5" y1="88.9" x2="78.74" y2="88.9" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="78.74" y1="88.9" x2="78.74" y2="281.94" width="0.1524" layer="97" style="shortdash"/>
-<text x="83.82" y="259.08" size="2.54" layer="97">0V signal indicates the valves default position. 
-3.3V signal indicates the valves non-default position.</text>
-<text x="360.172" y="272.034" size="6.4516" layer="97">Valve Position Sensors</text>
+<text x="83.82" y="264.16" size="2.54" layer="97">Extra sensors with TVS protection.</text>
 <wire x1="571.5" y1="281.94" x2="571.5" y2="88.9" width="0.1524" layer="97" style="shortdash"/>
-<text x="360.68" y="259.08" size="2.54" layer="97">0V signal indicates the valves default position. 
-3.3V signal indicates the valves non-default position.</text>
 <frame x1="0" y1="0" x2="631.19" y2="345.186" columns="8" rows="5" layer="94"/>
 </plain>
 <instances>
