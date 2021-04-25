@@ -12502,8 +12502,6 @@ The Nucleo Board is the processor which holds the state machine, controls the va
 <text x="187.452" y="130.048" size="1.27" layer="97">PC_6</text>
 <text x="188.214" y="102.108" size="1.27" layer="97">PB_15</text>
 <text x="188.214" y="97.028" size="1.27" layer="97">PB_13</text>
-<text x="165.608" y="89.408" size="1.27" layer="97">PA_2</text>
-<text x="165.608" y="86.868" size="1.27" layer="97">PA_3</text>
 <wire x1="58.42" y1="172.72" x2="111.76" y2="172.72" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="111.76" y1="172.72" x2="111.76" y2="137.16" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="111.76" y1="137.16" x2="58.42" y2="137.16" width="0.1524" layer="97" style="shortdash"/>
@@ -12516,6 +12514,8 @@ test stand state to the valve indicator
 <text x="187.452" y="127.508" size="1.27" layer="97">PC_5</text>
 <text x="187.452" y="104.648" size="1.27" layer="97">PB_1</text>
 <text x="187.452" y="91.948" size="1.27" layer="97">PC_4</text>
+<text x="187.452" y="117.348" size="1.27" layer="97">PA_11</text>
+<text x="187.452" y="119.888" size="1.27" layer="97">PA_12</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -12989,20 +12989,6 @@ test stand state to the valve indicator
 <label x="193.04" y="121.92" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="PA_12" class="0">
-<segment>
-<pinref part="CN10" gate="G$1" pin="12"/>
-<wire x1="182.88" y1="119.38" x2="193.04" y2="119.38" width="0.1524" layer="91"/>
-<label x="193.04" y="119.38" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="PA_11" class="0">
-<segment>
-<pinref part="CN10" gate="G$1" pin="14"/>
-<wire x1="182.88" y1="116.84" x2="193.04" y2="116.84" width="0.1524" layer="91"/>
-<label x="193.04" y="116.84" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="PB_12" class="0">
 <segment>
 <pinref part="CN10" gate="G$1" pin="16"/>
@@ -13065,22 +13051,18 @@ test stand state to the valve indicator
 <segment>
 <label x="248.92" y="149.86" size="1.27" layer="95" xref="yes"/>
 <wire x1="248.92" y1="149.86" x2="233.68" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="233.68" y1="149.86" x2="233.68" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="233.68" y1="78.74" x2="165.1" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="CN10" gate="G$1" pin="35"/>
-<wire x1="175.26" y1="88.9" x2="165.1" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="78.74" x2="165.1" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="149.86" x2="233.68" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="CN10" gate="G$1" pin="14"/>
+<wire x1="233.68" y1="116.84" x2="182.88" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SOL_GPIO_2" class="0">
 <segment>
 <label x="248.92" y="144.78" size="1.27" layer="95" xref="yes"/>
-<wire x1="236.22" y1="81.28" x2="236.22" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="119.38" x2="236.22" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="144.78" x2="248.92" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="81.28" x2="167.64" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="CN10" gate="G$1" pin="37"/>
-<wire x1="175.26" y1="86.36" x2="167.64" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="81.28" x2="167.64" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="119.38" x2="182.88" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="CN10" gate="G$1" pin="12"/>
 </segment>
 </net>
 <net name="IOREF" class="0">
@@ -13167,6 +13149,20 @@ test stand state to the valve indicator
 <pinref part="CN7" gate="G$1" pin="18"/>
 <wire x1="81.28" y1="106.68" x2="91.44" y2="106.68" width="0.1524" layer="91"/>
 <label x="91.44" y="106.68" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="PA_2" class="0">
+<segment>
+<pinref part="CN10" gate="G$1" pin="35"/>
+<wire x1="175.26" y1="88.9" x2="165.1" y2="88.9" width="0.1524" layer="91"/>
+<label x="165.1" y="88.9" size="1.27" layer="95" rot="MR0" xref="yes"/>
+</segment>
+</net>
+<net name="PA_3" class="0">
+<segment>
+<pinref part="CN10" gate="G$1" pin="37"/>
+<wire x1="175.26" y1="86.36" x2="165.1" y2="86.36" width="0.1524" layer="91"/>
+<label x="165.1" y="86.36" size="1.27" layer="95" rot="MR0" xref="yes"/>
 </segment>
 </net>
 </nets>
