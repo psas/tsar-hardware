@@ -189,7 +189,7 @@
 <plain>
 <text x="64.643" y="32.893" size="1.016" layer="25" rot="R270">-BATT</text>
 <text x="6.604" y="18.288" size="1.778" layer="21" rot="R90">TSAR Actuator Controller 
-2021/4/6, V2.2</text>
+2021/4/25, V2.2</text>
 <text x="8.255" y="18.415" size="1.016" layer="21" rot="R90">Jennifer Jordan: jejor2@pdx.edu, github.com/psas/tsar-hardware</text>
 <text x="27.94" y="43.053" size="1.016" layer="21" font="vector">components between CN7 and CN10
 must be below 8.5mm in height</text>
