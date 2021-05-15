@@ -44,4 +44,40 @@ We are using the OshPark design rules for a 2-layer board.
 
 ![Level 2 Block Diagram](https://github.com/psas/tsar-hardware/blob/master/images/level1annotated.png?raw=true)
 
+### Extra Pinout
+This board is equipped with a 32 pin header to access all unused STM32 pins.
+
+1. PB2
+2. +10V
+3. PB10
+4. PC9
+5. PB11
+6. PC8
+7. PB12
+8. PC1
+9. PB13
+10. PC10
+11. PB14
+12. PC4
+13. PB15
+14. PC5
+15. PC11
+16. PC6
+17. GND
+18. PC7
+19. GND
+20. PC12
+21. PD2
+22. PC3
+23. PC14-OSC32_IN
+24. BOOT0
+25. PC13
+26. PB9
+27. +3V3
+28. PC0
+29. PC15_OSC32_OUT
+30. PC2
+31. GND
+32. GND
+
 
