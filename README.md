@@ -3,6 +3,8 @@ Hardware for the Test Stand Automation and Regulation project that runs [PSAS' L
 
 The TSAR system controls the test stand at a safe distance with several safety features in place. The system monitors the pressure, temperature, and valve states of the system. For automation software and controls see the [tsar software repo](https://github.com/psas/tsar-software). 
 
+The OSGC Final UTEAP Report contains more detailed information and can be found [here](https://docs.google.com/document/d/1x4pjh9ZbApyyvRd1HysukK7K5CVWpYE1/edit?usp=sharing&ouid=116385191421445654590&rtpof=true&sd=true).
+
 ## Tsar Hardware System Architecture Block Diagrams
 
 Below you can see the levels of block diagrams for the whole system,
